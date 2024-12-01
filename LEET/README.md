@@ -107,6 +107,19 @@ python main.py
 ```
 ---
 
+## 📄 Presentation  
+Check out our detailed presentation: [U-Jump Presentation](presentation/Presentation.pdf)
+
+---
+
+## 🎥 Demo and Pitch Videos  
+
+- **Demo Video**: Watch the live demo of U-Jump [here](https://youtu.be/65a7DEzEXts).  
+- **Pitch Video**: Check out the pitch for U-Jump [here](https://youtu.be/WakEIgPTjZE).  
+
+---
+
+
 ### 💡 "Jumpstart your career with U-Jump. Let’s land your dream job together!" 🎉
 
 
