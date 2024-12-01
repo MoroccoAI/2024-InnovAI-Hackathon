@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <nav class="tab-nav">
+    <button class="tab-btn active" data-tab="focus">Focus Timer</button>
+    <button class="tab-btn" data-tab="profile">Profile</button>
+  </nav>
+
+  <main>
+    <section id="focus" class="tab-content active">
+      <div class="timer-container">
+        <div class="timer">
+          <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        <div class="timer-controls">
+          <button id="startTimer" class="btn primary">Start</button>
+          <button id="resetTimer" class="btn secondary">Reset</button>
+        </div>
+      </div>
+
+      <div class="task-manager">
+        <div class="task-input">
+          <input type="text" id="taskInput" placeholder="Add a new task...">
+          <button id="addTask" class="btn">Add</button>
+        </div>
+        <ul id="taskList" class="task-list"></ul>
+      </div>
+
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-label">Focus Sessions</span>
+          <span id="focusCount" class="stat-value">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Tasks Completed</span>
+          <span id="taskCount" class="stat-value">0</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="profile" class="tab-content">
+      <form id="userProfile" class="profile-form">
+        <div class="form-group">
+          <label for="userName">Name</label>
+          <input type="text" id="userName" required>
+        </div>
+        <div class="form-group">
+          <label for="focusDuration">Focus Duration (minutes)</label>
+          <input type="number" id="focusDuration" min="1" max="60" value="25">
+        </div>
+        <div class="form-group">
+          <label for="breakDuration">Break Duration (minutes)</label>
+          <input type="number" id="breakDuration" min="1" max="30" value="5">
+        </div>
+        <div class="form-group">
+          <label for="theme">Theme</label>
+          <select id="theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="nature">Nature</option>
+          </select>
+        </div>
+        <button type="submit" class="btn primary">Save Settings</button>
+      </form>
+    </section>
+  </main>
+  
+  <script src="../js/timer.js"></script>
+  <script src="../js/tasks.js"></script>
+  <script src="../js/profile.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

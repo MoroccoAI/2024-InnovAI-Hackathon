@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global body styles */
+body {
+  background-color: #ebebf6;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  
+}
+
+.dashboard-card {
+  background: rgba(1, 238, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(13, 167, 202, 0.37);
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Add background gradient and style for dashboard */
+.dashboard-card {
+  
+    @apply bg-blue-950 bg-opacity-90 backdrop-blur-md border border-gray-200 shadow-lg rounded-lg transition-transform duration-300 ease-in-out;
+  
+  }
+
+.dashboard-card:hover {
+  @apply transform translate-y-[-5px] shadow-2xl;
+}
+
+/* Neon text and border styles */
+.neon-text {
+  color: #3c26cd; /* Blue-purple neon color */
+  text-shadow: 0 0 10px rgba(106, 90, 205, 0.5); /* Apply custom text shadow */
+}
+
+.neon-border {
+  @apply border border-[#6a5acd] shadow-[0_0_10px_rgba(106,90,205,0.3)]; /* Manually define shadow */
+}
+
+/* Custom drop-shadow for neon chart */
+.neon-chart {
+  filter: drop-shadow(0 0 10px rgba(106, 90, 205, 0.5)); /* Manually define drop-shadow */
+}
+
+/* Custom styling for chat components */
+.chat-container {
+  @apply w-full max-w-4xl mx-auto mt-12 bg-white rounded-lg p-6 shadow-xl; /* Centered container */
+}
+
+/* Chat prompt and response styles */
+.chat-prompt, .chat-response {
+  @apply p-3 rounded-lg my-2; /* Rounded corners, padding, and margin for messages */
+  width: 100%; /* Takes up the full width of the container */
+  height: auto; /* Automatic height, you can control with min-height if needed */
+  min-height: 50px; /* Set a minimum height */
+  resize: horizontal; /* Allow resizing horizontally */
+}
+
+/* Message prompt - User messages */
+.chat-prompt {
+  @apply bg-opacity-20 bg-gray-800 text-black text-right;
+}
+
+/* Message response - Bot messages */
+.chat-response {
+  @apply bg-opacity-10 bg-green-600 text-black;
+}
+
+/* Button styling */
+button {
+  @apply rounded-full px-8 py-2 font-bold text-white bg-gradient-to-r from-blue-500 to-indigo-600 hover:opacity-80;
+}
+
+button:hover {
+  @apply opacity-90;
+}
+
+/* Search input */
+.search-input {
+  @apply resize-none w-full h-48 p-3 text-lg bg-transparent outline-none border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500;
+}
+
+/* Search bar container */
+.searchBar-container {
+  @apply w-full flex justify-center mt-8;
+}
+
+.searchBar {
+  @apply flex gap-4 items-center;
+}
+
+.searchBar button {
+  @apply px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg text-white hover:opacity-80;
+}
+
+.searchBar button:disabled {
+  @apply bg-gray-300;
+}
