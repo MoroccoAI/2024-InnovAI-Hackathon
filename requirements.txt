@@ -1,0 +1,9 @@
+pandas==1.5.3          # For data manipulation and analysis
+numpy==1.24.3          # For numerical computations
+streamlit==1.25.0      # For building the web application
+scikit-learn==1.3.0    # For machine learning and recommendation systems
+matplotlib==3.7.2      # For data visualization (if used for plotting)
+seaborn==0.12.2        # For advanced data visualization (if used for styling)
+google-colab==1.0.0    # For running in Google Colab
+PyDrive==1.3.1         # For managing files in Google Drive
+Faker==18.9.0          # For generating synthetic data
