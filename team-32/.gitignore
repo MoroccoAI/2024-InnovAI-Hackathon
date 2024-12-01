@@ -1,0 +1,11 @@
+temp/
+__pycache__/
+.env
+*.pyc
+parser.ipynb
+parser.py
+resume (2).pdf
+resume_001.pdfs
+.streamlit/secrets.toml
+requirement.txt
+otherre/

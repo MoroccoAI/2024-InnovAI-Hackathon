@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Software Engineer",
+      "description": "Develop and maintain software applications using Python, Java, and SQL.",
+      "required_skills": ["Python", "Java", "SQL", "Data Structures", "Algorithms"]
+    },
+    {
+      "title": "Data Scientist",
+      "description": "Analyze large datasets, build machine learning models, and generate insights.",
+      "required_skills": ["Python", "Machine Learning", "Data Analysis", "Statistics", "SQL"]
+    },
+    {
+      "title": "Project Manager",
+      "description": "Plan, execute, and deliver projects on time and within budget.",
+      "required_skills": ["Project Management", "Communication", "Leadership", "Risk Management", "Agile"]
+    },
+    {
+      "title": "Web Developer",
+      "description": "Design and develop websites using HTML, CSS, JavaScript, and React.",
+      "required_skills": ["HTML", "CSS", "JavaScript", "React", "Responsive Design"]
+    },
+    {
+      "title": "Marketing Specialist",
+      "description": "Create and execute marketing campaigns across various channels.",
+      "required_skills": ["Marketing", "Social Media", "Content Creation", "SEO", "Analytics"]
+    }
+  ]
