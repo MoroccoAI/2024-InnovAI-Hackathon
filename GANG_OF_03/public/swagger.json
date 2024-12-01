@@ -1,0 +1,67 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Etri AI API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/signup": {
+      "post": {
+        "summary": "Register a new user",
+        "description": "Register a new user in the system.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "Full name of the user"
+                  },
+                  "email": {
+                    "type": "string",
+                    "description": "Email address of the user"
+                  },
+                  "password": {
+                    "type": "string",
+                    "description": "User's password"
+                  },
+                  "age": {
+                    "type": "number",
+                    "description": "Age of the user"
+                  },
+                  "gender": {
+                    "type": "string",
+                    "description": "Gender of the user"
+                  }
+                },
+                "required": [
+                  "name",
+                  "email",
+                  "password",
+                  "age",
+                  "gender"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "User registered successfully"
+          },
+          "400": {
+            "description": "Invalid input"
+          },
+          "500": {
+            "description": "An unexpected error occurred"
+          }
+        }
+      }
+    }
+  },
+  "components": {},
+  "tags": []
+}

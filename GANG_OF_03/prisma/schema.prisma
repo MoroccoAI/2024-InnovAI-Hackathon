@@ -1,0 +1,51 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Gender {
+  male
+  female
+}
+
+model User {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  name      String?
+  email     String?  @unique
+  password  String?
+  age       Int?
+  gender    Gender?
+  image     String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  healthData         HealthData[]
+  burnoutPredictions BurnoutPrediction[]
+}
+
+model HealthData {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId        String   @db.ObjectId
+  date          DateTime
+  heartRate     Int?
+  sleepDuration Float?
+  sleepQuality  String?
+  activityLevel String?
+  stressLevel   Int?
+
+  user User @relation(fields: [userId], references: [id])
+}
+
+model BurnoutPrediction {
+  id              String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId          String   @db.ObjectId
+  date            DateTime
+  burnoutRisk     Float
+  recommendations String[]
+
+  user User @relation(fields: [userId], references: [id])
+}
