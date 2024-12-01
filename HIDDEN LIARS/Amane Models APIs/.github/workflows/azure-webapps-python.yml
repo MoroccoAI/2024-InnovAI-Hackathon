@@ -1,0 +1,81 @@
+name: Build and deploy Python app to Azure Web App
+
+env:
+  AZURE_WEBAPP_NAME: sensors1  # Set this to the name of your Azure Web App
+  PYTHON_VERSION: '3.12'              # Adjust this to your Python version if different
+
+on:
+  push:
+    branches: [ "main" ]  # Adjust the branch as needed
+  workflow_dispatch:  # Allows manual trigger of the workflow
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository code
+      - uses: actions/checkout@v4
+
+      # Step 2: Set up Python version
+      - name: Set up Python version
+        uses: actions/setup-python@v3.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      # Step 3: Create and activate virtual environment
+      - name: Create and start virtual environment
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+
+      # Step 4: Install dependencies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Optional Step: Add step to run tests (e.g., PyTest, Unit tests, etc.)
+      # - name: Run tests
+      #   run: pytest  # Example if using pytest, you can customize this for your test framework
+
+      # Step 5: Upload artifact for deployment jobs
+      - name: Upload artifact for deployment jobs
+        uses: actions/upload-artifact@v3
+        with:
+          name: python-app
+          path: |
+            .
+            !venv/  # Exclude the virtual environment from being uploaded
+
+  deploy:
+    permissions:
+      contents: none
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: 'Development'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      # Step 6: Download artifact from build job
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v3
+        with:
+          name: python-app
+          path: .
+
+      # Step 7: Deploy to Azure Web App
+      - name: 'Deploy to Azure Web App'
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: sensors1
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+         
+      # If your app is served using a custom startup file like 'serve.py', Azure needs to know that
+      - name: Set Python startup command
+        run: |
+          echo "WEBAPP_SERVER_STARTUP_FILE=serve.py" >> $GITHUB_ENV  # Set serve.py as the startup file
