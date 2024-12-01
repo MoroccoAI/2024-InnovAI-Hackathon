@@ -1,25 +1,87 @@
-# About The Hackathon
-The MoroccoAI InnovAI Hackathon is a unique opportunity for AI enthusiasts, professionals, and innovators to collaborate and create transformative AI-based solutions addressing real-life challenges in Morocco and across Africa. As part of the annual MoroccoAI Annual Conference, this hackathon is set under the theme “Driving the Future of Innovation Through AI”, inspiring participants to harness AI’s capabilities to make a meaningful societal impact. Participants will join teams to develop Proof of Concepts (PoCs) using applications or APIs that address challenges in various domains. Education, Healthcare, Environment, Finance or Customer Services .
+# Expense Tracker Application
 
-In line with MoroccoAI’s mission, this hackathon centers around “Driving the Future of Innovation Through AI”. AI has the power to redefine industries, address community needs, and propel sustainable growth. Through this event, participants will dive into AI’s potential by developing impactful solutions that address challenges unique to Morocco and Africa in fields such as agriculture, education, health, and finance, fostering innovation in response to real-world needs.
+## Project Overview
 
-# The Challenge
-Connect with the MoroccoAI community, join teams and brainstorm ideas then come up with a project that leverages AI in 5 areas of focus:
-* Innovation
-* Healthcare
-* Environment
-* Finance
-* CustomerServices
+The application is designed as an expense management tool. Its primary feature is an AI-powered system that identifies items, their costs, and categories from grocery store receipts. Users can upload a receipt image through the app or capture one directly using their device's camera.
 
-# Mentorship
-Join the Hackathon server on discord and meet the mentors to learn more about their proposed projects.
+It includes a section where users can get chatbot recommendations about the expenses.
 
-# Why should you participate in this Hackathon?
-* Hands-on experience in AI project development that targets relevant issues in Morocco and Africa.
-* Mentorship and networking opportunities with experts and peers in the AI community.
-* Showcase their solutions to a jury of AI specialists at the awards ceremony, creating visibility and opportunities for further development.
-* Win great prizes offered by MoroccoAI's sponsors
-* Obtain your MoroccoAI certificate of recognition
+The app includes a data visualization module with graphs and charts to help users analyze spending patterns, track expenses by category, view trends, alongside predictions.
 
-# For more information
-https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/pages/hackathon.html
+---
+
+## Folder Structure
+
+### 1. Demo
+The `demo` folder contains the **front-end** implementation of the application, built with **Expo** for mobile compatibility using **React Native**.
+
+#### Key Features:
+- **Dashboard:** The home screen is designed as a dashboard providing users with an overview of their expenses.
+  - **Visual Representations:** Includes a **pie chart** for expense categories and a **line chart** for expense trends over time.
+  - **Filter by Period:** Allows users to filter expenses for a specific time period.
+- **Receipt Management:**
+  - **Scan Receipts:** Use the device's native camera to scan receipts directly.
+  - **Upload Receipts:** Upload receipt images from the device's storage.
+  - **Manual Input:** Enter expense details manually for complete control.
+
+### 2. Backend
+The `backend` folder contains the server-side logic, managing the application's data and functionality.
+
+#### Key Features:
+- **Models:** Defines data models using **MongoDB** to store user data, expenses, and other application-specific information.
+- **Routing:** Handles all API endpoints to support the functionalities of the front-end, including:
+  - Receipt processing.
+  - Expense filtering and categorization.
+  - User data management.
+
+### 3. Service
+The `service` folder is responsible for handling image processing, enabling the automatic classification of expenses from scanned or uploaded receipts.
+
+#### Key Features:
+- **Image Processing:** Extracts relevant data from receipts using advanced algorithms.
+- **Expense Classification:** Processes images to categorize expenses and outputs the results as a **JSON** format.
+- **Integration:** Seamlessly integrates with the backend to update the user's expense data.
+
+---
+
+## Technologies Used
+
+- **Front-End:** React Native (Expo)
+- **Back-End:** Node.js with Express.js
+- **Database:** MongoDB
+- **Image Processing:** Custom services for expense classification from images
+- **Server:** Flask for Python-based services
+
+---
+
+## Setup Instructions
+
+### Prerequisites
+- Python 3.8+
+- Flask Framework
+- MongoDB
+- Node.js 18.12.1
+
+### Installation
+1. Clone the Repository:
+    git clone https://github.com/aBenbou/2024-InnovAI-Hackathon.git
+    cd team-51
+    cd service
+
+2. Install Dependencies:
+    pip install -r requirements.txt
+
+3. Seed the Database:
+    python seed.py
+
+4. Start the Flask Server:
+    python app.py
+
+5. Start the Backend:
+    cd backend
+    npm start
+
+6. Start the React Native App:
+    cd demo
+    npm install
+    npm start

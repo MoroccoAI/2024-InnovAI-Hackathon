@@ -1,0 +1,10 @@
+Flask==3.1.0
+pymongo==4.10.1
+openai==1.55.2
+pydantic==2.9.2
+langchain==0.3.8
+datetime==4.3
+xgboost==2.1.2
+holidays==0.61
+pandas==2.2.2
+numpy==1.26.4
