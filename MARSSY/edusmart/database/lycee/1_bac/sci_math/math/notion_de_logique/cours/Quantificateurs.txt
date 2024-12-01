@@ -1,0 +1,47 @@
+\section{II. Quantificateurs}
+
+\subsection{Définition}
+
+Soit $P(x)$ une fonction propositionnelle d'une variable $x$ d'un ensemble non vide $E$.
+
+À partir de la fonction propositionnelle   
+ « $(x \in E); P(x)$ », on définit :
+
+- La proposition « $(\exists x \in E); P(x)$ » qui se lit « il existe au moins un $x \in E$ tel que $P(x)$ », et qui est vraie lorsqu'il existe au moins un $x \in E$ vérifiant la propriété $P(x)$. Le symbole $\exists$ s'appelle le quantificateur existentiel.
+
+- La proposition « $(\forall x \in E); P(x)$ » qui se lit « pour tout $x \in E$, $P(x)$ » ou « quel que soit $x \in E$, $P(x)$ » et qui est vraie lorsque tous les éléments de $E$ vérifient la propriété $P(x)$. Le symbole $\forall$ s'appelle le quantificateur universel.   
+
+
+\subsection{Remarques}
+
+- Dans les apparences, « $(\forall x \in E); P(x)$ » ne dépend d'aucun $x$. La lettre $x$ figurant dans cette proposition a le statut de variable muette. En effet, cette proposition peut aussi être écrite   
+ « $(\forall y \in E); P(y)$ » ou encore « $(\forall z \in E); P(z)$ », sans en modifier le sens.
+
+- Il en est de même de la proposition « $(\exists x \in E); P(x)$ » : elle affirme qu'il existe au moins un élément $x \in E$ tel que $P(x)$ soit vraie, mais n'en définit aucun en particulier.
+
+- Pour le quantificateur existentiel, on rencontre dans certains   
+ énoncés « $(\exists! x \in E); P(x)$ ». L'ajout du signe ! derrière le symbole $\exists$ le transforme et l'énoncé devient : « il existe un unique élément $x \in E$ tel que $P(x)$ soit vraie ».
+
+- Les quantificateurs doivent être placés avant l'assertion mathématique qu'ils quantifient.
+
+- L'emploi de quantificateurs en guise d'abréviation au milieu d'une phrase en français est exclu : ils ne doivent figurer que dans une phrase mathématique. 
+
+
+- L'ordre d'écriture des quantificateurs est fondamental pour le sens d'une phrase formelle :
+
+    - Quand deux quantificateurs existentiels se suivent, on peut les échanger sans changer le sens.   
+
+\section{Applications}
+
+\subsection{Déterminer la valeur de vérité de chacune des propositions suivantes:}
+
+\begin{itemize}
+    \item $Q_1: (\exists x \in \mathbb{R}); x^2 + x + 1 = 0$
+    \item $Q_2: (\exists x \in \mathbb{R}); x^2 + x + 1 > 0$
+    \item $Q_3: (\exists x \in \mathbb{N}); \sqrt{x^2 + 3} = 2x - 4$
+    \item $Q_4: (\exists x \in \mathbb{R})(\forall y \in \mathbb{R}); x \leq y$
+    \item $Q_5: (\exists x \in \mathbb{R}^*)(\forall y \in \mathbb{Z}^*); x^y = 1$
+    \item $Q_6: (\forall x \in \mathbb{R})(\exists y \in \mathbb{R}); x \leq y$
+    \item $Q_7: (\forall x \in \mathbb{R})(\forall y \in \mathbb{R}); x^2y^2 \geq xy$
+\end{itemize}
+

@@ -1,0 +1,26 @@
+\textbf{Exercice 25:} (Contraposée ou absurde)
+Soient $a,b \in \mathbb{Q}$
+
+1) Montrer que: $a + b\sqrt{2} = 0 \Rightarrow a = b = 0$
+
+2) en déduire que: $a + b\sqrt{2} = a' + b'\sqrt{2} \Rightarrow a = a'$ et $b = b'$
+
+\textbf{Solution:}
+1) Nous raisonnons par l'absurde en supposant que $b \neq 0$
+
+$a + b\sqrt{2} = 0 \Rightarrow b\sqrt{2} = -a \Rightarrow -\frac{a}{b} = \sqrt{2}$
+
+Or $a,b \in \mathbb{Q}$ donc $-\frac{a}{b} \in \mathbb{Q}$ mais on sait que $\sqrt{2} \notin \mathbb{Q}$
+
+Nous obtenons donc une contradiction
+
+Donc $b = 0$ et puisque: $a + b\sqrt{2} = 0$ alors $a = 0$
+
+2) supposons que: $a + b\sqrt{2} = a' + b'\sqrt{2}$ donc
+
+$a - a' + \sqrt{2}(b - b') = 0$
+
+donc $a - a' + \sqrt{2}(b - b') = 0$ et d'après 1) on aura:
+
+$a - a' = 0$ et $b - b' = 0$
+donc $a = a'$ et $b = b'$

@@ -1,0 +1,12 @@
+/edu-env
+.env
+graveyard.py
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Jupyter Notebook
+.ipynb_checkpoints/

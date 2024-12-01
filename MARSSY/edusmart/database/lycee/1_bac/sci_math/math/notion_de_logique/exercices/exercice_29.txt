@@ -1,0 +1,8 @@
+\textbf{Exercice 29:} Montrer que La proposition
+$P: \left(\forall(a,b) \in \mathbb{R}^2\right): \sqrt{a^2 + b^2} = a + b$ est fausse:
+
+\textbf{Solution:} sa négation est:
+$\overline{P}: \left(\exists(a,b) \in \mathbb{R}^2\right): \sqrt{a^2 + b^2} \neq a + b$
+
+On posant: $a = 4$ et $b = 3$ on aura:
+$\sqrt{a^2 + b^2} = \sqrt{16 + 9} = \sqrt{25} = 5$ et $a + b = 4 + 3 = 7$ donc La proposition $\overline{P}$ est vraie donc $P$ est fausse

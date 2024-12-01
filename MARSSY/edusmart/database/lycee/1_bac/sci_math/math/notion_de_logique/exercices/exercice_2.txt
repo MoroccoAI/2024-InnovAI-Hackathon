@@ -1,0 +1,19 @@
+\section{Exercice 2}
+
+Écrire à l'aide de quantificateurs les phrases suivantes:
+
+1. Certains réels sont strictement positifs.
+2. Le carré de tout réel est positif.
+3. Aucun entier n'est supérieur à tous les autres.
+4. Il existe un entier pair.
+5. Il existe un réel multiple de tous les autres.
+6. Entre deux réels distincts, il existe un rationnel.
+
+\section{Solution}
+
+1. $\exists x \in \mathbb{R}, x > 0$
+2. $\forall x \in \mathbb{R}, x^2 \geq 0$
+3. $\forall n \in \mathbb{Z}, \exists m \in \mathbb{Z}, m > n$
+4. $\exists n \in \mathbb{Z}, n$ est pair
+5. $\exists x \in \mathbb{R}, \forall y \in \mathbb{R}, x = ny$ pour un certain $n \in \mathbb{Z}$
+6. $\forall a, b \in \mathbb{R}, a < b \Rightarrow \exists q \in \mathbb{Q}, a < q < b$

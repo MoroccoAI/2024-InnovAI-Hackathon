@@ -1,0 +1,23 @@
+\textbf{Exercice 24:} Montrer que: $\sqrt{2} \notin \mathbb{Q}$
+
+\textbf{Solution:} Nous raisonnons par l'absurde en supposant que $\sqrt{2} \in \mathbb{Q}$
+
+Donc il existe $a \in \mathbb{N}$ et $b \in \mathbb{N}^*$ tel que $\sqrt{2} = \frac{a}{b}$ avec
+
+$a \wedge b = 1$
+
+$\sqrt{2} = \frac{a}{b} \Rightarrow a = b\sqrt{2} \Rightarrow a^2 = \left(b\sqrt{2}\right)^2$
+
+$\Rightarrow a^2 = 2b^2 \Rightarrow a^2$ est pair $\Rightarrow a$ est pair
+
+Et on a: $\sqrt{2} = \frac{a}{b} \Rightarrow a^2 = 2b^2 \Rightarrow 4k^2 = 2b^2 \Rightarrow$
+
+$2k^2 = b^2$
+
+$\Rightarrow b^2$ est pair $\Rightarrow b$ est pair
+
+Donc on a: $\sqrt{2} = \frac{a}{b}$ avec $a$ est pair et $b$ est pair
+
+Cad: $a \wedge b \neq 1$ Nous obtenons une contradiction
+
+Donc notre supposition est fausse donc $\sqrt{2} \notin \mathbb{Q}$

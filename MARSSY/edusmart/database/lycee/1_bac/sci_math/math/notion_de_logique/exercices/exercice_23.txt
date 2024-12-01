@@ -1,0 +1,21 @@
+\textbf{Exercice 23:} Soit $f$ la fonction numérique définie sur $\mathbb{R}$ par: $f(x) = x^2 + 2x$
+
+Montrer qu'il n'existe pas de nombre positif $M$ tel que:
+$\forall x \in \mathbb{R}$ on a: $f(x) \leq M$
+
+\textbf{Solution:} Nous raisonnons par l'absurde en supposant qu'il existe un nombre positif $M$ tel que: $\forall x \in \mathbb{R}$ on a:
+$f(x) \leq M$
+
+$f(x) \leq M \Rightarrow x^2 + 2x \leq M \Rightarrow x^2 + 2x + 1 \leq M + 1$
+
+$\Rightarrow (x+1)^2 \leq M + 1 \Rightarrow \sqrt{(x+1)^2} \leq \sqrt{M+1} \Rightarrow$
+
+$|x+1| \leq \sqrt{M+1}$
+
+$\Rightarrow -\sqrt{M+1} \leq x+1 \leq \sqrt{M+1} \Rightarrow$
+
+$-\sqrt{M+1}-1 \leq x \leq \sqrt{M+1}-1 \quad \forall x \in \mathbb{R}$
+
+Nous obtenons une contradiction car il suffit de prendre:
+
+$x = \sqrt{M+1}$

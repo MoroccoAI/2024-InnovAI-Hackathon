@@ -1,0 +1,12 @@
+\textbf{Exercise 4:} $x \in \mathbb{R}^+$. Montrer que:
+\begin{equation*}
+\frac{1}{1+\sqrt{x}} = 1-\sqrt{x} \implies x = 0
+\end{equation*}
+
+Solution:
+\begin{align*}
+\frac{1}{1+\sqrt{x}} = 1-\sqrt{x} &\implies (1+\sqrt{x})(1-\sqrt{x}) = 1 \\
+&\implies 1 - (\sqrt{x})^2 = 1 \\
+&\implies 1 + x = 1 \\
+&\implies x = 0
+\end{align*}

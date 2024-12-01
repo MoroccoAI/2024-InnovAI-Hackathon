@@ -1,0 +1,14 @@
+\section*{Exercice 10}
+
+Montrer que pour tout $x \in [-2; 2]$: 
+\[
+2 \sqrt{2} > \sqrt{4 - x^2}
+\]
+
+\textbf{Solution:} L’inéquation est définie ssi voici le tableau de signe : 
+
+\[
+x \in ]- \infty; -2[ \cup ]2; +\infty[ \implies \sqrt{4 - x^2} > 0
+\]
+
+Soit $x \in [-2; 2]$. 

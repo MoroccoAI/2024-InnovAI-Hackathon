@@ -1,0 +1,28 @@
+\section*{Exercice 6}
+
+Montrer que : 
+\[
+\forall (a, b) \in \mathbb{R}^2 : a^2 + b^2 = 1 \implies |a + b| \leq \sqrt{2}
+\]
+
+\textbf{Solution:} 
+
+1) Supposons que $a^2 + b^2 = 1$.
+
+Or on sait que $\forall (a, b) \in \mathbb{R}: (a - b)^2 \geq 0$
+
+Donc : $a^2 - 2ab + b^2 \geq 0$ et puisque $a^2 + b^2 = 1$ alors : 
+$1 - 2ab \geq 0$. Donc $2ab \leq 1$ et $a^2 + b^2 = 1$.
+
+Par suite : $a^2 + b^2 + 2ab \leq 2 \implies (a + b)^2 \leq 2$
+
+\[
+\therefore \sqrt{(a + b)^2} \leq \sqrt{2} \implies |a + b| \leq \sqrt{2}
+\]
+
+Or on sait que $a^2 \in \mathbb{R}^+$ donc $a^2 \in \mathbb{R}^* \cap \mathbb{R}^-$ donc $a^2 = 0$ donc $a = 0$.
+
+Et puisque $a^2 + b^2 = 0$ alors $b = 0$.
+
+\textbf{2)} Résolution du système d'équations.
+

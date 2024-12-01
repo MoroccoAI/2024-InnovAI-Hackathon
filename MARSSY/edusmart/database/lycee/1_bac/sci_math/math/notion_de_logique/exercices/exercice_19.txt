@@ -1,0 +1,13 @@
+\textbf{Exercice 19:} Soit $n \in \mathbb{N}$. Montrer que si $n^2$ est pair alors $n$ est pair.
+
+\textbf{Solution:} Nous supposons que n n'est pas pair\\
+Nous voulons montrer qu'alors $n^2$ n'est pas pair\\
+Comme n n'est pas pair il est impair et donc il existe $k \in \mathbb{N}$ tel que $n = 2k + 1$.
+
+Alors $n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1 = 2k' + 1$
+
+avec $k' = 2k^2 + 2k \in \mathbb{N}$.
+
+Et donc $n^2$ est impair.
+
+Conclusion: nous avons montré que si n est impair alors $n^2$ est impair. Par contraposition ceci est équivalent à: si $n^2$ est pair alors n est pair.

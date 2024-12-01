@@ -1,0 +1,34 @@
+\textbf{Exercise 5:}
+1) Montrer que:
+\begin{equation*}
+\forall (a,b) \in \mathbb{R}^2: \ a^2 + b^2 = 0 \implies a = 0 \text{ et } b = 0
+\end{equation*}
+
+2) $x \in \mathbb{R}^+$ et $y \in \mathbb{R}^+$. Montrer que:
+\begin{equation*}
+x + y + 2 = 2\sqrt{x} + 2\sqrt{y} \implies x = y = 1
+\end{equation*}
+
+Solution:
+1)
+\begin{align*}
+a^2 + b^2 = 0 &\implies a^2 = -b^2 \\
+&\implies a^2 \in \mathbb{R}^-
+\end{align*}
+Or on sait que $a^2 \in \mathbb{R}^+$ donc $a^2 \in \mathbb{R}^+ \cap \mathbb{R}^-$ donc $a^2 = 0$
+donc $a = 0$
+
+Et puisque $a^2 + b^2 = 0$ alors $b = 0$
+
+2)
+\begin{align*}
+x + y + 2 = 2\sqrt{x} + 2\sqrt{y} &\implies x - 2\sqrt{x} + 1 + y - 2\sqrt{y} + 1 = 0 \\
+&\implies (\sqrt{x} - 1)^2 + (\sqrt{y} - 1)^2 = 0 \\
+&\implies \sqrt{x} - 1 = 0 \text{ et } \sqrt{y} - 1 = 0 \text{ d'après 1)} \\
+&\implies \sqrt{x} = 1 \text{ et } \sqrt{y} = 1 \\
+&\implies x = 1 \text{ et } y = 1
+\end{align*}
+
+Donc: $x + y + 2 = 2\sqrt{x} + 2\sqrt{y} \implies x = y = 1$
+
+\end{document}

@@ -1,0 +1,15 @@
+\textbf{Exercice 20:} $x \in \mathbb{R}; y \in \mathbb{R}$
+
+Montrer que: $x \neq y \Rightarrow (x+1)(y-1) \neq (x-1)(y+1)$
+
+\textbf{Solution:} Utilisons un Raisonnement par contraposition:
+
+Montrons que: $(x+1)(y-1) = (x-1)(y+1) \Rightarrow x = y$
+
+On a: $(x+1)(y-1) = (x-1)(y+1) \Rightarrow$
+
+$xy - x + y - 1 = xy + x - y - 1$
+
+$\Rightarrow -2x = -2y \Rightarrow x = y$
+
+Donc: $x \neq y \Rightarrow (x+1)(y-1) \neq (x-1)(y+1)$

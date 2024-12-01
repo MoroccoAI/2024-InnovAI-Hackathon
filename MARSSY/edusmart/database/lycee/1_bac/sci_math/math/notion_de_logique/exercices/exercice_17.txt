@@ -1,0 +1,17 @@
+\textbf{Exercice 17:} Soient $x \in \mathbb{R}$ et $y \in \mathbb{R}$
+
+Montrer que: $x \neq 2$ et $y \neq 2 \Rightarrow 2x + 2y - xy - 2 \neq 2$
+
+\textbf{Solution:} Soit $x \in \mathbb{R}$ et $y \in \mathbb{R}$
+
+Utilisons un Raisonnement par contraposition:
+
+Montrons que: $2x + 2y - xy - 2 = 2 \Rightarrow x = 2$ ou $y = 2$
+
+On a: $2x + 2y - xy - 2 = 2 \Rightarrow 2x + 2y - xy - 4 = 0$
+
+$\Rightarrow x(2-y) - 2(2-y) = 0 \Rightarrow (2-y)(x-2) = 0$
+
+$\Rightarrow 2-y = 0$ ou $x-2 = 0 \Rightarrow y = 2$ ou $x = 2$
+
+Donc: $x \neq 2$ et $y \neq 2 \Rightarrow 2x + 2y - xy - 2 \neq 2$

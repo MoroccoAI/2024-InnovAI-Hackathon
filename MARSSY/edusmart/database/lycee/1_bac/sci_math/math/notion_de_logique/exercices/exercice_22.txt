@@ -1,0 +1,13 @@
+\textbf{Exercice 22:} Soient $a > 0$ et $b > 0$ Montrer que si $\frac{a}{1+b} = \frac{b}{1+a}$ alors $a = b$.
+
+\textbf{Solution:} Nous raisonnons par l'absurde en supposant que $\frac{a}{1+b} = \frac{b}{1+a}$ et $a \neq b$.
+
+Comme $\frac{a}{1+b} = \frac{b}{1+a}$ alors $a(1+a) = b(1+b)$ donc
+
+$a + a^2 = b + b^2$ d'où $a^2 - b^2 = b - a$. Cela conduit à $(a-b)(a+b) = -(a-b)$
+
+Comme $a \neq b$ alors $a-b \neq 0$ et donc en divisant par a-b on obtient:
+
+$a + b = -1$. La somme des deux nombres positifs a et b ne peut être négative. Nous obtenons une contradiction.
+
+Conclusion: si $\frac{a}{1+b} = \frac{b}{1+a}$ alors $a = b$.

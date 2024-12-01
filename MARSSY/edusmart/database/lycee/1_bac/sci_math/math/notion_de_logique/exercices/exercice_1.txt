@@ -1,0 +1,31 @@
+\section{Exercice 1}
+
+Donner la négation et la valeur de vérité de chacune des propositions suivantes:
+
+1. $\forall x \in \mathbb{R}, x^2 \geq 0$
+2. $\exists x \in \mathbb{R}, x^3 = -2$
+3. $\forall x \in \mathbb{R}, |x| \geq 0$
+4. $\exists x \in \mathbb{R}, \sin x = 2$
+5. $\forall x \in \mathbb{R}, \cos x \leq 1$
+6. $\exists n \in \mathbb{N}, 2n + 1$ est pair
+7. $\forall n \in \mathbb{N}, 2n$ est pair
+8. $\forall x \in \mathbb{R}, \sqrt{x^2} = x$
+9. $\exists x \in \mathbb{R}, x^3 - x = 0$
+10. $\forall x \in \mathbb{R}, x^2 - 4x + 4 > 0$
+11. $\exists x \in \mathbb{R}, x^2 + 2x + 2 = 0$
+12. $\forall x \in \mathbb{R}, \frac{1}{x} \neq 0$
+
+\section{Solution}
+
+1. $\exists x \in \mathbb{R}, x^2 < 0$ et on a $P$ est vraie
+2. $\forall x \in \mathbb{R}, x^3 \neq -2$ et on a $P$ est vraie
+3. $\exists x \in \mathbb{R}, |x| < 0$ et on a $P$ est vraie
+4. $\forall x \in \mathbb{R}, \sin x \neq 2$ et on a $P$ est vraie
+5. $\exists x \in \mathbb{R}, \cos x > 1$ et on a $P$ est vraie
+6. $\forall n \in \mathbb{N}, 2n + 1$ est impair et on a $P$ est vraie
+7. $\exists n \in \mathbb{N}, 2n$ est impair et on a $P$ est fausse
+8. $\exists x \in \mathbb{R}, \sqrt{x^2} \neq x$ et on a $P$ est vraie
+9. $\forall x \in \mathbb{R}, x^3 - x \neq 0$ et on a $P$ est vraie
+10. $\exists x \in \mathbb{R}, x^2 - 4x + 4 \leq 0$ et on a $P$ est vraie
+11. $\forall x \in \mathbb{R}, x^2 + 2x + 2 \neq 0$ et on a $P$ est vraie
+12. $\exists x \in \mathbb{R}, \frac{1}{x} = 0$ et on a $P$ est fausse

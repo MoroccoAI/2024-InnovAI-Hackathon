@@ -1,0 +1,25 @@
+\textbf{Exercice 26:} (absurde)
+
+On considère l'ensemble: $A = \{1; 2; 3; 4; ...; n\}$ avec n un nombre entier impair
+
+Et soient $x_1$; $x_2$; $x_3$; $x_4$; ...; $x_n$ des éléments de l'ensemble $A$ distincts deux à deux
+
+Montrer que: $\exists i \in A / x_i - i$ est pair
+
+\textbf{Solution:} Nous raisonnons par l'absurde en supposant que:
+
+$\forall i \in A / x_i - i$ est impair
+
+On a donc:
+$S = (x_1 - 1) + (x_2 - 2) + (x_3 - 3) + ... + (x_n - n)$ un nombre entier impair
+
+Car c'est la somme d'un nombre impair de nombres impairs
+
+Or:
+$S = (x_1 + x_2 + x_3 + ... + x_n) - (1 + 2 + 3 + ... + n) = 0$
+
+est 0 est pair
+
+Nous obtenons donc une contradiction donc:
+
+$\exists i \in A / x_i - i$ est pair

@@ -1,0 +1,30 @@
+[
+    {
+        "sous_cours_name": "Lois logiques et raisonnements",
+        "question": [
+            "Parmi les propositions suivantes, laquelle est équivalente à $\\neg (P \\land Q)$ selon les lois de Morgan ?"
+        ]
+    },
+    {
+        "sous_cours_name": "Opérations sur les propositions",
+        "question": [
+            "Quelle est la négation de la proposition suivante : $\\forall x \\in \\mathbb{R}, x^2 \\geq 0$ ?",
+            "Comment exprimer la négation de la proposition $\\exists y \\in \\mathbb{R}, y^3 = -2$ ?"
+        ]
+    },
+    {
+        "sous_cours_name": "Proposition - fonction propositionnelle",
+        "question": [
+            "Laquelle des propositions suivantes est fausse ?",
+            "Considérant la fonction propositionnelle $P(x, y) : 2x - 3y = 7$, quel est l'ensemble des valeurs de $y$ pour lesquelles $P(2, y)$ est vrai ?",
+            "Quel ensemble de solutions $S$ permet de rendre la proposition $D(x) : x^2 + x + 6 \\geq 0$ toujours vraie ?"
+        ]
+    },
+    {
+        "sous_cours_name": "Quantificateurs",
+        "question": [
+            "Déterminez la valeur de vérité de la proposition suivante : $Q_1: (\\exists x \\in \\mathbb{R}); x^2 + x + 1 = 0$",
+            "Laquelle des propositions suivantes est vraie ? $Q_3: (\\exists x \\in \\mathbb{N}); \\sqrt{x^2 + 3} = 2x - 4$"
+        ]
+    }
+]

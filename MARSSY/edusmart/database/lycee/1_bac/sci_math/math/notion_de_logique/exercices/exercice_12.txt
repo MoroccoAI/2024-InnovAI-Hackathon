@@ -1,0 +1,20 @@
+\section*{Exercice 12}
+Résoudre dans $\mathbb{R}$ l'inéquation $(E)$ :
+\[
+\frac{4-x}{4} > \frac{1}{\sqrt{1+x}}
+\]
+\textbf{Solution :} Soit $S$ l'ensemble des solutions de $(E)$.
+
+\begin{itemize}
+    \item \textbf{1er cas :} Si $x \in [4; +\infty[$ alors $4 - x \leq 0$ donc $S = \emptyset$.
+    \item \textbf{2e cas :} Si $x \in ]-\infty; 4[$ alors $4 - x > 0$. On a :
+    \[
+    \frac{4-x}{4} > \frac{1}{\sqrt{1+x}} \implies \left(\frac{4-x}{4}\right)^2 > \frac{1}{1+x}.
+    \]
+    Après simplification, on trouve :
+    \[
+    x \in \left[0; \frac{7-\sqrt{17}}{2}\right].
+    \]
+\end{itemize}
+Donc $S = \left[0; \frac{7-\sqrt{17}}{2}\right]$.
+

@@ -1,0 +1,41 @@
+\section{I. Proposition - fonction propositionnelle}
+
+\subsection{Définition}
+
+On appelle proposition (ou assertion) tout énoncé mathématique qui a une seule signification juste ou fausse; et ne peut être juste et faux en même temps.
+
+\subsection{Applications}
+
+\begin{enumerate}
+    \item La phrase : « Les nombres positifs sont des entiers naturels » est-elle une proposition ? Justifier.
+    \item Déterminer la valeur de vérité de chacune des propositions suivantes :
+        \begin{itemize}
+            \item $P : \sqrt[3]{5} = \frac{5}{\sqrt[3]{25}}$
+            \item $Q : \frac{3-5}{2} = -1$
+            \item $R : \cos\left(\frac{\pi}{7}\right) > 1$
+            \item $S :$ Les solutions de l'équation $2018x^2 + 2017x - 1 = 0$ sont $1$ et $-\frac{1}{2018}$.
+        \end{itemize}
+\end{enumerate}
+
+\subsection{Définition}
+
+On appelle fonction propositionnelle (ou prédicat) tout énoncé mathématique contenant une variable qui appartient à un ensemble donné $E$ et qui devient une proposition à chaque fois qu'on remplace la variable par un élément déterminé de l'ensemble $E$.
+\section{L'ensemble E est appelé le domaine de définition de la fonction propositionnelle.}
+
+\subsection{Applications}
+
+On considère la fonction propositionnelle: $P(x, y) : (x, y) \in \mathbb{R}^2; 2x - 3y = 7$
+
+1. Déterminer l'ensemble des valeurs de la variable $(x, y)$ pour lesquelles $P(2, y)$ soit vraie.
+
+2. Dans chacun des cas suivants, déterminer l'ensemble des nombres réels $S$, pour que chaque fonction propositionnelle soit une proposition vraie:   
+
+
+    \begin{align*}
+        A(x) &: x \in \mathbb{R}; 3x^2 + 2x - 65 = 0 \\
+        B(x) &: x \in \mathbb{R}; 2x^2 - 15x + 3 = 0 \\
+        C(x) &: x \in \mathbb{R}; x^2 - 6x + 7 = 0 \\
+        D(x) &: x \in \mathbb{R}; x^2 + x + 6 \geq 0 \\
+        P(x) &: x \in \mathbb{R}; (2\sin x - 1)\cos x = 0 \\
+        Q(x) &: x \in [-\pi, \pi]; \sin(2x)\cos(x) \geq 0
+    \end{align*}

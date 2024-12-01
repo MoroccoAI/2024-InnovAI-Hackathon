@@ -1,0 +1,15 @@
+\textbf{Exercice 18:} Soit $x \in \mathbb{R}$ et $x \neq -5$
+
+Montrer que: $x \neq -8 \Rightarrow \frac{x+2}{x+5} \neq 2$
+
+\textbf{Solution:} Soit $x \in \mathbb{R}$ et $y \in \mathbb{R}$
+
+Utilisons un Raisonnement par contraposition:
+
+Montrons que: $\frac{x+2}{x+5} = 2 \Rightarrow x = -8$
+
+On a: $\frac{x+2}{x+5} = 2 \Rightarrow x + 2 = 2(x+5)$
+
+$\Rightarrow x + 2 = 2x + 10 \Rightarrow x = -8$
+
+Donc: $x \neq -8 \Rightarrow \frac{x+2}{x+5} \neq 2$

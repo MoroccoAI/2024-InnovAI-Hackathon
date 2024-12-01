@@ -1,0 +1,19 @@
+\section*{Exercice 13}
+Résoudre dans $\mathbb{R}$ l'inéquation :
+\[
+|x-1| + 2x - 3 \geq 0.
+\]
+\textbf{Solution :} Soit $S$ l'ensemble des solutions de $(1)$. On distingue deux cas :
+\begin{itemize}
+    \item Si $x \geq 1$, alors $|x-1| = x-1$. L'inéquation devient :
+    \[
+    x-1 + 2x - 3 \geq 0 \implies 3x - 4 \geq 0 \implies x \geq \frac{4}{3}.
+    \]
+    Donc $S_1 = \left[\frac{4}{3}; +\infty\right[$.
+    \item Si $x < 1$, alors $|x-1| = -(x-1) = -x+1$. L'inéquation devient :
+    \[
+    -x+1 + 2x - 3 \geq 0 \implies x \geq 2.
+    \]
+    Comme $x < 1$, $S_2 = \emptyset$.
+\end{itemize}
+Finalement : $S = S_1 \cup S_2 = \left[\frac{4}{3}; +\infty\right[$.

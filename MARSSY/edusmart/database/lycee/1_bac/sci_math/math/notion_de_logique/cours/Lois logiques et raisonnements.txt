@@ -1,0 +1,178 @@
+\section*{V- Lois logiques et raisonnements}
+
+\subsection*{5-1/ Loi logique ou tautologie}
+
+\textbf{Définition} \\
+Soit \( Q_1, Q_2, \ldots, Q_n \) des propositions. \\
+On appelle loi logique ou tautologie toute proposition \( P \) résultante de l'assemblage par des connecteurs logiques de propositions prises parmi \( Q_1, Q_2, \ldots, Q_n \) qui est vraie quelle que soit la valeur de vérité des propositions en jeu.
+
+\vspace{0.5cm}
+
+\textbf{Applications} \\
+Soit \( P \) et \( Q \) deux propositions.
+
+\begin{enumerate}
+    \item Montrer que les propositions suivantes sont des lois logiques :
+    \[
+    P \implies (Q \implies P)
+    \]
+    \[
+    P \implies (\neg P \implies Q)
+    \]
+    \[
+    (\neg Q \lor P) \lor (Q \lor \neg P)
+    \]
+    \[
+    (P \iff Q) \iff \big[(P \land Q) \lor (\neg P \land \neg Q)\big]
+    \]
+\end{enumerate}
+
+\subsection*{5-2/ Lois de Morgan}
+
+\textbf{Proposition} \\
+Soit \( P \) et \( Q \) deux propositions.
+Les deux propositions suivantes sont des lois logiques :
+\[
+(P \land Q) \iff (\neg P \lor \neg Q)
+\]
+\[
+(P \lor Q) \iff (\neg P \land \neg Q)
+\]
+
+\textbf{Applications} \\
+Soit \( P \) et \( Q \) deux propositions.
+\begin{enumerate}
+    \item Déterminer la négation des propositions suivantes :
+    \[
+    P : \text{ « } (\exists x \in \mathbb{R}) \; 0 \leq x < 1 \text{ » }
+    \]
+    \[
+    Q : \text{ « } (\forall x \in \mathbb{R}) \; (x^2 = 1 \implies x = 1) \text{ » }
+    \]
+    \[
+    R : \text{ « } (\forall a \in \mathbb{R}) \; (|a + 1| \leq 2 \implies a \geq -3) \text{ » }
+    \]
+    \[
+    S : \text{ « } (\forall x \in \mathbb{R}) (\forall y \in \mathbb{R}^+) \; (x^2 \leq y^2 \iff -y \leq x \leq y) \text{ » }
+    \]
+\end{enumerate}
+
+\subsection*{5-3/ Raisonnement par contraposée}
+
+\textbf{Proposition} \\
+Soit \( P \) et \( Q \) deux propositions. \\
+L'implication \( Q \implies P \) s'appelle la contraposée (ou l'implication contraposée) de l'implication \( P \implies Q \). \\
+La contraposée d'une implication est équivalente à celle-ci :
+\[
+(P \implies Q) \iff (\neg Q \implies \neg P)
+\]
+
+\textbf{Remarques}
+\begin{itemize}
+    \item La négation de \( P \implies Q \) est \( P \land \neg Q \).
+    \item La réciproque de \( P \implies Q \) est \( Q \implies P \).
+    \item La contraposée de \( P \implies Q \) est \( \neg Q \implies \neg P \).
+\end{itemize}
+
+Le recours au raisonnement par contraposée n'est évidemment pertinent que si cette contraposée est plus facile à prouver que l'implication directe.
+
+\textbf{Applications}
+\begin{enumerate}
+    \item En utilisant le raisonnement par contraposée, montrer les implications suivantes :
+    \begin{enumerate}
+        \item \( (\forall x \in [-1; +\infty[) \; (x \neq 0 \implies \sqrt{1 + x} \neq 1 + \frac{x}{2}) \)
+        \item \( (\forall x \in \mathbb{R}) \; (x^2 \neq 3 \implies \frac{2}{\sqrt{1 + x^2}} \neq 1) \)
+        \item \( (\forall (x, y) \in \mathbb{R}^2) \; (4y \neq -3x \implies x - y \neq 7(x + y)) \)
+        \item \( (\forall (x, y) \in \mathbb{R}^2) \; ((xy - 1) (x - y) \neq 0 \implies (y^2 + y + 1) \neq y (x^2 + x + 1)) \)
+        \item \( (\forall (x, y) \in [1; +\infty[ \times [1; +\infty[) \; (x \neq y \implies x^2 - 2x \neq y^2 - 2y) \)
+        \item \( (\forall x \in \mathbb{R}) \; (x \notin [-1; 4] \implies x^2 - 3x - 4 > 0) \)
+        \item \( (\forall x \in \mathbb{R}^+) \; (x \neq 0 \implies \frac{1}{1 + \sqrt{x}} \neq 1 - \sqrt{x}) \)
+    \end{enumerate}
+\end{enumerate}
+8) $(\forall (x;y) \in \mathbb{R}^2) (x^2 + y^2 \leq 1 \Rightarrow |x + y| \leq 2)$
+
+9) $(\forall (x;y) \in \mathbb{R}^2) (|2x^2 + 5xy + 3y^2| \leq 3 \Rightarrow (|x + y| \leq 3 \text{ ou } |2x + 3y| \leq \sqrt{3}))$
+
+10) $(\forall (x;y) \in \mathbb{R}^2) (x^2 + xy + y^2 \leq 3 \Rightarrow (|x + 2y| \leq 2\sqrt{3} \text{ et } |x| \leq 2))$
+
+\section*{5-4/ Raisonnement par l'absurde}
+
+\subsection*{Proposition}
+Soit $P$ et $Q$ deux propositions.
+
+La proposition suivante est une loi logique :
+\[[(P \Rightarrow Q) \text{ et } (P \Rightarrow \overline{Q})] \Rightarrow P\]
+
+\subsection*{Applications}
+Soit $a$, $b$ et $c$ des réels positifs tels que $ab < c$.
+
+1. Montrer que : $a < \sqrt{c}$ ou $b < \sqrt{c}$
+
+Soit $f$ une fonction numérique définie sur $\mathbb{R}$ telle que pour tout 
+$(x;y) \in (\mathbb{R}^*)^2 : f(xy) = f(x)f(y)$
+
+On suppose que $f(1) \neq 0$.
+
+2. Montrer que : $(\forall x \in \mathbb{R}^*) f(x) \neq 0$
+
+3. Montrer par l'absurde que : $(\forall n \in \mathbb{N}) \sqrt{4n + 2} \notin \mathbb{N}$
+
+\section*{5-5/ Raisonnement par disjonction des cas}
+
+\subsection*{Proposition}
+Soit $P$ et $Q$ deux propositions.
+
+La proposition suivante est une loi logique :
+\[[(P \Rightarrow R) \text{ et } (Q \Rightarrow R)] \Rightarrow [(P \text{ ou } Q) \Rightarrow R)]\]
+
+\subsection*{Applications}
+1. Résoudre dans $\mathbb{R}$ les inéquations suivantes :
+\begin{align*}
+(I_1) &|x^2 - 4| - x^2 > 0 \\
+(I_2) &|2x - 1| + |2x + 1| + |x| \geq 4 \\
+(I_3) &\sqrt{3} - x + x < 0
+\end{align*}
+
+2. Montrer que le produit de trois entiers relatifs consécutifs est divisible par 6.
+
+3. Montrer que pour tout $x \in \mathbb{R}$ :
+\begin{align*}
+&a) \; x + \sqrt{x^2 + 1} > 0 \\
+&b) \; |x| + |x + 1| + |x - 1| \neq 0 \\
+&c) \; |x - 1| \leq x^2 - 2x + 2
+\end{align*}
+
+Soit $a$, $b$ et $c$ trois réels tels que $c$ est positif.
+
+4. En utilisant un raisonnement par disjonction des cas, montrer les deux implications suivantes :
+\begin{align*}
+&(|a| \leq c \text{ et } |b| \leq c) \Rightarrow |a + b| + |a - b| \leq 2c \\
+&|a + b| + |a - 2b| \leq 3c \Rightarrow (|a| \leq 2c \text{ et } |b| \leq c)
+\end{align*}
+
+Soit $n$ un entier naturel.
+
+5. Démontrer que si $n$ est impair, alors il s'écrit sous la forme $n = 4k + 1$ ou $n = 4k + 3$ avec $k \in \mathbb{N}$.
+
+6. Déduire que si l'entier $n^2 - 1$ n'est pas divisible par 8, alors l'entier $n$ est pair.
+
+\section*{5-6/ Raisonnement par récurrence}
+
+\subsection*{Proposition}
+Soit $P(n)$ une fonction propositionnelle qui dépend d'un entier naturel $n$ et $n_0 \in \mathbb{N}$.
+
+Si la proposition $P(n_0)$ est vraie et si l'implication «$P(n) \Rightarrow P(n + 1)$» est vraie pour tout $n \geq n_0$, alors, la proposition $P(n)$ est vraie, pour tout entier $n \geq n_0$.
+
+\subsection*{Applications}
+1. Montrer par récurrence que pour tout $n \in \mathbb{N}^*$ :
+\begin{align*}
+1 + 2 + \ldots + n &= \frac{n(n+1)}{2} \\
+1^3 + 2^3 + \ldots + n^3 &= \frac{n^2(n+1)^2}{4} \\
+1 \times 2 + 2 \times 3 + \ldots + n(n+1) &= \frac{n(n+1)(n+2)}{3}
+\end{align*}
+
+2. Montrer par récurrence que pour tout $n \in \mathbb{N}^* : 5^{2n+1} + 2^{n+4} + 2^{n+1}$ est divisible par 23.
+
+Soit $a$ et $b$ deux réels distincts et strictement positifs.
+
+3. Montrer par récurrence que : $(\forall n \in \mathbb{N}) \left(\frac{a+b}{2}\right)^n \leq \frac{a^n+b^n}{2}$

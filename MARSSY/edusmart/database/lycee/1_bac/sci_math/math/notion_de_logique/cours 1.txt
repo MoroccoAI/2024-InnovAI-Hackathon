@@ -1,0 +1,475 @@
+\section{Sommaire}
+
+\begin{enumerate}
+    \item Proposition - fonction propositionnelle
+    \item Quantificateurs
+    \item Opérations sur les propositions
+        \begin{enumerate}
+            \item Négation d'une proposition
+            \item Disjonction de deux propositions
+            \item Conjonction de deux propositions
+            \item Implication de deux propositions
+            \item Condition suffisante - condition nécessaire
+            \item Équivalence de deux propositions
+        \end{enumerate}
+\end{enumerate}
+
+\section{I. Proposition - fonction propositionnelle}
+
+\subsection{Définition}
+
+On appelle proposition (ou assertion) tout énoncé mathématique qui a une seule signification juste ou fausse; et ne peut être juste et faux en même temps.
+
+\subsection{Applications}
+
+\begin{enumerate}
+    \item La phrase : « Les nombres positifs sont des entiers naturels » est-elle une proposition ? Justifier.
+    \item Déterminer la valeur de vérité de chacune des propositions suivantes :
+        \begin{itemize}
+            \item $P : \sqrt[3]{5} = \frac{5}{\sqrt[3]{25}}$
+            \item $Q : \frac{3-5}{2} = -1$
+            \item $R : \cos\left(\frac{\pi}{7}\right) > 1$
+            \item $S :$ Les solutions de l'équation $2018x^2 + 2017x - 1 = 0$ sont $1$ et $-\frac{1}{2018}$.
+        \end{itemize}
+\end{enumerate}
+
+\subsection{Définition}
+
+On appelle fonction propositionnelle (ou prédicat) tout énoncé mathématique contenant une variable qui appartient à un ensemble donné $E$ et qui devient une proposition à chaque fois qu'on remplace la variable par un élément déterminé de l'ensemble $E$.
+\section{L'ensemble E est appelé le domaine de définition de la fonction propositionnelle.}
+
+\subsection{Applications}
+
+On considère la fonction propositionnelle: $P(x, y) : (x, y) \in \mathbb{R}^2; 2x - 3y = 7$
+
+1. Déterminer l'ensemble des valeurs de la variable $(x, y)$ pour lesquelles $P(2, y)$ soit vraie.
+
+2. Dans chacun des cas suivants, déterminer l'ensemble des nombres réels $S$, pour que chaque fonction propositionnelle soit une proposition vraie:   
+
+
+    \begin{align*}
+        A(x) &: x \in \mathbb{R}; 3x^2 + 2x - 65 = 0 \\
+        B(x) &: x \in \mathbb{R}; 2x^2 - 15x + 3 = 0 \\
+        C(x) &: x \in \mathbb{R}; x^2 - 6x + 7 = 0 \\
+        D(x) &: x \in \mathbb{R}; x^2 + x + 6 \geq 0 \\
+        P(x) &: x \in \mathbb{R}; (2\sin x - 1)\cos x = 0 \\
+        Q(x) &: x \in [-\pi, \pi]; \sin(2x)\cos(x) \geq 0
+    \end{align*}
+
+\section{II. Quantificateurs}
+
+\subsection{Définition}
+
+Soit $P(x)$ une fonction propositionnelle d'une variable $x$ d'un ensemble non vide $E$.
+
+À partir de la fonction propositionnelle   
+ « $(x \in E); P(x)$ », on définit :
+
+- La proposition « $(\exists x \in E); P(x)$ » qui se lit « il existe au moins un $x \in E$ tel que $P(x)$ », et qui est vraie lorsqu'il existe au moins un $x \in E$ vérifiant la propriété $P(x)$. Le symbole $\exists$ s'appelle le quantificateur existentiel.
+
+- La proposition « $(\forall x \in E); P(x)$ » qui se lit « pour tout $x \in E$, $P(x)$ » ou « quel que soit $x \in E$, $P(x)$ » et qui est vraie lorsque tous les éléments de $E$ vérifient la propriété $P(x)$. Le symbole $\forall$ s'appelle le quantificateur universel.   
+
+
+\subsection{Remarques}
+
+- Dans les apparences, « $(\forall x \in E); P(x)$ » ne dépend d'aucun $x$. La lettre $x$ figurant dans cette proposition a le statut de variable muette. En effet, cette proposition peut aussi être écrite   
+ « $(\forall y \in E); P(y)$ » ou encore « $(\forall z \in E); P(z)$ », sans en modifier le sens.
+
+- Il en est de même de la proposition « $(\exists x \in E); P(x)$ » : elle affirme qu'il existe au moins un élément $x \in E$ tel que $P(x)$ soit vraie, mais n'en définit aucun en particulier.
+
+- Pour le quantificateur existentiel, on rencontre dans certains   
+ énoncés « $(\exists! x \in E); P(x)$ ». L'ajout du signe ! derrière le symbole $\exists$ le transforme et l'énoncé devient : « il existe un unique élément $x \in E$ tel que $P(x)$ soit vraie ».
+
+- Les quantificateurs doivent être placés avant l'assertion mathématique qu'ils quantifient.
+
+- L'emploi de quantificateurs en guise d'abréviation au milieu d'une phrase en français est exclu : ils ne doivent figurer que dans une phrase mathématique. 
+
+
+- L'ordre d'écriture des quantificateurs est fondamental pour le sens d'une phrase formelle :
+
+    - Quand deux quantificateurs existentiels se suivent, on peut les échanger sans changer le sens.   
+
+\section{Applications}
+
+\subsection{Déterminer la valeur de vérité de chacune des propositions suivantes:}
+
+\begin{itemize}
+    \item $Q_1: (\exists x \in \mathbb{R}); x^2 + x + 1 = 0$
+    \item $Q_2: (\exists x \in \mathbb{R}); x^2 + x + 1 > 0$
+    \item $Q_3: (\exists x \in \mathbb{N}); \sqrt{x^2 + 3} = 2x - 4$
+    \item $Q_4: (\exists x \in \mathbb{R})(\forall y \in \mathbb{R}); x \leq y$
+    \item $Q_5: (\exists x \in \mathbb{R}^*)(\forall y \in \mathbb{Z}^*); x^y = 1$
+    \item $Q_6: (\forall x \in \mathbb{R})(\exists y \in \mathbb{R}); x \leq y$
+    \item $Q_7: (\forall x \in \mathbb{R})(\forall y \in \mathbb{R}); x^2y^2 \geq xy$
+\end{itemize}
+
+\section{III. Opérations sur les propositions}
+
+\subsection{3-1/ Négation d'une proposition}
+
+\subsubsection{Définition}
+
+La négation d'une proposition $P$ est la proposition notée $\overline{P}$ ou $\neg P$ telle que la proposition $\overline{P}$ est vraie si la proposition $P$ est fausse et la proposition $\overline{P}$ est fausse si la proposition $P$ est vraie.
+
+La négation est un connecteur logique unaire défini par la table de vérité   
+ :
+
+\begin{center}
+\begin{tabular}{c|c}
+$P$ & $\overline{P}$ \\ \hline
+V & F \\
+F & V
+\end{tabular}
+\end{center}
+
+\subsubsection{Proposition}
+
+Soit $P(x)$ une fonction propositionnelle d'une variable $x$ d'un ensemble non vide $E$.
+
+La négation de la proposition   
+ « $(\forall x \in E) P(x)$ » est la proposition « $(\exists x \in E) \overline{P(x)}$ ».
+
+La négation de la proposition « $(\exists x \in E) P(x)$ » est la proposition « $(\forall x \in E) \overline{P(x)}$ ».
+
+\subsubsection{Conséquence}
+
+Pour montrer que la proposition « $(\forall x \in E) P(x)$ » est fausse, il suffit de montrer que sa négation « $(\exists x \in E) \overline{P(x)}$ » est vraie.
+
+Ce type de raisonnement est appelé raisonnement par contre-exemple.
+
+\subsection{Applications}
+
+1. En utilisant un raisonnement par contre-exemple, montrer que les propositions suivantes sont fausses :
+
+    \begin{itemize}
+        \item $P_1: (\forall x \in \mathbb{R}^*); x + \sqrt{x} \geq 2$
+        \item $P_2: (\forall x \in \mathbb{R})(\forall y \in \mathbb{R}); 2x - 4y \neq 5$
+        \item $P_3: (\forall x \in \mathbb{R}^*); x + \frac{1}{x} \geq 2$
+        \item $P_4: (\forall x \in \mathbb{R}^+)(\forall y \in \mathbb{R}^+); x + y \geq \sqrt{x} + \sqrt{y}$
+        \item $P_5: (\forall x \in ]0, 1[); \frac{2x}{x^2(1 - x^2)} < 1$
+        \item $P_6: (\forall \alpha \in ]0, 1[)(\forall \beta \in ]0, 1[); \frac{1}{\alpha} + \frac{1}{\beta} < 1 - \alpha\beta$
+    \end{itemize}
+\section{3-2/ Disjonction de deux propositions}
+
+\subsection{Définition}
+
+La disjonction de deux propositions $P$ et $Q$ est la proposition qu'on note $(P \text{ ou } Q)$.
+
+Elle est fausse seulement si $P$ et $Q$ sont toutes les deux fausses.
+
+La disjonction est un connecteur logique binaire défini par la table de vérité   
+ :
+
+\begin{center}
+\begin{tabular}{c|c|c}
+$P$ & $Q$ & $P \text{ ou } Q$ \\ \hline
+V & V & V \\
+V & F & V \\
+F & V & V \\
+F & F & F
+\end{tabular}
+\end{center}
+
+\subsection{Remarques}
+
+Les propositions $(P \text{ ou } Q)$ et $(Q \text{ ou } P)$ ont le même sens. On dit que la disjonction est une opération commutative.
+
+Les propositions $[(P \text{ ou } Q) \text{ ou } R]$ et $[P \text{ ou } (Q \text{ ou } R)]$ ont le même sens. On dit que la disjonction est une opération associative.
+
+\subsection{Applications}
+
+Soit $P$ une proposition.
+
+1. Montrer que la proposition $(P \text{ ou } \overline{P})$ est vraie.
+
+Soit $a$ et $b$ deux réels de l'intervalle $[4; +\infty[$, et on considère les deux équations :
+
+\begin{align*}
+    (E): x^2 + ax + b &= 0 \\
+    (F): x^2 + bx + a &= 0
+\end{align*}
+
+Soit $\Delta_1$ le discriminant de $(E)$ et $\Delta_2$ celui de $(F)$, et les propositions :
+
+\begin{align*}
+    P_1: \Delta_1 \geq 0 \\
+    P_2: \Delta_2 \geq 0
+\end{align*}
+
+2. Montrer que la proposition $(P_1 \text{ ou } P_2)$ est vraie.
+
+\section{3-3/ Conjonction de deux propositions}
+
+\subsection{Définition}
+
+La conjonction de deux propositions $P$ et $Q$ est la proposition qu'on note $(P \text{ et } Q)$.
+
+Elle est vraie seulement si $P$ et $Q$ sont toutes les deux vraies.
+
+La conjonction est un connecteur logique binaire défini par la table de vérité   
+ :
+
+\begin{center}
+\begin{tabular}{c|c|c}
+$P$ & $Q$ & $P \text{ et } Q$ \\ \hline
+V & V & V \\
+V & F & F \\
+F & V & F \\
+F & F & F
+\end{tabular}
+\end{center}
+\section{3-4/ Implication de deux propositions}
+
+\subsection{Définition}
+
+L'implication d'une proposition $P$ à une proposition $Q$ est la proposition qu'on note $(P \Rightarrow Q)$.
+
+Elle est fausse seulement si $P$ est vraie et $Q$ est fausse.   
+
+
+L'implication est un connecteur logique binaire défini par la table de vérité :
+
+\begin{center}
+\begin{tabular}{c|c|c}
+$P$ & $Q$ & $P \Rightarrow Q$ \\ \hline
+V & V & V \\
+V & F & F \\
+F & V & V \\
+F & F & V
+\end{tabular}
+\end{center}
+
+\subsection{Remarques}
+
+Les propositions $(P \Rightarrow Q)$ et $(\overline{P} \text{ ou } Q)$ ont le même sens. On dit que l'implication est équivalente à la disjonction.
+
+\subsection{Applications}
+
+Soit $P$ une proposition.
+
+1. Montrer que la proposition $(P \Rightarrow P)$ est vraie.
+
+2. Déterminer les réels $x$ et $y$ tels que $(y = 3x - 1 \text{ et } x^2 - x = 0)$.
+
+3. En utilisant la distributivité de la conjonction logique par rapport à la disjonction logique, résoudre les systèmes suivants :
+
+    \begin{align*}
+        (S_1): \begin{cases}
+            x^2 - y^2 = 0 \\
+            2x^2 + y^2 = 3
+        \end{cases} \\
+        (S_2): \begin{cases}
+            xy - x + y = 1 \\
+            2x^2 - xy - y = 0
+        \end{cases} \\
+        (S_3): \begin{cases}
+            4x^2 - y^2 = 0 \\
+            (x - 2)(y - 6) = 0
+        \end{cases}
+    \end{align*}
+
+Soit $x$ et $y$ deux réels tels que $x \geq 1$ et $y \geq 1$.
+
+4. Montrer que : $\sqrt{x - 1} + \sqrt{y - 1} \leq xy$
+
+5. Déterminer le domaine de définition de la fonction $f$ définie par :
+
+    \[f(x) = \sqrt{x^2 - 1} + \frac{x}{2x - 3}\]
+\section{3-4/ Implication de deux propositions}
+
+\subsection{Définition}
+
+L'implication d'une proposition $P$ à une proposition $Q$ est la proposition qu'on note $(P \Rightarrow Q)$.
+
+Elle est fausse seulement si $P$ est vraie et $Q$ est fausse.
+
+Les deux propositions $(P \Rightarrow Q)$ et   
+ $(\overline{P} \text{ ou } Q)$ ont la même valeur de vérité.
+
+L'implication est un connecteur logique binaire défini par la table de vérité :
+
+\begin{center}
+\begin{tabular}{c|c|c}
+$P$ & $Q$ & $P \Rightarrow Q$ \\ \hline
+V & V & V \\
+V & F & F \\
+F & V & V \\
+F & F & V
+\end{tabular}
+\end{center}
+
+\subsection{Applications}
+
+1. Déterminer la valeur de vérité des propositions suivantes :
+
+    \begin{itemize}
+        \item $P_1: (13 \text{ est premier}) \Rightarrow (36 \text{ est divisible par 13})$
+        \item $P_2: (47 \text{ est premier}) \Rightarrow (47 \text{ est impair})$
+    \end{itemize}
+
+Soit $x$ et $y$ deux réels non nuls.
+
+On considère les deux propositions $P: 2x + 4y = 1$ et $Q: x^2 + y^2 \leq 20$.
+
+2. Montrer que $P \Rightarrow Q$.
+
+Soit $a$ et $b$ deux réels.
+
+3. Montrer que : $(|a| < 1 \text{ et } |b| < 1) \Rightarrow |a + b| < |1 + ab|$.
+
+Soit $x$ un nombre réel.
+
+4. Montrer les implications suivantes :
+
+    \begin{align*}
+        \sqrt{x^2 + 1} - x = 2 &\Rightarrow \sqrt{x^2 + 1} + x = \frac{1}{2} \\
+        |x| + |x - 1| = x &\Rightarrow x = 1
+    \end{align*}
+
+Soit $x, y, z$ trois réels dont l'un est nul et les deux autres sont de signes contraires.
+
+On suppose que les réels $x, y, z$ vérifient les implications suivantes :
+
+    \begin{align*}
+        x = 0 &\Rightarrow y = 0 \\
+        x > 0 &\Rightarrow y < 0 \\
+        y \neq 0 &\Rightarrow z > 0
+    \end{align*}
+
+5. Déterminer parmi ces nombres celui qui est nul puis celui qui est strictement positif.
+
+6. a) Montrer que : $(\forall a \in ]1, +\infty[) \frac{a^2}{a - 1} \geq 4$   
+
+
+   b) En déduire que pour tous $a$ et $b$ de l'intervalle $]1, +\infty[$, on a : $\frac{a^3}{b - 1} + \frac{b^2}{a - 1} \geq 8$
+
+Soit $(x, y) \in \mathbb{R}^2$ tel que $|x| \leq 1$ et $|y| \leq 1$.
+
+7. Montrer que : $\sqrt{1 - x^2} + \sqrt{1 - y^2} \leq 2\sqrt{1 - \left(\frac{x + y}{2}\right)^2}$
+
+\section{3-5/ Condition suffisante - condition nécessaire}
+
+\subsection{Proposition}
+Les deux propositions suivantes sont vraies:
+
+\begin{align*}
+    [(\forall x \in E); A(x) \Rightarrow B(x)] &\Rightarrow [((\forall x \in E); A(x)) \Rightarrow ((\forall x \in E); B(x))] \\
+    [(\exists x \in E)(\forall y \in F) A(x, y)] &\Rightarrow [(\forall y \in F)(\exists x \in E) A(x, y)]
+\end{align*}   
+
+
+\section{3-6/ Équivalence de deux propositions}
+
+\subsection{Définition}
+
+L'équivalence de deux propositions $P$ et $Q$ est la proposition qu'on note $(P \Leftrightarrow Q)$. Elle est vraie seulement si $P$ et $Q$ ont la même valeur de vérité; c'est-à-dire toutes les deux sont simultanément vraies ou simultanément fausses.
+
+Les deux propositions $(P \Leftrightarrow Q)$ et $[(P \Rightarrow   
+ Q) \text{ et } (Q \Rightarrow P)]$ ont la même valeur de vérité.
+
+L'équivalence est un connecteur logique binaire défini par la table de vérité:   
+
+
+\begin{center}
+\begin{tabular}{c|c|c}
+$P$ & $Q$ & $P \Leftrightarrow Q$ \\ \hline
+V & V & V \\
+V & F & F \\
+F & V & F \\
+F & F & V
+\end{tabular}
+\end{center}
+
+\subsection{Remarques}
+
+La notation $(P \Leftrightarrow Q)$ se lit «$P$ est équivalent à $Q$» ou «$P$ équivaut à $Q$» et correspond en français à la phrase «$P$ si et seulement si $Q$».
+
+Les propositions $(P \Leftrightarrow Q)$ et $(Q \Leftrightarrow P)$ ont la même table de vérité. On dit que l'équivalence est une opération commutative.
+
+On s'intéresse plus souvent aux équivalences vraies qu'aux fausses. En pratique, on écrira   
+ $P \Leftrightarrow Q$ uniquement lorsqu'il s'agit d'une assertion vraie. Autrement dit, si l'on écrit $P \Leftrightarrow Q$, cela sous-entend $(P \Leftrightarrow Q)$ est vraie.
+
+Les expressions «condition nécessaire et suffisante», «si et seulement si», «il faut et il suffit» signifient toutes «équivalent» ou «encore».
+
+En pratique, dans une rédaction, on n'emploiera jamais les symboles $\Leftrightarrow$ et $\equiv$. Le seul endroit où le symbole $\Leftrightarrow$ est toléré, c'est dans les résolutions d'équations ou d'inéquations.
+
+On préférera l'emploi de mots de français: conjonctions de coordination (mais, ou, et, donc, or, car), conjonctions de subordination (parce que, si, puisque, ...) ou adverbes (ainsi,   
+ cependant, ...).
+
+\subsection{Proposition}
+
+Soit $P$, $Q$, et $R$ trois propositions. Alors:
+
+\[[(P \Leftrightarrow Q) \text{ et } (Q \Leftrightarrow R)] \Rightarrow (P \Leftrightarrow R)\]
+
+On dit que l'équivalence est une relation transitive.   
+
+
+\subsection{Généralisation}
+Soit $P, R_1, R_2, ..., R_n$ et $Q$ des propositions. Alors:
+
+\[[(P \Leftrightarrow R_1) \text{ et } (R_1 \Leftrightarrow R_2) \text{ et ... et } (R_n \Leftrightarrow Q)] \Rightarrow (P \Leftrightarrow Q)\]
+
+Pratiquement, pour montrer qu'une proposition $P$ est vraie, on montre que les équivalences successives $P \Leftrightarrow R_1$,   
+ $R_1 \Leftrightarrow R_2$, ..., et $R_n \Leftrightarrow Q$ sont vraies et que la proposition $Q$ est vraie. Par conséquent, la proposition $P$ est vraie. Ce type de raisonnement s'appelle «raisonnement par équivalences successives».
+
+\subsection{Applications}
+
+Soient $a$ et $b$ deux réels positifs.
+
+1. Montrer que:
+   \[\frac{a}{\sqrt{a^2 + 1}} < \frac{b}{\sqrt{b^2 + 1}} \Leftrightarrow a < b\]
+
+2. Montrer que:
+   \[a\sqrt{1 + a^2} = b\sqrt{1 + b^2} \Leftrightarrow a = b\]
+
+Soit $(x, y) \in \mathbb{R}^2$ tel que $x \geq 1$ et $y \geq 4$.
+
+3. Montrer que:
+   \[\sqrt{x - 1} + 2\sqrt{y - 4} = \frac{x + y}{2} \Leftrightarrow (x = 2 \text{ et } y = 8)\]
+
+Soit $(x, y) \in \mathbb{R}^2$.
+
+4. Établir les équivalences suivantes:
+
+   \begin{align*}
+       |x + y| \leq \sqrt{x^2 + 1} + \sqrt{y^2 + 1} &\Leftrightarrow |\sqrt{x^2 + 1} - \sqrt{y^2 + 1}| \leq |x - y| \\
+       (x + y)(x - y)^2 < 0 &\Leftrightarrow (x + y)^3 > 4(x^3 + y^3)
+   \end{align*}
+
+Soit $x, y, z$ trois réels strictement positifs.
+
+5. Établir les équivalences suivantes:
+
+   \begin{align*}
+       \frac{x}{y} < \frac{y}{z} < \frac{z}{x} &\Leftrightarrow \frac{x^2 + y^2 - z^2}{xy} < 2 \\
+       |x - y| < z < x + y &\Leftrightarrow \left|\frac{x^2 + y^2 - z^2}{xy}\right| < 2
+   \end{align*}
+
+\subsection{Proposition}
+
+Les deux propositions suivantes sont vraies:
+
+\begin{align*}
+    [(\forall x \in E); A(x) \text{ et } B(x)] &\Leftrightarrow [(\forall x \in E); A(x)] \text{ et } [(\forall x \in E); B(x)] \\
+    [(\exists x \in E); A(x) \text{ ou } B(x)] &\Leftrightarrow [(\exists x \in E); A(x)] \text{ ou } [(\exists x \in E); B(x)]
+\end{align*}   
+
+
+\subsection{Remarques}
+
+La proposition $[(\exists x \in E); A(x) \text{ et } B(x)] \Rightarrow [(\exists x \in E); A(x)] \text{ et } [(\exists x \in E); B(x)]]$ n'est pas toujours vraie comme le montre l'exemple suivant:
+
+Considérons les deux propositions suivantes:   
+
+
+\begin{align*}
+    P: (\exists x \in \mathbb{R}); \cos x = 0 \text{ et } \sin x = 0 \\
+    Q: (\exists x \in \mathbb{R}); \cos x = 0 \text{ et } \sin x \neq 0
+\end{align*}
+
+La proposition $P$ est vraie car $0$ est un réel $x$ tel que $\cos x = 0$ et $0$ est un réel $x$ tel que $\sin x = 0$. Ainsi, dans les deux affirmations $(\exists x \in \mathbb{R}); \cos x = 0$ et $(\exists x \in \mathbb{R}); \sin x = 0$, la lettre $x$ utilisée deux fois ne désigne pas forcément un même nombre. La   
+ proposition $Q$ est évidemment   
+ fausse car pour tout $x \in \mathbb{R}: \cos^2 x + \sin^2 x = 1 \neq 0$.
+
+En pratique, pour montrer que $P \Leftrightarrow Q$, on peut utiliser un des raisonnements suivants:   

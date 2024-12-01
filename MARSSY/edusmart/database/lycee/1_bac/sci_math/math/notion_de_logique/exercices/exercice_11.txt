@@ -1,0 +1,12 @@
+\section*{Exercice 11}
+
+Montrer que pour tout $x \in \mathbb{R}: |x - 1| \leq x^2 - x + 1$.
+
+\textbf{Solution:} Soit $x \in \mathbb{R}$. Nous distinguons deux cas :
+
+1. Si $x > 1$, alors $|x - 1| = x - 1$.
+2. Si $x < 1$, alors $|x - 1| = -(x - 1)$.
+
+Dans tous les cas, $x^2 - x + 1 \geq |x - 1|$.
+
+\end{document}

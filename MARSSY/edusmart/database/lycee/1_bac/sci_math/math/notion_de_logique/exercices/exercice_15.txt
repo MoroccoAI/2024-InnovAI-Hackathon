@@ -1,0 +1,19 @@
+\section*{Exercice 15}
+Résoudre dans $\mathbb{R}$ l'équation :
+\[
+x^2 - |x-2| + 5 = 0.
+\]
+\textbf{Solution :} Soit $S$ l'ensemble des solutions. On distingue deux cas :
+\begin{itemize}
+    \item Si $x \geq 2$, alors $|x-2| = x-2$. L'équation devient :
+    \[
+    x^2 - (x-2) + 5 = 0 \implies x^2 - x + 7 = 0.
+    \]
+    Le discriminant $\Delta = -27 < 0$, donc $S_1 = \emptyset$.
+    \item Si $x < 2$, alors $|x-2| = -(x-2) = -x+2$. L'équation devient :
+    \[
+    x^2 - (-x+2) + 5 = 0 \implies x^2 + x + 3 = 0.
+    \]
+    Le discriminant $\Delta = -11 < 0$, donc $S_2 = \emptyset$.
+\end{itemize}
+Finalement : $S = S_1 \cup S_2 = \emptyset$.

@@ -1,0 +1,7 @@
+\textbf{Exercice 30:} Montrer que La proposition suivante est fausse:
+
+``Tout entier positif est somme de trois carrés''
+
+(Les carrés sont les $0^2$, $1^2$, $2^2$, $3^2$ .... Par exemple $6 = 1^2 + 1^2 + 2^2$.)
+
+Démonstration. Un contre exemples: les carrés inférieurs à 7 sont 0,1,4 mais avec trois de ces nombres on ne peut faire 7.

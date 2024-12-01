@@ -1,0 +1,13 @@
+\section*{Exercice 7}
+
+Montrer que si $a \in \mathbb{Q}$ et $b \in \mathbb{Q}$ alors $a + b \in \mathbb{Q}$.
+
+\textbf{Solution:} Prenons $a \in \mathbb{Q}$ et $b \in \mathbb{Q}$. Rappelons que les rationnels $\mathbb{Q}$ sont l’ensemble des réels s’écrivant $\frac{p}{q}$ avec $p \in \mathbb{Z}$ et $q \in \mathbb{N}^*$.
+
+Alors $a = \frac{p}{q}$ avec $p \in \mathbb{Z}$ et $q \in \mathbb{N}^*$. De même $b = \frac{p'}{q'}$ avec $p' \in \mathbb{Z}$ et $q' \in \mathbb{N}^*$ donc 
+
+\[
+a + b = \frac{p}{q} + \frac{p'}{q'} = \frac{p \cdot q' + q \cdot p'}{q \cdot q'}
+\]
+
+Or le numérateur $p \cdot q' + q \cdot p'$ est un élément de $\mathbb{Z}$ ; le dénominateur $q \cdot q'$ est lui un élément de $\mathbb{N}^*$. Donc $a + b$ s’écrit bien de la forme $\frac{p''}{q''}$ avec $p'' \in \mathbb{Z}$ et $q'' \in \mathbb{N}^*$. Ainsi $a + b \in \mathbb{Q}$.

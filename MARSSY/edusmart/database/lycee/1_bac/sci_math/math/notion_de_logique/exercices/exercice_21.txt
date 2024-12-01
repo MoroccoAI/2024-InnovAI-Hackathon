@@ -1,0 +1,16 @@
+\textbf{Exercice 21:} Soit $n \in \mathbb{N}$ et $p \in \mathbb{N}$
+
+Montrer que $n \times p$ est pair ou $n^2 - p^2$ est un multiple de 8.
+
+\textbf{Solution:}
+\begin{itemize}
+\item Si n ou p sont pairs alors $n \times p$ est pair
+\item Si ni n ni p sont impairs alors\\
+$n = 2k+1$ et $p = 2k'+1$ avec $k \in \mathbb{N}, k' \in \mathbb{N}$
+\end{itemize}
+
+Donc $n^2 - p^2 = (2k+1)^2 - (2k'+1)^2$
+
+$n^2 - p^2 = 4(k(k+1)-k'(k'+1))$ et on a: $m(m+1)$ est pair
+
+$n^2 - p^2 = 4(2\alpha-2\beta) = 8(\alpha-\beta) = 8k''$ donc $n^2 - p^2$ est un multiple de 8.

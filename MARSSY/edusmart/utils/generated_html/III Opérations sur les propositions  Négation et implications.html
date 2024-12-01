@@ -1,0 +1,118 @@
+
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>III. Opérations sur les propositions : Négation et implications</title>
+        <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$', '$$']],
+                packages: ['base', 'ams', 'noerrors', 'noundefined']
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+        </script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #f8f9fa;
+            }
+            .mjx-chtml {
+                margin: 1em 0;
+                overflow-x: auto;
+                padding: 10px;
+            }
+            ul {
+                margin-left: 20px;
+                padding-left: 20px;
+            }
+            h1, h2, h3, h4 {
+                color: #2c3e50;
+                margin-top: 1.5em;
+            }
+            h1 { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; }
+            h2 { border-bottom: 1px solid #2c3e50; padding-bottom: 5px; }
+            strong { color: #2c3e50; }
+        </style>
+    </head>
+    <body>
+    <h1>III. Opérations sur les propositions : Négation et implications</h1>
+
+<h2>Comprendre la négation des propositions</h2>
+
+La négation d&#x27;une proposition $P$ est notée $\neg P$ ou $\overline{P}$. Elle est vraie lorsque $P$ est fausse et fausse lorsque $P$ est vraie. La négation est essentielle en logique pour construire des raisonnements rigoureux, comme le raisonnement par contre-exemple.
+
+<h3>Exemple 1 : Négation d&#x27;un quantificateur universel</h3>
+Soit $P(x)$ une fonction propositionnelle d&#x27;une variable $x \in \mathbb{R}$. La négation de la proposition $(\forall x \in \mathbb{R}) P(x)$ est $(\exists x \in \mathbb{R}) \neg P(x)$.
+
+<h4>Illustration</h4>
+Proposition : $(\forall x \in \mathbb{R}); x^2 + 1 \geq 2$.
+
+<strong>Négation</strong> : $(\exists x \in \mathbb{R}); x^2 + 1 < 2$.
+
+Pour vérifier, cherchons un $x \in \mathbb{R}$ qui satisfait $x^2 + 1 &lt; 2$ :
+$$x^2 < 1 \Rightarrow x \in ]-1, 1[.$$
+Cela confirme que la proposition originale est fausse car la négation est vraie.
+
+<h3>Exemple 2 : Négation d&#x27;un quantificateur existentiel</h3>
+La négation de $(\exists x \in \mathbb{R}) P(x)$ est $(\forall x \in \mathbb{R}) \neg P(x)$.
+
+<h4>Illustration</h4>
+Proposition : $(\exists x \in \mathbb{R}^+); x^2 - 4x + 3 = 0$.
+
+<strong>Négation</strong> : $(\forall x \in \mathbb{R}^+); x^2 - 4x + 3 \neq 0$.
+
+Vérifions la proposition originale :
+Résolvons $(\exists x \in \mathbb{R}) \neg P(x)$0 :
+$(\exists x \in \mathbb{R}) \neg P(x)$1
+Puisque des solutions existent dans $\mathbb{R}^+$, la proposition originale est vraie.
+
+<h2>Applications des implications logiques</h2>
+
+Une implication $(\exists x \in \mathbb{R}) \neg P(x)$2 est une proposition vraie sauf si $P$ est vraie et $Q$ est fausse. On peut également écrire $(\exists x \in \mathbb{R}) \neg P(x)$3 comme $(\exists x \in \mathbb{R}) \neg P(x)$4.
+
+<h3>Exemple : Résolution d&#x27;équations</h3>
+Soit $x, y \in \mathbb{R}$, les propositions suivantes :
+$(\exists x \in \mathbb{R}) \neg P(x)$5
+
+Démontrons que $(\exists x \in \mathbb{R}) \neg P(x)$6.
+<ul>
+    <li> <strong>Hypothèse :</strong> $P$ est vraie, donc $2x + 4y = 1$.
+    <li> <strong>Démonstration :</strong> Isolons $y$ en fonction de $x$ :
+    $(\exists x \in \mathbb{R}) \neg P(x)$7
+    Substituons dans $x^2 + y^2$ :
+    $(\exists x \in \mathbb{R}) \neg P(x)$8
+    Développons et simplifions :
+    $(\exists x \in \mathbb{R}) \neg P(x)$9
+    Pour que $(\forall x \in \mathbb{R}); x^2 + 1 \geq 2$0, vérifions les bornes de $x$ qui satisfont cette inégalité.
+</ul>
+
+<h2>Exercice pratique</h2>
+
+<strong>Exercice 1 :</strong> Montrer que la proposition $(\forall x \in \mathbb{R}); x^2 + 1 \geq 2$1 est toujours vraie.
+
+<strong>Exercice 2 :</strong> Résolvez les systèmes suivants en utilisant les propriétés logiques :
+$$
+(S_1): &amp;\begin{cases}
+    x^2 - y^2 = 0, \
+    2x^2 + y^2 = 3.
+\end{cases} \
+(S_2): &amp;\begin{cases}
+    xy - x + y = 1, \
+    2x^2 - xy - y = 0.
+\end{cases}
+$$
+
+Ce cours vise à renforcer la compréhension des négations et des implications tout en offrant des opportunités de pratique.
+    </body>
+    </html>
+    

@@ -1,0 +1,11 @@
+\textbf{Exercice 28:} Montrer que La proposition
+$P: \left(\forall x \in \mathbb{R}\right)\left(\forall y \in \mathbb{R}\right): x^2 + y^2 \geq x + y$ est fausse:
+
+\textbf{Solution:} sa négation est:
+$\overline{P}: \left(\exists x \in \mathbb{R}\right)\left(\exists y \in \mathbb{R}\right): x^2 + y^2 < x + y$
+
+On posant: $x = 1$ et $y = \frac{1}{2}$ on aura: $1^2 + \left(\frac{1}{2}\right)^2 < 1 + \frac{1}{2}$
+
+c a d $\frac{5}{4} < \frac{6}{4}$ donc La proposition $\overline{P}$ est vraie
+
+donc $P$ est fausse

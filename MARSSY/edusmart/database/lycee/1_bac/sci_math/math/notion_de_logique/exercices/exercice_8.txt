@@ -1,0 +1,16 @@
+\section*{Exercice 8}
+
+On considère la fonction définie sur $\mathbb{R} - \{-\frac{1}{2}\}$ par :
+
+\[
+f(x) = \frac{x + 2}{2x + 1}
+\]
+
+Montrer que :
+\[
+|x - 1| < \frac{1}{2} \implies |x - 1| \leq |f(x) - f(1)| \leq \frac{1}{2} |x - 1|
+\]
+
+\textbf{Solution:}
+
+$|x - 1| < \frac{1}{2} \implies -\frac{1}{2} < x - 1 < \frac{1}{2} \implies \frac{1}{2} < x < \frac{3}{2}$.

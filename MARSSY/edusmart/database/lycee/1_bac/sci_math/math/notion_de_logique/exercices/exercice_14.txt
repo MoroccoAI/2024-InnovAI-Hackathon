@@ -1,0 +1,17 @@
+\section*{Exercice 14}
+Montrer que pour tout $x \in \mathbb{R}$ :
+\[
+\sqrt{x^2+1} + x > 0.
+\]
+\textbf{Solution :} Soit $x \in \mathbb{R}$. On distingue deux cas :
+\begin{itemize}
+    \item Si $x \geq 0$, alors $x^2 \geq 0$ donc $\sqrt{x^2+1} > 1$. Ainsi :
+    \[
+    \sqrt{x^2+1} + x > 1 + x > 0.
+    \]
+    \item Si $x < 0$, alors $\sqrt{x^2+1} > -x$. Ainsi :
+    \[
+    \sqrt{x^2+1} + x > -x + x = 0.
+    \]
+\end{itemize}
+Donc $\forall x \in \mathbb{R}, \sqrt{x^2+1} + x > 0$.

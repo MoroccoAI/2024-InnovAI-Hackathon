@@ -1,0 +1,8 @@
+\textbf{Exercice 27:} Montrer que La proposition
+$P: \left(\forall x \in [0,1]\right): x^2 \geq x$ est fausse:
+
+\textbf{Solution:} sa négation est: $\overline{P}: \left(\exists x \in [0,1]\right): x^2 < x$
+
+On posant: $x = \frac{1}{2}$ on aura: $\left(\frac{1}{2}\right)^2 < \frac{1}{2}$ donc La proposition
+
+$\overline{P}$ est vraie donc $P$ est fausse

@@ -1,0 +1,7 @@
+\section*{Exercice 9}
+
+Montrer que : $n \in \mathbb{N} \implies \frac{n + 1}{n + 2} \notin \mathbb{N}$.
+
+\textbf{Solution:}
+
+On a : $n \in \mathbb{N}$ donc $n + 1 < n + 2$ donc $0 < \frac{n + 1}{n + 2} < 1$ donc $\frac{n + 1}{n + 2} \notin \mathbb{N}$.

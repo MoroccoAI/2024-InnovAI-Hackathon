@@ -1,0 +1,22 @@
+\section*{Exercice 16}
+Montrer que $n(n+1)(n+2)$ est un multiple de $3$ pour tout $n \in \mathbb{N}$.
+
+\textbf{Solution :} Soit $n \in \mathbb{N}$. Trois cas sont possibles :
+\begin{itemize}
+    \item Si $n = 3k$, alors :
+    \[
+    n(n+1)(n+2) = 3k(3k+1)(3k+2) = 3k'.
+    \]
+    Avec $k' = k(3k+1)(3k+2)$, donc $n(n+1)(n+2)$ est un multiple de $3$.
+    \item Si $n = 3k+1$, alors :
+    \[
+    n(n+1)(n+2) = (3k+1)(3k+2)(3k+3) = 3k''.
+    \]
+    Avec $k'' = (3k+1)(3k+2)(k+1)$, donc $n(n+1)(n+2)$ est un multiple de $3$.
+    \item Si $n = 3k+2$, alors :
+    \[
+    n(n+1)(n+2) = (3k+2)(3k+3)(3k+4) = 3k'''.
+    \]
+    Avec $k''' = (3k+2)(k+1)(3k+4)$, donc $n(n+1)(n+2)$ est un multiple de $3$.
+\end{itemize}
+Conclusion : $\forall n \in \mathbb{N}, n(n+1)(n+2)$ est un multiple de $3$.
