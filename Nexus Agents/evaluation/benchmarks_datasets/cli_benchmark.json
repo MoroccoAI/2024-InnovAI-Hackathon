@@ -1,0 +1,171 @@
+{
+    "benchmark_data": [
+      {
+        "id": 1,
+        "complexity": "easy",
+        "query": "Create a new directory called 'project-alpha'",
+        "expected_command": "mkdir project-alpha",
+        "expected_output": "Directory 'project-alpha' created successfully"
+      },
+      {
+        "id": 2,
+        "complexity": "easy",
+        "query": "List all files in the current directory including hidden ones",
+        "expected_command": "ls -la",
+        "expected_output": "Detailed listing of all files and directories"
+      },
+      {
+        "id": 3,
+        "complexity": "medium",
+        "query": "Find all Python files modified in the last 24 hours",
+        "expected_command": "find . -name '*.py' -mtime -1",
+        "expected_output": "List of recently modified Python files"
+      },
+      {
+        "id": 4,
+        "complexity": "complex",
+        "query": "Create a tar archive of all .js files, excluding node_modules directory",
+        "expected_command": "tar -czf javascript_files.tar.gz --exclude='node_modules' $(find . -name '*.js')",
+        "expected_output": "Archive created successfully"
+      },
+      {
+        "id": 5,
+        "complexity": "medium",
+        "query": "Find all processes using more than 100MB of memory",
+        "expected_command": "ps aux | awk 'NR>1 && $6>102400'",
+        "expected_output": "List of memory-intensive processes"
+      },
+      {
+        "id": 6,
+        "complexity": "complex",
+        "query": "Replace all occurrences of 'error' with 'warning' in all .log files recursively",
+        "expected_command": "find . -type f -name '*.log' -exec sed -i 's/error/warning/g' {} +",
+        "expected_output": "Text replacement completed in log files"
+      },
+      {
+        "id": 7,
+        "complexity": "easy",
+        "query": "Show disk usage of current directory, sorted by size",
+        "expected_command": "du -sh * | sort -hr",
+        "expected_output": "Sorted list of directory sizes"
+      },
+      {
+        "id": 8,
+        "complexity": "medium",
+        "query": "Kill all Python processes running on the system",
+        "expected_command": "pkill -f python",
+        "expected_output": "Python processes terminated"
+      },
+      {
+        "id": 9,
+        "complexity": "complex",
+        "query": "Find duplicate files in the current directory based on content",
+        "expected_command": "find . -type f -exec md5sum {} \\; | sort | uniq -d -w32",
+        "expected_output": "List of duplicate files"
+      },
+      {
+        "id": 10,
+        "complexity": "medium",
+        "query": "Create a backup of all .env files with timestamp in filename",
+        "expected_command": "find . -name '.env' -exec cp {} {}_backup_$(date +%Y%m%d_%H%M%S) \\;",
+        "expected_output": "Backup files created with timestamps"
+      },
+      {
+        "id": 11,
+        "complexity": "complex",
+        "query": "Monitor system load and alert if CPU usage exceeds 80%",
+        "expected_command": "while true; do if [ $(top -bn1 | grep 'Cpu(s)' | awk '{print $2}' | cut -d. -f1) -gt 80 ]; then echo 'High CPU usage detected!'; fi; sleep 5; done",
+        "expected_output": "Monitoring active, alerts shown when threshold exceeded"
+      },
+      {
+        "id": 12,
+        "complexity": "easy",
+        "query": "Show the last 100 lines of error.log and follow new entries",
+        "expected_command": "tail -f -n 100 error.log",
+        "expected_output": "Continuous display of log entries"
+      },
+      {
+        "id": 13,
+        "complexity": "medium",
+        "query": "Find all empty directories in the project and remove them",
+        "expected_command": "find . -type d -empty -delete",
+        "expected_output": "Empty directories removed"
+      },
+      {
+        "id": 14,
+        "complexity": "complex",
+        "query": "Create a zip archive of all files modified today, maintaining directory structure",
+        "expected_command": "find . -type f -mtime 0 -print0 | xargs -0 zip -r today_changes.zip",
+        "expected_output": "Archive created with today's changes"
+      },
+      {
+        "id": 15,
+        "complexity": "medium",
+        "query": "Show all open ports and the processes using them",
+        "expected_command": "netstat -tulpn",
+        "expected_output": "List of open ports and associated processes"
+      },
+      {
+        "id": 16,
+        "complexity": "complex",
+        "query": "Find all files larger than 100MB and move them to a 'large_files' directory",
+        "expected_command": "mkdir -p large_files && find . -type f -size +100M -exec mv {} large_files/ \\;",
+        "expected_output": "Large files moved to dedicated directory"
+      },
+      {
+        "id": 17,
+        "complexity": "easy",
+        "query": "Check the current git branch and its status",
+        "expected_command": "git status",
+        "expected_output": "Git repository status information"
+      },
+      {
+        "id": 18,
+        "complexity": "complex",
+        "query": "Find all broken symbolic links in the system and remove them",
+        "expected_command": "find . -type l ! -exec test -e {} \\; -delete",
+        "expected_output": "Broken symbolic links removed"
+      },
+      {
+        "id": 19,
+        "complexity": "medium",
+        "query": "Show system memory usage in a human-readable format",
+        "expected_command": "free -h",
+        "expected_output": "Memory usage statistics"
+      },
+      {
+        "id": 20,
+        "complexity": "complex",
+        "query": "Find files containing the text 'TODO' and show the lines with file names and line numbers",
+        "expected_command": "grep -rn 'TODO' .",
+        "expected_output": "List of TODOs with locations"
+      }
+    ],
+    "metadata": {
+      "version": "1.0",
+      "created_date": "2024-12-01",
+      "description": "Benchmark dataset for evaluating CLI agent capabilities",
+      "complexity_distribution": {
+        "easy": 5,
+        "medium": 7,
+        "complex": 8
+      },
+      "categories": [
+        "file operations",
+        "system monitoring",
+        "text processing",
+        "process management",
+        "archive operations",
+        "git operations",
+        "search operations"
+      ],
+      "command_types": {
+        "file_management": ["ls", "mkdir", "cp", "mv", "rm", "find"],
+        "system_monitoring": ["ps", "top", "free", "netstat"],
+        "text_processing": ["grep", "sed", "awk"],
+        "archive_operations": ["tar", "zip"],
+        "process_management": ["kill", "pkill"],
+        "git_operations": ["git"]
+      }
+    }
+  }

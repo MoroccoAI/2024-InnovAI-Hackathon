@@ -1,0 +1,200 @@
+{
+    "benchmark_data": [
+      {
+        "id": 1,
+        "complexity": "easy", 
+        "query": "What is the capital of Morocco?",
+        "expected_answer": "Rabat is the capital city of Morocco."
+      },
+      {
+        "id": 2,
+        "complexity": "easy",
+        "query": "Who invented Python programming language?",
+        "expected_answer": "Guido van Rossum created the Python programming language, first releasing it in 1991."
+      },
+      {
+        "id": 3,
+        "complexity": "medium",
+        "query": "What are the latest features in Python 3.12?",
+        "expected_answer": "Python 3.12 introduces several key enhancements:\n\n## Core Features\n- More flexible f-string parsing with support for nested quotes, multi-line expressions, and comments[1][2]\n- Support for isolated subinterpreters with separate Global Interpreter Locks[1]\n- Enhanced error messages with better suggestions for typos and missing imports[1]\n- Performance improvements delivering roughly 5% overall speed increase[1]\n\n## Type System Improvements\n- New type annotation syntax for generic classes[1]\n- New @override decorator for methods[1]\n- Improved TypedDict support for kwargs typing[2]\n\n## Performance Optimizations\n- Comprehension inlining, making list/dict/set comprehensions up to 2x faster[4]\n- Support for the Linux perf profiler to report Python function names[1]\n- New debugging/profiling API[1]\n\n## Notable Deprecations\n- Removed deprecated smtpd and distutils modules[1]\n- Invalid backslash escape sequences now trigger SyntaxWarning instead of DeprecationWarning[1]\n\nCitations:\n[1] https://www.python.org/downloads/release/python-3127/\n[2] https://www.geeksforgeeks.org/python-3-12-new-features/\n[3] https://www.python.org/downloads/release/python-3120/\n[4] https://www.infoworld.com/article/2338514/the-best-new-features-and-fixes-in-python-3-12.html\n[5] https://www.python.org/downloads/release/python-3126/\n[6] https://testdriven.io/blog/python312/"
+      },
+      {
+        "id": 4,
+        "complexity": "complex",
+        "query": "Compare the energy efficiency of Tesla Model 3 vs Toyota Prius 2024",
+        "expected_answer": "The Tesla Model 3 RWD achieves 4.4 miles per kWh in real-world testing, while the 2024 Toyota Prius Prime has a combined fuel economy of 4.5 L/100km in hybrid mode. The Prius Prime offers 72 km of pure electric range and a total combined range of 962 km. Direct comparison is challenging due to different energy sources used by each vehicle."
+      },
+      {
+        "id": 5,
+        "complexity": "medium",
+        "query": "What are the most popular cloud hosting providers for Django applications in 2024?",
+        "expected_answer": "The top Django hosting providers in 2024 are:\n\nMajor Providers:\n- AWS: Offers comprehensive services including data storage, content delivery, and database management\n- Azure: Provides robust infrastructure especially suited for high-traffic websites with billions of monthly requests\n- DigitalOcean: Popular for its simplicity, cost-effectiveness, and developer-friendly features, with prices starting at $4/month\n\nNotable Mentions:\n- Hetzner: Excellent for small Django projects with NVMe SSD storage and 20TB monthly bandwidth\n- A2 Hosting: Offers both managed and unmanaged plans with root access and SSD storage"
+      },
+      {
+        "id": 6,
+        "complexity": "complex",
+        "query": "What are the latest breakthroughs in large language models in 2024?",
+        "expected_answer": "Recent breakthroughs in Large Language Models include:\n\nOpenAI GPT-4 o1:\n- Implements more computation at inference time rather than just training\n- Shows improved performance in complex, multistep reasoning\n- Better at generating detailed code and structured content\n\nNew Developments:\n- Multimodal capabilities allowing processing of text and images\n- Massive Sparse Expert Models (MSEMs) reducing computational costs\n- Improved contextual understanding and memory enhancement"
+      },
+      {
+        "id": 7,
+        "complexity": "medium",
+        "query": "What is the current stable version of React and its new features?",
+        "expected_answer": "The current React version is 19.0.0-rc.1 (Release Candidate) as of November 14, 2024. New features in React 19 include:\n- Actions and new hooks (useActionState, useFormStatus, useOptimistic)\n- Server Components and Server Actions\n- Improved Context API\n- Enhanced hydration diffs\n- Support for document metadata\n- Improved error reporting\n\nThe React team has also introduced React Compiler Beta and hosted React Conf 2024."
+      },
+      {
+        "id": 8,
+        "complexity": "complex",
+        "query": "What are the most widely adopted authentication standards for microservices in 2024?",
+        "expected_answer": "The most widely adopted authentication standards for microservices in 2024 include:\n\n**Token-Based Authentication:**\n- JWT (JSON Web Tokens) remains the most popular choice for stateless authentication between services\n- OAuth 2.0 with OpenID Connect for third-party authorization and federated identities\n\n**Deployment Strategies:**\n- Edge-Level Authorization using API Gateways for centralized authentication\n- Service-Level Authorization for granular control over individual services\n- External Entity Identity Propagation for user context-based decisions\n\n**Enterprise Solutions:**\n- Centralized Identity Providers (IdPs) like Auth0 and Okta\n- Mutual TLS (mTLS) for high-security service-to-service communication"
+      },
+      {
+        "id": 9,
+        "complexity": "easy",
+        "query": "What is the current version of Node.js LTS?",
+        "expected_answer": "Node.js 22.11.0 'Jod' is the current LTS version, released on October 29, 2024. Key details:\n- Will remain in \"Active LTS\" until October 2025\n- Moves to \"Maintenance\" phase until April 2027\n- Includes OpenSSL 3.0.x support until September 2026"
+      },
+      {
+        "id": 10,
+        "complexity": "medium",
+        "query": "What are the latest Docker security best practices in 2024?",
+        "expected_answer": "Latest Docker security best practices in 2024:\n\n**Container Security:**\n- Run containers with non-root users to limit access levels\n- Implement user ID namespace segregation\n- Keep images updated with latest security patches\n\n**Image Security:**\n- Use trusted sources and official images\n- Implement vulnerability scanning using tools like Trivy or Snyk\n- Scan for hidden secrets in Dockerfile and image layers"
+      },
+      {
+        "id": 11,
+        "complexity": "complex",
+        "query": "What are the latest statistics on renewable energy adoption worldwide?",
+        "expected_answer": "Global renewable capacity is experiencing significant growth:\n- Projected to reach 940 GW annually by 2030\n- Solar PV and wind account for 95% of capacity growth\n- Nearly 70 countries are on track to meet their 2030 renewable targets\n\n**Regional Leaders:**\n- China dominates global capacity growth\n- India shows fastest growth rate among large economies\n- US growth driven by Inflation Reduction Act tax credits"
+      },
+      {
+        "id": 12,
+        "complexity": "medium",
+        "query": "What are the most popular distributed database systems in 2024?",
+        "expected_answer": "**Top Solutions:**\n- Apache Ignite: Excels in transactional and analytical workloads\n- Apache Cassandra: Leading choice for handling extensive data across servers\n- TiDB: Notable for horizontal scalability and HTAP capabilities\n\n**Key Features:**\n- Support for high availability and fault tolerance\n- Real-time data processing capabilities\n- Cloud-native architecture integration"
+      },
+      {
+        "id": 13,
+        "complexity": "complex",
+        "query": "What are the latest PostgreSQL performance optimization techniques?",
+        "expected_answer": "**Hardware Optimization:**\n- Multi-core processors for parallel query execution\n- SSDs for faster read/write operations\n- RAID 10 configuration for improved disk I/O performance\n\n**Configuration Tuning:**\n- Adjust shared_buffers for memory allocation\n- Optimize maintenance_work_mem for index creation\n- Configure checkpoint_timeout and checkpoint_completion_target for WAL management\n\n**Query Optimization:**\n- Utilize advanced indexing (B-tree, GIN, GiST)\n- Replace subqueries with JOINs for better execution plans\n- Implement materialized views for complex queries"
+      },
+      {
+        "id": 14,
+        "complexity": "easy",
+        "query": "What is the latest NVIDIA GPU driver version for Ubuntu?",
+        "expected_answer": "The current stable NVIDIA driver version for Ubuntu is 535.146.02. Installation can be done through:\n- Software & Updates GUI\n- Command line using apt\n- Manual installation using the .run file"
+      },
+      {
+        "id": 15,
+        "complexity": "medium",
+        "query": "What are the new features in Kubernetes 1.29?",
+        "expected_answer": "**Storage Improvements:**\n- ReadWriteOncePod access mode now in GA\n- VolumeAttributesClass for standardized volume attributes (alpha)\n- Authenticated storage volume resizing reaches GA\n\n**Windows Support:**\n- Image pulling according to runtime class\n- In-place updates for Windows pod resources\n- Enhanced Windows container support\n\n**Cloud Integration Changes:**\n- Default disabling of in-tree cloud providers\n- Migration to external cloud controller managers\n- Externalization of Azure, Google Cloud, and vSphere integrations"
+      },
+      {
+        "id": 16,
+        "complexity": "complex",
+        "query": "What are the most popular real-time collaboration tools and frameworks in 2024?",
+        "expected_answer": "**Ably:**\n- Global multi-region network\n- Spaces for collaborative environments\n- LiveSync for state management\n- Pub/Sub channels for realtime messaging\n\n**Liveblocks:**\n- Specialized for multiplayer features\n- Presence tracking\n- Broadcast capabilities\n- Data stores for co-editing\n\n**PubNub:**\n- Cross-platform compatibility\n- Multiple SDK support\n- Flexible architecture for custom solutions"
+      },
+      {
+        "id": 17,
+        "complexity": "medium",
+        "query": "What are the current trends in React state management libraries?",
+        "expected_answer": "**Popular Libraries:**\n- Redux: Remains strong for large applications\n- Zustand: Gaining popularity for its simplicity\n- XState: Preferred for complex state machines\n\n**Emerging Patterns:**\n- Server Components (RSCs) changing state management approaches\n- Signals gaining traction through Preact integration\n- Minimalist solutions replacing complex state management\n\n**Key Features:**\n- Local and global state management\n- Immutability and reactivity\n- Asynchronous updates\n- Centralized state control"
+      },
+      {
+        "id": 18,
+        "complexity": "complex",
+        "query": "What are the latest WebAssembly security vulnerabilities and patches?",
+        "expected_answer": "**Recent Critical Vulnerabilities:**\n- CVE-2024-2887: Type confusion bug in WebAssembly engine\n- CVE-2024-4947: Type confusion vulnerability in V8 JavaScript and WebAssembly engine\n- CVE-2024-4761: Out-of-bounds write vulnerability in V8\n\nAll vulnerabilities have been patched in recent browser updates. Users are advised to update their browsers to the latest versions."
+      },
+      {
+        "id": 19,
+        "complexity": "easy",
+        "query": "When will HTTP/3 be officially released?",
+        "expected_answer": "HTTP/3 was officially published as a Proposed Standard (RFC 9114) by IETF on June 6, 2022. Current adoption status:\n- 95% of major web browsers support HTTP/3\n- 31% of top 10 million websites have implemented it\n- Major servers like Nginx 1.25.0 and Caddy 2.6.0 have enabled it by default"
+      },
+      {
+        "id": 20,
+        "complexity": "complex",
+        "query": "What are the current best practices for API rate limiting in 2024?",
+        "expected_answer": "**Implementation Strategies:**\n- Key-level rate limiting for individual user/application control\n- Resource-based limiting for high-demand endpoints\n- Dynamic rate limits that adjust based on server load\n\n**Technical Approaches:**\n- Fixed Window, Sliding Window, or Token Bucket algorithms\n- Implementation through API gateways or middleware\n- Regular monitoring and adjustment of limits"
+      },
+      {
+        "id": 21,
+        "complexity": "medium",
+        "query": "What was the average price of Nvidia RTX 4090 GPU in February 2024?",
+        "expected_answer": "The Nvidia RTX 4090 was priced at $1,900 in February 2024, representing:\n- 19% price inflation over MSRP ($1,600)\n- 5% decrease from January 2024 prices"
+      },
+      {
+        "id": 22,
+        "complexity": "complex",
+        "query": "What are the latest benchmark results for GPT-4 and Claude 3?",
+        "expected_answer": null
+      },
+      {
+        "id": 23,
+        "complexity": "medium",
+        "query": "What is the current market share distribution of major cloud providers as of Q4 2023?",
+        "expected_answer": "**Market Leaders Q4 2023:**\n- AWS: 31% (down from 33% in Q4 2022)\n- Microsoft Azure: 24% (up from 23%)\n- Google Cloud: approximately 12%"
+      },
+      {
+        "id": 24,
+        "complexity": "complex",
+        "query": "What are the latest studies on AI model training energy consumption?",
+        "expected_answer": "**Recent Energy Consumption Data:**\n- GPT-3 training used approximately 1,300 MWh\n- GPT-4 training consumed approximately 50 times more electricity\n- Computational power requirements for AI doubles every 100 days\n\nThis highlights growing concerns about AI's environmental impact and the need for more energy-efficient training methods."
+      },
+      {
+        "id": 25,
+        "complexity": "medium",
+        "query": "What are the latest performance benchmarks for NoSQL databases?",
+        "expected_answer": "**Top Performers in 2024:**\n- MongoDB: Excels in flexible schema design and rapid development\n- Redis: Leading in-memory database for real-time analytics\n- Apache Cassandra: Best for distributed environments and high availability"
+      },
+      {
+        "id": 26,
+        "complexity": "complex",
+        "query": "What are the current pricing models for major LLM APIs?",
+        "expected_answer": "**Current Rates (per 1K tokens):**\n\n**GPT-4 Turbo:**\n- Input: $0.01\n- Output: $0.03\n\n**Gemini Pro:**\n- Input: $0.00025\n- Output: $0.0005\n\n**Mistral Tiny:**\n- Input: $0.00015\n- Output: $0.00046"
+      },
+      {
+        "id": 27,
+        "complexity": "medium",
+        "query": "What are the current ML engineer salary ranges in major tech hubs?",
+        "expected_answer": "**2024 Salary Ranges by Location:**\n- California: $175,000 average, up to $250,000 in Silicon Valley\n- New York: $165,000 average\n- Washington: $160,000 average\n- Texas: $150,000 average\n- Massachusetts: $155,000 average"
+      },
+      {
+        "id": 28,
+        "complexity": "complex",
+        "query": "What are the latest performance comparisons of API gateway solutions?",
+        "expected_answer": null
+      },
+      {
+        "id": 29,
+        "complexity": "complex",
+        "query": "What are the compatibility requirements for the latest version of Istio?",
+        "expected_answer": null
+      },
+      {
+        "id": 30,
+        "complexity": "medium",
+        "query": "What are the average CI/CD pipeline metrics for Node.js applications?",
+        "expected_answer": null
+      }
+    ],
+    "metadata": {
+      "version": "1.1",
+      "created_date": "2024-12-01", 
+      "description": "Enhanced benchmark dataset with quantitative queries for evaluating web search agent capabilities",
+      "complexity_distribution": {
+        "easy": 5,
+        "medium": 12,
+        "complex": 13
+      },
+      "evaluation_aspects": [
+        "numerical_accuracy",
+        "data_recency",
+        "comparison_completeness", 
+        "source_reliability"
+      ]
+    }
+  }

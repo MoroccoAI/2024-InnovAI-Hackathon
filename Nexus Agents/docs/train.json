@@ -1,0 +1,856 @@
+{
+    "data": [
+        {
+            "Context": "I need to set the active partition on my disk.  How do I do that in DiskPart, assuming I've already selected the correct partition?",
+            "Response": "active"
+        },
+        {
+            "Context": "I've selected the partition I want to boot from. How can I mark it as active using DiskPart?",
+            "Response": "active"
+        },
+        {
+            "Context": "I want to create a shortcut named \"mybackup\" for the shadow copy with ID {9b820229-0e5b-4a4f-807f-1e599c747471}. How can I do that?",
+            "Response": "add alias mybackup {9b820229-0e5b-4a4f-807f-1e599c747471}"
+        },
+        {
+            "Context": "Can I assign the alias \"ServerBackup\" to the existing shadow copy alias VSS_SHADOW_3?",
+            "Response": "add alias ServerBackup %VSS_SHADOW_3%"
+        },
+        {
+            "Context": "I need to add my D: drive to the shadow copy set so I can back it up. How can I do that in diskshadow?",
+            "Response": "add volume d:"
+        },
+        {
+            "Context": "I want to add the E: volume to the shadow copy set using the specific provider with ID {b5946137-7b9f-4925-af80-51abd60b20d5}.  What's the command for that?",
+            "Response": "add volume e: provider {b5946137-7b9f-4925-af80-51abd60b20d5}"
+        },
+        {
+            "Context": "I need to set the active partition on my disk.  How do I do that in DiskPart, assuming I've already selected the correct partition?",
+            "Response": "active"
+        },
+        {
+            "Context": "I've selected the partition I want to boot from. How can I mark it as active using DiskPart?",
+            "Response": "active"
+        },
+        {
+            "Context": "I want to create a shortcut named \"mybackup\" for the shadow copy with ID {9b820229-0e5b-4a4f-807f-1e599c747471}. How can I do that?",
+            "Response": "add alias mybackup {9b820229-0e5b-4a4f-807f-1e599c747471}"
+        },
+        {
+            "Context": "Can I assign the alias \"ServerBackup\" to the existing shadow copy alias VSS_SHADOW_3?",
+            "Response": "add alias ServerBackup %VSS_SHADOW_3%"
+        },
+        {
+            "Context": "I need to add my D: drive to the shadow copy set so I can back it up. How can I do that in diskshadow?",
+            "Response": "add volume d:"
+        },
+        {
+            "Context": "I want to add the E: volume to the shadow copy set using the specific provider with ID {b5946137-7b9f-4925-af80-51abd60b20d5}.  What's the command for that?",
+            "Response": "add volume e: provider {b5946137-7b9f-4925-af80-51abd60b20d5}"
+        },
+        {
+            "Context": "I need to add the E: drive to the shadow copy set for backups. Can you tell me how to do that?",
+            "Response": "add volume e:"
+        },
+        {
+            "Context": "I want to set up an alias called \"DataBackup\" with the value \"F:\\BackupData\" for the shadow copy. How can I do this?",
+            "Response": "add alias DataBackup F:\\BackupData"
+        },
+        {
+            "Context": "I want to add the D:\\Projects\\MyProject directory to the list of appended directories, but I only want it to apply when I'm specifically opening files, not for general searches or launching applications.",
+            "Response": "append D:\\Projects\\MyProject /x:off"
+        },
+        {
+            "Context": "I need to add C:\\Work and D:\\Personal to my appended directories and make sure they're considered even when a file request already includes a path. Also, I want to save this list to the APPEND environment variable since this is the first time I'm using this command after restarting.",
+            "Response": "append C:\\Work;D:\\Personal /e"
+        },
+        {
+            "Context": "Can I map the D drive to a folder called \"DataBackup\" on my system?",
+            "Response": "assign mount=c:\\DataBackup"
+        },
+        {
+            "Context": "My external drive isn't showing up as F: like it usually does. How can I assign it that letter again?",
+            "Response": "assign letter=f"
+        },
+        {
+            "Context": "I need to see the attributes of the disk on my system. How can I do that in the command line?",
+            "Response": "attributes disk"
+        },
+        {
+            "Context": "How can I check the attributes of a specific volume, like the D: drive, using the command line?",
+            "Response": "attributes volume"
+        },
+        {
+            "Context": "I want to hide all the system files in the D:\\Secret_Files folder and its subfolders.",
+            "Response": "attrib +h +s D:\\Secret_Files\\*.* /s /d"
+        },
+        {
+            "Context": "Can I make the file \"important_doc.txt\" on my flash drive read-only?",
+            "Response": "attrib +r F:\\important_doc.txt"
+        },
+        {
+            "Context": "Can you clear all scheduled tasks on the server fileserver01?",
+            "Response": "at \\fileserver01 /delete /yes"
+        },
+        {
+            "Context": "I need to see the details of the scheduled task with ID 5 on my computer.",
+            "Response": "at 5"
+        },
+        {
+            "Context": "I need to back up my current audit settings. How can I save them to a CSV file named \"my_audit_backup.csv\" on the D: drive?",
+            "Response": "auditpol /backup /file:D:\\my_audit_backup.csv"
+        },
+        {
+            "Context": "Can I create a backup of my system's audit policy and save it to a file called current_audit_policy.csv in the current directory?",
+            "Response": "auditpol /backup /file:current_audit_policy.csv"
+        },
+        {
+            "Context": "How can I completely reset all audit policies to their default disabled state?",
+            "Response": "auditpol /clear"
+        },
+        {
+            "Context": "I need to clear all audit policies in a script without being prompted for confirmation. How can I do that?",
+            "Response": "auditpol /clear /y"
+        },
+        {
+            "Context": "I need to check the current audit policy settings for the user \"JohnDoe\" specifically for the \"Logon/Logoff\" and \"Object Access\" categories.",
+            "Response": "auditpol /get /user:JohnDoe /category:\"Logon/Logoff\",\"Object Access\""
+        },
+        {
+            "Context": "Show me the audit settings for the system, including the security descriptor, in a report format.",
+            "Response": "auditpol /get /sd /r"
+        },
+        {
+            "Context": "Show me all the audit policy categories and their GUIDs.",
+            "Response": "auditpol /list /category /v"
+        },
+        {
+            "Context": "I need a CSV report of all the subcategories under the 'Logon/Logoff' and 'Object Access' categories.",
+            "Response": "auditpol /list /subcategory:Logon/Logoff,Object Access /r"
+        },
+        {
+            "Context": "How can I delete the audit policy for the user account \"jsmith\"?",
+            "Response": "auditpol /remove /user:jsmith"
+        },
+        {
+            "Context": "I need to remove the custom audit settings for all users on this server. What's the command?",
+            "Response": "auditpol /remove /allusers"
+        },
+        {
+            "Context": "My Windows boot environment is corrupted, how can I repair it using the files from my D: drive, assuming that's where Windows is installed?",
+            "Response": "bcdboot D:\\"
+        },
+        {
+            "Context": "I need to set up the system partition on my C: drive using the Windows files located on E:\\Windows.  I also want to specify the locale as French (fr-FR). How can I do this?",
+            "Response": "bcdboot E:\\Windows /l fr-FR /s C:"
+        },
+        {
+            "Context": "How can I see all the boot entries in my current boot configuration data store, with all the details like GUIDs?",
+            "Response": "bcdedit /enum active /v"
+        },
+        {
+            "Context": "I need to create a new boot entry for a specific application. Can you tell me the command for that?",
+            "Response": "bcdedit /create {application-guid} /application osloader"
+        },
+        {
+            "Context": "Can I get the drive information for my D: drive?",
+            "Response": "bdehdcfg -driveinfo D:"
+        },
+        {
+            "Context": "I need to see the size and free space on the C: drive. How can I do that with bdehdcfg?",
+            "Response": "bdehdcfg -driveinfo C:"
+        },
+        {
+            "Context": "I need to assign a new drive letter to the default system drive. Can I make it F:?",
+            "Response": "bdehdcfg -target default -newdriveletter F:"
+        },
+        {
+            "Context": "My C: drive is too big. I shrunk it and have some unallocated space.  I want to assign the drive letter G: to that unallocated portion. How can I do that?",
+            "Response": "bdehdcfg -target unallocated -newdriveletter G:"
+        },
+        {
+            "Context": "I want to prepare my default drive for BitLocker silently, without any prompts or messages on the command line. How can I do that?",
+            "Response": "bdehdcfg -target default -quiet"
+        },
+        {
+            "Context": "I need to shrink my C: drive and prepare it for BitLocker, but I want to automate the process and avoid any command-line interaction.  Can you tell me the command for that?",
+            "Response": "bdehdcfg -target c: shrink -quiet"
+        },
+        {
+            "Context": "I need to prepare my default drive and then restart my computer. Can you tell me the command for that?",
+            "Response": "bdehdcfg -target default -restart"
+        },
+        {
+            "Context": "I want to shrink my D: drive and then have the computer restart automatically afterwards. How can I do this with bdehdcfg?",
+            "Response": "bdehdcfg -target D: shrink -restart"
+        },
+        {
+            "Context": "I'm creating a new system drive and want it to be 600MB instead of the default. How can I set that up using bdehdcfg?",
+            "Response": "bdehdcfg -target default -size 600"
+        },
+        {
+            "Context": "I need to shrink my C: drive and create a new system partition from the unallocated space.  I want the system partition to be 200MB. What command should I use with bdehdcfg?",
+            "Response": "bdehdcfg -target C: shrink -size 200"
+        },
+        {
+            "Context": "I want to set up BitLocker like the normal setup wizard does, how do I do that from the command line?",
+            "Response": "bdehdcfg -target default"
+        },
+        {
+            "Context": "My D: drive has plenty of space, can I shrink it to create the system partition for BitLocker?",
+            "Response": "bdehdcfg -target D: shrink"
+        },
+        {
+            "Context": "I need to create a new system drive on my E: drive using unallocated space, about 200MB in size, and assign it the letter S:. Can this be done quietly without prompts?",
+            "Response": "bdehdcfg -target unallocated -newdriveletter S -size 200 -quiet"
+        },
+        {
+            "Context": "Can I see the partition information for my C: drive, like size and free space?",
+            "Response": "bdehdcfg -driveinfo C"
+        },
+        {
+            "Context": "I need to start a full backup on my Windows Server, how can I do that through the command line?",
+            "Response": "begin backup"
+        },
+        {
+            "Context": "I want to initiate a backup session that overrides the copy backup setting, what's the command for that?",
+            "Response": "begin backup"
+        },
+        {
+            "Context": "Can I set the BITS background transfer service cache to expire after, say, a week?",
+            "Response": "bitsadmin /cache /setexpirationtime 604800"
+        },
+        {
+            "Context": "I want to clear the BITS cache in 3 hours.  What command should I use?",
+            "Response": "bitsadmin /cache /setexpirationtime 10800"
+        },
+        {
+            "Context": "How can I see what's currently stored in the BITS cache?",
+            "Response": "bitsadmin /cache /list"
+        },
+        {
+            "Context": "I want to clear out the entire BITS download cache. What's the command for that?",
+            "Response": "bitsadmin /cache /clear"
+        },
+        {
+            "Context": "How can I stop the BITS download job named \"system_update\" and remove its temporary files?",
+            "Response": "bitsadmin /cancel system_update"
+        },
+        {
+            "Context": "I want to cancel the BITS transfer with the GUID {7796FF21-A1F7-495F-89DA-4D303C97372B} and delete its associated files. What command should I use?",
+            "Response": "bitsadmin /cancel {7796FF21-A1F7-495F-89DA-4D303C97372B}"
+        },
+        {
+            "Context": "My BITS download job named \"MySoftwareUpdate\" has finished transferring. How can I finalize it in the command line?",
+            "Response": "bitsadmin /complete MySoftwareUpdate"
+        },
+        {
+            "Context": "I have a BITS transfer job with the GUID '{D5941771-467A-40B1-87A9-75817771E77F}' that's stuck in transferred state. How do I mark it as complete using bitsadmin?",
+            "Response": "bitsadmin /complete {D5941771-467A-40B1-87A9-75817771E77F}"
+        },
+        {
+            "Context": "How can I check the ACL inheritance settings for a BITS job called \"MyBackupJob\"?",
+            "Response": "bitsadmin /getaclflags MyBackupJob"
+        },
+        {
+            "Context": "I need to see the propagation flags for the access control list of a BITS transfer with the GUID {789ABCDEF-1234-5678-90AB-CDEF01234567}.",
+            "Response": "bitsadmin /getaclflags {789ABCDEF-1234-5678-90AB-CDEF01234567}"
+        },
+        {
+            "Context": "What's the total size of the bits transfer job with the name \"myBackupJob\"?",
+            "Response": "bitsadmin /getbytestotal myBackupJob"
+        },
+        {
+            "Context": "How many bytes are in the BITS job identified by the GUID {7796FF21-A1F7-4786-988F-1D2B980E511C}?",
+            "Response": "bitsadmin /getbytestotal {7796FF21-A1F7-4786-988F-1D2B980E511C}"
+        },
+        {
+            "Context": "How can I check how much data has been transferred for the BITS job named \"myBackupJob\"?",
+            "Response": "bitsadmin /getbytestransferred myBackupJob"
+        },
+        {
+            "Context": "I'm running a BITS transfer with the GUID {77978211-C575-404F-B8A2-3326A43762D7}. How many bytes have been transferred so far?",
+            "Response": "bitsadmin /getbytestransferred {77978211-C575-404F-B8A2-3326A43762D7}"
+        },
+        {
+            "Context": "I need to grab the client certificate associated with the file transfer job \"MyBackupJob\". How can I do that using bitsadmin?",
+            "Response": "bitsadmin /getclientcertificate MyBackupJob"
+        },
+        {
+            "Context": "Can you tell me the command to retrieve the client certificate for a specific BITS job, say, the one with GUID {789ABCDEF-1234-5678-90AB-CDEF01234567}?",
+            "Response": "bitsadmin /getclientcertificate {789ABCDEF-1234-5678-90AB-CDEF01234567}"
+        },
+        {
+            "Context": "When did my BITS job \"MyBackupJob\" finish transferring data?",
+            "Response": "bitsadmin /getcompletiontime MyBackupJob"
+        },
+        {
+            "Context": "I have a BITS job with the GUID {7796FF26-909D-4025-B23B-F7F2A24770D7}.  Can I check when the data transfer was completed?",
+            "Response": "bitsadmin /getcompletiontime {7796FF26-909D-4025-B23B-F7F2A24770D7}"
+        },
+        {
+            "Context": "I need to see the custom HTTP headers associated with the BITS job \"MyBackupJob\". How can I retrieve them using bitsadmin?",
+            "Response": "bitsadmin /getcustomheaders MyBackupJob"
+        },
+        {
+            "Context": "Can you show me how to display the custom headers for a specific BITS download job with the GUID {77964879-36CC-4C9F-A20F-A72A7A53B84F}?",
+            "Response": "bitsadmin /getcustomheaders {77964879-36CC-4C9F-A20F-A72A7A53B84F}"
+        },
+        {
+            "Context": "How can I check the helper token flags for a BITS job called \"MyUploadJob\"?",
+            "Response": "bitsadmin /gethelpertokenflags MyUploadJob"
+        },
+        {
+            "Context": "I need to see the usage flags for the helper token associated with the BITS transfer job with GUID {774AD64A-B98A-4066-9698-5FA97E520E66}.",
+            "Response": "bitsadmin /gethelpertokenflags {774AD64A-B98A-4066-9698-5FA97E520E66}"
+        },
+        {
+            "Context": "I need to get the helper token SID for a BITS job called \"MyBigTransfer\". How can I do that?",
+            "Response": "bitsadmin /gethelpertokensid MyBigTransfer"
+        },
+        {
+            "Context": "Can I check the helper token SID associated with the BITS transfer job having the GUID '{77949973-2E5A-4A46-8271-41990F533A66}'?",
+            "Response": "bitsadmin /gethelpertokensid {77949973-2E5A-4A46-8271-41990F533A66}"
+        },
+        {
+            "Context": "What HTTP method is associated with the BITS job \"MyBackupJob\"?",
+            "Response": "bitsadmin /gethttpmethod MyBackupJob"
+        },
+        {
+            "Context": "I need to check the HTTP verb being used by the BITS job with GUID {7796FF21-A27E-420B-8A77-5935681AA757}. How can I find that out?",
+            "Response": "bitsadmin /gethttpmethod {7796FF21-A27E-420B-8A77-5935681AA757}"
+        },
+        {
+            "Context": "What's the timeout setting for my BITS download job called \"MyBackupJob\"?",
+            "Response": "bitsadmin /getmaxdownloadtime MyBackupJob"
+        },
+        {
+            "Context": "How long will BITS keep trying to download for the job with ID {779794E9-36FA-479A-A9C7-5299C22B232B}?",
+            "Response": "bitsadmin /getmaxdownloadtime {779794E9-36FA-479A-A9C7-5299C22B232B}"
+        },
+        {
+            "Context": "What command do I use to see what command will run after my BITS job \"ImportantTransfer\" finishes?",
+            "Response": "bitsadmin /getnotifycmdline ImportantTransfer"
+        },
+        {
+            "Context": "How can I check the notification command associated with the BITS job with GUID {7796154A-4E5F-4A26-925A-92F7A025832F}?",
+            "Response": "bitsadmin /getnotifycmdline {7796154A-4E5F-4A26-925A-92F7A025832F}"
+        },
+        {
+            "Context": "How can I check the peer caching settings for a BITS job called \"MySoftwareUpdate\"?",
+            "Response": "bitsadmin /getpeercachingflags MySoftwareUpdate"
+        },
+        {
+            "Context": "I need to see the current peer caching flags for the BITS job with GUID {7796FF21-A123-44BC-89D1-23E27FBD1A8B}.  What command should I use?",
+            "Response": "bitsadmin /getpeercachingflags {7796FF21-A123-44BC-89D1-23E27FBD1A8B}"
+        },
+        {
+            "Context": "What's the priority level set for the BITS job with the name 'criticalUpdate'?",
+            "Response": "bitsadmin /getpriority criticalUpdate"
+        },
+        {
+            "Context": "Could you check the current priority of the BITS download job identified by the GUID '{12345678-1234-1234-1234-1234567890AB}'?",
+            "Response": "bitsadmin /getpriority {12345678-1234-1234-1234-1234567890AB}"
+        },
+        {
+            "Context": "How can I see which servers my BITS job \"MyBackupJob\" is bypassing the proxy for?",
+            "Response": "bitsadmin /getproxybypasslist MyBackupJob"
+        },
+        {
+            "Context": "I need to check the proxy bypass list for the BITS job with GUID {77963888-9D97-4170-A4E7-52C53302D71B}. What command should I use?",
+            "Response": "bitsadmin /getproxybypasslist {77963888-9D97-4170-A4E7-52C53302D71B}"
+        },
+        {
+            "Context": "What proxy servers are being used for the file transfer job named \"WeeklyBackup\"?",
+            "Response": "bitsadmin /getproxylist WeeklyBackup"
+        },
+        {
+            "Context": "I need to check the proxy list assigned to the BITS job with GUID {7694AF77-D75E-4EE3-99DC-250DAB672607}. How can I do that?",
+            "Response": "bitsadmin /getproxylist {7694AF77-D75E-4EE3-99DC-250DAB672607}"
+        },
+        {
+            "Context": "Where can I find the server's response file for the BITS job called \"myBackupJob\"?",
+            "Response": "bitsadmin /getreplyfilename myBackupJob"
+        },
+        {
+            "Context": "I need to check the upload reply from the server for a specific BITS transfer. The job's GUID is {7796FF26-909D-4025-B20D-A4926E6531B2}. How can I get the path to that reply file?",
+            "Response": "bitsadmin /getreplyfilename {7796FF26-909D-4025-B20D-A4926E6531B2}"
+        },
+        {
+            "Context": "What are the security settings for the BITS job called \"MyBackupJob\"?",
+            "Response": "bitsadmin /getsecurityflags MyBackupJob"
+        },
+        {
+            "Context": "Can you tell me the HTTP security flags for the BITS transfer with the GUID {7796154C-B936-4A2A-82F5-9E5A39535E53}?",
+            "Response": "bitsadmin /getsecurityflags {7796154C-B936-4A2A-82F5-9E5A39535E53}"
+        },
+        {
+            "Context": "What's the status of my BITS download job called \"MyBigDownload\"?",
+            "Response": "bitsadmin /getstate MyBigDownload"
+        },
+        {
+            "Context": "I have a BITS job with the ID {77949F7D-2827-41F9-A67B-9B27992A2B2F}, can I check its current state?",
+            "Response": "bitsadmin /getstate {77949F7D-2827-41F9-A67B-9B27992A2B2F}"
+        },
+        {
+            "Context": "What's the temporary name BITS is using for the third file (index 2) in the job \"MyBackupJob\"?",
+            "Response": "bitsadmin /gettemporaryname MyBackupJob 2"
+        },
+        {
+            "Context": "Can you tell me the temporary filename that BITS assigned to the first file (index 0) being transferred in job with GUID {789ABCDEF-1234-5678-90AB-CDEF01234567}?",
+            "Response": "bitsadmin /gettemporaryname {789ABCDEF-1234-5678-90AB-CDEF01234567} 0"
+        },
+        {
+            "Context": "What kind of BITS job is myJob123?",
+            "Response": "bitsadmin /gettype myJob123"
+        },
+        {
+            "Context": "I have a BITS job with the GUID {7793124A-B20E-4A87-A28F-E5623A20263F}, can you tell me its type?",
+            "Response": "bitsadmin /gettype {7793124A-B20E-4A87-A28F-E5623A20263F}"
+        },
+        {
+            "Context": "I'm using BITS and I need to check the validation status of the third file (you know, the one with index 2) in the download job called \"MyBigDownload\". How can I do that?",
+            "Response": "bitsadmin /getvalidationstate MyBigDownload 2"
+        },
+        {
+            "Context": "Can I check the validation state of the first file in a BITS job with GUID {78965412-ABCD-DCBA-1234-000000000000} using bitsadmin?",
+            "Response": "bitsadmin /getvalidationstate {78965412-ABCD-DCBA-1234-000000000000} 0"
+        },
+        {
+            "Context": "How can I reset the BITS peer list?",
+            "Response": "bitsadmin /peers /clear"
+        },
+        {
+            "Context": "I want to clear all the current BITS peers. What command should I use?",
+            "Response": "bitsadmin /peers /clear"
+        },
+        {
+            "Context": "I need to refresh the list of BITS peers on my server. How can I do that using bitsadmin?",
+            "Response": "bitsadmin /peers /discover"
+        },
+        {
+            "Context": "My BITS downloads are slow.  I want to force a rediscovery of available peers. What's the command for that?",
+            "Response": "bitsadmin /peers /discover"
+        },
+        {
+            "Context": "How can I see the help for BITSAdmin's peer management commands?",
+            "Response": "bitsadmin /peers /help"
+        },
+        {
+            "Context": "I'm trying to use BITSAdmin to manage peers, but I'm not sure of the command-line options.  Where can I find help?",
+            "Response": "bitsadmin /peers /help"
+        },
+        {
+            "Context": "How can I see all the BITS peers on this server?",
+            "Response": "bitsadmin /peers /list"
+        },
+        {
+            "Context": "I need to get a list of the current BITS peers. What command should I use?",
+            "Response": "bitsadmin /peers /list"
+        },
+        {
+            "Context": "I want to find new peers for BITS. How can I refresh the discovery process?",
+            "Response": "bitsadmin /peers /discover"
+        },
+        {
+            "Context": "How can I see the current list of BITS peers on this server?",
+            "Response": "bitsadmin /peers /list"
+        },
+        {
+            "Context": "I need to get the raw status of a BITS job called \"myBackupJob\" without any extra formatting.  What command should I use?",
+            "Response": "bitsadmin /rawreturn /getstate myBackupJob"
+        },
+        {
+            "Context": "How can I check the raw display name of the BITS job with ID {76543210-9876-5432-1098-765432109876} using bitsadmin, without any formatting?",
+            "Response": "bitsadmin /rawreturn /getdisplayname {76543210-9876-5432-1098-765432109876}"
+        },
+        {
+            "Context": "I need to remove the client certificate associated with the BITS job \"MyImportantTransfer\". How can I do that using bitsadmin?",
+            "Response": "bitsadmin /removeclientcertificate MyImportantTransfer"
+        },
+        {
+            "Context": "Can you tell me the command to remove the client certificate for the BITS job with GUID {779638A2-341F-4A5C-9A29-79D232355599}?",
+            "Response": "bitsadmin /removeclientcertificate {779638A2-341F-4A5C-9A29-79D232355599}"
+        },
+        {
+            "Context": "My BITS download job \"important_files\" keeps failing authentication with the proxy server using basic auth.  How can I clear those credentials so I can try again?",
+            "Response": "bitsadmin /removecredentials important_files PROXY BASIC"
+        },
+        {
+            "Context": "I need to reset the NTLM credentials for the BITS job with GUID {77949F75-D842-4144-A17C-3B773B39278A} that's targeting the download server. How can I do that?",
+            "Response": "bitsadmin /removecredentials {77949F75-D842-4144-A17C-3B773B39278A} SERVER NTLM"
+        },
+        {
+            "Context": "I have a BITS download job named \"MySoftwareUpdate\" that's currently pointing to the staging server URL \"http://staging.example.com/downloads/\".  I need to switch it over to the production server at \"https://prod.example.com/downloads/\". How can I update the remote URL prefix for this job?",
+            "Response": "bitsadmin /replaceremoteprefix MySoftwareUpdate http://staging.example.com/downloads/ https://prod.example.com/downloads/"
+        },
+        {
+            "Context": "My BITS job with the GUID {7694AF77-D75E-4EE1-925A-2632BF961AF2} is pulling files from a server with an outdated URL prefix of \"http://oldserver.internal/files\".  I need to change it to use \"http://newserver.internal/files\" instead. What's the command for that?",
+            "Response": "bitsadmin /replaceremoteprefix {7694AF77-D75E-4EE1-925A-2632BF961AF2} http://oldserver.internal/files http://newserver.internal/files"
+        },
+        {
+            "Context": "I need to download some files using BITS, and it's important that the owner and group information is preserved. The job name is \"MyImportantFiles\". How can I configure BITS to do this?",
+            "Response": "bitsadmin /setaclflag MyImportantFiles og"
+        },
+        {
+            "Context": "I'm using BITS job with ID {779784A1-B25B-4A77-9C9D-543535A93E0B} to download some sensitive files. I need to maintain the full ACL, including owner, group, DACL, and SACL. What command should I use?",
+            "Response": "bitsadmin /setaclflag {779784A1-B25B-4A77-9C9D-543535A93E0B} ogds"
+        },
+        {
+            "Context": "I'm using BITS and I want to set the no progress timeout for my job \"ImportantTransfer\" to 60 seconds. How can I do that?",
+            "Response": "bitsadmin /setnoprogresstimeout ImportantTransfer 60"
+        },
+        {
+            "Context": "My BITS job with the GUID {12345678-1234-1234-1234-1234567890AB} keeps failing due to transient errors.  I want to give it more time, say 300 seconds, before it gives up after the first error. What command should I use?",
+            "Response": "bitsadmin /setnoprogresstimeout {12345678-1234-1234-1234-1234567890AB} 300"
+        },
+        {
+            "Context": "I have a BITS job called \"MyBackupJob\" and I only want to be notified if something goes wrong.  What command should I use?",
+            "Response": "bitsadmin /setnotifyflags MyBackupJob 2"
+        },
+        {
+            "Context": "For the BITS job with the GUID {77964879-35DF-4E2A-A02F-533929333E23}, I need to get an event notification when all files are transferred and also when there's an error.  How do I set that up?",
+            "Response": "bitsadmin /setnotifyflags {77964879-35DF-4E2A-A02F-533929333E23} 3"
+        },
+        {
+            "Context": "How can I configure the BITS job \"myBigTransfer\" to both download from peers and allow its files to be cached for other peers?",
+            "Response": "bitsadmin /setpeercachingflags myBigTransfer 3"
+        },
+        {
+            "Context": "I want to prevent the BITS job with ID {7694AD8C-25F3-4E5D-A47B-38A9725F2A76} from using peer caching.  How can I disable it serving files to peers?",
+            "Response": "bitsadmin /setpeercachingflags {7694AD8C-25F3-4E5D-A47B-38A9725F2A76} 0"
+        },
+        {
+            "Context": "I need to configure my BITS job \"MyJob1\" to use a specific proxy server, proxy.example.com on port 8080, and bypass any local addresses.",
+            "Response": "bitsadmin /setproxysettings MyJob1 OVERRIDE proxy.example.com:8080 <local>"
+        },
+        {
+            "Context": "For the BITS job with ID {7797994C-35AD-4C28-A23C-F7732E3A2322}, how can I set it to automatically detect proxy settings?",
+            "Response": "bitsadmin /setproxysettings {7797994C-35AD-4C28-A23C-F7732E3A2322} AUTODETECT"
+        },
+        {
+            "Context": "I'm using BITS and I need to specify that the server's reply to my upload should be saved to a specific file. The job is called \"MyUploadJob\" and I want the reply saved to \"C:\\ServerReply.txt\". How can I do this?",
+            "Response": "bitsadmin /setreplyfilename MyUploadJob C:\\ServerReply.txt"
+        },
+        {
+            "Context": "For the BITS job with the GUID {77949F7C-D435-417D-A09F-42876E87877A}, I want the server's upload reply to be stored in the file \"D:\\UploadReplies\\reply.txt\". What command should I use?",
+            "Response": "bitsadmin /setreplyfilename {77949F7C-D435-417D-A09F-42876E87877A} D:\\UploadReplies\\reply.txt"
+        },
+        {
+            "Context": "For the BITS job \"myJob\", I need to configure it to ignore certificate name mismatches and also allow redirects from HTTPS to HTTP. How can I set these security flags?",
+            "Response": "bitsadmin /setsecurityflags myJob 0x1002"
+        },
+        {
+            "Context": "I want my BITS job with ID {7797994C-35AD-469F-B27A-3B7657777877} to check the certificate revocation list and update the remote name if a redirect happens. What command should I use?",
+            "Response": "bitsadmin /setsecurityflags {7797994C-35AD-469F-B27A-3B7657777877} 0x201"
+        },
+        {
+            "Context": "I accidentally started a BITS download job called \"bigUpdate\" and I need to pause it. How can I do that using bitsadmin?",
+            "Response": "bitsadmin /suspend bigUpdate"
+        },
+        {
+            "Context": "Can you tell me the command to suspend a BITS job with the GUID {77964879-36CC-4C9F-A20F-A170A24F074F}?",
+            "Response": "bitsadmin /suspend {77964879-36CC-4C9F-A20F-A170A24F074F}"
+        },
+        {
+            "Context": "How can I check the current proxy settings that the BITS service is using for the LocalSystem account?",
+            "Response": "bitsadmin /util /getieproxy LOCALSERVICE"
+        },
+        {
+            "Context": "I need to see the proxy configuration that the Background Intelligent Transfer Service is using for the Network Service account on the modem connection \"MyMobile\". How can I do that?",
+            "Response": "bitsadmin /util /getieproxy NETWORKSERVICE /conn MyMobile"
+        },
+        {
+            "Context": "I need to enable 1394 debugging on the third OS entry in my boot.ini file and set the channel to 3. How can I do this?",
+            "Response": "bootcfg /dbg1394 on /ch 3 /id 3"
+        },
+        {
+            "Context": "How do I disable 1394 port debugging for the first OS entry on a remote server named \"server01\" using my domain credentials (domain\\\\username with password \"SecurePassword123\")?",
+            "Response": "bootcfg /dbg1394 off /s server01 /u domain\\username /p SecurePassword123 /id 1"
+        },
+        {
+            "Context": "How can I change the default OS to boot on my server 'fileserver01', which is the second entry in the boot menu? I have the admin credentials for the server, username 'administrator' and password 'SecurePass123'.",
+            "Response": "bootcfg /default /s fileserver01 /u administrator /p SecurePass123 /id 2"
+        },
+        {
+            "Context": "I need to set the default boot entry to the first option in the Boot.ini file on this server.",
+            "Response": "bootcfg /default /id 1"
+        },
+        {
+            "Context": "Remove the second OS entry from the boot configuration on my server named FILESERVER01.",
+            "Response": "bootcfg /delete /s FILESERVER01 /id 2"
+        },
+        {
+            "Context": "How can I delete the first OS entry in the boot.ini file on a remote server named SERVER22 using my domain credentials (domain: MYDOMAIN, username: AdminUser, password: SecurePwd)?",
+            "Response": "bootcfg /delete /s SERVER22 /u MYDOMAIN\\AdminUser /p SecurePwd /id 1"
+        },
+        {
+            "Context": "I need to enable Emergency Management Services on my server, using COM3 for redirection at a baud rate of 38400. The OS entry line number is 1.",
+            "Response": "bootcfg /ems on /port COM3 /baud 38400 /id 1"
+        },
+        {
+            "Context": "How can I disable EMS on a remote server named \"server01\" using my domain credentials (user: \"adminuser\" in domain \"mydomain\", password: \"SecurePass123\") for the operating system entry number 2?",
+            "Response": "bootcfg /s server01 /u mydomain\\adminuser /p SecurePass123 /ems off /id 2"
+        },
+        {
+            "Context": "Can you show me the boot loader and OS entries on my server named FILESERVER01?",
+            "Response": "bootcfg /query /s FILESERVER01"
+        },
+        {
+            "Context": "I need to check the boot configuration on the remote server DC02 in the domain CORP using my admin credentials (username: domainadmin, password: SecurePass123). How can I do that?",
+            "Response": "bootcfg /query /s DC02 /u CORP\\domainadmin /p SecurePass123"
+        },
+        {
+            "Context": "I need to add the /debug and /sos load options to the second OS entry in the boot.ini file on the server fileserver01.  The username is SERVER1\\administrator with password SecurePassword123.",
+            "Response": "bootcfg /raw /s fileserver01 /u SERVER1\\administrator /p SecurePassword123 /debug /sos /id 2"
+        },
+        {
+            "Context": "How can I append /noguiboot to the existing load options of the first operating system entry in boot.ini on my local machine?",
+            "Response": "bootcfg /raw /noguiboot /id 1 /a"
+        },
+        {
+            "Context": "I need to change my console's code page to use the Multilingual (Latin I) character set.",
+            "Response": "chcp 850"
+        },
+        {
+            "Context": "What's the code page my console is currently using?",
+            "Response": "chcp"
+        },
+        {
+            "Context": "What's the command to see what directory I'm currently in?",
+            "Response": "chdir"
+        },
+        {
+            "Context": "How can I view the current directory on my D: drive?",
+            "Response": "chdir D:"
+        },
+        {
+            "Context": "How can I prevent users from logging into this RDS server?",
+            "Response": "chglogon /deny"
+        },
+        {
+            "Context": "I've disabled logons on the terminal server, how do I re-enable them?",
+            "Response": "chglogon /enable"
+        },
+        {
+            "Context": "I need to see the current COM port mappings on this server because I'm having trouble with an old MS-DOS program.",
+            "Response": "chgport"
+        },
+        {
+            "Context": "My old DOS application needs COM1 mapped to COM3. How can I change that?",
+            "Response": "chgport com1 com3"
+        },
+        {
+            "Context": "How can I change the install mode for Remote Desktop Session Host on my Windows Server?",
+            "Response": "chgusr /?"
+        },
+        {
+            "Context": "I need to switch the installation mode for the Remote Desktop Session Host.  Is there a command for that?",
+            "Response": "chgusr /?"
+        },
+        {
+            "Context": "I need to change my dynamic disk back to basic.  It's empty, so I'm ready to go. What's the command?",
+            "Response": "convert basic"
+        },
+        {
+            "Context": "I'm scripting a disk conversion and need to change a dynamic disk to basic.  I need the script to continue even if there's an error. What command should I use?",
+            "Response": "convert basic noerr"
+        },
+        {
+            "Context": "I want to change my basic disk to a dynamic disk. How can I do that in DiskPart?",
+            "Response": "convert dynamic"
+        },
+        {
+            "Context": "I need to convert a basic disk to dynamic in a script.  If there's an error, I want the script to keep running. How do I do this with DiskPart?",
+            "Response": "convert dynamic noerr"
+        },
+        {
+            "Context": "I need to change my empty disk from MBR to GPT. How can I do that in DiskPart?",
+            "Response": "convert gpt"
+        },
+        {
+            "Context": "I'm scripting a disk conversion and need to change a disk from MBR to GPT.  If there's an error, I want the script to keep running. How do I do this?",
+            "Response": "convert gpt noerr"
+        },
+        {
+            "Context": "I need to change my empty GPT disk to MBR. How can I do that in DiskPart?",
+            "Response": "convert mbr"
+        },
+        {
+            "Context": "I'm scripting a disk conversion from GPT to MBR and need to ensure the script doesn't stop on errors.  What's the command in DiskPart?",
+            "Response": "convert mbr noerr"
+        },
+        {
+            "Context": "I need to create a new EFI partition on my GPT disk.  Let's make it 200MB in size.",
+            "Response": "create partition efi size=200"
+        },
+        {
+            "Context": "I'm trying to set up a new EFI partition that's 100MB and starts 500KB into the disk. How can I do that?",
+            "Response": "create partition efi size=100 offset=500"
+        },
+        {
+            "Context": "I need to reset both the Default Domain Policy and the Default Domain Controllers Policy GPOs back to their original settings, and I don't care about schema version matching.",
+            "Response": "dcgpofix /ignoreschema /target:both"
+        },
+        {
+            "Context": "My Default Domain Policy is messed up.  Can I recreate it without worrying about the schema version?",
+            "Response": "dcgpofix /ignoreschema /target:domain"
+        },
+        {
+            "Context": "I want to defrag my C: and D: drives, but I'm busy, so can it run in the background and show me the progress?",
+            "Response": "defrag c: d: /m /u"
+        },
+        {
+            "Context": "How can I analyze all my drives for fragmentation, but skip the E: drive because it's a backup drive and I don't want to tie it up?",
+            "Response": "defrag /e e: /a"
+        },
+        {
+            "Context": "My dynamic disk is missing and I need to remove it from the disk list in my script.  If there's an error, I want the script to keep running.",
+            "Response": "delete disk noerr"
+        },
+        {
+            "Context": "I have a missing dynamic disk that I need to delete, even if it has simple volumes or a mirrored volume on it.",
+            "Response": "delete disk override"
+        },
+        {
+            "Context": "Can I remove the oldest shadow copy on the E: drive?",
+            "Response": "delete shadows oldest E:"
+        },
+        {
+            "Context": "I need to delete the shadow copy with the ID a5b3434c-2c42-4321-81c2-7507ac5a7222.",
+            "Response": "delete shadows id a5b3434c-2c42-4321-81c2-7507ac5a7222"
+        },
+        {
+            "Context": "I need to get rid of a volume, how can I do that from the command line?",
+            "Response": "delete volume"
+        },
+        {
+            "Context": "My disk configuration is messed up because of a missing dynamic disk.  Is there a way to remove it from the disk list using the command line?",
+            "Response": "delete disk"
+        },
+        {
+            "Context": "I need to check the current status of the DFS Replication migration in my domain. How can I do that?",
+            "Response": "dfsrmig /getmigrationstate"
+        },
+        {
+            "Context": "We're ready to finalize the migration to DFS Replication for SYSVOL.  How do I set the global state to Eliminated?",
+            "Response": "dfsrmig /setglobalstate 3"
+        },
+        {
+            "Context": "I want to compare two floppy disks, one in drive A and the other in drive B. How can I do that?",
+            "Response": "diskcomp a: b:"
+        },
+        {
+            "Context": "My computer only has one floppy drive (A:). How can I compare two floppies with it?",
+            "Response": "diskcomp a: a:"
+        },
+        {
+            "Context": "I have a zipped file named \"archive.zip\" on my D drive. Can you extract its contents to a folder called \"extracted_files\" on the same drive?",
+            "Response": "expand D:\\archive.zip D:\\extracted_files"
+        },
+        {
+            "Context": "I need to extract \"data.zip\" from the C drive, renaming the extracted files and placing them directly in the root of the E drive. How can I do that?",
+            "Response": "expand -r C:\\data.zip E:\\"
+        },
+        {
+            "Context": "I want to see the contents of my current folder",
+            "Response": "dir"
+          },
+          {
+            "Context": "I need a new folder for my documents",
+            "Response": "mkdir documents"
+          },
+          {
+            "Context": "Remove the temporary text file",
+            "Response": "del temp.txt"
+          },
+          {
+            "Context": "Transfer my text file to documents directory",
+            "Response": "move file1.txt documents\\"
+          },
+          {
+            "Context": "I need to backup config.ini to the backup directory",
+            "Response": "copy config.ini backup\\"
+          },
+          {
+            "Context": "I need to make file.txt read-only",
+            "Response": "attrib +r file.txt"
+          },
+          {
+            "Context": "Delete the temporary folder and everything in it",
+            "Response": "rmdir /s /q temp"
+          },
+          {
+            "Context": "I want to see all files, including hidden ones",
+            "Response": "dir /a"
+          },
+          {
+            "Context": "Create folders for documents, downloads, and pictures",
+            "Response": "mkdir documents downloads pictures"
+          },
+          {
+            "Context": "I need to see file permissions and sizes",
+            "Response": "dir /q /r"
+          },
+          {
+            "Context": "Copy all .txt files to the backup folder",
+            "Response": "xcopy *.txt backup\\ /s /i"
+          },
+          {
+            "Context": "Search for document.txt in all folders",
+            "Response": "dir document.txt /s"
+          },
+          {
+            "Context": "Check if these two text files are identical",
+            "Response": "fc file1.txt file2.txt"
+          },
+          {
+            "Context": "Display what's inside the text file",
+            "Response": "type file.txt"
+          },
+          {
+            "Context": "Make a new text file without opening it",
+            "Response": "type nul > newfile.txt"
+          },
+          {
+            "Context": "How much free space is on my C drive",
+            "Response": "dir c:\\ /s"
+          },
+          {
+            "Context": "Change the name of old.txt to new.txt",
+            "Response": "ren old.txt new.txt"
+          },
+          {
+            "Context": "Move all PDF files to documents folder",
+            "Response": "move *.pdf documents\\"
+          },
+          {
+            "Context": "Show me the properties of this file",
+            "Response": "dir /q /r filename.txt"
+          },
+          {
+            "Context": "Copy folder structure without files",
+            "Response": "xcopy /t /e source destination"
+          },
+          {
+            "Context": "Search for the word 'error' in all log files",
+            "Response": "findstr /s /i \"error\" *.log"
+          },
+          {
+            "Context": "Switch to the documents folder",
+            "Response": "cd documents"
+          },
+          {
+            "Context": "Move up to the parent folder",
+            "Response": "cd .."
+          },
+          {
+            "Context": "What folder am I in right now",
+            "Response": "cd"
+          },
+          {
+            "Context": "Create a shortcut to the documents folder",
+            "Response": "mklink /d LinkName C:\\Documents"
+          }
+    ]
+}
