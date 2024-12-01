@@ -1,0 +1,7 @@
+langchain_ollama
+langchain
+langchain_core
+langchain_community
+flask
+flask_cors
+pypdf
