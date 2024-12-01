@@ -1,0 +1,7 @@
+python-dotenv==1.0.0
+streamlit==1.40.2
+google-generativeai
+typing-extensions==4.9.0
+langchain 
+langchain_google_genai 
+gtts

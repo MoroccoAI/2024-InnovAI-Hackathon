@@ -1,25 +1,61 @@
-# About The Hackathon
-The MoroccoAI InnovAI Hackathon is a unique opportunity for AI enthusiasts, professionals, and innovators to collaborate and create transformative AI-based solutions addressing real-life challenges in Morocco and across Africa. As part of the annual MoroccoAI Annual Conference, this hackathon is set under the theme “Driving the Future of Innovation Through AI”, inspiring participants to harness AI’s capabilities to make a meaningful societal impact. Participants will join teams to develop Proof of Concepts (PoCs) using applications or APIs that address challenges in various domains. Education, Healthcare, Environment, Finance or Customer Services .
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b68d70bf-5419-4730-ae3e-390c8f8d97d3" width="270"/>
+</div>
 
-In line with MoroccoAI’s mission, this hackathon centers around “Driving the Future of Innovation Through AI”. AI has the power to redefine industries, address community needs, and propel sustainable growth. Through this event, participants will dive into AI’s potential by developing impactful solutions that address challenges unique to Morocco and Africa in fields such as agriculture, education, health, and finance, fostering innovation in response to real-world needs.
 
-# The Challenge
-Connect with the MoroccoAI community, join teams and brainstorm ideas then come up with a project that leverages AI in 5 areas of focus:
-* Innovation
-* Healthcare
-* Environment
-* Finance
-* CustomerServices
+# Languito.ai 🌍📚
 
-# Mentorship
-Join the Hackathon server on discord and meet the mentors to learn more about their proposed projects.
+Languito.ai is an innovative AI-powered language learning platform designed to transform language education for Moroccan children. Our mission is to make language learning engaging, interactive, and culturally relevant.
 
-# Why should you participate in this Hackathon?
-* Hands-on experience in AI project development that targets relevant issues in Morocco and Africa.
-* Mentorship and networking opportunities with experts and peers in the AI community.
-* Showcase their solutions to a jury of AI specialists at the awards ceremony, creating visibility and opportunities for further development.
-* Win great prizes offered by MoroccoAI's sponsors
-* Obtain your MoroccoAI certificate of recognition
 
-# For more information
-https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/pages/hackathon.html
+
+## 📊 Problem Statement
+
+40% of students struggle with language learning due to:
+- Intimidating traditional classroom environments.
+- Lack of interactive and engaging learning tools.
+- Difficulty connecting classroom learning to real-life contexts.
+- Fear of making mistakes.
+
+## 💡 Solution 
+
+Our solution is to provide an all-in-one platform that enhances language learning through an interactive AI chat assistant for real-time, judgment-free practice and instant feedback. We offer a comprehensive Darija dictionary with contextual explanations, pronunciation guides, and real-life examples. Additionally, our gamified language quizzes adapt to your skill level, track performance, and make learning fun. Finally, a personalized learning space ensures customized content, progress monitoring, and a tailored experience for effective skill development.
+
+
+
+## 🔗 Links :
+* 🔴 Demo : [Languito.ai](https://languito-ai.streamlit.app/)
+* 🎥 Video Demo : [Link](https://www.youtube.com/watch?v=BnsCVRAObdo&ab_channel=NinjaCoders)
+* 🎥 Pitch Deck (video) : [Link](https://www.youtube.com/watch?v=whh51FjzBlo)
+* 📄 Pitch : [Link](https://drive.google.com/file/d/1I0eP3mn7s8vPLR1jSQjHMyTL92T8jH5V/view)
+
+## 👥 Team
+
+Languito.ai was founded by a passionate team of software engineering students from FSTT:
+
+- *Mohamed Amine Bahassou*  
+  2nd Year Software Engineering Student @FSTT
+
+- *Zakariae Azarkan*  
+  2nd Year Software Engineering Student @FSTT
+
+- *Hodaifa Echffani*  
+  2nd Year Software Engineering Student @FSTT
+
+## 🛠 Installation
+
+### Prerequisites
+- Python 3.12+
+- pip
+
+### Setup Instructions
+```bash
+# Clone the repository
+git clone https://github.com/Medamine-Bahassou/languito-ai.git
+cd NINJA CODERS/app
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+streamlit run app.py

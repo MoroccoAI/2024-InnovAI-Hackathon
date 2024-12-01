@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(135deg, #f0f9ff, #cbebff);
+  color: #333;
+}
+
+.main .block-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5em !important;
+  color: #0077be;
+  text-shadow: 2px 2px 0 #ffd700;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: #0077be;
+}
+
+.stButton > button {
+  background: linear-gradient(45deg, #0077be, #00a86b);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: all 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stButton > button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.stRadio > div {
+  background: #f0f9ff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #0077be;
+  margin: 10px 0;
+  transition: all 0.3s;
+}
+
+.stRadio > div:hover {
+  transform: scale(1.02);
+  background: #e1f1ff;
+}
+
+.stSelectbox > div > div {
+  background: white;
+  border: 2px solid #00a86b;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.stSelectbox > div > div:hover {
+  border-color: #0077be;
+}
+
+.stMetric {
+  background: linear-gradient(135deg, #f0f9ff, #e1f1ff);
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #0077be;
+}
+
+.stSuccess, .stError, .stInfo, .stWarning {
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.1em;
+}
+
+.stSuccess {
+  background: #e6ffe6;
+  border: 2px solid #00a86b;
+}
+
+.stError {
+  background: #ffe6e6;
+  border: 2px solid #ff6b6b;
+}
+
+.stInfo {
+  background: #e6f2ff;
+  border: 2px solid #0077be;
+}
+
+.stWarning {
+  background: #fff9e6;
+  border: 2px solid #ffd700;
+}
+
+.streamlit-expanderHeader {
+  background: #f0f9ff;
+  border-radius: 10px;
+  border: 2px solid #0077be;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.streamlit-expanderHeader:hover {
+  background: #e1f1ff;
+}
+
+.css-1d391kg, .css-12oz5g7 {
+  background: linear-gradient(170deg, #f0f9ff 0%, #e1f1ff 100%);
+  border-right: 2px solid #0077be;
+}
+
+/* Emoji for younger kids */
+.emoji-icon {
+  font-size: 1.5em;
+  margin-right: 5px;
+}
+
+/* Progress bar for older kids */
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f9ff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #0077be;
+  transition: width 0.5s ease-in-out;
+}
+
