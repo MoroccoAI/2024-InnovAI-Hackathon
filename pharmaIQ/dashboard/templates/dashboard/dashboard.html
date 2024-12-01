@@ -1,0 +1,165 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Dashboard" %}{% endblock %}
+
+{% block content %}
+<div class="px-4 bg-dark-grey">
+    <div class="d-flex flex-wrap justify-content-between bg-light my-3">
+        <div class="bg-white shadow rounded p-2 d-flex flex-column justify-content-between mb-2 mx-1" style="flex: 1 1 200px;">
+            <div class="d-flex align-items-center justify-content-start gap-1">
+                <div class="d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                    <i class="fa-solid fa-chart-line fs-6 p-2 bg-success rounded-circle" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;"></i>
+                </div>
+                <div class="ms-2">
+                    <h3 class="fs-5 my-1">{% trans "Total Sales" %}</h3>
+                    <p class="fs-4 my-1">{{ total_sales }}</p>
+                </div>
+            </div>
+            <a href="#" class="text-decoration-none fs-10">{% trans "View Details" %}</a>
+        </div>
+        <div class="bg-white shadow rounded p-2 d-flex flex-column justify-content-between mb-2 mx-1" style="flex: 1 1 200px;">
+            <div class="d-flex align-items-center justify-content-start gap-1">
+                <div class="d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                    <i class="fa-solid fa-dollar-sign fs-6 p-2 bg-warning rounded-circle" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;"></i>
+                </div>
+                <div class="ms-2">
+                    <h3 class="fs-5 my-1">{% trans "Total Profit" %}</h3>
+                    <p class="fs-4 my-1">{{ total_profit|floatformat:2 }}</p>
+                </div>
+            </div>
+            <a href="#" class="text-decoration-none fs-10">{% trans "View Details" %}</a>
+        </div>
+        <div class="bg-white shadow rounded p-2 d-flex flex-column justify-content-between mb-2 mx-1" style="flex: 1 1 200px;">
+            <div class="d-flex align-items-center justify-content-start gap-1">
+                <div class="d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                    <i class="fa-solid fa-exclamation-triangle fs-6 p-2 bg-danger rounded-circle" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;"></i>
+                </div>
+                <div class="ms-2">
+                    <h3 class="fs-5 my-1">{% trans "Out of Stock" %}</h3>
+                    <p class="fs-4 my-1">{{ out_of_stock }}</p>
+                </div>
+            </div>
+            <a href="#" class="text-decoration-none fs-10">{% trans "View Details" %}</a>
+        </div>
+    </div>
+    <div class="recent-orders shadow bg-white p-3 rounded">
+        <h5 class="fw-light">{% trans "Recent Sales" %}</h5>
+        <div class="table-responsive bg-white">
+            <table class="table table-adaptive text-dark">
+                <thead>
+                    <tr>
+                        <th class="text-dark">{% trans "Medicine Name" %}</th>
+                        <th class="text-dark">{% trans "Date" %}</th>
+                        <th class="text-dark">{% trans "Time" %}</th>
+                        <th class="text-dark">{% trans "Quantity" %}</th>
+                        <th class="text-dark">{% trans "Price" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sale in recent_sales %}
+                    <tr>
+                        <td class="text-dark bg-white">{{ sale.getDrugName }}</td>
+                        <td class="text-dark bg-white">{{ sale.date }}</td>
+                        <td class="text-dark bg-white">{{ sale.time }}</td>
+                        <td class="text-dark bg-white">{{ sale.quantity }}</td>
+                        <td class="text-dark bg-white">{{ sale.get_total|floatformat:2 }} {% trans "dh" %}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row my-3 py-1 d-flex justify-content-between g-3">
+        <div class="col-md-8">
+            <div class="shadow bg-white p-3 rounded h-100">
+                <h5 class="fw-light">{% trans "Monthly Progress" %}</h5>
+                <div style="height: 340px; width:100%;">
+                    <canvas id="monthlySalesChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="shadow bg-white p-3 rounded h-100">
+                <h5 class="fw-light">{% trans "Daily Report" %}</h5>
+                <div class="row justify-content-center">
+                    <!-- Chart.js Circular Chart -->
+                    <div class="report-container col-12">
+                        <canvas id="categorySalesChart"></canvas>
+                    </div>
+                    <!-- Earnings and Legend -->
+                    <div class="earnings-legend col-12">
+                        <div class="total-earnings text-center">
+                            <h6>{% trans "Total Earnings" %}</h6>
+                            <h5>{{ daily_report.totalEarnings }} {% trans "dh" %} <span style="color: green;">{{ daily_report.percentageIncrease }}% &#9650;</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>                
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="{% static 'js/script.js' %}"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var ctx = document.getElementById('monthlySalesChart').getContext('2d');
+
+    var monthly_progressData = {{ monthly_progress|safe }};
+    
+    var monthlyProgressChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            datasets: [{
+                label: 'Monthly Progress',
+                data: monthly_progressData,
+                borderColor: 'rgb(11, 166, 0)',
+                tension: 0.1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    var categoryCtx = document.getElementById('categorySalesChart').getContext('2d');
+
+    var categorySalesData = {{ daily_report.topCategoriesPercentages|safe }};
+    var categoryLabels = Object.keys(categorySalesData);
+    var categoryValues = Object.values(categorySalesData);
+
+    var categorySalesChart = new Chart(categoryCtx, {
+        type: 'doughnut',
+        data: {
+            labels: categoryLabels,
+            datasets: [{
+                data: categoryValues,
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(tooltipItem) {
+                            return tooltipItem.label + ': ' + tooltipItem.raw.toFixed(2) + '%';
+                        }
+                    }
+                }
+            }
+        }
+    });
+</script>
+{% endblock %}

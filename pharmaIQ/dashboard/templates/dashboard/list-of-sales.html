@@ -1,0 +1,81 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "List of Sales" %}{% endblock %}
+
+{% block content %}
+<div class="container-fluid mt-4 p-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb fs-3">
+            <li class="breadcrumb-item fw-bold mx-3">{% trans "Sales" %}</li>
+            <li class="breadcrumb-item active fw-bold" id="active-breadcrumb-item" aria-current="page">{% trans "List of Sales" %} ({{total}})</li>
+        </ol>
+    </nav>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <p class="text-muted mb-0">{% trans "List of sales transactions." %}</p>
+        <a class="btn btn-primary" href="{% url 'add-sale' %}">+ {% trans "Add New Sale" %}</a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th class="bg-white text-dark">{% trans "ID" %}</th>
+                    <th class="bg-white text-dark">{% trans "Medicine" %}</th>
+                    <th class="bg-white text-dark">{% trans "Quantity" %}</th>
+                    <th class="bg-white text-dark">{% trans "Date" %}</th>
+                    <th class="bg-white text-dark">{% trans "Actions" %}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for sale in sales %}
+                <tr>
+                    <td class="bg-white text-dark">{{ sale.id }}</td>
+                    <td class="bg-white text-dark">{{ sale.drug.name }}</td>
+                    <td class="bg-white text-dark">{{ sale.quantity }}</td>
+                    <td class="bg-white text-dark">{{ sale.date }}</td>
+                    <td class="bg-white text-dark">
+                        <a href="{% url 'sale-details' sale.id %}" class="text-primary "> {% trans "View Details" %} »</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <nav aria-label="Page navigation" class="mt-4">
+        <ul class="pagination justify-content-center">
+            {% if sales.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="{% url 'list-of-sales-paginated' sales.previous_page_number %}">
+                        <i class="bi bi-chevron-left"></i>
+                    </a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="page-link" href="#"><i class="bi bi-chevron-left"></i></a>
+                </li>
+            {% endif %}
+            
+            <li class="page-item active">
+                <a class="page-link" href="#">{% trans "Page" %} {{ sales.number }} {% trans "of" %} {{ sales.paginator.num_pages }}</a>
+            </li>
+            
+            {% if sales.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="{% url 'list-of-sales-paginated' sales.next_page_number %}">
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+
+{% endblock %}

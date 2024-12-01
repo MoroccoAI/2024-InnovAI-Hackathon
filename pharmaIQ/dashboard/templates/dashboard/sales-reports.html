@@ -1,0 +1,163 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Sales Reports" %}{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4>{% trans "Sales Reports" %}</h4>
+        
+        <!-- Date Range Picker -->
+        <div>
+            <label for="dateRange">{% trans "Date Range" %}</label>
+            <input type="text" id="dateRange" class="form-control" placeholder="{% trans 'Select date range' %}">
+        </div>
+        
+        <!-- Medicine Group Dropdown -->
+        <div class="ml-3">
+            <label for="medicineGroup">{% trans "Medicine Group" %}</label>
+            <select id="medicineGroup" class="form-control">
+                <option>- {% trans "Select Group" %} -</option>
+                <!-- Add options dynamically or statically here -->
+                <option value="group1">{% trans "Group 1" %}</option>
+                <option value="group2">{% trans "Group 2" %}</option>
+                <option value="group3">{% trans "Group 3" %}</option>
+            </select>
+        </div>
+
+        <!-- Generate Report Button -->
+        <button class="btn btn-download btn-primary ml-3" onclick="generateReport()">{% trans "Generate report" %}</button>
+    </div>
+
+    <!-- Weekly Sales Summary -->
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <h5 class="text-dark">{% trans "Weekly Sales Summary" %}</h5>
+            <ul class="list-group">
+                {% for week, data in last_thirty_days_sales.total_week.items %}
+                <li class="list-group-item d-flex justify-content-between bg-light text-dark">
+                    <span>
+                        <strong>{% trans "Week" %} {{ week|slice:5 }}</strong> 
+                        ({{ data.date }})
+                    </span>
+                    <span>{% trans "Total Sales" %}: {{ data.total_sales }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Daily Sales -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card shadow p-3">
+                <h5 class="text-dark">{% trans "Sales Made" %}</h5>
+                <canvas id="salesLineChart" width="400" height="300"></canvas>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow p-3">
+                <h5 class="text-dark">{% trans "Daily Sales Details" %}</h5>
+                <ul id="salesList" class="list-group" style="max-height:300px; overflow-y:scroll;">
+                    {% for date, sales in last_thirty_days_sales.all.items %}
+                    <li class="list-group-item d-flex justify-content-between text-dark bg-success group-header">
+                        <strong>{{ date }}</strong>
+                    </li>
+                    {% for sale in sales %}
+                    <li class="list-group-item d-flex justify-content-between text-dark bg-white sale-item">
+                        <span>{{ sale.category }}</span>
+                        <span>{{ sale.sales }} {% trans "units" %}</span>
+                        <small>{{ sale.date }} {{ sale.time }}</small>
+                    </li>
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+
+{{ block.super }}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Sales Data for Chart.js
+        const salesData = {{ last_thirty_days_sales.all|safe }};
+        
+        // Prepare chart data
+        const labels = Object.keys(salesData);
+        const data = labels.map(date => salesData[date].reduce((sum, sale) => sum + sale.sales, 0));
+
+        // Initialize Chart.js
+        const ctx = document.getElementById('salesLineChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: '{% trans "Sales Made" %}',
+                    data: data,
+                    backgroundColor: 'rgba(40, 185, 94, 0.2)',
+                    borderColor: 'rgb(40, 185, 94)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: '{% trans "Number of Sales" %}'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: '{% trans "Date" %}'
+                        }
+                    }
+                }
+            }
+        });
+    });
+
+    function generateReport() {
+        // Get filter values
+        const dateRange = document.getElementById('dateRange').value;
+        const group = document.getElementById('medicineGroup').value;
+        
+        // Build URL with parameters
+        let url = "{% url 'generate-sales-report' %}?";
+        if (dateRange) {
+            const [start, end] = dateRange.split(' - ');
+            url += `start_date=${start}&end_date=${end}&`;
+        }
+        if (group && group !== '- Select Group -') {
+            url += `group=${group}`;
+        }
+        
+        // Open in new tab
+        window.open(url, '_blank');
+    }
+
+    // Initialize date range picker
+    $(function() {
+        $('#dateRange').daterangepicker({
+            opens: 'left',
+            locale: {
+                format: 'YYYY-MM-DD'
+            }
+        });
+    });
+
+</script>
+
+{% endblock %}

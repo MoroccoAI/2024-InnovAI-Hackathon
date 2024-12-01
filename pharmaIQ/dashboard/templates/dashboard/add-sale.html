@@ -1,0 +1,42 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Add New Sale" %}{% endblock %}
+
+{% block content %}
+<div class="container mt-4 p-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'list-of-sales' %}">{% trans "Sales" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Add new sale" %}</li>
+        </ol>
+    </nav>
+
+    <h2 class="mb-3">{% trans "Add new sale" %}</h2>
+    <p class="text-muted"><small>{% trans "*All fields are mandatory." %}</small></p>
+
+    <form method="POST" action="{% url 'add-sale' %}">
+        {% csrf_token %}
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="drug" class="form-label">{% trans "Medicine" %}</label>
+                <select class="form-select" id="drug" name="drug" required>
+                    {% for drug in drugs %}
+                        <option value="{{ drug.id }}">{{ drug.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="quantity" class="form-label">{% trans "Quantity" %}</label>
+                <input type="number" class="form-control" id="quantity" name="quantity" required>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-success">{% trans "Save Sale" %}</button>
+            <a href="{% url 'list-of-sales' %}" class="btn btn-outline-secondary">{% trans "Cancel" %}</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

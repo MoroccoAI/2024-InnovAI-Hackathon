@@ -1,0 +1,107 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Predictions Report" %}{% endblock %}
+
+{% block content %}
+<div class="container mt-4 p-4">
+    <!-- Overall Stock Section -->
+    <div class="row mb-4">
+        <div class="col-12 col-md-6">
+            <h4>{% trans "Predictions" %}</h4>
+            <p>{% trans "AI predictions for what is likely to happen next Week." %}</p>
+        </div>
+    </div>
+
+    <!-- Summary Cards -->
+    <div class="row text-center mb-5">
+        <div class="col-md-4">
+            <div class="card shadow h-100 position-relative">
+                <span class="position-absolute top-0 end-0 badge bg-danger m-2">{% trans "Alert" %}</span>
+                <div class="text-dark d-flex flex-column h-100">
+                    <i class="fas fa-prescription-bottle-alt fa-2x mb-2 mt-3"></i>
+                    <h3>{{ shortage_count }}</h3>
+                    <p class="flex-grow-1">
+                        {% trans "There are" %} {{ shortage_count }} {% trans "drugs expected to face shortages in the next week." %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow h-100 position-relative">
+                <span class="position-absolute top-0 end-0 badge bg-warning m-2">{% trans "Alert" %}</span>
+                <div class="text-dark d-flex flex-column h-100">
+                    <i class="fas fa-exclamation-triangle fa-2x mb-2 mt-3"></i>
+                    <h3>{{ inventory_risk_percentage }}%</h3>
+                    <p class="flex-grow-1">
+                        {% trans "Current Inventory Risk:" %} {{ inventory_risk_percentage }}% {% trans "of total inventory is at risk of shortage." %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow h-100 position-relative">
+                <span class="position-absolute top-0 end-0 badge bg-info m-2">{% trans "Alert" %}</span>
+                <div class="text-dark d-flex flex-column h-100">
+                    <i class="fas fa-syringe fa-2x mb-2 mt-3"></i>
+                    <h3>{{ most_affected_category }}</h3>
+                    <p>
+                        <small>{% trans "Most Affected Category:" %} {{ most_affected_category }}</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Monthly Progress Chart -->
+    <div class="row">
+        <div class="col-12 shadow bg-white mx-auto p-3 rounded">
+            <!-- Search Box -->
+            <form method="GET" action="">
+                <div class="input-group mb-3">
+                    <input type="search" class="form-control" placeholder="{% trans 'Check for Medicine Shortages' %}" name="search">
+                    <div class="input-group-append mx-2">
+                        <button class="btn btn-outline-secondary text-dark bg-primary" type="submit">
+                            {% trans "Search" %}
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Results Table -->
+            <div class="table-responsive" style="max-height: 300px; overflow-y: auto;">
+                <table class="table table-striped " >
+                    <thead>
+                        <tr>
+                            <th class="text-primary bg-white">{% trans "ID" %}</th>
+                            <th class="text-primary bg-white">{% trans "Medicine" %}</th>
+                            <th class="text-primary bg-white">{% trans "dosage" %}</th>
+                            <th class="text-primary bg-white">{% trans "Selling speed" %}</th>
+                            <th class="text-primary bg-white">{% trans "Shortage Prediction" %}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for record in table_data %}
+                        <tr>
+                            <td class="text-dark bg-white">{{ record.id }}</td>
+                            <td class="text-dark bg-white">{{ record.name }}</td>
+                            <td class="text-dark bg-white">{{ record.therapeutic_class }}</td>
+                            <td class="text-dark bg-white">{{ record.selling_speed }}</td>
+                            <td class="text-dark bg-white">
+                                {{ record.shortage }}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+{% endblock %}

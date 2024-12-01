@@ -1,0 +1,101 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Sale Details" %}{% endblock %}
+
+{% block content %}
+<div class="container mt-4 p-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'list-of-sales' %}">{% trans "Sales" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Sale Details" %}</li>
+        </ol>
+    </nav>
+
+    <h2 class="mb-4">{% trans "Sale Details" %}</h2>
+
+    <div class="details-container  text-dark bg-white">
+        <div class="detail-row">
+            <span class="detail-label">{% trans "Sale ID" %}</span>
+            <span class="detail-value">{{ sale.id }}</span>
+        </div>
+        <div class="detail-row">
+            <span class="detail-label">{% trans "Medicine" %}</span>
+            <span class="detail-value">{{ sale.drug.name }}</span>
+        </div>
+        <div class="detail-row">
+            <span class="detail-label">{% trans "Quantity" %}</span>
+            <span class="detail-value">{{ sale.quantity }}</span>
+        </div>
+        <div class="detail-row">
+            <span class="detail-label">{% trans "Date" %}</span>
+            <span class="detail-value">{{ sale.date }}</span>
+        </div>
+        <div class="detail-row">
+            <span class="detail-label">{% trans "Time" %}</span>
+            <span class="detail-value">{{ sale.time }}</span>
+        </div>
+        <div class="detail-row total">
+            <span class="detail-label">{% trans "Total" %}</span>
+            <span class="detail-value">{{ sale.get_total|floatformat:2 }} DHS</span>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a href="{% url 'list-of-sales' %}" class="btn btn-outline-secondary">{% trans "Back to List" %}</a>
+    </div>
+</div>
+
+<style>
+    .details-container {
+        border-radius: 10px;
+        padding: 2rem;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .detail-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid #eee;
+        transition: background-color 0.3s ease;
+    }
+
+    .detail-row:hover {
+        background-color: rgba(0, 0, 0, 0.02);
+    }
+
+    .detail-row:last-child {
+        border-bottom: none;
+    }
+
+    .detail-label {
+        font-weight: 600;
+        color: #666;
+    }
+
+
+    .total {
+        margin-top: 1rem;
+        padding-top: 1.5rem;
+        border-top: 2px solid #eee;
+    }
+
+    .total .detail-label,
+    .total .detail-value {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    @media (max-width: 576px) {
+        .detail-row {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+    }
+</style>
+{% endblock %}

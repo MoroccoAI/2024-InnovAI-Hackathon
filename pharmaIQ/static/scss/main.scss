@@ -1,0 +1,14 @@
+// Import Bootstrap
+$primary: #28B95E;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "./base/typography";
+@import "./themes/dark";
+@import "./utils/variables";
+@import "./components/sidebar";
+@import "./components/navbar";
+@import "./components/circularChart.scss";
+@import "./pages/dashboard";
+@import "./pages/chat.scss";
+
+

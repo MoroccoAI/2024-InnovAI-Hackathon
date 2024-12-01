@@ -1,0 +1,184 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Stock Report" %}{% endblock %}
+
+{% block content %}
+<div class="container mt-5 p-4">
+    <!-- Download Report Button -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4>{% trans "Stock Report" %}</h4>
+        <button class="btn btn-download btn-primary" onclick="generateStockReport()"> Generate report </button>
+    </div>
+
+    <!-- Date Range and Medicine Group Filters -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <label for="dateRange" class="form-label">{% trans "Date Range" %}</label>
+            <div class="input-group">
+                <input type="text" id="dateRange" class="form-control" placeholder="{% trans '01 December 2021 - 31 December 2021' %}">
+                <span class="input-group-text">
+                    <i class="fas fa-calendar-alt"></i>
+                </span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="medicineGroup" class="form-label">{% trans "Medicine Group" %}</label>
+            <select id="medicineGroup" class="form-select bg-white text-dark">
+                <option selected value="all">{% trans "- All Groups -" %}</option>
+                {% for group in last_month_stock.week4.all.keys %}
+                    <option value="{{ group }}">{{ group }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+
+    <!-- Stock Graph -->
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="card shadow p-3">
+                <h5 class="text-dark">{% trans "Stock Levels by Week" %}</h5>
+                <!-- Canvas for Chart.js -->
+                <canvas id="stockLineChart" width="400" height="300"></canvas>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card shadow p-3">
+                <h5 class="text-dark">{% trans "Weekly Stock Summary" %}</h5>
+                <ul id="weeklyStockList" class="list-group" style="max-height:300px; overflow-y:scroll;">
+                    {% for week, data in last_month_stock.items %}
+                    <!-- Week Header -->
+                    <li class="list-group-item d-flex justify-content-between text-dark bg-success group-header">
+                        <strong>{% trans "Week" %} {{ data.weekDate }}</strong>
+                        <span>{% trans "Total Stock" %}: {{ data.totalStock }}</span>
+                    </li>
+                    <!-- Stock Items -->
+                    {% for group, stock in data.all.items %}
+                    <li class="list-group-item d-flex justify-content-between text-dark bg-white sale-item" data-group="{{ group }}">
+                        <span>{{ group }}</span>
+                        <span>{{ stock }}</span>
+                    </li>
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div> 
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+
+{% block extra_scripts %}
+<script>
+    var stockData = {{ last_month_stock|safe }};  // Pass the data from Django to JS
+    var ctx = document.getElementById('stockLineChart').getContext('2d');
+
+    // Extract labels and stock values for the chart
+    var labels = [];
+    var stockValues = [];
+
+    for (let week in stockData) {
+        labels.push(stockData[week].weekDate);  // X-axis labels (week dates)
+        stockValues.push(stockData[week].totalStock);  // Y-axis values (total stock)
+    }
+
+    var stockLineChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Total Stock',
+                data: stockValues,
+                backgroundColor: 'rgba(40, 185, 94, 0.2)', // Fill under the line
+                borderColor: 'rgb(40, 185, 94)', // Line color
+                borderWidth: 2,
+                fill: true,
+                tension: 0.4 // Smoothing of the line
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Stock Quantity'
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Week'
+                    }
+                }
+            }
+        }
+    });
+</script>
+<script>
+    // JavaScript for filtering stock data
+    document.getElementById('medicineGroup').addEventListener('change', function () {
+        const selectedGroup = this.value.toLowerCase(); // Get the selected group
+        const stockItems = document.querySelectorAll('.sale-item'); // All stock items
+    
+        // Filter stock items based on the selected group
+        stockItems.forEach(item => {
+            const itemGroup = item.getAttribute('data-group').toLowerCase();
+            if (selectedGroup === 'all' || itemGroup === selectedGroup) {
+                item.style.display = ''; // Show matching items
+            } else {
+                item.style.display = 'none'; // Hide non-matching items
+            }
+        });
+    
+        // Handle visibility of week headers
+        const weekHeaders = document.querySelectorAll('.group-header'); // All week headers
+        weekHeaders.forEach(header => {
+            // Get all sibling sale-items until the next group header
+            let sibling = header.nextElementSibling;
+            let visibleItems = 0;
+    
+            while (sibling && sibling.classList.contains('sale-item')) {
+                if (sibling.style.display !== 'none') {
+                    visibleItems++; // Count visible items
+                }
+                sibling = sibling.nextElementSibling;
+            }
+    
+            // Show header if any items are visible, hide otherwise
+            header.style.display = visibleItems > 0 ? '' : 'none';
+        });
+    });   
+    
+    $(function() {
+        $('#dateRange').daterangepicker({
+            opens: 'left',
+            locale: {
+                format: 'YYYY-MM-DD'
+            }
+        });
+    });
+    // Update generate report function
+    function generateStockReport() {
+        const dateRange = document.getElementById('dateRange').value;
+        const group = document.getElementById('medicineGroup').value;
+        
+        let url = "{% url 'generate-stock-report' %}?";
+        
+        // Add date range parameters
+        if (dateRange) {
+            const [start, end] = dateRange.split(' - ');
+            url += `start_date=${start}&end_date=${end}&`;
+        }
+        
+        // Add group parameter
+        if (group && group !== '{% trans "- Select Group -" %}') {
+            url += `group=${group}`;
+        }
+        
+        window.open(url, '_blank');
+        }
+</script>
+{% endblock %}

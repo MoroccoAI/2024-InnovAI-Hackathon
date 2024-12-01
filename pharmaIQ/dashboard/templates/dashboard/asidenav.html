@@ -1,0 +1,81 @@
+{% load static %}
+{% load i18n %}
+<div class="sidebar p-3 bg-white" style="height:100%;">
+    <div class="d-flex align-items-center justify-content-between mb-4">
+        <img src="{% static 'images/pharmacy.png' %}" alt="logo" class="img-fluid" style="width: 40px; height: 40px;">
+    </div>
+    <div class="nav flex-column">
+        <a href="{% url 'dashboard' %}" class="nav-link fs-5 {% if request.resolver_match.url_name == 'dashboard' %}active bg-primary rounded{% endif %}">
+            <i class="fas fa-tachometer-alt me-2"></i> {% trans "Dashboard" %}
+        </a>
+        <a href="#inventorySubmenu" data-bs-toggle="collapse" class="nav-link fs-5 {% if 'inventory' in request.resolver_match.url_name or 'list-of-medicines' in request.resolver_match.url_name or 'add-medicine' in request.resolver_match.url_name or 'stock-history' in request.resolver_match.url_name %}active{% endif %}">
+            <i class="fas fa-box me-2"></i> {% trans "Inventory" %}
+            <i class="fas fa-chevron-down float-end"></i>
+        </a>
+        <ul class="collapse nav flex-column ms-3 {% if 'inventory' in request.resolver_match.url_name or 'list-of-medicines' in request.resolver_match.url_name or 'add-medicine' in request.resolver_match.url_name or 'stock-history' in request.resolver_match.url_name %}show{% endif %}" id="inventorySubmenu">
+            <li class="nav-item">
+                <a href="{% url 'inventory' %}" class="nav-link {% if request.resolver_match.url_name == 'inventory' %}active bg-primary rounded{% endif %}">
+                    <i class="fas fa-list me-2"></i> {% trans "Overview" %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'list-of-medicines' %}" class="nav-link {% if request.resolver_match.url_name == 'list-of-medicines' %}active bg-primary rounded{% endif %}">
+                    <i class="fas fa-plus me-2"></i> {% trans "List Of Medicines" %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'add-medicine' %}" class="nav-link {% if request.resolver_match.url_name == 'add-medicine' %}active bg-primary rounded{% endif %}">
+                    <i class="fas fa-plus me-2"></i> {% trans "Add Item" %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'stock-history' %}" class="nav-link {% if request.resolver_match.url_name == 'stock-history' %}active bg-primary rounded{% endif %}">
+                    <i class="fas fa-history me-2"></i> {% trans "Stock History" %}
+                </a>
+            </li>
+        </ul>
+        <a href="#reportsSubmenu" data-bs-toggle="collapse" class="nav-link fs-5 {% if 'sales-reports' in request.resolver_match.url_name or 'stock-reports' in request.resolver_match.url_name %}active{% endif %}">
+            <i class="fas fa-chart-bar me-2"></i> {% trans "Reports" %}
+            <i class="fas fa-chevron-down float-end"></i>
+        </a>
+        <ul class="collapse nav flex-column ms-3 {% if 'sales-reports' in request.resolver_match.url_name or 'stock-reports' in request.resolver_match.url_name %}show{% endif %}" id="reportsSubmenu">
+            <li class="nav-item">
+                <a href="{% url 'sales-reports' %}" class="nav-link {% if request.resolver_match.url_name == 'sales-reports' %}active bg-primary rounded{% endif %}">
+                    <i class="fas fa-chart-line me-2"></i> {% trans "Sales Reports" %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'stock-reports' %}" class="nav-link {% if request.resolver_match.url_name == 'stock-reports' %}active bg-primary rounded{% endif %}">
+                    <i class="fas fa-boxes me-2"></i> {% trans "Stock Reports" %}
+                </a>
+            </li>
+        </ul>
+
+        <a href="#salesSubmenu" data-bs-toggle="collapse" class="nav-link fs-5 {% if 'list-of-sales' in request.resolver_match.url_name or 'add-sale' in request.resolver_match.url_name %}active{% endif %}">
+            <i class="fas fa-shopping-cart me-2"></i> {% trans "Sales" %}
+            <i class="fas fa-chevron-down float-end"></i>
+        </a>
+        <ul class="collapse nav flex-column ms-3 {% if 'list-of-sales' in request.resolver_match.url_name or 'add-sale' in request.resolver_match.url_name %}show{% endif %}" id="salesSubmenu">
+            <li class="nav-item">
+                <a href="{% url 'list-of-sales' %}" class="nav-link {% if request.resolver_match.url_name == 'list-of-sales' %}active bg-primary rounded{% endif %}">
+                    <i class="fas fa-list me-2"></i> {% trans "List Of Sales" %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'add-sale' %}" class="nav-link {% if request.resolver_match.url_name == 'add-sale' %}active bg-primary rounded{% endif %}">
+                    <i class="fas fa-plus me-2"></i> {% trans "Add Sale" %}
+                </a>
+            </li>
+        </ul>
+        
+        <a href="{% url 'predictions' %}" class="nav-link {% if request.resolver_match.url_name == 'predictions' %}active bg-primary rounded{% endif %} fs-5">
+            <i class="fas fa-chart-line me-2"></i> {% trans "Predictions" %}
+        </a>
+        <a href="{% url 'alerts' %}" class="nav-link {% if request.resolver_match.url_name == 'alerts' %}active bg-primary rounded{% endif %} fs-5">
+            <i class="fas fa-chart-pie me-2"></i> {% trans "Alerts" %}
+        </a>
+        <a href="{% url 'assistant' %}" class="nav-link {% if request.resolver_match.url_name == 'assistant' %}active bg-primary rounded{% endif %} fs-5">
+            <i class="bi bi-stars text-light"></i> {% trans "Assistant" %}
+        </a>
+    </div>
+</div>

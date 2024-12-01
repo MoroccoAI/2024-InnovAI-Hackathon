@@ -1,0 +1,104 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/png" href="{% static 'images/pharmacy.png' %}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/rtl.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment/min/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+</head>
+<body>
+    <div class="d-flex" id="wrapper">
+        <div id="sidebar-wrapper">
+            {% include 'dashboard/asidenav.html' %}
+        </div>
+        <div class="main-content w-100 bg-light" id="page-content-wrapper">
+            {% include 'dashboard/navbar.html' %}
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{$ static 'js/bootstrap.bundle.min.js' }"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script type="text/javascript" src="{% url 'javascript-catalog' %}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Sidebar toggle functionality*
+            var sidebarCollapse = document.getElementById('sidebarCollapse');
+            var body = document.body;
+            var wrapper = document.getElementById('wrapper');
+            
+            if (sidebarCollapse) {
+                sidebarCollapse.addEventListener('click', function() {
+                    body.classList.toggle('sidebar-collapsed');
+                    wrapper.classList.toggle('sidebar-collapsed');
+                });
+            }
+
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+
+            // Search toggle functionality
+            var searchToggle = document.getElementById('searchToggle');
+            var searchForm = document.getElementById('searchForm');
+            
+            if (searchToggle && searchForm) {
+                searchToggle.addEventListener('click', function() {
+                    searchForm.classList.toggle('d-none');
+                    searchForm.classList.toggle('d-flex');
+                });
+            }
+
+            // Language switcher functionality
+            const languageSwitcher = document.getElementById('languageSwitcher');
+            if (languageSwitcher) {
+                languageSwitcher.addEventListener('change', function() {
+                    const selectedLanguage = this.value;
+                    localStorage.setItem('language', selectedLanguage);
+                    applyLanguageDirection(selectedLanguage);
+                    // Submit the form instead of reloading the page
+                    this.form.submit();
+                });
+            }
+
+            // Apply language direction on page load
+            const savedLanguage = localStorage.getItem('language') || 'en';
+            applyLanguageDirection(savedLanguage);
+            
+            // Set the language switcher to the saved language
+            if (languageSwitcher) {
+                languageSwitcher.value = savedLanguage;
+            }
+        });
+
+        // Function to apply language direction
+        function applyLanguageDirection(language) {
+            const body = document.body;
+            if (language === 'ar') {
+                body.classList.add('rtl');
+                body.setAttribute('dir', 'rtl');
+            } else {
+                body.classList.remove('rtl');
+                body.setAttribute('dir', 'ltr');
+            }
+        }
+    </script>
+    {% block extra_scripts %}{% endblock %}
+</body>
+</html>

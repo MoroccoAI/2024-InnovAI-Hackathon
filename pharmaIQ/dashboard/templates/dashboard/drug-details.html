@@ -1,0 +1,96 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{{ drug.name }} {% trans "Details" %}{% endblock %}
+
+{% block content %}
+<div class="container-fluid mt-4 p-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'inventory' %}">{% trans "Inventory" %}</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'list-of-medicines' %}">{% trans "List of Medicines" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ drug.name }}</li>
+        </ol>
+    </nav>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>{{ drug.name }}</h1>
+        <a href="{% url 'edit-medicine' drug.id %}" class="btn btn-success">{% trans "Edit Details" %}</a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card shadow mb-4">
+                <div class="card shadow-body text-dark bg-white p-4">
+                    <h5 class="mb-5">{% trans "Medicine" %}</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>{{ drug.id }}</h2>
+                            <small>{% trans "Medicine ID" %}</small>
+                        </div>
+                        <div class="col-6">
+                            <h5>{{ drug.class_therapeutique }}</h5>
+                            <small>{% trans "Medicine Group" %}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow mb-4">
+                <div class="card shadow-body text-dark bg-white p-4">
+                    <h5 class="mb-5">{% trans "Inventory in Qty" %}</h5>
+                    <div class="row">
+                        <div class="col-4">
+                            <h2>{{ lifetime_supply }}</h2>
+                            <small>{% trans "Lifetime Supply" %}</small>
+                        </div>
+                        <div class="col-4">
+                            <h2>{{ lifetime_sales }}</h2>
+                            <small>{% trans "Lifetime Sales" %}</small>
+                        </div>
+                        <div class="col-4">
+                            <h2>{{ stock_left }}</h2>
+                            <small>{% trans "Stock Left" %}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow mb-4">
+        <div class="card shadow-body text-start text-dark bg-white p-4">
+            <h5 class="card shadow-title mb-5 text-dark">{% trans "Drug Information" %}</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="fs-6"><strong>{% trans "Dosage" %}:</strong> {{ drug.dosage }}</p>
+                    <p class="fs-6"><strong>{% trans "Form" %}:</strong> {{ drug.form }}</p>
+                    <p class="fs-6"><strong>{% trans "Substances" %}:</strong> {{ drug.substances }}</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="fs-6"><strong>{% trans "Presentation" %}:</strong> {{ drug.presentation }}</p>
+                    <p class="fs-6"><strong>{% trans "EPI" %}:</strong> {{ drug.EPI }}</p>
+                    <p class="fs-6"><strong>{% trans "PPV" %}:</strong> {{ drug.PPV }}</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="fs-6"><strong>{% trans "Status" %}:</strong> {{ drug.get_statutCommercialisation_display }}</p>
+                    <p class="fs-6"><strong>{% trans "Type" %}:</strong> {{ drug.get_pp_gn_display }}</p>
+                    <p class="fs-6"><strong>{% trans "AMM Status" %}:</strong> {{ drug.get_statutAMM_display }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form 
+        method="POST" 
+        action="{% url 'delete-medicine' drug.id %}" 
+        class="d-inline"
+        onsubmit="return confirm('{% trans "Are you sure you want to delete this medicine?" %}')"
+    >
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">{% trans "Delete Medicine" %}</button>
+    </form>
+</div>
+{% endblock %}

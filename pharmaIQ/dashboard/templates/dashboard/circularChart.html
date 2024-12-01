@@ -1,0 +1,26 @@
+{% extends 'dashboard/dashboard.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="report-container">
+    <svg class="circular-chart" viewBox="0 0 36 36">
+        <!-- Red Circle -->
+        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+        <path class="circle red" stroke-dasharray="{{ chart_data.red }}, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+
+        <!-- Yellow Circle -->
+        <path class="circle-bg" d="M18 4.5 a 13.5 13.5 0 0 1 0 27 a 13.5 13.5 0 0 1 0 -27"/>
+        <path class="circle yellow" stroke-dasharray="{{ chart_data.yellow }}, 100" d="M18 4.5 a 13.5 13.5 0 0 1 0 27 a 13.5 13.5 0 0 1 0 -27"/>
+
+        <!-- Blue Circle -->
+        <path class="circle-bg" d="M18 6.5 a 11.5 11.5 0 0 1 0 23 a 11.5 11.5 0 0 1 0 -23"/>
+        <path class="circle blue" stroke-dasharray="{{ chart_data.blue }}, 100" d="M18 6.5 a 11.5 11.5 0 0 1 0 23 a 11.5 11.5 0 0 1 0 -23"/>
+
+        <!-- Green Circle -->
+        <path class="circle-bg" d="M18 8.5 a 9.5 9.5 0 0 1 0 19 a 9.5 9.5 0 0 1 0 -19"/>
+        <path class="circle green" stroke-dasharray="{{ chart_data.green }}, 100" d="M18 8.5 a 9.5 9.5 0 0 1 0 19 a 9.5 9.5 0 0 1 0 -19"/>
+    </svg>
+</div>
+
+{% endblock %}

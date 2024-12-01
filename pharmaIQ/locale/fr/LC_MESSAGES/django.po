@@ -1,0 +1,714 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION DU PACKAGE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-24 19:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: NOM COMPLET <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\dashboard\templates\dashboard\add-medicine.html:5
+msgid "Add New Medicine"
+msgstr "Ajouter un nouveau médicament"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:11
+#: .\dashboard\templates\dashboard\asidenav.html:12
+#: .\dashboard\templates\dashboard\drug-details.html:11
+#: .\dashboard\templates\dashboard\inventory.html:5
+#: .\dashboard\templates\dashboard\inventory.html:10
+#: .\dashboard\templates\dashboard\list-of-medicines.html:11
+#: .\dashboard\templates\dashboard\stock-history.html:11
+msgid "Inventory"
+msgstr "Inventaire"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:12
+#: .\dashboard\templates\dashboard\add-medicine.html:16
+msgid "Add new medicine"
+msgstr "Ajouter un nouveau médicament"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:17
+msgid "*All fields are mandatory, except mentioned as (optional)."
+msgstr "*Tous les champs sont obligatoires, sauf mentionnés comme (facultatif)."
+
+#: .\dashboard\templates\dashboard\add-medicine.html:22
+#: .\dashboard\templates\dashboard\dashboard.html:65
+#: .\dashboard\templates\dashboard\list-of-medicines.html:34
+#: .\dashboard\templates\dashboard\stock-history.html:42
+msgid "Medicine Name"
+msgstr "Nom du médicament"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:26
+#: .\dashboard\templates\dashboard\drug-details.html:30
+#: .\dashboard\templates\dashboard\list-of-medicines.html:35
+#: .\dashboard\templates\dashboard\stock-history.html:43
+msgid "Medicine ID"
+msgstr "ID du médicament"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:33
+#: .\dashboard\templates\dashboard\drug-details.html:34
+#: .\dashboard\templates\dashboard\sales-reports.html:29
+#: .\dashboard\templates\dashboard\stock-reports.html:29
+msgid "Medicine Group"
+msgstr "Groupe de médicaments"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:35
+#: .\dashboard\templates\dashboard\list-of-medicines.html:23
+#: .\dashboard\templates\dashboard\sales-reports.html:31
+#: .\dashboard\templates\dashboard\stock-reports.html:31
+msgid "- Select Group -"
+msgstr "- Sélectionner un groupe -"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:40
+msgid "Quantity in Number"
+msgstr "Quantité en nombre"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:46
+msgid "How to Use"
+msgstr "Comment utiliser"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:51
+#: .\dashboard\templates\dashboard\drug-details.html:72
+msgid "Side Effects"
+msgstr "Effets secondaires"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:55
+msgid "Save Details"
+msgstr "Enregistrer les détails"
+
+#: .\dashboard\templates\dashboard\alerts.html:5
+#: .\dashboard\templates\dashboard\alerts.html:9
+#: .\dashboard\templates\dashboard\asidenav.html:57
+msgid "Alerts"
+msgstr "Alertes"
+
+#: .\dashboard\templates\dashboard\alerts.html:10
+msgid "Alerts we think are important"
+msgstr "Alertes que nous pensons importantes"
+
+#: .\dashboard\templates\dashboard\alerts.html:17
+msgid "Medicines possibly out of stock in the next week"
+msgstr "Médicaments possiblement en rupture de stock la semaine prochaine"
+
+#: .\dashboard\templates\dashboard\alerts.html:57
+msgid "Delete All"
+msgstr "Tout supprimer"
+
+#: .\dashboard\templates\dashboard\asidenav.html:9
+#: .\dashboard\templates\dashboard\dashboard.html:5
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: .\dashboard\templates\dashboard\asidenav.html:18
+msgid "Overview"
+msgstr "Aperçu"
+
+#: .\dashboard\templates\dashboard\asidenav.html:23
+msgid "List Of Medicines"
+msgstr "Liste des médicaments"
+
+#: .\dashboard\templates\dashboard\asidenav.html:28
+msgid "Add Item"
+msgstr "Ajouter un article"
+
+#: .\dashboard\templates\dashboard\asidenav.html:33
+msgid "Stock History"
+msgstr "Historique des stocks"
+
+#: .\dashboard\templates\dashboard\asidenav.html:38
+msgid "Reports"
+msgstr "Rapports"
+
+#: .\dashboard\templates\dashboard\asidenav.html:44
+#: .\dashboard\templates\dashboard\sales-reports.html:5
+#: .\dashboard\templates\dashboard\sales-reports.html:11
+msgid "Sales Reports"
+msgstr "Rapports de ventes"
+
+#: .\dashboard\templates\dashboard\asidenav.html:49
+msgid "Stock Reports"
+msgstr "Rapports de stock"
+
+#: .\dashboard\templates\dashboard\asidenav.html:54
+#: .\dashboard\templates\dashboard\predictions.html:12
+msgid "Predictions"
+msgstr "Prédictions"
+
+#: .\dashboard\templates\dashboard\dashboard.html:16
+msgid "Total Customers"
+msgstr "Total des clients"
+
+#: .\dashboard\templates\dashboard\dashboard.html:20
+#: .\dashboard\templates\dashboard\dashboard.html:32
+#: .\dashboard\templates\dashboard\dashboard.html:44
+#: .\dashboard\templates\dashboard\dashboard.html:56
+msgid "View Details"
+msgstr "Voir les détails"
+
+#: .\dashboard\templates\dashboard\dashboard.html:28
+msgid "Total Sales"
+msgstr "Ventes totales"
+
+#: .\dashboard\templates\dashboard\dashboard.html:40
+msgid "Total Profit"
+msgstr "Profit total"
+
+#: .\dashboard\templates\dashboard\dashboard.html:52
+msgid "Out of Stock"
+msgstr "Rupture de stock"
+
+#: .\dashboard\templates\dashboard\dashboard.html:60
+#: .\dashboard\templates\dashboard\sales-reports.html:53
+msgid "Recent Sales"
+msgstr "Ventes récentes"
+
+#: .\dashboard\templates\dashboard\dashboard.html:66
+msgid "Expiry Date"
+msgstr "Date d'expiration"
+
+#: .\dashboard\templates\dashboard\dashboard.html:67
+#: .\dashboard\templates\dashboard\stock-history.html:45
+msgid "Quantity"
+msgstr "Quantité"
+
+#: .\dashboard\templates\dashboard\dashboard.html:68
+msgid "Status"
+msgstr "Statut"
+
+#: .\dashboard\templates\dashboard\dashboard.html:69
+msgid "Price"
+msgstr "Prix"
+
+#: .\dashboard\templates\dashboard\dashboard.html:79
+#: .\dashboard\templates\dashboard\dashboard.html:87
+#: .\dashboard\templates\dashboard\dashboard.html:94
+#: .\dashboard\templates\dashboard\dashboard.html:101
+#: .\dashboard\templates\dashboard\dashboard.html:145
+msgid "dh"
+msgstr "dh"
+
+#: .\dashboard\templates\dashboard\dashboard.html:83
+#: .\dashboard\templates\dashboard\stock-history.html:25
+msgid "Paracetamol"
+msgstr "Paracétamol"
+
+#: .\dashboard\templates\dashboard\dashboard.html:86
+#: .\dashboard\templates\dashboard\dashboard.html:100
+msgid "Available"
+msgstr "Disponible"
+
+#: .\dashboard\templates\dashboard\dashboard.html:90
+msgid "Amoxicillin"
+msgstr "Amoxicilline"
+
+#: .\dashboard\templates\dashboard\dashboard.html:93
+msgid "Low Stock"
+msgstr "Stock faible"
+
+#: .\dashboard\templates\dashboard\dashboard.html:97
+msgid "Ibuprofen"
+msgstr "Ibuprofène"
+
+#: .\dashboard\templates\dashboard\dashboard.html:110
+#: .\dashboard\templates\dashboard\predictions.html:116
+msgid "Monthly Progress"
+msgstr "Progrès mensuel"
+
+#: .\dashboard\templates\dashboard\dashboard.html:118
+msgid "Daily Report"
+msgstr "Rapport quotidien"
+
+#: .\dashboard\templates\dashboard\dashboard.html:144
+msgid "Total Earnings"
+msgstr "Revenus totaux"
+
+#: .\dashboard\templates\dashboard\dashboard.html:148
+msgid "Total Purchases"
+msgstr "Achats totaux"
+
+#: .\dashboard\templates\dashboard\dashboard.html:149
+msgid "Cash Received"
+msgstr "Argent reçu"
+
+#: .\dashboard\templates\dashboard\dashboard.html:150
+msgid "Bank Receipts"
+msgstr "Reçus bancaires"
+
+#: .\dashboard\templates\dashboard\dashboard.html:151
+msgid "Total Services"
+msgstr "Services totaux"
+
+#: .\dashboard\templates\dashboard\drug-details.html:5
+msgid "Azithral 500 Tablet Details"
+msgstr "Détails du comprimé Azithral 500"
+
+#: .\dashboard\templates\dashboard\drug-details.html:12
+#: .\dashboard\templates\dashboard\list-of-medicines.html:5
+#: .\dashboard\templates\dashboard\list-of-medicines.html:12
+msgid "List of Medicines"
+msgstr "Liste des médicaments"
+
+#: .\dashboard\templates\dashboard\drug-details.html:13
+#: .\dashboard\templates\dashboard\drug-details.html:18
+msgid "Azithral 500 Tablet"
+msgstr "Comprimé Azithral 500"
+
+#: .\dashboard\templates\dashboard\drug-details.html:19
+msgid "Edit Details"
+msgstr "Modifier les détails"
+
+#: .\dashboard\templates\dashboard\drug-details.html:26
+msgid "Medicine"
+msgstr "Médicament"
+
+#: .\dashboard\templates\dashboard\drug-details.html:43
+msgid "Inventory in Qty"
+msgstr "Inventaire en quantité"
+
+#: .\dashboard\templates\dashboard\drug-details.html:47
+msgid "Lifetime Supply"
+msgstr "Approvisionnement à vie"
+
+#: .\dashboard\templates\dashboard\drug-details.html:51
+msgid "Lifetime Sales"
+msgstr "Ventes à vie"
+
+#: .\dashboard\templates\dashboard\drug-details.html:55
+msgid "Stock Left"
+msgstr "Stock restant"
+
+#: .\dashboard\templates\dashboard\drug-details.html:65
+msgid "How to use"
+msgstr "Comment utiliser"
+
+#: .\dashboard\templates\dashboard\drug-details.html:66
+msgid ""
+"Take this medication by mouth with or without food as directed by your "
+"doctor, usually once daily."
+msgstr ""
+"Prenez ce médicament par voie orale avec ou sans nourriture selon les "
+"instructions de votre médecin, généralement une fois par jour."
+
+#: .\dashboard\templates\dashboard\drug-details.html:73
+msgid ""
+"Dizziness, lightheadedness, drowsiness, nausea, vomiting, tiredness, excess "
+"saliva/drooling, blurred vision, weight gain, constipation, headache, and "
+"trouble sleeping may occur. If any of these effects persist or worsen, "
+"consult your doctor."
+msgstr ""
+"Des étourdissements, des vertiges, de la somnolence, des nausées, des "
+"vomissements, de la fatigue, un excès de salive/bavage, une vision floue, "
+"une prise de poids, de la constipation, des maux de tête et des troubles du "
+"sommeil peuvent survenir. Si l'un de ces effets persiste ou s'aggrave, "
+"consultez votre médecin."
+
+#: .\dashboard\templates\dashboard\drug-details.html:77
+msgid "Delete Medicine"
+msgstr "Supprimer le médicament"
+
+#: .\dashboard\templates\dashboard\inventory.html:12
+msgid "+ Add New Item"
+msgstr "+ Ajouter un nouvel article"
+
+#: .\dashboard\templates\dashboard\inventory.html:15
+#: .\dashboard\templates\dashboard\list-of-medicines.html:17
+msgid "List of medicines available for sales."
+msgstr "Liste des médicaments disponibles à la vente."
+
+#: .\dashboard\templates\dashboard\inventory.html:22
+msgid "Medicines Available"
+msgstr "Médicaments disponibles"
+
+#: .\dashboard\templates\dashboard\inventory.html:23
+#: .\dashboard\templates\dashboard\predictions.html:75
+#: .\dashboard\templates\dashboard\predictions.html:86
+msgid "View Full List"
+msgstr "Voir la liste complète"
+
+#: .\dashboard\templates\dashboard\inventory.html:31
+msgid "Medicine Groups"
+msgstr "Groupes de médicaments"
+
+#: .\dashboard\templates\dashboard\inventory.html:32
+msgid "View Groups"
+msgstr "Voir les groupes"
+
+#: .\dashboard\templates\dashboard\inventory.html:40
+msgid "Medicine Shortage"
+msgstr "Pénurie de médicaments"
+
+#: .\dashboard\templates\dashboard\inventory.html:41
+msgid "Resolve Now"
+msgstr "Résoudre maintenant"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:18
+msgid "Add New Item"
+msgstr "Ajouter un nouvel article"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:24
+msgid "Generic Medicine"
+msgstr "Médicament générique"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:25
+msgid "Diabetes"
+msgstr "Diabète"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:36
+msgid "Group Name"
+msgstr "Nom du groupe"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:37
+msgid "Stock in Qty"
+msgstr "Stock en quantité"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:38
+msgid "Action"
+msgstr "Action"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:71
+#: .\dashboard\templates\dashboard\stock-history.html:82
+msgid "Page 01"
+msgstr "Page 01"
+
+#: .\dashboard\templates\dashboard\predictions.html:5
+msgid "Predictions Report"
+msgstr "Rapport de prédictions"
+
+#: .\dashboard\templates\dashboard\predictions.html:13
+msgid "AI predictions for what is likely gonna happen"
+msgstr "Prédictions de l'IA sur ce qui est susceptible de se produire"
+
+#: .\dashboard\templates\dashboard\predictions.html:25
+msgid "Check for Medicine Shortages"
+msgstr "Vérifier les pénuries de médicaments"
+
+#: .\dashboard\templates\dashboard\predictions.html:27
+msgid "Search"
+msgstr "Rechercher"
+
+#: .\dashboard\templates\dashboard\predictions.html:36
+msgid "ID"
+msgstr "ID"
+
+#: .\dashboard\templates\dashboard\predictions.html:37
+msgid "Date & Time"
+msgstr "Date et heure"
+
+#: .\dashboard\templates\dashboard\predictions.html:70
+#: .\dashboard\templates\dashboard\predictions.html:81
+#: .\dashboard\templates\dashboard\predictions.html:92
+msgid "Alert"
+msgstr "Alerte"
+
+#: .\dashboard\templates\dashboard\predictions.html:74
+msgid "25 drugs expected to face shortages in the next 60 days."
+msgstr "25 médicaments devraient faire face à des pénuries dans les 60 prochains jours."
+
+#: .\dashboard\templates\dashboard\predictions.html:85
+#, python-format
+msgid "Current Inventory Risk: 10%% of total inventory at risk of shortage."
+msgstr "Risque d'inventaire actuel : 10%% de l'inventaire total à risque de pénurie."
+
+#: .\dashboard\templates\dashboard\predictions.html:95
+msgid "Antibiotics"
+msgstr "Antibiotiques"
+
+#: .\dashboard\templates\dashboard\predictions.html:96
+msgid "Most Affected Category: Antibiotics or any specific drug group."
+msgstr "Catégorie la plus affectée : Antibiotiques ou tout groupe de médicaments spécifique."
+
+#: .\dashboard\templates\dashboard\predictions.html:97
+msgid "View more"
+msgstr "Voir plus"
+
+#: .\dashboard\templates\dashboard\predictions.html:111
+msgid "Jan"
+msgstr "Jan"
+
+#: .\dashboard\templates\dashboard\predictions.html:111
+msgid "Feb"
+msgstr "Fév"
+
+#: .\dashboard\templates\dashboard\predictions.html:111
+msgid "Mar"
+msgstr "Mar"
+
+#: .\dashboard\templates\dashboard\predictions.html:112
+msgid "Apr"
+msgstr "Avr"
+
+#: .\dashboard\templates\dashboard\predictions.html:112
+msgid "May"
+msgstr "Mai"
+
+#: .\dashboard\templates\dashboard\predictions.html:112
+msgid "Jun"
+msgstr "Juin"
+
+#: .\dashboard\templates\dashboard\predictions.html:113
+msgid "Jul"
+msgstr "Juil"
+
+#: .\dashboard\templates\dashboard\predictions.html:113
+msgid "Aug"
+msgstr "Aoû"
+
+#: .\dashboard\templates\dashboard\predictions.html:113
+msgid "Sep"
+msgstr "Sep"
+
+#: .\dashboard\templates\dashboard\predictions.html:114
+msgid "Oct"
+msgstr "Oct"
+
+#: .\dashboard\templates\dashboard\predictions.html:114
+msgid "Nov"
+msgstr "Nov"
+
+#: .\dashboard\templates\dashboard\predictions.html:114
+#: .\dashboard\templates\dashboard\stock-reports.html:57
+#: .\dashboard\templates\dashboard\stock-reports.html:60
+#: .\dashboard\templates\dashboard\stock-reports.html:63
+#: .\dashboard\templates\dashboard\stock-reports.html:66
+msgid "Dec"
+msgstr "Déc"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:13
+#: .\dashboard\templates\dashboard\stock-reports.html:13
+msgid "Download Report"
+msgstr "Télécharger le rapport"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:20
+#: .\dashboard\templates\dashboard\stock-reports.html:20
+msgid "Date Range"
+msgstr "Plage de dates"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:22
+#: .\dashboard\templates\dashboard\stock-reports.html:22
+msgid "01 December 2021 - 31 December 2021"
+msgstr "01 décembre 2021 - 31 décembre 2021"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:32
+#: .\dashboard\templates\dashboard\stock-reports.html:32
+msgid "Group 1"
+msgstr "Groupe 1"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:33
+#: .\dashboard\templates\dashboard\stock-reports.html:33
+msgid "Group 2"
+msgstr "Groupe 2"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:34
+#: .\dashboard\templates\dashboard\stock-reports.html:34
+msgid "Group 3"
+msgstr "Groupe 3"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:44
+#: .\dashboard\templates\dashboard\sales-reports.html:88
+msgid "Sales Made"
+msgstr "Ventes réalisées"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:57
+msgid "01 Dec 2021 10:25"
+msgstr "01 déc. 2021 10:25"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:60
+#: .\dashboard\templates\dashboard\sales-reports.html:63
+#: .\dashboard\templates\dashboard\sales-reports.html:66
+msgid "02 Dec 2021 18:25"
+msgstr "02 déc. 2021 18:25"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:84
+msgid "1 Dec"
+msgstr "1 déc."
+
+#: .\dashboard\templates\dashboard\sales-reports.html:84
+msgid "8 Dec"
+msgstr "8 déc."
+
+#: .\dashboard\templates\dashboard\sales-reports.html:84
+msgid "15 Dec"
+msgstr "15 déc."
+
+#: .\dashboard\templates\dashboard\sales-reports.html:85
+msgid "22 Dec"
+msgstr "22 déc."
+
+#: .\dashboard\templates\dashboard\sales-reports.html:85
+msgid "31 Dec"
+msgstr "31 déc."
+
+#: .\dashboard\templates\dashboard\sales-reports.html:103
+msgid "Number of Sales"
+msgstr "Nombre de ventes"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:109
+#: .\dashboard\templates\dashboard\stock-history.html:41
+msgid "Date"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\settings.html:5
+msgid "Settings"
+msgstr "Paramètres"
+
+#: .\dashboard\templates\dashboard\settings.html:9
+msgid "Configurations"
+msgstr "Configurations"
+
+#: .\dashboard\templates\dashboard\settings.html:10
+msgid "Configure your pharmacy information."
+msgstr "Configurez les informations de votre pharmacie."
+
+#: .\dashboard\templates\dashboard\settings.html:16
+msgid "Branding"
+msgstr "Marque"
+
+#: .\dashboard\templates\dashboard\settings.html:21
+#: .\dashboard\templates\dashboard\settings.html:40
+msgid "Enter Name"
+msgstr "Entrez le nom"
+
+#: .\dashboard\templates\dashboard\settings.html:23
+msgid "Pharmacy Name"
+msgstr "Nom de la pharmacie"
+
+#: .\dashboard\templates\dashboard\settings.html:26
+msgid "Pharmacy ID"
+msgstr "ID de la pharmacie"
+
+#: .\dashboard\templates\dashboard\settings.html:35
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: .\dashboard\templates\dashboard\settings.html:42
+msgid "Owner Name"
+msgstr "Nom du propriétaire"
+
+#: .\dashboard\templates\dashboard\settings.html:45
+msgid "Email ID"
+msgstr "ID de l'email"
+
+#: .\dashboard\templates\dashboard\settings.html:57
+msgid "Preferences"
+msgstr "Préférences"
+
+#: .\dashboard\templates\dashboard\settings.html:62
+msgid "Theme Mode"
+msgstr "Mode de thème"
+
+#: .\dashboard\templates\dashboard\settings.html:66
+msgid "Dark Mode"
+msgstr "Mode sombre"
+
+#: .\dashboard\templates\dashboard\stock-history.html:5
+#: .\dashboard\templates\dashboard\stock-history.html:12
+#: .\dashboard\templates\dashboard\stock-reports.html:5
+#: .\dashboard\templates\dashboard\stock-reports.html:11
+msgid "Stock Report"
+msgstr "Rapport de stock"
+
+#: .\dashboard\templates\dashboard\stock-history.html:17
+msgid "Stock history and movement report."
+msgstr "Rapport de l'historique et des mouvements de stock."
+
+#: .\dashboard\templates\dashboard\stock-history.html:18
+msgid "Generate Report"
+msgstr "Générer le rapport"
+
+#: .\dashboard\templates\dashboard\stock-history.html:23
+msgid "- Select Medicine -"
+msgstr "- Sélectionner un médicament -"
+
+#: .\dashboard\templates\dashboard\stock-history.html:24
+msgid "Augmentin 625 Duo Tablet"
+msgstr "Comprimé Augmentin 625 Duo"
+
+#: .\dashboard\templates\dashboard\stock-history.html:29
+msgid "- Select Date Range -"
+msgstr "- Sélectionner la plage de dates -"
+
+#: .\dashboard\templates\dashboard\stock-history.html:30
+msgid "Last 7 days"
+msgstr "Les 7 derniers jours"
+
+#: .\dashboard\templates\dashboard\stock-history.html:31
+msgid "Last 30 days"
+msgstr "Les 30 derniers jours"
+
+#: .\dashboard\templates\dashboard\stock-history.html:32
+msgid "Last 3 months"
+msgstr "Les 3 derniers mois"
+
+#: .\dashboard\templates\dashboard\stock-history.html:33
+msgid "Custom Range"
+msgstr "Plage personnalisée"
+
+#: .\dashboard\templates\dashboard\stock-history.html:44
+msgid "Transaction Type"
+msgstr "Type de transaction"
+
+#: .\dashboard\templates\dashboard\stock-history.html:46
+msgid "Balance"
+msgstr "Solde"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:44
+msgid "Stock Levels"
+msgstr "Niveaux de stock"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:53
+msgid "Recent Stock Updates"
+msgstr "Mises à jour récentes du stock"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:57
+msgid "Medicine A"
+msgstr "Médicament A"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:60
+msgid "Medicine B"
+msgstr "Médicament B"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:63
+msgid "Medicine C"
+msgstr "Médicament C"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:66
+msgid "Medicine D"
+msgstr "Médicament D"
+
+#: .\dat\settings.py:112
+msgid "English"
+msgstr "Anglais"
+
+#: .\dat\settings.py:113
+msgid "Arabic"
+msgstr "Arabe"
+
+#: .\dat\settings.py:114
+msgid "French"
+msgstr "Français"
+
+#: .\utils\getWeather.py:46
+msgid "Good morning"
+msgstr "Bonjour"
+
+#: .\utils\getWeather.py:48
+msgid "Good afternoon"
+msgstr "Bon après-midi"
+
+#: .\utils\getWeather.py:50
+msgid "Good evening"
+msgstr "Bonsoir"
+
+#: .\utils\getWeather.py:52
+msgid "Good night"
+msgstr "Bonne nuit"
+

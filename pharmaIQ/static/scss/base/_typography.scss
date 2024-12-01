@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/font/extrabold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/font/regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/font/bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/font/thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/font/semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/font/light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../../../assets/font/medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+ 
+  
+  // Apply the font to an element
+  body {
+    font-family:'Manrope';
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope';
+    font-weight: bold;
+  }

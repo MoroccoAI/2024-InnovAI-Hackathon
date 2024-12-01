@@ -1,0 +1,23 @@
+{% extends 'dashboard/base.html' %}
+{% load i18n %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">{% trans "Medicine Groups" %}</h2>
+    <div class="row">
+        {% for group in groups %}
+        <div class="col-md-4 mb-4">
+            <div class="card shadow {{ group.color }} text-white">
+                <div class="card-body">
+                    <h1 class="card-title display-4 fs-4">{{ group.medicine_count }}</h1>
+                    <p class="card-text fs-6">{{ group.class_therapeutique }}</p>
+                    <p class="fs-6">{% trans "Total Stock:" %} <span class="fw-bold fs-6">{{ group.total_stock }}</span> </p>
+                    <a href="{% url 'list-of-medicines' %}?group={{ group.class_therapeutique }}" 
+                       class="btn btn-outline-light fs-6">{% trans "View Details" %}</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

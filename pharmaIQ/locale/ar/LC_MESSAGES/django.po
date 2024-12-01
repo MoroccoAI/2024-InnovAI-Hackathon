@@ -1,0 +1,831 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-24 16:43+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:5
+#, fuzzy
+#| msgid "List Of Medicines"
+msgid "Add New Medicine"
+msgstr "إضافة دواء جديد"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:11
+#: .\dashboard\templates\dashboard\asidenav.html:12
+#: .\dashboard\templates\dashboard\drug-details.html:11
+#: .\dashboard\templates\dashboard\inventory.html:5
+#: .\dashboard\templates\dashboard\inventory.html:10
+#: .\dashboard\templates\dashboard\list-of-medicines.html:11
+#: .\dashboard\templates\dashboard\stock-history.html:11
+msgid "Inventory"
+msgstr "المخزون"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:12
+#: .\dashboard\templates\dashboard\add-medicine.html:16
+msgid "Add new medicine"
+msgstr "إضافة دواء جديد"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:17
+msgid "*All fields are mandatory, except mentioned as (optional)."
+msgstr "* جميع الحقول إلزامية، باستثناء ما هو مذكور كـ (اختياري)."
+
+#: .\dashboard\templates\dashboard\add-medicine.html:22
+#: .\dashboard\templates\dashboard\dashboard.html:65
+#: .\dashboard\templates\dashboard\list-of-medicines.html:34
+#: .\dashboard\templates\dashboard\stock-history.html:42
+msgid "Medicine Name"
+msgstr "اسم الدواء"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:26
+#: .\dashboard\templates\dashboard\drug-details.html:30
+#: .\dashboard\templates\dashboard\list-of-medicines.html:35
+#: .\dashboard\templates\dashboard\stock-history.html:43
+msgid "Medicine ID"
+msgstr "معرف الدواء"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:33
+#: .\dashboard\templates\dashboard\drug-details.html:34
+#: .\dashboard\templates\dashboard\sales-reports.html:29
+#: .\dashboard\templates\dashboard\stock-reports.html:29
+msgid "Medicine Group"
+msgstr "مجموعة الدواء"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:35
+#: .\dashboard\templates\dashboard\list-of-medicines.html:23
+#: .\dashboard\templates\dashboard\sales-reports.html:31
+#: .\dashboard\templates\dashboard\stock-reports.html:31
+msgid "- Select Group -"
+msgstr "- اختر المجموعة -"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:40
+msgid "Quantity in Number"
+msgstr "الكمية بالأرقام"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:46
+msgid "How to Use"
+msgstr "كيفية الاستخدام"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:51
+#: .\dashboard\templates\dashboard\drug-details.html:72
+msgid "Side Effects"
+msgstr "الآثار الجانبية"
+
+#: .\dashboard\templates\dashboard\add-medicine.html:55
+msgid "Save Details"
+msgstr "حفظ التفاصيل"
+
+#: .\dashboard\templates\dashboard\alerts.html:5
+#: .\dashboard\templates\dashboard\alerts.html:9
+#: .\dashboard\templates\dashboard\asidenav.html:57
+msgid "Alerts"
+msgstr "التنبيهات"
+
+#: .\dashboard\templates\dashboard\alerts.html:10
+msgid "Alerts we think are important"
+msgstr "التنبيهات اي نعتقد أنها مهمة"
+
+#: .\dashboard\templates\dashboard\alerts.html:17
+msgid "Medicines possibly out of stock in the next week"
+msgstr "الأدوية التي قد تنفد من المخزون في الأسبوع القادم"
+
+#: .\dashboard\templates\dashboard\alerts.html:57
+msgid "Delete All"
+msgstr "حذف الكل"
+
+#: .\dashboard\templates\dashboard\asidenav.html:9
+#: .\dashboard\templates\dashboard\dashboard.html:5
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: .\dashboard\templates\dashboard\asidenav.html:18
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: .\dashboard\templates\dashboard\asidenav.html:23
+msgid "List Of Medicines"
+msgstr "قائمة الأدوية"
+
+#: .\dashboard\templates\dashboard\asidenav.html:28
+msgid "Add Item"
+msgstr "إضافة عنصر"
+
+#: .\dashboard\templates\dashboard\asidenav.html:33
+msgid "Stock History"
+msgstr "سجل المخزون"
+
+#: .\dashboard\templates\dashboard\asidenav.html:38
+msgid "Reports"
+msgstr "التقارير"
+
+#: .\dashboard\templates\dashboard\asidenav.html:44
+#: .\dashboard\templates\dashboard\sales-reports.html:5
+#: .\dashboard\templates\dashboard\sales-reports.html:11
+msgid "Sales Reports"
+msgstr "تقارير المبيعات"
+
+#: .\dashboard\templates\dashboard\asidenav.html:49
+msgid "Stock Reports"
+msgstr "تقارير المخزون"
+
+#: .\dashboard\templates\dashboard\asidenav.html:54
+#: .\dashboard\templates\dashboard\predictions.html:12
+msgid "Predictions"
+msgstr "التنبؤات"
+
+#: .\dashboard\templates\dashboard\dashboard.html:16
+msgid "Total Customers"
+msgstr "إجمالي العملاء"
+
+#: .\dashboard\templates\dashboard\dashboard.html:20
+#: .\dashboard\templates\dashboard\dashboard.html:32
+#: .\dashboard\templates\dashboard\dashboard.html:44
+#: .\dashboard\templates\dashboard\dashboard.html:56
+msgid "View Details"
+msgstr "عرض التفاصيل"
+
+#: .\dashboard\templates\dashboard\dashboard.html:28
+msgid "Total Sales"
+msgstr "إجمالي المبيعات"
+
+#: .\dashboard\templates\dashboard\dashboard.html:40
+msgid "Total Profit"
+msgstr "إجمالي الربح"
+
+#: .\dashboard\templates\dashboard\dashboard.html:52
+msgid "Out of Stock"
+msgstr "نفذ من المخزون"
+
+#: .\dashboard\templates\dashboard\dashboard.html:60
+#: .\dashboard\templates\dashboard\sales-reports.html:53
+msgid "Recent Sales"
+msgstr "المبيعات الأخة"
+
+#: .\dashboard\templates\dashboard\dashboard.html:66
+msgid "Expiry Date"
+msgstr "تاريخ انتهاء الصلاحية"
+
+#: .\dashboard\templates\dashboard\dashboard.html:67
+#: .\dashboard\templates\dashboard\stock-history.html:45
+msgid "Quantity"
+msgstr "الكمية"
+
+#: .\dashboard\templates\dashboard\dashboard.html:68
+msgid "Status"
+msgstr "الحالة"
+
+#: .\dashboard\templates\dashboard\dashboard.html:69
+msgid "Price"
+msgstr "السعر"
+
+#: .\dashboard\templates\dashboard\dashboard.html:79
+#: .\dashboard\templates\dashboard\dashboard.html:87
+#: .\dashboard\templates\dashboard\dashboard.html:94
+#: .\dashboard\templates\dashboard\dashboard.html:101
+#: .\dashboard\templates\dashboard\dashboard.html:145
+msgid "dh"
+msgstr "درهم"
+
+#: .\dashboard\templates\dashboard\dashboard.html:83
+#: .\dashboard\templates\dashboard\stock-history.html:25
+msgid "Paracetamol"
+msgstr "باراسيتامول"
+
+#: .\dashboard\templates\dashboard\dashboard.html:86
+#: .\dashboard\templates\dashboard\dashboard.html:100
+msgid "Available"
+msgstr "متوفر"
+
+#: .\dashboard\templates\dashboard\dashboard.html:90
+msgid "Amoxicillin"
+msgstr "أموكسيسيلين"
+
+#: .\dashboard\templates\dashboard\dashboard.html:93
+msgid "Low Stock"
+msgstr "مخزون منخفض"
+
+#: .\dashboard\templates\dashboard\dashboard.html:97
+msgid "Ibuprofen"
+msgstr "إيبوبروفين"
+
+#: .\dashboard\templates\dashboard\dashboard.html:110
+#: .\dashboard\templates\dashboard\predictions.html:116
+msgid "Monthly Progress"
+msgstr "التقدم الهرمي"
+
+#: .\dashboard\templates\dashboard\dashboard.html:118
+msgid "Daily Report"
+msgstr "التقرير اليومي"
+
+#: .\dashboard\templates\dashboard\dashboard.html:144
+msgid "Total Earnings"
+msgstr "إجمالي الأرباح"
+
+#: .\dashboard\templates\dashboard\dashboard.html:148
+msgid "Total Purchases"
+msgstr "إجمالي المشتريات"
+
+#: .\dashboard\templates\dashboard\dashboard.html:149
+msgid "Cash Received"
+msgstr "النقد المستلم"
+
+#: .\dashboard\templates\dashboard\dashboard.html:150
+msgid "Bank Receipts"
+msgstr "إيصالات البنك"
+
+#: .\dashboard\templates\dashboard\dashboard.html:151
+msgid "Total Services"
+msgstr "إجمالي الخدمات"
+
+#: .\dashboard\templates\dashboard\drug-details.html:5
+msgid "Azithral 500 Tablet Details"
+msgstr "تفاصيل أقراص أزيثرال 500"
+
+#: .\dashboard\templates\dashboard\drug-details.html:12
+#: .\dashboard\templates\dashboard\list-of-medicines.html:5
+#: .\dashboard\templates\dashboard\list-of-medicines.html:12
+msgid "List of Medicines"
+msgstr "قائمة الأدوية"
+
+#: .\dashboard\templates\dashboard\drug-details.html:13
+#: .\dashboard\templates\dashboard\drug-details.html:18
+msgid "Azithral 500 Tablet"
+msgstr "أقراص أزيثرال 500"
+
+#: .\dashboard\templates\dashboard\drug-details.html:19
+msgid "Edit Details"
+msgstr "تعديل التفاصيل"
+
+#: .\dashboard\templates\dashboard\drug-details.html:26
+msgid "Medicine"
+msgstr "الدواء"
+
+#: .\dashboard\templates\dashboard\drug-details.html:43
+msgid "Inventory in Qty"
+msgstr "المخزون بالكمية"
+
+#: .\dashboard\templates\dashboard\drug-details.html:47
+msgid "Lifetime Supply"
+msgstr "الإمداد مدى الحياة"
+
+#: .\dashboard\templates\dashboard\drug-details.html:51
+msgid "Lifetime Sales"
+msgstr "المبيعات مدى الحياة"
+
+#: .\dashboard\templates\dashboard\drug-details.html:55
+msgid "Stock Left"
+msgstr "المخزون المتبقي"
+
+#: .\dashboard\templates\dashboard\drug-details.html:65
+msgid "How to use"
+msgstr "كيفية الاستخدام"
+
+#: .\dashboard\templates\dashboard\drug-details.html:66
+msgid ""
+"Take this medication by mouth with or without food as directed by your "
+"doctor, usually once daily."
+msgstr ""
+"تناول هذا الدواء عن طريق الفم مع أو بدون طعام حسب توجيهات طبيبك، عادة مرة "
+"واحدة يوميًا."
+
+#: .\dashboard\templates\dashboard\drug-details.html:73
+msgid ""
+"Dizziness, lightheadedness, drowsiness, nausea, vomiting, tiredness, excess "
+"saliva/drooling, blurred vision, weight gain, constipation, headache, and "
+"trouble sleeping may occur. If any of these effects persist or worsen, "
+"consult your doctor."
+msgstr ""
+"قد تحدث دوخة، دوار، نعاس، غثيان، قيء، تعب، زيادة في إفراز اللعاب/سيلان "
+"اللعاب، رؤية مشوشة، زيادة في الوزن، إمساك، صداع، وصعوبة في النوم. إذا استمرت "
+"أي من هذه الآثار أو تفاقمت، استشر طبيبك."
+
+#: .\dashboard\templates\dashboard\drug-details.html:77
+msgid "Delete Medicine"
+msgstr "حذف الدواء"
+
+#: .\dashboard\templates\dashboard\inventory.html:12
+msgid "+ Add New Item"
+msgstr "+ إضافة عنصر جديد"
+
+#: .\dashboard\templates\dashboard\inventory.html:15
+#: .\dashboard\templates\dashboard\list-of-medicines.html:17
+msgid "List of medicines available for sales."
+msgstr "قائمة الأدوية المتاحة للبيع."
+
+#: .\dashboard\templates\dashboard\inventory.html:22
+msgid "Medicines Available"
+msgstr "الأدوية المتاحة"
+
+#: .\dashboard\templates\dashboard\inventory.html:23
+#: .\dashboard\templates\dashboard\predictions.html:75
+#: .\dashboard\templates\dashboard\predictions.html:86
+msgid "View Full List"
+msgstr "عرض القائمة الكاملة"
+
+#: .\dashboard\templates\dashboard\inventory.html:31
+msgid "Medicine Groups"
+msgstr "مجموعات الأدوية"
+
+#: .\dashboard\templates\dashboard\inventory.html:32
+msgid "View Groups"
+msgstr "عرض المجموعات"
+
+#: .\dashboard\templates\dashboard\inventory.html:40
+msgid "Medicine Shortage"
+msgstr "نقص الأدوية"
+
+#: .\dashboard\templates\dashboard\inventory.html:41
+msgid "Resolve Now"
+msgstr "حل الآن"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:18
+msgid "Add New Item"
+msgstr "إضافة عنصر جديد"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:24
+msgid "Generic Medicine"
+msgstr "الدواء الجنيس"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:25
+msgid "Diabetes"
+msgstr "السكري"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:36
+msgid "Group Name"
+msgstr "اسم المجموعة"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:37
+msgid "Stock in Qty"
+msgstr "المخزون بالكمية"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:38
+msgid "Action"
+msgstr "الإجراء"
+
+#: .\dashboard\templates\dashboard\list-of-medicines.html:71
+#: .\dashboard\templates\dashboard\stock-history.html:82
+msgid "Page 01"
+msgstr "الصفحة 01"
+
+#: .\dashboard\templates\dashboard\predictions.html:5
+msgid "Predictions Report"
+msgstr "تقرير التنبؤات"
+
+#: .\dashboard\templates\dashboard\predictions.html:13
+msgid "AI predictions for what is likely gonna happen"
+msgstr "نبؤات الذكاء الاصطناعي لما يحتمل أن يحدث"
+
+#: .\dashboard\templates\dashboard\predictions.html:25
+msgid "Check for Medicine Shortages"
+msgstr "التحقق من نقص الأدوية"
+
+#: .\dashboard\templates\dashboard\predictions.html:27
+msgid "Search"
+msgstr "بحث"
+
+#: .\dashboard\templates\dashboard\predictions.html:36
+msgid "ID"
+msgstr "المعرف"
+
+#: .\dashboard\templates\dashboard\predictions.html:37
+msgid "Date & Time"
+msgstr "التاريخ والوقت"
+
+#: .\dashboard\templates\dashboard\predictions.html:70
+#: .\dashboard\templates\dashboard\predictions.html:81
+#: .\dashboard\templates\dashboard\predictions.html:92
+msgid "Alert"
+msgstr "تنبيه"
+
+#: .\dashboard\templates\dashboard\predictions.html:74
+msgid "25 drugs expected to face shortages in the next 60 days."
+msgstr "من المتوقع أن يواجه 25 دواءً نقصًا في الأيام الستين القادمة."
+
+#: .\dashboard\templates\dashboard\predictions.html:85
+#, python-format
+msgid "Current Inventory Risk: 10%% of total inventory at risk of shortage."
+msgstr "مخاطر المخزون الحالية: 10%% من إجمالي المخزون معرض لخطر النقص."
+
+#: .\dashboard\templates\dashboard\predictions.html:95
+msgid "Antibiotics"
+msgstr "المضادات الحيوية"
+
+#: .\dashboard\templates\dashboard\predictions.html:96
+msgid "Most Affected Category: Antibiotics or any specific drug group."
+msgstr "الفئة الأكثر تأثرًا: المضادات الحيوية أو أي مجموعة أدوية محددة."
+
+#: .\dashboard\templates\dashboard\predictions.html:97
+msgid "View more"
+msgstr "عرض المزيد"
+
+#: .\dashboard\templates\dashboard\predictions.html:111
+msgid "Jan"
+msgstr "يناير"
+
+#: .\dashboard\templates\dashboard\predictions.html:111
+msgid "Feb"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\predictions.html:111
+msgid "Mar"
+msgstr "مارس"
+
+#: .\dashboard\templates\dashboard\predictions.html:112
+msgid "Apr"
+msgstr "أبريل"
+
+#: .\dashboard\templates\dashboard\predictions.html:112
+#, fuzzy
+#| msgid "Mar"
+msgid "May"
+msgstr "مارس"
+
+#: .\dashboard\templates\dashboard\predictions.html:112
+msgid "Jun"
+msgstr "يونيو"
+
+#: .\dashboard\templates\dashboard\predictions.html:113
+msgid "Jul"
+msgstr "يوليو"
+
+#: .\dashboard\templates\dashboard\predictions.html:113
+msgid "Aug"
+msgstr "أغسطس"
+
+#: .\dashboard\templates\dashboard\predictions.html:113
+msgid "Sep"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\predictions.html:114
+msgid "Oct"
+msgstr "أكتوبر"
+
+#: .\dashboard\templates\dashboard\predictions.html:114
+msgid "Nov"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\predictions.html:114
+#: .\dashboard\templates\dashboard\stock-reports.html:57
+#: .\dashboard\templates\dashboard\stock-reports.html:60
+#: .\dashboard\templates\dashboard\stock-reports.html:63
+#: .\dashboard\templates\dashboard\stock-reports.html:66
+msgid "Dec"
+msgstr "ديسمبر"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:13
+#: .\dashboard\templates\dashboard\stock-reports.html:13
+msgid "Download Report"
+msgstr "تنزيل التقرير"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:20
+#: .\dashboard\templates\dashboard\stock-reports.html:20
+msgid "Date Range"
+msgstr "النطاق الزمني"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:22
+#: .\dashboard\templates\dashboard\stock-reports.html:22
+msgid "01 December 2021 - 31 December 2021"
+msgstr "01 ديسمبر 2021 - 31 ديسمبر 2021"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:32
+#: .\dashboard\templates\dashboard\stock-reports.html:32
+msgid "Group 1"
+msgstr "المجموعة 1"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:33
+#: .\dashboard\templates\dashboard\stock-reports.html:33
+msgid "Group 2"
+msgstr "المجموعة 2"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:34
+#: .\dashboard\templates\dashboard\stock-reports.html:34
+msgid "Group 3"
+msgstr "المجموعة 3"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:44
+#: .\dashboard\templates\dashboard\sales-reports.html:88
+msgid "Sales Made"
+msgstr "المبيعات المنجزة"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:57
+msgid "01 Dec 2021 10:25"
+msgstr "01 ديسمبر 2021 10:25"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:60
+#: .\dashboard\templates\dashboard\sales-reports.html:63
+#: .\dashboard\templates\dashboard\sales-reports.html:66
+msgid "02 Dec 2021 18:25"
+msgstr "02 ديسمبر 2021 18:25"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:84
+msgid "1 Dec"
+msgstr "1 ديسمبر"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:84
+msgid "8 Dec"
+msgstr "8 ديسمبر"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:84
+msgid "15 Dec"
+msgstr "15 ديسمبر"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:85
+msgid "22 Dec"
+msgstr "22 ديسمبر"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:85
+msgid "31 Dec"
+msgstr "31 ديسمبر"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:103
+msgid "Number of Sales"
+msgstr "عدد المبيعات"
+
+#: .\dashboard\templates\dashboard\sales-reports.html:109
+#: .\dashboard\templates\dashboard\stock-history.html:41
+msgid "Date"
+msgstr "التاريخ"
+
+#: .\dashboard\templates\dashboard\settings.html:5
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: .\dashboard\templates\dashboard\settings.html:9
+msgid "Configurations"
+msgstr "التكوينات"
+
+#: .\dashboard\templates\dashboard\settings.html:10
+msgid "Configure your pharmacy information."
+msgstr "قم بتكوين معلومات الصيدلية الخاصة بك."
+
+#: .\dashboard\templates\dashboard\settings.html:16
+msgid "Branding"
+msgstr "العلامة التجارية"
+
+#: .\dashboard\templates\dashboard\settings.html:21
+#: .\dashboard\templates\dashboard\settings.html:40
+msgid "Enter Name"
+msgstr "أدخل الاسم"
+
+#: .\dashboard\templates\dashboard\settings.html:23
+msgid "Pharmacy Name"
+msgstr "اسم الصيدلية"
+
+#: .\dashboard\templates\dashboard\settings.html:26
+msgid "Pharmacy ID"
+msgstr "معرف الصيدلية"
+
+#: .\dashboard\templates\dashboard\settings.html:35
+msgid "Owner"
+msgstr "المالك"
+
+#: .\dashboard\templates\dashboard\settings.html:42
+msgid "Owner Name"
+msgstr "اسم المالك"
+
+#: .\dashboard\templates\dashboard\settings.html:45
+msgid "Email ID"
+msgstr "معرف البريد الإلكتروني"
+
+#: .\dashboard\templates\dashboard\settings.html:57
+msgid "Preferences"
+msgstr "التفضيلات"
+
+#: .\dashboard\templates\dashboard\settings.html:62
+msgid "Theme Mode"
+msgstr "وضع السمة"
+
+#: .\dashboard\templates\dashboard\settings.html:66
+msgid "Dark Mode"
+msgstr "الوضع الداكن"
+
+#: .\dashboard\templates\dashboard\stock-history.html:5
+#: .\dashboard\templates\dashboard\stock-history.html:12
+#: .\dashboard\templates\dashboard\stock-reports.html:5
+#: .\dashboard\templates\dashboard\stock-reports.html:11
+msgid "Stock Report"
+msgstr "تقرير المخزون"
+
+#: .\dashboard\templates\dashboard\stock-history.html:17
+msgid "Stock history and movement report."
+msgstr "تقرير حركة وتاريخ المخزون."
+
+#: .\dashboard\templates\dashboard\stock-history.html:18
+msgid "Generate Report"
+msgstr "إنشاء التقرير"
+
+#: .\dashboard\templates\dashboard\stock-history.html:23
+msgid "- Select Medicine -"
+msgstr "- اختر الدواء -"
+
+#: .\dashboard\templates\dashboard\stock-history.html:24
+msgid "Augmentin 625 Duo Tablet"
+msgstr "أوجمنتين 625 دوو أقراص"
+
+#: .\dashboard\templates\dashboard\stock-history.html:29
+msgid "- Select Date Range -"
+msgstr "- اختر النطاق الزمني -"
+
+#: .\dashboard\templates\dashboard\stock-history.html:30
+msgid "Last 7 days"
+msgstr "آخر 7 أيام"
+
+#: .\dashboard\templates\dashboard\stock-history.html:31
+msgid "Last 30 days"
+msgstr "آخر 30 يومًا"
+
+#: .\dashboard\templates\dashboard\stock-history.html:32
+msgid "Last 3 months"
+msgstr "آخر 3 أشهر"
+
+#: .\dashboard\templates\dashboard\stock-history.html:33
+msgid "Custom Range"
+msgstr "نطاق مخصص"
+
+#: .\dashboard\templates\dashboard\stock-history.html:44
+msgid "Transaction Type"
+msgstr "نوع المعاملة"
+
+#: .\dashboard\templates\dashboard\stock-history.html:46
+msgid "Balance"
+msgstr "الرصيد"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:44
+msgid "Stock Levels"
+msgstr "مستويات المخزون"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:53
+msgid "Recent Stock Updates"
+msgstr "تحديثات المخزون الأخيرة"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:57
+msgid "Medicine A"
+msgstr "الدواء أ"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:57
+#: .\dashboard\templates\dashboard\stock-reports.html:60
+#: .\dashboard\templates\dashboard\stock-reports.html:63
+#: .\dashboard\templates\dashboard\stock-reports.html:66
+msgid "units"
+msgstr "وحدات"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:60
+msgid "Medicine B"
+msgstr "الدواء ب"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:63
+msgid "Medicine C"
+msgstr "الدواء ج"
+
+#: .\dashboard\templates\dashboard\stock-reports.html:66
+msgid "Medicine D"
+msgstr "الدواء د"
+
+#: .\dat\settings.py:112
+msgid "English"
+msgstr "الإنجليزية"
+
+#: .\dat\settings.py:113
+msgid "Arabic"
+msgstr "العربية"
+
+#: .\utils\getWeather.py:46
+msgid "Good morning"
+msgstr "صباح الخير"
+
+#: .\utils\getWeather.py:48
+msgid "Good afternoon"
+msgstr "مساء الخير"
+
+#: .\utils\getWeather.py:50
+msgid "Good evening"
+msgstr "مساء الخير"
+
+#: .\utils\getWeather.py:52
+msgid "Good night"
+msgstr "تصبح على خير"
+
+#~ msgid "February"
+#~ msgstr "فبراير"
+
+#~ msgid "September"
+#~ msgstr "سبتمبر"
+
+#~ msgid "November"
+#~ msgstr "نوفمبر"
+
+#~ msgid "December"
+#~ msgstr "ديسمبر"
+
+#, fuzzy
+#~| msgid "Sales Reports"
+#~ msgid "Sales"
+#~ msgstr "المبيعات"
+
+#~ msgid "sales"
+#~ msgstr "المبيعات"
+
+#, fuzzy
+#~| msgid "Sales Reports"
+#~ msgid "Sales Report"
+#~ msgstr "تقرير المبيعات"
+
+# Clear Sky
+#~ msgid "Clear"
+#~ msgstr "صافي"
+
+# Few Clouds
+#~ msgid "Few Clouds"
+#~ msgstr "غيوم قليلة"
+
+# Scattered Clouds
+#~ msgid "Scattered Clouds"
+#~ msgstr "غيوم متناثرة"
+
+# Broken Clouds
+#~ msgid "Broken Clouds"
+#~ msgstr "غيوم متقطعة"
+
+# Overcast Clouds
+#~ msgid "Overcast Clouds"
+#~ msgstr "غيوم ملبدة"
+
+# Light Rain
+#~ msgid "Light Rain"
+#~ msgstr "أمطار خفيفة"
+
+# Moderate Rain
+#~ msgid "Moderate Rain"
+#~ msgstr "أمطار معتدلة"
+
+# Heavy Rain
+#~ msgid "Heavy Rain"
+#~ msgstr "أمطار غزيرة"
+
+# Drizzle
+#~ msgid "Drizzle"
+#~ msgstr "رذاذ"
+
+# Thunderstorm
+#~ msgid "Thunderstorm"
+#~ msgstr "عاصفة رعدية"
+
+# Snow
+#~ msgid "Snow"
+#~ msgstr "ثلج"
+
+# Light Snow
+#~ msgid "Light Snow"
+#~ msgstr "ثلج خفيف"
+
+# Heavy Snow
+#~ msgid "Heavy Snow"
+#~ msgstr "ثلوج كثيفة"
+
+# Mist
+#~ msgid "Mist"
+#~ msgstr "ضباب"
+
+# Smoke
+#~ msgid "Smoke"
+#~ msgstr "دخان"
+
+# Haze
+#~ msgid "Haze"
+#~ msgstr "ضباب خفيف"
+
+# Dust
+#~ msgid "Dust"
+#~ msgstr "غبار"
+
+# Fog
+#~ msgid "Fog"
+#~ msgstr "ضباب كثيف"
+
+# Sand
+#~ msgid "Sand"
+#~ msgstr "رمال"
+
+# Squall
+#~ msgid "Squall"
+#~ msgstr "عاصفة"
+
+# Tornado
+#~ msgid "Tornado"
+#~ msgstr "إعصار"
+
+

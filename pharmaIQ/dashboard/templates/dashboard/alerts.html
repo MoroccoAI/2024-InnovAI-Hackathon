@@ -1,0 +1,73 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Alerts" %}{% endblock %}
+
+{% block content %}
+<div class="container-fluid mt-4 p-4">
+    <h1 class="mb-2">{% trans "Alerts" %}</h1>
+    <p class="text-muted mb-4">{% trans "Alerts we think are important" %}</p>
+
+    <div id="alertsList" class="mb-4">
+        <!-- Critical alerts -->
+        <div class="alert alert-danger d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <span class="badge bg-danger me-2">{{ current_out_of_stock }}</span>
+                {% trans "Medicines are currently out of stock" %}
+            </div>
+        </div>
+
+        <!-- AI Predictions -->
+        <div class="alert alert-danger d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <span class="badge bg-danger me-2">{{ AI_next_week_out_of_stock }}</span>
+                {% trans "Medicines most likely out of stock in the next week" %}
+            </div>
+            <i class="bi bi-stars fs-5"></i>
+        </div>
+        
+        <!-- Warning alerts -->
+        <div class="alert alert-warning d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <span class="badge bg-warning me-2">{{ AI_next_week_out_of_stock_most_affected_category }}</span>
+                {% trans "will be the most affected Medicines category by next week shortages" %}
+            </div>
+            <i class="bi bi-stars fs-5"></i>
+        </div>
+        
+        <div class="alert alert-warning d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <span class="badge bg-warning me-2">{{ AI_next_risk_of_out_of_stock }}%</span>
+                {% trans "of Medicines are at risk of being out of stock next week" %}
+            </div>
+            <i class="bi bi-stars fs-5"></i>
+        </div>
+        
+        <div class="alert alert-warning d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <span class="badge bg-warning me-2">{{ current_in_risk_of_out_of_stock }}</span>
+                {% trans "Medicines are currently at risk of being out of stock" %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .alert {
+        border-left: 5px solid;
+    }
+    .alert-danger {
+        border-left-color: #dc3545;
+    }
+    .alert-warning {
+        border-left-color: #ffc107;
+    }
+    .badge {
+        font-size: 1rem;
+    }
+    .bi-stars {
+        color: black;
+    }
+</style>
+{% endblock %}

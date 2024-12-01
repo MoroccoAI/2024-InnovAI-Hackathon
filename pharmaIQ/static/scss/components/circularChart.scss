@@ -1,0 +1,88 @@
+.report-container {
+    text-align: center;
+    position: relative;
+
+    /* Circular chart styles */
+    .circular-chart {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        min-width: 150px;
+        min-height: 150px;
+        max-width: 250px;
+        max-height: 250px;
+        position: relative;
+
+        /* Common SVG properties */
+        .circle-bg {
+            fill: none;
+            stroke: #444;
+        }
+
+        .circle {
+            fill: none;
+            stroke-linecap: round;
+            transition: stroke-dasharray 0.6s ease 0s, stroke 0.6s ease;
+
+            &.red { stroke: #FF4D4F; }
+            &.yellow { stroke: #FFC53D; }
+            &.blue { stroke: #1890FF; }
+            &.green { stroke: #52C41A; }
+        }
+
+        /* Text block inside the circular chart */
+        .text-block {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+            h1 {
+                margin: 0;
+                font-size: 24px;
+            }
+
+            p {
+                margin: 5px 0;
+                font-size: 20px;
+            }
+        }
+    }
+
+    /* Legend styles */
+    
+}
+
+.legend {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+    list-style: none;
+    padding: 0;
+
+    li {
+        display: flex;
+        align-items: start;
+
+        .bi-dot {
+            font-size: 1.5rem;
+            line-height: 1;
+            margin-right: 5px;
+        }
+
+        &:nth-child(1) .bi-dot { color: #FF4D4F !important; } // Red
+        &:nth-child(2) .bi-dot { color: #FFC53D !important; } // Yellow
+        &:nth-child(3) .bi-dot { color: #1890FF !important; } // Blue
+        &:nth-child(4) .bi-dot { color: #52C41A !important; } // Green
+    }
+}

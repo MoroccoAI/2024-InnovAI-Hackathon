@@ -1,0 +1,127 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Add New Medicine" %}{% endblock %}
+
+{% block content %}
+<div class="container mt-4 p-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'inventory' %}">{% trans "Inventory" %}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{% trans "Add new medicine" %}</li>
+        </ol>
+    </nav>
+
+    <h2 class="mb-3">{% trans "Add new medicine" %}</h2>
+    <p class="text-muted"><small>{% trans "*All fields are mandatory, except mentioned as (optional)." %}</small></p>
+
+    <form method="POST" action="{% url 'add-medicine' %}">
+        {% csrf_token %}
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="name" class="form-label">{% trans "Medicine Name" %}</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="col-md-6">
+                <label for="dosage" class="form-label">{% trans "Dosage" %}</label>
+                <input type="text" class="form-control" id="dosage" name="dosage" required>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="form" class="form-label">{% trans "Form" %}</label>
+                <input type="text" class="form-control" id="form" name="form" required>
+            </div>
+            <div class="col-md-6">
+                <label for="substances" class="form-label">{% trans "Substances" %}</label>
+                <input type="text" class="form-control" id="substances" name="substances" required>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="class_therapeutique" class="form-label">{% trans "Therapeutic Class" %}</label>
+                <input type="text" class="form-control" id="class_therapeutique" name="class_therapeutique" required>
+            </div>
+            <div class="col-md-6">
+                <label for="presentation" class="form-label">{% trans "Presentation" %}</label>
+                <input type="text" class="form-control" id="presentation" name="presentation" required>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label for="pp_gn" class="form-label">{% trans "Type" %}</label>
+                <select class="form-select bg-white text-dark" id="pp_gn" name="pp_gn" required>
+                    <option value="GN">{% trans "Generic" %}</option>
+                    <option value="PP">{% trans "Owned" %}</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="statutAMM" class="form-label">{% trans "AMM Status" %}</label>
+                <select class="form-select bg-white text-dark" id="statutAMM" name="statutAMM" required>
+                    <option value="AMME">{% trans "AMM Registered" %}</option>
+                    <option value="AMMR">{% trans "AMM Withdrawn" %}</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="statutCommercialisation" class="form-label">{% trans "Commercial Status" %}</label>
+                <select class="form-select bg-white text-dark" id="statutCommercialisation" name="statutCommercialisation" required>
+                    <option value="C">{% trans "Commercialized" %}</option>
+                    <option value="NC">{% trans "Not Commercialized" %}</option>
+                    <option value="RM">{% trans "Withdrawn" %}</option>
+                    <option value="C/AO">{% trans "Commercialized/Tender" %}</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="EPI" class="form-label">{% trans "EPI" %}</label>
+                <input type="text" class="form-control" id="EPI" name="EPI" required>
+            </div>
+            <div class="col-md-6">
+                <label for="code_ATC" class="form-label">{% trans "ATC Code" %}</label>
+                <input type="text" class="form-control" id="code_ATC" name="code_ATC" required>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-3">
+                <label for="PPV" class="form-label">{% trans "PPV" %}</label>
+                <input type="number" step="0.01" class="form-control" id="PPV" name="PPV" required>
+            </div>
+            <div class="col-md-3">
+                <label for="PH" class="form-label">{% trans "PH" %}</label>
+                <input type="number" step="0.01" class="form-control" id="PH" name="PH" required>
+            </div>
+            <div class="col-md-3">
+                <label for="PFHT" class="form-label">{% trans "PFHT" %}</label>
+                <input type="number" step="0.01" class="form-control" id="PFHT" name="PFHT" required>
+            </div>
+            <div class="col-md-3">
+                <label for="TVA" class="form-label">{% trans "TVA" %} ({% trans "optional" %})</label>
+                <input type="number" step="0.01" class="form-control" id="TVA" name="TVA">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="initial_stock" class="form-label">{% trans "Initial Stock" %}</label>
+                <input type="number" class="form-control" id="initial_stock" name="initial_stock" required>
+            </div>
+            <div class="col-md-6">
+                <label for="reorder_point" class="form-label">{% trans "Reorder Point" %}</label>
+                <input type="number" class="form-control" id="reorder_point" name="reorder_point" required>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-success">{% trans "Save Medicine" %}</button>
+            <a href="{% url 'list-of-medicines' %}" class="btn btn-outline-secondary">{% trans "Cancel" %}</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

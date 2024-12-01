@@ -1,0 +1,48 @@
+{% load static %}
+{% load i18n %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center order-0 ">
+            <a type="button" class="text-decoration-none search-toggle text-dark " id="sidebarCollapse">
+                <i class="fa-solid fa-bars-staggered fs-3"></i>
+            </a>
+            <div class="d-flex align-items-start mx-3 ">
+                <form class="d-flex align-items-center position-relative search-form" action="{% url 'list-of-medicines-paginated' 1 %}">
+                    <i role="button" class="fas fa-search fs-6 search-form__icon"></i>
+                    <input class="form-control" type="search" name="q" placeholder="Search" style="min-width: 200px;" aria-label="Search">
+                </form>
+            </div>
+            <form action="{% url 'set_language' %}" method="post" class="ms-3 me-3">
+                {% csrf_token %}
+                <input name="next" type="hidden" value="{{ request.path }}">
+                <select name="language" onchange="this.form.submit()" class="form-control" id="languageSwitcher">
+                    {% get_current_language as LANGUAGE_CODE %}
+                    {% get_available_languages as LANGUAGES %}
+                    {% get_language_info_list for LANGUAGES as languages %}
+                    {% for language in languages %}
+                        <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                            {{ language.name_local }} ({{ language.code }})
+                        </option>
+                    {% endfor %}
+                </select>
+            </form>
+        </div>
+        <div class="d-flex order-1">
+            <div class="d-flex flex-column me-3 ms-3">
+                <div>
+                    <img src="{{ weather.weatherIcon }}" style="width: 30px; height: 30px;" alt="Weather Icon" class="me-2 ms-2">
+                    <span class="me-2 ms-2 fs-6">{% trans weather.timeMessage %}</span>
+                </div>
+                <div>
+                    <span class="me-2 ms-2 fs-10">{{ weather.main.temp }}°C</span>
+                    <span class="fs-10">{{ weather.today }}</span>
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <a href="{% url 'settings' %}" class="nav-link px-2"><i class="fas fa-cog fs-4"></i></a>
+                <a href="{% url 'alerts' %}" class="nav-link px-2"><i class="fa-regular fs-4 fa-bell"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-22 16:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\dashboard\templates\dashboard\dashboard.html:5
+msgid "Dashboard"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:16
+msgid "Total Customers"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:20
+#: .\dashboard\templates\dashboard\dashboard.html:32
+#: .\dashboard\templates\dashboard\dashboard.html:44
+#: .\dashboard\templates\dashboard\dashboard.html:56
+msgid "View Details"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:28
+msgid "Total Sales"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:40
+msgid "Total Profit"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:52
+msgid "Out of Stock"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:60
+msgid "Recent Sales"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:65
+msgid "Medicine Name"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:66
+msgid "Expiry Date"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:67
+msgid "Quantity"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:68
+msgid "Status"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:69
+msgid "Price"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:110
+msgid "Monthly Progress"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:118
+msgid "Daily Report"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:144
+msgid "Total Earnings"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:148
+msgid "Total Purchases"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:149
+msgid "Cash Received"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:150
+msgid "Bank Receipts"
+msgstr ""
+
+#: .\dashboard\templates\dashboard\dashboard.html:151
+msgid "Total Services"
+msgstr ""

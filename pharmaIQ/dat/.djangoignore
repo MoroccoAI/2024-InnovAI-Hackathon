@@ -1,0 +1,5 @@
+requirements.txt
+*.pyc
+node_modules/
+static/
+media/

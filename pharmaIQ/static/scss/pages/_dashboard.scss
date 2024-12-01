@@ -1,0 +1,72 @@
+
+.fs-10{
+    font-size: 10px !important;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+  
+    p {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+  }
+  
+  .summary-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  
+  .table-responsive {
+    height: 58vh; 
+    overflow-y: auto;
+  
+    table {
+        width: 100%;
+        border-collapse: collapse;
+  
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+  
+        th {
+            background-color: #f8f8f8;
+        }
+  
+        tbody tr {
+            &:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+  
+            &:hover {
+                background-color: #efefef;
+            }
+        }
+  
+        .status {
+            &.Delivered {
+                color:$primary;
+            }
+  
+            &.Pending {
+                color: orange;
+            }
+  
+            &.Canceled {
+                color: red;
+            }
+        }
+    }
+  }

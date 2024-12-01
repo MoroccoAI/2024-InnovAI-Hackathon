@@ -1,0 +1,92 @@
+.report-container {
+  text-align: center;
+  position: relative;
+  /* Circular chart styles */
+  /* Legend styles */
+}
+.report-container .circular-chart {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 250px;
+  max-height: 250px;
+  position: relative;
+  /* Common SVG properties */
+  /* Text block inside the circular chart */
+}
+.report-container .circular-chart .circle-bg {
+  fill: none;
+  stroke: #444;
+}
+.report-container .circular-chart .circle {
+  fill: none;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.6s ease 0s, stroke 0.6s ease;
+}
+.report-container .circular-chart .circle.red {
+  stroke: #FF4D4F;
+}
+.report-container .circular-chart .circle.yellow {
+  stroke: #FFC53D;
+}
+.report-container .circular-chart .circle.blue {
+  stroke: #1890FF;
+}
+.report-container .circular-chart .circle.green {
+  stroke: #52C41A;
+}
+.report-container .circular-chart .text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.report-container .circular-chart .text-block h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.report-container .circular-chart .text-block p {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.legend {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+  list-style: none;
+  padding: 0;
+}
+.legend li {
+  display: flex;
+  align-items: start;
+}
+.legend li .bi-dot {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-right: 5px;
+}
+.legend li:nth-child(1) .bi-dot {
+  color: #FF4D4F !important;
+}
+.legend li:nth-child(2) .bi-dot {
+  color: #FFC53D !important;
+}
+.legend li:nth-child(3) .bi-dot {
+  color: #1890FF !important;
+}
+.legend li:nth-child(4) .bi-dot {
+  color: #52C41A !important;
+}/*# sourceMappingURL=circularChart.css.map */

@@ -1,0 +1,47 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Inventory" %}{% endblock %}
+
+{% block content %}
+<div class="container-fluid p-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>{% trans "Inventory" %}</h1>
+        <div>
+            <a href="{% url 'add-medicine' %}" class="btn btn-primary">{% trans "+ Add New Item" %}</a>
+        </div>
+    </div>
+    <p class="text-muted">{% trans "List of medicines available for sales." %}</p>
+    
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow bg-primary text-white">
+                <div class="card-body">
+                    <h1 class="card-title display-4">{{totalMedecines}}</h1>
+                    <p class="card-text">{% trans "Medicines Available" %}</p>
+                    <a href="{% url 'list-of-medicines' %}" class="btn btn-outline-light">{% trans "View Full List" %}</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow bg-success text-white">
+                <div class="card-body">
+                    <h1 class="card-title display-4">{{totalGroups}}</h1>
+                    <p class="card-text">{% trans "Medicine Groups" %}</p>
+                    <a href="{% url 'medicine-groups' %}" class="btn btn-outline-light">{% trans "View Groups" %}</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow bg-danger text-white">
+                <div class="card-body">
+                    <h1 class="card-title display-4">{{predictedOutOfStock}}</h1>
+                    <p class="card-text">{% trans "Medicine Shortage" %}</p>
+                    <a href="{% url 'predictions' %}" class="btn btn-outline-light">{% trans "View Details" %}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

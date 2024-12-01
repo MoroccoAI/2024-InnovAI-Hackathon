@@ -1,0 +1,182 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "AI Assistant" %}{% endblock %}
+
+{% block content %}
+<div class="chat-container">
+    <div class="chat-header">
+        <i class="bi bi-stars"></i>
+        <h5>{% trans "AI Assistant" %}</h5> 
+
+        <div id="loadingIndicator" class="loading d-none">
+            <div class="spinner">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <span>{% trans "AI is thinking..." %}</span>
+        </div>
+
+    </div>
+    
+    <div class="chat-messages" id="chatMessages">
+        {% for message in messages %}
+            {% if message.is_ai %}
+            <div class="message-wrapper ai">
+                <div class="avatar">
+                    <i class="bi bi-stars"></i>
+                </div>
+                <div class="message py-2">
+                    {{ message.content }}
+                </div>
+            </div>
+            {% else %}
+            <div class="message-wrapper user">
+                <div class="message py-2">
+                    {{ message.content }}
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+        
+        
+    </div>
+
+    <div class="chat-input">
+        <form id="chatForm" method="POST" action="{% url 'assistant' %}">
+            {% csrf_token %}
+            <input type="text" 
+                   name="message" 
+                   placeholder="{% trans 'Ask me anything about medicines...' %}"
+                   required
+                   autocomplete="off">
+            <button type="submit">
+                <i class="bi bi-send"></i>
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}
+{% block extra_scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const chatMessages = document.getElementById('chatMessages');
+        const chatForm = document.getElementById('chatForm');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+    
+        let isSubmitting = false; // Flag to prevent multiple submissions
+    
+        // Scroll to bottom on load
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+
+        function typeEffect(element, text, speed = 5, callback) {
+            let index = 0;
+            const interval = setInterval(() => {
+                if (index < text.length) {
+                    element.innerHTML += text.charAt(index);
+                    index++;
+                } else {
+                    clearInterval(interval);
+                    if (callback) callback();
+                }
+            }, speed);
+        }
+    
+        chatForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+    
+            if (isSubmitting) return; // Prevent duplicate submissions
+            isSubmitting = true;
+    
+            // Get user input
+            const inputField = chatForm.querySelector('input[name="message"]');
+            const userMessage = inputField.value;
+    
+            // Display user message in the chat
+            const userMessageDiv = document.createElement('div');
+            userMessageDiv.className = 'message-wrapper user';
+            userMessageDiv.innerHTML = `<div class="message">${userMessage}</div>`;
+            chatMessages.appendChild(userMessageDiv);
+    
+            // Scroll to bottom
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+    
+            // Show loading indicator
+            loadingIndicator.classList.remove('d-none');
+    
+            // Submit user message to the server
+            const formData = new FormData(chatForm);
+            try {
+                const response = await fetch(chatForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'X-CSRFToken': formData.get('csrfmiddlewaretoken')
+                    }
+                });
+    
+                if (response.ok) {
+                    const data = await response.json();
+    
+                    // Add AI message wrapper to the chat
+                    const aiMessageDiv = document.createElement('div');
+                    aiMessageDiv.className = 'message-wrapper ai py-2';
+                    aiMessageDiv.innerHTML = `
+                        <div class="avatar">
+                            <i class="bi bi-stars"></i>
+                        </div>
+                        <div class="message"></div>`;
+                    chatMessages.appendChild(aiMessageDiv);
+    
+                    // Scroll to bottom
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+
+                    // Typing animation for AI response
+                    const messageElement = aiMessageDiv.querySelector('.message');
+                    typeEffect(messageElement, data.ai_response, 50, () => {
+                        // Ensure scrolling to the bottom after typing is done
+                        chatMessages.scrollTop = chatMessages.scrollHeight;
+                    });
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            } finally {
+                // Reset flag and form
+                isSubmitting = false;
+                loadingIndicator.classList.add('d-none');
+                chatForm.reset();
+            }
+        });
+
+        // Prevent form submission on Enter key press
+        chatForm.querySelector('input[name="message"]').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                if (!isSubmitting) {
+                    chatForm.querySelector('button[type="submit"]').click();
+                }
+            }
+        });
+    });
+</script>
+
+<style>
+
+    @keyframes typing {
+        0% {
+            transform: scale(1);
+            opacity: 0.5;
+        }
+        50% {
+            transform: scale(1.5);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 0.5;
+        }
+    }
+</style>
+{% endblock %}

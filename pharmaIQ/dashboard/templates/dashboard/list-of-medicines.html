@@ -1,0 +1,99 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "List of Medicines" %}{% endblock %}
+
+{% block content %}
+<div class="container-fluid mt-4 p-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb fs-3">
+            <li class="breadcrumb-item fw-bold mx-3">{% trans "Inventory" %}</li>
+            <li class="breadcrumb-item active fw-bold" id="active-breadcrumb-item" aria-current="page">{% trans "List of Medicines" %} ({{total}})</li>
+        </ol>
+    </nav>
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <p class="text-muted mb-0">{% trans "List of medicines available for sales." %}</p>
+        <a class="btn btn-primary" href="{% url 'add-medicine' %}">+ {% trans "Add New Item" %}</a>
+    </div>
+
+    <div class="d-flex justify-content-end mb-3">
+        <form method="get" class="d-flex">
+            <select name="group" class="form-select w-auto bg-white text-dark me-2" onchange="this.form.submit()">
+                <option value="" {% if not selected_group %}selected{% endif %}>{% trans "- Select Group -" %}</option>
+                {% for group in groups %}
+                    <option value="{{ group }}" {% if selected_group == group %}selected{% endif %}>
+                        {{ group }}
+                    </option>
+                {% endfor %}
+            </select>
+            {% if selected_group %}
+                <a href="{% url 'list-of-medicines' %}" class="btn btn-outline-secondary">
+                    {% trans "Clear Filter" %}
+                </a>
+            {% endif %}
+        </form>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th class="bg-white text-dark">{% trans "ID" %}</th>
+                    <th class="bg-white text-dark">{% trans "Name" %}</th>
+                    <th class="bg-white text-dark">{% trans "Group" %}</th>
+                    <th class="bg-white text-dark">{% trans "Stock" %}</th>
+                    <th class="bg-white text-dark">{% trans "Actions" %}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in stock %}
+                <tr>
+                    <td class="bg-white text-dark">{{ item.drug.id }}</td>
+                    <td class="bg-white text-dark">{{ item.drug.name }}</td>
+                    <td class="bg-white text-dark">{{ item.drug.class_therapeutique }}</td>
+                    <td class="bg-white text-dark">{{ item.level }}</td>
+                    <td class="bg-white text-dark">
+                        <a href="{% url 'drug-details' item.drug.id %}" class="text-primary "> {% trans "View Details" %} »</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <nav aria-label="Page navigation" class="mt-4">
+        <ul class="pagination justify-content-center">
+            {% if stock.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="{% url 'list-of-medicines-paginated' stock.previous_page_number %}">
+                        <i class="bi bi-chevron-left"></i>
+                    </a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="page-link" href="#"><i class="bi bi-chevron-left"></i></a>
+                </li>
+            {% endif %}
+            
+            <li class="page-item active">
+                <a class="page-link" href="#">{% trans "Page" %} {{ stock.number }} {% trans "of" %} {{ stock.paginator.num_pages }}</a>
+            </li>
+            
+            {% if stock.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="{% url 'list-of-medicines-paginated' stock.next_page_number %}">
+                        <i class="bi bi-chevron-right"></i>
+                    </a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+
+{% endblock %}
