@@ -1,0 +1,3 @@
+tesseract-ocr
+libtk8.6
+poppler-utils
