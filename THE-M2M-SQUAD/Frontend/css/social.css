@@ -1,0 +1,397 @@
+/* General Page Styling */
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Page Container */
+/* .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    animation: fadeIn 0.5s ease-in-out;
+} */
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Social Page Section */
+.post-section {
+    width: 100%;
+    /* max-width: 1200px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+/* Post Form */
+.post-form-container {
+    width: 30%;
+    flex-grow: 1;
+    min-width: 300px;
+    
+    gap: 20rem;
+}
+
+.post-form, .Wallet, .posts-container {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-form:hover,
+.Wallet:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.wallet-button.disconnect.hidden {
+    display: none;
+  }
+  
+  .wallet-button.connected {
+    background-color: #4CAF50;
+  }
+  
+  .wallet-button.disconnect {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .wallet-button.disconnect:hover {
+    background-color: #d32f2f;
+  }
+  
+
+#post-message,
+#post-image {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+#file-upload {
+    width: 10%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+#post-message:focus,
+#post-image:focus,
+#file-upload:focus {
+    border-color: #2196F3;
+    outline: none;
+}
+
+#publish-post {
+    padding: 0.75rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#publish-post:hover {
+    background-color: #0056b3;
+}
+
+.Wallet input {
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+}
+
+/* Posts Display */
+.post {
+    background: #ffffff;
+    max-height:100%;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.post-content {
+    line-height: 1.6;
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.posts-container {
+    width: 65%;
+    flex-grow: 1;
+    min-width: 300px;
+    height: 85vh; /* Adjust this height as needed */
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding: 1rem;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: none;
+}
+
+/* Maintaining the rest of your styles for the posts */
+.post {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.post-header .author,
+.post-header .timestamp {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post-content {
+    line-height: 1.6;
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post-image {
+    width: 20%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.post-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.action-btn {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #666;
+}
+
+.action-btn:hover {
+    background: #0056b3;
+    border-color: #bbb;
+    color: #fff;
+}
+
+.like-btn:hover {
+    color: #4CAF50;
+}
+
+.dislike-btn:hover {
+    color: #f44336;
+}
+
+.edit-btn:hover {
+    color: #2196F3;
+}
+
+.post-edited {
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    color: #666;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.comments {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.comment:last-child {
+    border-bottom: none;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.comment-header .author {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.comment-header .timestamp {
+    font-size: 0.75rem;
+    color: #999;
+}
+
+.comment-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.comment-content p {
+    margin: 0;
+}
+
+.loading-spinner {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.loading-spinner i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2196F3;
+}
+
+
+/* Chat Page */
+.chat-container {
+    width: 100%;
+    /* max-width: 800px; */
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#chat-messages {
+    height: 100%;
+    overflow-y: auto;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+.chat-input textarea {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    font-size: 1rem;
+    resize: none;
+    transition: border-color 0.3s ease;
+}
+
+.chat-input textarea:focus {
+    border-color: #2196F3;
+    outline: none;
+}
+
+.chat-input button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.chat-input button:hover {
+    background-color: #0056b3;
+}

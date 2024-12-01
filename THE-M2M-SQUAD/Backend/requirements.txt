@@ -1,0 +1,9 @@
+flask==3.0.2
+flask-cors==4.0.0
+huggingface-hub
+python-dotenv
+transformers
+torchvision 
+pillow
+gunicorn
+ultralyticsplus

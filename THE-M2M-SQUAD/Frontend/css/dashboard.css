@@ -1,0 +1,198 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* This ensures cards align in a responsive grid */
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.card h3, .first-card h3 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+ost-form {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.post-form textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.chat-container {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.uploaded-image {
+  max-width: 10%; /* Ensure the image doesn't exceed the chat width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  margin-top: 10px; /* Add some space above the image */
+}
+
+
+#chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 5px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.chat-input textarea {
+  flex-grow: 1;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: vertical;
+  min-height: 50px;
+}
+
+#file-upload {
+  margin-bottom: 1rem;
+}
+
+.message {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+.message.user {
+  background-color: #e3f2fd;
+  margin-left: 2rem;
+}
+
+.message.assistant {
+  background-color: #f5f5f5;
+  margin-right: 2rem;
+}
+
+.message.system {
+  background-color: #fff3e0;
+  text-align: center;
+  margin: 0.5rem 1rem;
+  font-style: italic;
+}
+
+.message-content {
+  word-wrap: break-word;
+}
+
+.message-content strong {
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+  display: inline-block;
+}
+
+.message-content p {
+  margin: 0.5rem 0 0 0;
+}
+
+/************************************************/
+
+
+.container {
+  padding: 20px;
+}
+.step {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.step img {
+  width: 50px;
+  margin-right: 15px;
+}
+.step h3 {
+  margin: 0;
+  color: #f6851b;
+}
+.step p {
+  margin: 5px 0 0 0;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+}
+a {
+  color: #f6851b;
+  text-decoration: none;
+}
+
+/* Style for the About Us container */
+/* Style for the About Us container */
+.about {
+  margin: 20px auto;
+  padding: 30px;
+  max-width: 100%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif; /* Clean and professional font */
+  text-align: center;
+  line-height: 1.8;
+}
+
+/* Styling for the text */
+.platform-purpose {
+  font-size: 20px;
+  color: #333333; /* Dark gray for professional readability */
+  font-weight: 400; /* Regular weight for a clean appearance */
+  overflow: hidden; /* Prevent text overflow during animation */
+  letter-spacing: 0.5px; /* Subtle letter spacing for readability */
+}
+
+/* Fade-in effect for each word */
+.word {
+  opacity: 0;
+  display: inline-block;
+  animation: fade-in 0.5s forwards;
+}
+
+/* Keyframes for word fade-in */
+@keyframes fade-in {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

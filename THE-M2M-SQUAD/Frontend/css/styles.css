@@ -1,0 +1,424 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --background-color: #f5f6fa;
+  --text-color: #2c3e50;
+  --sidebar-width: 250px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  height: 100vh;
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  position: fixed;
+  color: white;
+}
+
+.logo h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  margin-bottom: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: var(--secondary-color);
+}
+
+.content {
+  margin-left: var(--sidebar-width);
+  padding: 2rem;
+  width: calc(100% - var(--sidebar-width));
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.toastify {
+  padding: 16px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toastify .icon {
+  font-size: 20px;
+}
+
+.toastify.success {
+  background-color: #4CAF50;
+}
+
+.toastify.error {
+  background-color: #f44336;
+}
+
+.toastify.warning {
+  background-color: #ff9800;
+}
+
+.toastify.info {
+  background-color: #2196F3;
+}
+
+
+.ai-assistant-guide {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.guide-step {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.guide-step img {
+  width: 50px;
+  height: 50px;
+}
+
+.guide-step h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.guide-step p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.chat-container {
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.chat-input textarea {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.chat-input button {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #0056b3;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chat-input button:hover {
+  background-color: #003a8c;
+}
+
+
+
+
+/* General styling for the page titles */
+.page h1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Modern image styling */
+.modern-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Modern shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+  object-fit: cover; /* Ensures the image looks great */
+}
+
+/* Hover effects */
+.modern-image:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), 0 2px 5px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .modern-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .page h1 {
+    font-size: 1.5rem;
+    gap: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+/* About Us Section */
+.about-us {
+  background: white;
+  padding: 1.5rem;
+  text-align:center;
+  gap: 2rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.about-us .platform-purpose {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.about-us .team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.team {
+  text-align: center; /* Center the content */
+  margin-top: 3rem; /* Space above the section */
+  padding: 2rem; /* Padding for visual comfort */
+}
+
+.team-name {
+  font-family: 'Arial', sans-serif; /* Clean, professional font */
+  font-size: 2rem; /* Larger text for emphasis */
+  color: #333; /* Dark gray text for contrast */
+  font-weight: bold; /* Bold text for prominence */
+  margin-bottom: 1.5rem; /* Space below the title */
+  letter-spacing: 1px; /* Slightly increased letter spacing for a modern feel */
+}
+
+.team .team-member {
+  display: inline-block; /* Align team members side by side */
+  margin: 1rem; /* Spacing between members */
+  text-align: center; /* Center content inside each team member */
+}
+
+.team .team-member img {
+  width: 150px; /* Fixed size for the images */
+  height: 150px; /* Fixed size for the images */
+  border-radius: 50%; /* Circular images */
+  object-fit: cover; /* Ensures image fits the circle */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 1rem; /* Space between image and name */
+}
+
+.team .team-member .name {
+  font-family: 'Arial', sans-serif; /* Clean, professional font */
+  font-size: 1.1rem; /* Slightly smaller text for names */
+  color: #333; /* Dark gray color for names */
+  font-weight: bold; /* Emphasize name */
+}
+
+.team .team-member .linkedin {
+  color: #007bff; /* Blue for LinkedIn links */
+  font-size: 0.9rem; /* Smaller font for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.team .team-member .linkedin:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+/* Full-screen overlay to disable interactions with the page */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 999; /* Ensure it overlays everything */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered modal */
+#instructions {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  max-width: 90%;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* List styling */
+#instructions ul {
+  padding-left: 20px;
+}
+
+#instructions ul li {
+  margin-bottom: 10px;
+}
+
+/* Close button styling */
+#instructions button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#instructions button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the header container */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the h1 element */
+.header-container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the chatbot image */
+.page-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* Align buttons next to the header on the same line */
+.header-buttons {
+  display: flex;
+  gap: 15px; /* Space between buttons */
+}
+
+/* Style the buttons */
+.header-buttons button {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.header-buttons button i {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.header-buttons button:hover {
+  background-color: #0056b3;
+}
+
+
+

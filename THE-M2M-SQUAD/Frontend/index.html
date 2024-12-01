@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Medical Dashboard</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets\DALLE.jpg" type="image" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/dashboard.css" />
+    <link rel="stylesheet" href="/css/social.css" />
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="logo">
+        <h2>MedConnect</h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" data-page="dashboard" class="active">Dashboard</a></li>
+        <li><a href="#" data-page="chatbot">MediBot</a></li>
+        <li><a href="#" data-page="social">HealthSphere</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+      <!-- Dashboard Page -->
+      <div id="dashboard-page" class="page active">
+        <h1> <img src="assets\DALLE.jpg" alt="Dashboard Icon" class="page-icon modern-image" />
+          Welcome, Doctor</h1>
+          <div class="first-card">
+            <h3>Quick Actions</h3>
+            <div class="buttons-container">
+              <button onclick="document.querySelector('[data-page=chatbot]').click()">MediBot</button>
+              <button onclick="document.querySelector('[data-page=social]').click()">HealthSphere</button>
+            </div>
+        </div>
+        
+        <div class="about">
+          <h3 id="platform-purpose" class="platform-purpose"></h3>
+      </div>
+      
+        <div class="dashboard-grid">
+          <!-- Card 1 -->
+          
+          
+          <!-- Card 2 -->
+          <div class="card">
+            <h3>How to Use the AI Medical Assistant</h3>
+            <div class="ai-assistant-guide">
+              <div class="guide-step">
+                <img src="https://cdn-icons-png.flaticon.com/512/1040/1040230.png" alt="Medical Report Icon">
+                <div>
+                  <h4>Generate Medical Reports</h4>
+                  <p>Upload patient data to generate detailed medical reports.</p>
+                </div>
+              </div>
+              <div class="guide-step">
+                <img src="https://cdn-icons-png.flaticon.com/512/1038/1038108.png" alt="Tumor Classification Icon">
+                <div>
+                  <h4>Classify Tumor and Alzheimer Types</h4>
+                  <p>Upload medical images to classify tumors and Alzheimer accurately.</p>
+                </div>
+              </div>
+              <div class="guide-step">
+                <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" alt="chest X-ray Icon">
+                <div>
+                  <h4>Analyse Chest X-ray images</h4>
+                  <p>Upload medical images to Analyse Chest X-ray images accurately.</p>
+                </div>
+              </div>
+              <div class="guide-step">
+                <img src="https://cdn-icons-png.flaticon.com/512/1041/1041951.png" alt="Ask Questions Icon">
+                <div>
+                  <h4>Ask Medical Questions</h4>
+                  <p>Type any medical question to get answers based on provided data and research.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>How to Use HealthSphere</h3>
+          <div class="container">
+            <div class="step">
+              <img src="https://cdn-icons-png.flaticon.com/512/811/811372.png" alt="MetaMask Icon">
+              <div>
+                <h4>Step 1: Install MetaMask</h4>
+                <p>
+                  Download the <a href="https://metamask.io/" target="_blank">MetaMask</a>
+                  extension or mobile app and create a wallet.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <img src="https://cdn-icons-png.flaticon.com/512/158/158412.png" alt="Add Funds Icon">
+              <div>
+                <h4>Step 2: Fund Your Wallet</h4>
+                <p>Add cryptocurrency to your wallet using an exchange or transfer from another wallet.</p>
+              </div>
+            </div>
+            <div class="step">
+              <img src="https://cdn-icons-png.flaticon.com/512/4321/4321052.png" alt="Deploy Contract Icon">
+              <div>
+                <h4>Step 3: Deploy Your Smart Contract</h4>
+                <p>Use an online tool like <a href="https://remix.ethereum.org/" target="_blank">Remix IDE</a> to write and deploy your smart contract.</p>
+              </div>
+            </div>
+            <div class="step">
+              <img src="https://cdn-icons-png.flaticon.com/512/833/833594.png" alt="Copy Address Icon">
+              <div>
+                <h4>Step 4: Get the Contract Address</h4>
+                <p>Copy the contract address after deployment and use it to interact with your application.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-us">
+          <h2>Team Members</h2>
+          
+          
+          <div class="team">
+            <div class="team-member">
+              <img src="assets\HI.jpg" alt="Creator 1" />
+              <h3>Idrissi Hamza</h3>
+              <p><a href="https://www.linkedin.com/in/hamza-idrissi-944b57211/" target="_blank">LinkedIn Profile</a></p>
+            </div>
+            <div class="team-member">
+              <img src="assets\HD.jpg" alt="Creator 2" />
+              <h3>Dahou Hamza</h3>
+              <p><a href="https://www.linkedin.com/in/hamzadahou/" target="_blank">LinkedIn Profile</a></p>
+            </div>
+            <div class="team-member">
+              <img src="assets\HB.jpg" alt="Creator 3" />
+              <h3>Boughfir Hamza</h3>
+              <p><a href="https://www.linkedin.com/in/hamza-boughfir-0bb646224/" target="_blank">LinkedIn Profile</a></p>
+            </div>
+            <div class="team-member">
+              <img src="assets\HN.jpg" alt="Creator 4" />
+              <h3>Nayah Hafsa</h3>
+              <p><a href="https://www.linkedin.com/in/hafsanayah/" target="_blank">LinkedIn Profile</a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Chatbot Page -->
+      <div id="chatbot-page" class="page">
+        <div class="header-container">
+          <h1>
+              <img src="assets/MediBot.jpg" alt="Chatbot Icon" class="page-icon modern-image" />
+              MediBot: AI Medical Assistant
+          </h1>
+          <div class="header-buttons">
+              <button id="toggle-instructions" class="fas fa-bell">
+                  <i class="fas fa-info-circle"></i>
+                  Show Instructions
+              </button>
+              <button id="download-pdf">
+                  <i class="fas fa-download"></i>
+                  Download Chat History as PDF
+              </button>
+          </div>
+      </div>
+      
+        <div id="overlay" style="display: none;">
+            <div id="instructions">
+                <p>Here are some tips for using the chat history:</p>
+                <ul>
+                    <li>Tokens are limited to 4000 for the Chat History</li>
+                    <li>After hitting the limit, the interaction with the MediBot will not be stored anymore</li>
+                </ul>
+                <button id="close-instructions">Close</button>
+            </div>
+        </div>
+        
+        <div class="chat-container">
+          <div id="chat-messages"></p></div>
+          <div class="chat-input">
+            <input type="file" id="file-upload" accept="image/*,.pdf,.doc,.docx" />
+            <textarea id="user-input" placeholder="Ask your medical question..."></textarea>
+            <button id="send-message">Send</button>
+          </div>
+        </div>
+      </div>
+      <!-- Social Page -->
+      <div id="social-page" class="page">
+        <h1><img src="assets\HealthSphere.jpg" alt="Social Icon" class="page-icon modern-image" />
+          HealthSphere</h1>
+        <div class="post-section">
+          <div class="post-form-container">
+            <div class="Wallet">
+              <p>Smart Contract Address:</p>
+              <input type="text" id="wallet-address" placeholder="Enter your wallet address here..." />
+            </div>
+            <div class="post-form">
+              <textarea id="post-message" placeholder="Type your post here..."></textarea>
+              <input type="file" id="post-image" accept="image/*" />
+              <button id="publish-post">Publish Post</button>
+            </div>
+          </div>
+          <div id="posts-container" class="posts-container"></div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
