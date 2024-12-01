@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Verify{% endblock %}
+{% block content %}
+    <div class="form-container">
+        {% if error %}
+        <div class="error">
+            <span class="text">{{ error }}</span>
+            <span id="close" class="material-symbols-outlined" onclick="console.log(this.parentElement.remove())">
+                close
+            </span>
+        </div>
+        {% endif %}
+        <h1>Code Verification</h1>
+        <p style="text-align: left;">We sent a verification code to your E-mail address.</p>
+        <hr style="opacity: 0;"/>
+        <form class="form" method="post">
+            {{ form.csrf_token }}
+            {{ form.code }}
+            {{ form.submit }}
+        </form>
+    </div>
+{% endblock %}

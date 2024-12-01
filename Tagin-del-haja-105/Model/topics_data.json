@@ -1,0 +1,2298 @@
+{
+    "1": {
+        "entity": "Frontend",
+        "url": "https://roadmap.sh/frontend",
+        "topics": [
+            {
+                "data-title": "Internet",
+                "subtopic": [
+                    "How does the internet work?",
+                    "What is HTTP?",
+                    "What is Domain Name?",
+                    "What is hosting?",
+                    "DNS and how it works?",
+                    "Browsers and how they work?"
+                ]
+            },
+            {
+                "data-title": "HTML",
+                "subtopic": [
+                    "SEO Basics"
+                ]
+            },
+            {
+                "data-title": "CSS",
+                "subtopic": [
+                    "Learn the basics",
+                    "Making Layouts",
+                    "Responsive Design"
+                ]
+            },
+            {
+                "data-title": "JavaScript",
+                "subtopic": [
+                    "Fetch API / Ajax (XHR)",
+                    "Learn DOM Manipulation",
+                    "Learn the Basics"
+                ]
+            },
+            {
+                "data-title": "VCS Hosting",
+                "subtopic": [
+                    "Bitbucket"
+                ]
+            },
+            {
+                "data-title": "Version Control Systems",
+                "subtopic": [
+                    "Git"
+                ]
+            },
+            {
+                "data-title": "Package Managers",
+                "subtopic": [
+                    "yarn",
+                    "pnpm",
+                    "npm"
+                ]
+            },
+            {
+                "data-title": "Pick a Framework",
+                "subtopic": [
+                    "Angular",
+                    "Vue.js",
+                    "React",
+                    "Svelte",
+                    "Solid JS",
+                    "Qwik"
+                ]
+            },
+            {
+                "data-title": "Writing CSS",
+                "subtopic": []
+            },
+            {
+                "data-title": "CSS Architecture",
+                "subtopic": []
+            },
+            {
+                "data-title": "CSS Preprocessors",
+                "subtopic": []
+            },
+            {
+                "data-title": "Build Tools",
+                "subtopic": []
+            },
+            {
+                "data-title": "Linters and Formatters",
+                "subtopic": []
+            },
+            {
+                "data-title": "Module Bundlers",
+                "subtopic": [
+                    "Parcel",
+                    "Rollup",
+                    "Webpack",
+                    "esbuild",
+                    "Vite"
+                ]
+            },
+            {
+                "data-title": "Testing",
+                "subtopic": [
+                    "Jest",
+                    "Playwright"
+                ]
+            },
+            {
+                "data-title": "Authentication Strategies",
+                "subtopic": []
+            },
+            {
+                "data-title": "Web Security Basics",
+                "subtopic": [
+                    "OWASP Security Risks"
+                ]
+            },
+            {
+                "data-title": "Web Components",
+                "subtopic": [
+                    "HTML Templates"
+                ]
+            },
+            {
+                "data-title": "Type Checkers",
+                "subtopic": [
+                    "TypeScript"
+                ]
+            },
+            {
+                "data-title": "SSR",
+                "subtopic": [
+                    "Svelte",
+                    "Vue.js",
+                    "Angular",
+                    "React"
+                ]
+            },
+            {
+                "data-title": "GraphQL",
+                "subtopic": [
+                    "Relay Modern"
+                ]
+            },
+            {
+                "data-title": "Static Site Generators",
+                "subtopic": [
+                    "Nuxt.js",
+                    "Eleventy"
+                ]
+            },
+            {
+                "data-title": "PWAs",
+                "subtopic": [
+                    "Using DevTools",
+                    "Storage"
+                ]
+            },
+            {
+                "data-title": "Mobile Apps",
+                "subtopic": [
+                    "Ionic"
+                ]
+            },
+            {
+                "data-title": "Desktop Apps",
+                "subtopic": [
+                    "Tauri",
+                    "Flutter"
+                ]
+            }
+        ]
+    },
+    "2": {
+        "entity": "Backend",
+        "url": "https://roadmap.sh/backend",
+        "topics": [
+            {
+                "data-title": "Search Engines",
+                "subtopic": []
+            },
+            {
+                "data-title": "Design and Development Principles",
+                "subtopic": [
+                    "GOF Design Patterns",
+                    "CQRS",
+                    "Domain Driven Design",
+                    "Event Sourcing",
+                    "Test Driven Development"
+                ]
+            },
+            {
+                "data-title": "Learn about APIs",
+                "subtopic": [
+                    "REST"
+                ]
+            },
+            {
+                "data-title": "Internet",
+                "subtopic": []
+            },
+            {
+                "data-title": "Pick a Language",
+                "subtopic": [
+                    "Rust"
+                ]
+            },
+            {
+                "data-title": "Version Control Systems",
+                "subtopic": [
+                    "Git"
+                ]
+            },
+            {
+                "data-title": "Repo Hosting Services",
+                "subtopic": [
+                    "Bitbucket",
+                    "GitLab"
+                ]
+            },
+            {
+                "data-title": "Relational Databases",
+                "subtopic": [
+                    "PostgreSQL",
+                    "MS SQL",
+                    "MySQL",
+                    "Oracle",
+                    "MariaDB",
+                    "SQLite"
+                ]
+            },
+            {
+                "data-title": "NoSQL Databases",
+                "subtopic": []
+            },
+            {
+                "data-title": "More about Databases",
+                "subtopic": [
+                    "ORMs",
+                    "Normalization",
+                    "ACID",
+                    "Failure Modes",
+                    "Transactions",
+                    "Profiling Perfor.",
+                    "N+1 Problem",
+                    "Migrations"
+                ]
+            },
+            {
+                "data-title": "Scaling Databases",
+                "subtopic": [
+                    "Database Indexes",
+                    "Sharding Strategies",
+                    "Data Replication",
+                    "CAP Theorem"
+                ]
+            },
+            {
+                "data-title": "Caching",
+                "subtopic": [
+                    "Client Side",
+                    "CDN",
+                    "Server Side"
+                ]
+            },
+            {
+                "data-title": "Web Security",
+                "subtopic": [
+                    "MD5",
+                    "SHA",
+                    "scrypt",
+                    "bcrypt"
+                ]
+            },
+            {
+                "data-title": "Testing",
+                "subtopic": [
+                    "Integration Testing",
+                    "Functional Testing",
+                    "Unit Testing"
+                ]
+            },
+            {
+                "data-title": "CI / CD",
+                "subtopic": []
+            },
+            {
+                "data-title": "Architectural Patterns",
+                "subtopic": [
+                    "Monolithic Apps"
+                ]
+            },
+            {
+                "data-title": "Message Brokers",
+                "subtopic": []
+            },
+            {
+                "data-title": "Containerization vs Virtualization",
+                "subtopic": []
+            },
+            {
+                "data-title": "Web Servers",
+                "subtopic": [
+                    "Nginx",
+                    "Apache"
+                ]
+            },
+            {
+                "data-title": "Building For Scale",
+                "subtopic": [
+                    "Migration Strategies"
+                ]
+            },
+            {
+                "data-title": "Real-Time Data",
+                "subtopic": [
+                    "WebSockets",
+                    "Server Sent Events",
+                    "Long Polling",
+                    "Short Polling"
+                ]
+            }
+        ]
+    },
+    "3": {
+        "entity": "DevOps",
+        "url": "https://roadmap.sh/devops",
+        "topics": [
+            {
+                "data-title": "Learn a Programming Language",
+                "subtopic": [
+                    "Python",
+                    "Go",
+                    "JavaScript / Node.js"
+                ]
+            },
+            {
+                "data-title": "Operating System",
+                "subtopic": [
+                    "Windows"
+                ]
+            },
+            {
+                "data-title": "Terminal Knowledge",
+                "subtopic": [
+                    "Process Monitoring",
+                    "Performance Monitoring",
+                    "Networking Tools",
+                    "Text Manipulation",
+                    "Power Shell",
+                    "Vim / Nano /  Emacs"
+                ]
+            },
+            {
+                "data-title": "Version Control Systems",
+                "subtopic": [
+                    "Git"
+                ]
+            },
+            {
+                "data-title": "VCS Hosting",
+                "subtopic": [
+                    "GitLab",
+                    "Bitbucket"
+                ]
+            },
+            {
+                "data-title": "What is and how to setup X ?",
+                "subtopic": []
+            },
+            {
+                "data-title": "Containers",
+                "subtopic": [
+                    "LXC"
+                ]
+            },
+            {
+                "data-title": "Cloud Providers",
+                "subtopic": []
+            },
+            {
+                "data-title": "Networking & Protocols",
+                "subtopic": []
+            },
+            {
+                "data-title": "Serverless",
+                "subtopic": []
+            },
+            {
+                "data-title": "Provisioning",
+                "subtopic": [
+                    "AWS CDK"
+                ]
+            },
+            {
+                "data-title": "Configuration Management",
+                "subtopic": []
+            },
+            {
+                "data-title": "CI / CD Tools",
+                "subtopic": [
+                    "GitHub Actions",
+                    "Jenkins",
+                    "Circle CI",
+                    "Drone"
+                ]
+            },
+            {
+                "data-title": "Secret Management",
+                "subtopic": [
+                    "Sealed Secrets",
+                    "Cloud Specific Tools",
+                    "Vault"
+                ]
+            },
+            {
+                "data-title": "Infrastructure Monitoring",
+                "subtopic": [
+                    "Prometheus"
+                ]
+            },
+            {
+                "data-title": "Logs Management",
+                "subtopic": [
+                    "Graylog"
+                ]
+            },
+            {
+                "data-title": "Container Orchestration",
+                "subtopic": []
+            },
+            {
+                "data-title": "Artifact Management",
+                "subtopic": [
+                    "Cloud Smith"
+                ]
+            },
+            {
+                "data-title": "GitOps",
+                "subtopic": [
+                    "FluxCD"
+                ]
+            },
+            {
+                "data-title": "Service Mesh",
+                "subtopic": [
+                    "Istio",
+                    "Consul",
+                    "Linkerd",
+                    "Envoy"
+                ]
+            },
+            {
+                "data-title": "Cloud Design Patterns",
+                "subtopic": [
+                    "Availability",
+                    "Data Management",
+                    "Design and Implementation",
+                    "Management and Monitoring"
+                ]
+            },
+            {
+                "data-title": "Application Monitoring",
+                "subtopic": [
+                    "Jaeger"
+                ]
+            }
+        ]
+    },
+    "4": {
+        "entity": "Full Stack",
+        "url": "https://roadmap.sh/full-stack",
+        "topics": [
+            {
+                "data-title": "HTML",
+                "subtopic": []
+            },
+            {
+                "data-title": "CSS",
+                "subtopic": []
+            },
+            {
+                "data-title": "JavaScript",
+                "subtopic": []
+            },
+            {
+                "data-title": "npm",
+                "subtopic": []
+            },
+            {
+                "data-title": "Git",
+                "subtopic": []
+            },
+            {
+                "data-title": "GitHub",
+                "subtopic": []
+            },
+            {
+                "data-title": "Tailwind CSS",
+                "subtopic": []
+            },
+            {
+                "data-title": "React",
+                "subtopic": []
+            },
+            {
+                "data-title": "Node.js",
+                "subtopic": []
+            },
+            {
+                "data-title": "RESTful APIs",
+                "subtopic": []
+            },
+            {
+                "data-title": "JWT Auth",
+                "subtopic": []
+            },
+            {
+                "data-title": "Redis",
+                "subtopic": []
+            },
+            {
+                "data-title": "Linux Basics",
+                "subtopic": []
+            },
+            {
+                "data-title": "Basic AWS Services",
+                "subtopic": []
+            },
+            {
+                "data-title": "Monit",
+                "subtopic": []
+            },
+            {
+                "data-title": "PostgreSQL",
+                "subtopic": []
+            },
+            {
+                "data-title": "GitHub Actions",
+                "subtopic": []
+            },
+            {
+                "data-title": "Ansible",
+                "subtopic": []
+            },
+            {
+                "data-title": "Terraform",
+                "subtopic": []
+            }
+        ]
+    },
+    "5": {
+        "entity": "AI Engineer",
+        "url": "https://roadmap.sh/ai-engineer",
+        "topics": [
+            {
+                "data-title": "Introduction",
+                "subtopic": [
+                    "What is an AI Engineer?",
+                    "AI Engineer vs ML Engineer"
+                ]
+            },
+            {
+                "data-title": "Pre-trained Models",
+                "subtopic": [
+                    "Benefits of Pre-trained Models",
+                    "Limitations and Considerations",
+                    "OpenAI Models"
+                ]
+            },
+            {
+                "data-title": "OpenAI API",
+                "subtopic": [
+                    "Chat Completions API",
+                    "Writing Prompts",
+                    "Open AI Playground"
+                ]
+            },
+            {
+                "data-title": "AI Safety and Ethics",
+                "subtopic": []
+            },
+            {
+                "data-title": "OpenSource AI",
+                "subtopic": [
+                    "Open vs Closed Source Models",
+                    "Popular Open Source Models"
+                ]
+            },
+            {
+                "data-title": "Hugging Face",
+                "subtopic": []
+            },
+            {
+                "data-title": "Ollama",
+                "subtopic": []
+            },
+            {
+                "data-title": "What are Embeddings",
+                "subtopic": []
+            },
+            {
+                "data-title": "Open AI Embeddings API",
+                "subtopic": [
+                    "Pricing Considerations"
+                ]
+            },
+            {
+                "data-title": "Open-Source Embeddings",
+                "subtopic": []
+            },
+            {
+                "data-title": "Vector Databases",
+                "subtopic": []
+            },
+            {
+                "data-title": "RAG & Implementation",
+                "subtopic": []
+            },
+            {
+                "data-title": "Open AI Assistant API",
+                "subtopic": []
+            },
+            {
+                "data-title": "AI Agents",
+                "subtopic": []
+            },
+            {
+                "data-title": "Multimodal AI",
+                "subtopic": [
+                    "Multimodal AI Usecases"
+                ]
+            },
+            {
+                "data-title": "Development Tools",
+                "subtopic": []
+            }
+        ]
+    },
+    "6": {
+        "entity": "Data Analyst",
+        "url": "https://roadmap.sh/data-analyst",
+        "topics": [
+            {
+                "data-title": "Introduction",
+                "subtopic": [
+                    "Key Concepts of Data"
+                ]
+            },
+            {
+                "data-title": "Types of Data Analytics",
+                "subtopic": [
+                    "Descriptive Analytics"
+                ]
+            },
+            {
+                "data-title": "Analaysis / Reporting with Excel",
+                "subtopic": []
+            },
+            {
+                "data-title": "Learn a Programming Lang.",
+                "subtopic": []
+            },
+            {
+                "data-title": "Data Manipulation Libraries",
+                "subtopic": [
+                    "Pandas",
+                    "Dplyr"
+                ]
+            },
+            {
+                "data-title": "Data Visualisation Libraries",
+                "subtopic": [
+                    "Matplotlib",
+                    "Ggplot2"
+                ]
+            },
+            {
+                "data-title": "Data Collection",
+                "subtopic": [
+                    "Databases",
+                    "CSV Files",
+                    "APIs",
+                    "Web Scraping"
+                ]
+            },
+            {
+                "data-title": "Data Cleanup",
+                "subtopic": [
+                    "Handling Missing Data",
+                    "Removing Duplicates",
+                    "Finding Outliers",
+                    "Data Transformation"
+                ]
+            },
+            {
+                "data-title": "Descriptive Analysis",
+                "subtopic": [
+                    "Visualizing Distributions"
+                ]
+            },
+            {
+                "data-title": "Data Visualisation",
+                "subtopic": []
+            },
+            {
+                "data-title": "Statistical Analysis",
+                "subtopic": [
+                    "Hypothesis Testing",
+                    "Correlation Analysis",
+                    "Regression"
+                ]
+            },
+            {
+                "data-title": "Machine Learning",
+                "subtopic": []
+            },
+            {
+                "data-title": "Big Data Technologies",
+                "subtopic": [
+                    "Big Data Concepts"
+                ]
+            },
+            {
+                "data-title": "Deep Learning (Optional)",
+                "subtopic": []
+            }
+        ]
+    },
+    "7": {
+        "entity": "AI and Data Scientist",
+        "url": "https://roadmap.sh/ai-data-scientist",
+        "topics": [
+            {
+                "data-title": "Mathematics",
+                "subtopic": []
+            },
+            {
+                "data-title": "Statistics",
+                "subtopic": []
+            },
+            {
+                "data-title": "Econometrics",
+                "subtopic": []
+            },
+            {
+                "data-title": "Coding",
+                "subtopic": []
+            },
+            {
+                "data-title": "Exploratory Data Analysis",
+                "subtopic": []
+            },
+            {
+                "data-title": "Machine Learning",
+                "subtopic": []
+            },
+            {
+                "data-title": "Deep Learning",
+                "subtopic": []
+            },
+            {
+                "data-title": "MLOps",
+                "subtopic": []
+            }
+        ]
+    },
+    "8": {
+        "entity": "Android",
+        "url": "https://roadmap.sh/android",
+        "topics": [
+            {
+                "data-title": "Pick a Language",
+                "subtopic": [
+                    "Kotlin",
+                    "Java"
+                ]
+            },
+            {
+                "data-title": "The Fundamentals",
+                "subtopic": [
+                    "Development IDE",
+                    "Basics of Kotlin",
+                    "Basics of OOP",
+                    "Data Structures and Algorithms",
+                    "What is and how to use Gradle?",
+                    "Create a Basic Hello World App"
+                ]
+            },
+            {
+                "data-title": "Version Control",
+                "subtopic": []
+            },
+            {
+                "data-title": "App Components",
+                "subtopic": [
+                    "Activity"
+                ]
+            },
+            {
+                "data-title": "Design & Architecture",
+                "subtopic": []
+            },
+            {
+                "data-title": "Storage",
+                "subtopic": [
+                    "Shared Preferences",
+                    "DataStore",
+                    "Room Database",
+                    "File System"
+                ]
+            },
+            {
+                "data-title": "Network",
+                "subtopic": []
+            },
+            {
+                "data-title": "Asynchronism",
+                "subtopic": []
+            },
+            {
+                "data-title": "Common Services",
+                "subtopic": []
+            },
+            {
+                "data-title": "Linting",
+                "subtopic": []
+            },
+            {
+                "data-title": "Debugging",
+                "subtopic": [
+                    "Jetpack Benchmark"
+                ]
+            },
+            {
+                "data-title": "Testing",
+                "subtopic": []
+            },
+            {
+                "data-title": "Distribution",
+                "subtopic": [
+                    "Firebase Distribution",
+                    "Google Playstore",
+                    "Signed APK"
+                ]
+            },
+            {
+                "data-title": "Interface & Navigation",
+                "subtopic": [
+                    "Jetpack Compose",
+                    "App Shortcuts"
+                ]
+            }
+        ]
+    },
+    "9": {
+        "entity": "iOS",
+        "url": "https://roadmap.sh/ios",
+        "topics": [
+            {
+                "data-title": "Swift (Recommended)",
+                "subtopic": [
+                    "History and Why Swift?"
+                ]
+            },
+            {
+                "data-title": "Objective-C",
+                "subtopic": [
+                    "Objective-C Basics"
+                ]
+            },
+            {
+                "data-title": "iOS Architecture",
+                "subtopic": [
+                    "Cocoa Touch"
+                ]
+            },
+            {
+                "data-title": "Core Programming Concepts",
+                "subtopic": [
+                    "OOP",
+                    "Functional Programming",
+                    "Memory Management",
+                    "ViewController Lifecycle",
+                    "Error Handling",
+                    "Concurrency (GCD, async/await)"
+                ]
+            },
+            {
+                "data-title": "Pick a Language",
+                "subtopic": []
+            },
+            {
+                "data-title": "Version Control",
+                "subtopic": [
+                    "GitHub"
+                ]
+            },
+            {
+                "data-title": "Xcode",
+                "subtopic": []
+            },
+            {
+                "data-title": "UIKit",
+                "subtopic": [
+                    "User Interactions",
+                    "Xibs"
+                ]
+            },
+            {
+                "data-title": "SwiftUI",
+                "subtopic": []
+            },
+            {
+                "data-title": "UI Design",
+                "subtopic": [
+                    "HIG"
+                ]
+            },
+            {
+                "data-title": "UIKit",
+                "subtopic": [
+                    "Views, View Controllers"
+                ]
+            },
+            {
+                "data-title": "SwiftUI",
+                "subtopic": [
+                    "Navigation Stacks"
+                ]
+            },
+            {
+                "data-title": "Core Animation",
+                "subtopic": [
+                    "Basics / Creating Animations"
+                ]
+            },
+            {
+                "data-title": "Architectural Patterns",
+                "subtopic": []
+            },
+            {
+                "data-title": "Reactive Programming",
+                "subtopic": []
+            },
+            {
+                "data-title": "Delegate Pattern",
+                "subtopic": [
+                    "Implementing Delegates"
+                ]
+            },
+            {
+                "data-title": "Callbacks",
+                "subtopic": []
+            },
+            {
+                "data-title": "Async / Await",
+                "subtopic": [
+                    "Concurrency"
+                ]
+            },
+            {
+                "data-title": "Data Persistence",
+                "subtopic": [
+                    "Core Data",
+                    "User Defaults",
+                    "Keychain",
+                    "File System",
+                    "SQLite"
+                ]
+            },
+            {
+                "data-title": "JSON / XML",
+                "subtopic": [
+                    "Parsing"
+                ]
+            },
+            {
+                "data-title": "Networking",
+                "subtopic": [
+                    "HTTP / HTTPs"
+                ]
+            },
+            {
+                "data-title": "Concurrency and Multithreading",
+                "subtopic": []
+            },
+            {
+                "data-title": "Dependency Manager",
+                "subtopic": [
+                    "Swift Package Manager"
+                ]
+            },
+            {
+                "data-title": "Frameworks & Library",
+                "subtopic": [
+                    "XCFramework"
+                ]
+            },
+            {
+                "data-title": "Accessibility",
+                "subtopic": [
+                    "Dynamic Type"
+                ]
+            },
+            {
+                "data-title": "Code Quality Tools",
+                "subtopic": [
+                    "SwiftFormat"
+                ]
+            },
+            {
+                "data-title": "Debugging Techniques",
+                "subtopic": [
+                    "Xcode Debugger"
+                ]
+            },
+            {
+                "data-title": "App Store Distribution",
+                "subtopic": []
+            },
+            {
+                "data-title": "TestFlight",
+                "subtopic": []
+            },
+            {
+                "data-title": "FastLane",
+                "subtopic": []
+            },
+            {
+                "data-title": "CI / CD",
+                "subtopic": [
+                    "Jenkins",
+                    "CircleCI",
+                    "GitHub Actions",
+                    "GitLab",
+                    "Azure DevOps"
+                ]
+            },
+            {
+                "data-title": "App Store Optimization (ASO)",
+                "subtopic": []
+            },
+            {
+                "data-title": "Keeping Updated with WWDC",
+                "subtopic": [
+                    "Latest Swift Version"
+                ]
+            }
+        ]
+    },
+    "10": {
+        "entity": "PostgreSQL",
+        "url": "https://roadmap.sh/postgresql-dba",
+        "topics": [
+            {
+                "data-title": "Introduction",
+                "subtopic": [
+                    "What are Relational Databases?",
+                    "RDBMS Benefits and Limitations",
+                    "PostgreSQL vs Other RDBMS",
+                    "PostgreSQL vs NoSQL Databases"
+                ]
+            },
+            {
+                "data-title": "Basic RDBMS Concepts",
+                "subtopic": []
+            },
+            {
+                "data-title": "Object Model",
+                "subtopic": []
+            },
+            {
+                "data-title": "Relational Model",
+                "subtopic": []
+            },
+            {
+                "data-title": "High Level Database Concepts",
+                "subtopic": []
+            },
+            {
+                "data-title": "Installation and Setup",
+                "subtopic": []
+            },
+            {
+                "data-title": "Learn SQL",
+                "subtopic": []
+            },
+            {
+                "data-title": "Configuring",
+                "subtopic": [
+                    "Reporting Logging & Statistics"
+                ]
+            },
+            {
+                "data-title": "Security",
+                "subtopic": [
+                    "Authentication Models",
+                    "Roles",
+                    "SSL Settings"
+                ]
+            },
+            {
+                "data-title": "Infrastructure Skills",
+                "subtopic": []
+            },
+            {
+                "data-title": "Learn to Automate",
+                "subtopic": []
+            },
+            {
+                "data-title": "Schema Design Patterns / Anti-patterns",
+                "subtopic": []
+            },
+            {
+                "data-title": "SQL Query Patterns / Anti-patterns",
+                "subtopic": []
+            },
+            {
+                "data-title": "Indexes and their Usecases",
+                "subtopic": [
+                    "B-Tree",
+                    "GiST",
+                    "SP-GiST"
+                ]
+            },
+            {
+                "data-title": "Get Involved in Development",
+                "subtopic": [
+                    "Mailing Lists",
+                    "Reviewing Patches",
+                    "Writing Patches"
+                ]
+            }
+        ]
+    },
+    "11": {
+        "entity": "Blockchain",
+        "url": "https://roadmap.sh/blockchain",
+        "topics": [
+            {
+                "data-title": "Basic Blockchain Knowledge",
+                "subtopic": [
+                    "Blockchain Structure",
+                    "Basic Blockchain Operations",
+                    "Applications and Uses",
+                    "What is Blockchain",
+                    "Decentralization",
+                    "Why it matters?"
+                ]
+            },
+            {
+                "data-title": "General Blockchain Knowledge",
+                "subtopic": [
+                    "Mining and Incentive Models",
+                    "Decentralization vs Trust",
+                    "Blockchain Forking",
+                    "Cryptocurrencies",
+                    "Cryptowallets",
+                    "Cryptography",
+                    "Consensus Protocols",
+                    "Blockchain Interoperability"
+                ]
+            },
+            {
+                "data-title": "Blockchains",
+                "subtopic": []
+            },
+            {
+                "data-title": "Oracles",
+                "subtopic": [
+                    "Hybrid Smart Contracts",
+                    "Chainlink",
+                    "Oracle Networks"
+                ]
+            },
+            {
+                "data-title": "Smart Contracts",
+                "subtopic": []
+            },
+            {
+                "data-title": "Smart Contract Frameworks",
+                "subtopic": []
+            },
+            {
+                "data-title": "Security",
+                "subtopic": [
+                    "Practices"
+                ]
+            },
+            {
+                "data-title": "Management Platforms",
+                "subtopic": [
+                    "OpenZeppelin"
+                ]
+            },
+            {
+                "data-title": "Version Control Systems",
+                "subtopic": [
+                    "Git"
+                ]
+            },
+            {
+                "data-title": "Repo Hosting Services",
+                "subtopic": [
+                    "GitHub",
+                    "GitLab",
+                    "Bitbucket"
+                ]
+            },
+            {
+                "data-title": "dApps - Decentralized Applications",
+                "subtopic": []
+            },
+            {
+                "data-title": "Applicability",
+                "subtopic": []
+            },
+            {
+                "data-title": "Node as a Service",
+                "subtopic": []
+            },
+            {
+                "data-title": "Supporting Languages",
+                "subtopic": []
+            },
+            {
+                "data-title": "Frontend Frameworks",
+                "subtopic": []
+            },
+            {
+                "data-title": "Client Libraries",
+                "subtopic": []
+            },
+            {
+                "data-title": "Client Nodes",
+                "subtopic": []
+            },
+            {
+                "data-title": "Building for Scale",
+                "subtopic": [
+                    "On-Chain Scaling"
+                ]
+            }
+        ]
+    },
+    "12": {
+        "entity": "QA",
+        "url": "https://roadmap.sh/qa",
+        "topics": [
+            {
+                "data-title": "Learn the Fundamentals",
+                "subtopic": [
+                    "Test Oracles",
+                    "Test Prioritization",
+                    "What is Quality Assurance?",
+                    "QA Mindset",
+                    "Testing Approaches"
+                ]
+            },
+            {
+                "data-title": "SDLC Delivery Model",
+                "subtopic": [
+                    "Agile Model"
+                ]
+            },
+            {
+                "data-title": "Manual Testing",
+                "subtopic": [
+                    "Test Planning",
+                    "Test Cases and Scenarios",
+                    "Compatibility",
+                    "Verification and Validation"
+                ]
+            },
+            {
+                "data-title": "Frontend Automation",
+                "subtopic": []
+            },
+            {
+                "data-title": "Backend Automation",
+                "subtopic": []
+            },
+            {
+                "data-title": "Mobile Automation",
+                "subtopic": []
+            },
+            {
+                "data-title": "Accessibility Tests",
+                "subtopic": []
+            },
+            {
+                "data-title": "Load & Performance Testing",
+                "subtopic": []
+            },
+            {
+                "data-title": "Security Testing",
+                "subtopic": []
+            },
+            {
+                "data-title": "Email Testing",
+                "subtopic": [
+                    "Mailinator"
+                ]
+            },
+            {
+                "data-title": "Reporting",
+                "subtopic": [
+                    "TestRail",
+                    "Allure",
+                    "jUnit"
+                ]
+            },
+            {
+                "data-title": "Monitoring & Logs",
+                "subtopic": [
+                    "Grafana",
+                    "New Relic",
+                    "RunScope",
+                    "Sentry",
+                    "Kibana",
+                    "Datadog",
+                    "Pager Duty"
+                ]
+            },
+            {
+                "data-title": "Version Control System",
+                "subtopic": [
+                    "Git"
+                ]
+            },
+            {
+                "data-title": "Repo Hosting Services",
+                "subtopic": []
+            },
+            {
+                "data-title": "CI / CD",
+                "subtopic": [
+                    "TeamCity"
+                ]
+            },
+            {
+                "data-title": "Headless Testing",
+                "subtopic": [
+                    "Zombie.js",
+                    "Cypress",
+                    "Headless Chrome",
+                    "Headless Fox",
+                    "HTML Unit"
+                ]
+            },
+            {
+                "data-title": "Repo Hosting Services",
+                "subtopic": []
+            }
+        ]
+    },
+    "13": {
+        "entity": "Software Architect",
+        "url": "https://roadmap.sh/software-architect",
+        "topics": [
+            {
+                "data-title": "Understand the Basics",
+                "subtopic": [
+                    "What is Software Architecture",
+                    "What is a Software Architect",
+                    "Levels of Architecture"
+                ]
+            },
+            {
+                "data-title": "Responsibilities",
+                "subtopic": []
+            },
+            {
+                "data-title": "Important Skills to Learn",
+                "subtopic": [
+                    "How to Code",
+                    "Documentation"
+                ]
+            },
+            {
+                "data-title": "Technical Skills",
+                "subtopic": []
+            },
+            {
+                "data-title": "Programming Languages",
+                "subtopic": [
+                    ".NET Framework Based"
+                ]
+            },
+            {
+                "data-title": "Patterns & Design Principles",
+                "subtopic": [
+                    "MVC, MVP, MVVM"
+                ]
+            },
+            {
+                "data-title": "Tools",
+                "subtopic": [
+                    "Git",
+                    "Slack",
+                    "Trello",
+                    "Atlassian Tools"
+                ]
+            },
+            {
+                "data-title": "Tools",
+                "subtopic": []
+            },
+            {
+                "data-title": "Architecture",
+                "subtopic": [
+                    "Microservices"
+                ]
+            },
+            {
+                "data-title": "Security",
+                "subtopic": [
+                    "Hashing Algorithms",
+                    "PKI",
+                    "Auth Strategies"
+                ]
+            },
+            {
+                "data-title": "Working with Data",
+                "subtopic": [
+                    "Hadoop, Spark, MapReduce",
+                    "ETL, Datawarehouses",
+                    "SQL Databases",
+                    "NoSQL Databases"
+                ]
+            },
+            {
+                "data-title": "APIs & Integrations",
+                "subtopic": [
+                    "gRPC"
+                ]
+            },
+            {
+                "data-title": "Web, Mobile",
+                "subtopic": [
+                    "Functional Programming",
+                    "React, Vue, Angular",
+                    "SPA, SSR, SSG",
+                    "Microfrontends",
+                    "W3C and WHATWG",
+                    "Reactive Programming"
+                ]
+            },
+            {
+                "data-title": "Frameworks",
+                "subtopic": [
+                    "BABOK"
+                ]
+            },
+            {
+                "data-title": "Management",
+                "subtopic": []
+            },
+            {
+                "data-title": "Networks",
+                "subtopic": [
+                    "OSI"
+                ]
+            },
+            {
+                "data-title": "Operations Knowledge",
+                "subtopic": [
+                    "Infrastructure as Code",
+                    "Cloud Providers",
+                    "Serverless Concepts",
+                    "Linux / Unix",
+                    "Service Mesh",
+                    "CI / CD",
+                    "Containers",
+                    "Cloud Design Patterns"
+                ]
+            },
+            {
+                "data-title": "Enterprise Software",
+                "subtopic": [
+                    "MS Dynamics",
+                    "SAP ERP, HANA, Business Objects",
+                    "IBM BPM",
+                    "Salesforce"
+                ]
+            }
+        ]
+    },
+    "14": {
+        "entity": "Cyber Security",
+        "url": "https://roadmap.sh/cyber-security",
+        "topics": [
+            {
+                "data-title": "Fundamental IT Skills",
+                "subtopic": []
+            },
+            {
+                "data-title": "Operating Systems",
+                "subtopic": []
+            },
+            {
+                "data-title": "Networking Knowledge",
+                "subtopic": []
+            },
+            {
+                "data-title": "Security Skills and Knowledge",
+                "subtopic": [
+                    "Blue / Red / Purple Teams"
+                ]
+            },
+            {
+                "data-title": "Cloud Skills and Knowledge",
+                "subtopic": []
+            },
+            {
+                "data-title": "Programming Skills",
+                "subtopic": [
+                    "Python",
+                    "Go",
+                    "JavaScript",
+                    "C++",
+                    "Bash",
+                    "Power Shell"
+                ]
+            }
+        ]
+    },
+    "15": {
+        "entity": "UX Design",
+        "url": "https://roadmap.sh/ux-design",
+        "topics": [
+            {
+                "data-title": "Human Decision Making",
+                "subtopic": [
+                    "Nudge Theory",
+                    "Persuasive Technology",
+                    "Behavior Design",
+                    "Behavioral Science",
+                    "Behavioral Economics",
+                    "BJ Fogg's Behavior Model",
+                    "CREATE Action Funnel",
+                    "Spectrum of Thinking Interventions",
+                    "Dual Process Theory"
+                ]
+            },
+            {
+                "data-title": "Support Conscious Action",
+                "subtopic": [
+                    "Educate & Encourage User"
+                ]
+            },
+            {
+                "data-title": "Cheating",
+                "subtopic": [
+                    "Defaulting",
+                    "Making it Incidental",
+                    "Automate the Act of Repetition"
+                ]
+            },
+            {
+                "data-title": "Make or Change Habits",
+                "subtopic": []
+            },
+            {
+                "data-title": "Behavior Change Strategies",
+                "subtopic": [
+                    "BJ Fogg's Behavior Grid"
+                ]
+            },
+            {
+                "data-title": "Understanding the Product",
+                "subtopic": []
+            },
+            {
+                "data-title": "Conceptual Design",
+                "subtopic": []
+            },
+            {
+                "data-title": "Prototyping",
+                "subtopic": [
+                    "Good Layout Rules"
+                ]
+            },
+            {
+                "data-title": "UX Best Practices",
+                "subtopic": []
+            },
+            {
+                "data-title": "Measuring the Impact",
+                "subtopic": []
+            }
+        ]
+    },
+    "16": {
+        "entity": "Game Developer",
+        "url": "https://roadmap.sh/game-developer",
+        "topics": [
+            {
+                "data-title": "Client Side Development",
+                "subtopic": []
+            },
+            {
+                "data-title": "Game Mathematics",
+                "subtopic": [
+                    "Linear Algebra",
+                    "Matrix",
+                    "Linear Transformation",
+                    "Affine Space",
+                    "Affine Transformation"
+                ]
+            },
+            {
+                "data-title": "Orientation",
+                "subtopic": []
+            },
+            {
+                "data-title": "Curve",
+                "subtopic": []
+            },
+            {
+                "data-title": "Projection",
+                "subtopic": []
+            },
+            {
+                "data-title": "Game Physics",
+                "subtopic": []
+            },
+            {
+                "data-title": "Dynamics",
+                "subtopic": []
+            },
+            {
+                "data-title": "Collision Detection",
+                "subtopic": []
+            },
+            {
+                "data-title": "Game Engine",
+                "subtopic": [
+                    "Godot",
+                    "Unreal Engine",
+                    "Native",
+                    "Unity 3D"
+                ]
+            },
+            {
+                "data-title": "Programming Languages",
+                "subtopic": [
+                    "C/C++"
+                ]
+            },
+            {
+                "data-title": "Computer Graphics",
+                "subtopic": [
+                    "Ray Tracing",
+                    "Rasterization",
+                    "Graphics Pipeline",
+                    "Sampling",
+                    "Shader"
+                ]
+            },
+            {
+                "data-title": "Graphics API",
+                "subtopic": []
+            },
+            {
+                "data-title": "Game AI",
+                "subtopic": [
+                    "Decision Making"
+                ]
+            },
+            {
+                "data-title": "Game AI",
+                "subtopic": []
+            },
+            {
+                "data-title": "Advanced Rendering",
+                "subtopic": [
+                    "Real-time Ray Tracing",
+                    "Physically-Based Rendering"
+                ]
+            }
+        ]
+    },
+    "17": {
+        "entity": "Technical Writer",
+        "url": "https://roadmap.sh/technical-writer",
+        "topics": [
+            {
+                "data-title": "Introduction",
+                "subtopic": [
+                    "Who is a Technical Writer?",
+                    "What is Technical Writing?",
+                    "Role of Technical Writers inOrganizations",
+                    "Forms of Technical Writing",
+                    "Growth as a Technical Writer"
+                ]
+            },
+            {
+                "data-title": "Required Skills",
+                "subtopic": [
+                    "Written Communication Proficiency"
+                ]
+            },
+            {
+                "data-title": "Tooling",
+                "subtopic": [
+                    "Publishing Tools",
+                    "Plagiarism Checker",
+                    "Git / Version Control",
+                    "Research Tools"
+                ]
+            },
+            {
+                "data-title": "Best Practices",
+                "subtopic": [
+                    "Story Telling",
+                    "Subtle Selling",
+                    "Content Structure",
+                    "Call to Actions",
+                    "References",
+                    "Crafting Great Titles",
+                    "Content Objectives & Intent",
+                    "User Persona",
+                    "Writing Style Guides"
+                ]
+            },
+            {
+                "data-title": "Content Research",
+                "subtopic": [
+                    "Topic Score"
+                ]
+            },
+            {
+                "data-title": "Types of Technical Content",
+                "subtopic": [
+                    "How-to Guides"
+                ]
+            },
+            {
+                "data-title": "Developer Docs",
+                "subtopic": []
+            },
+            {
+                "data-title": "API Reference",
+                "subtopic": []
+            },
+            {
+                "data-title": "Help Content",
+                "subtopic": []
+            },
+            {
+                "data-title": "Technical Content Marketing",
+                "subtopic": []
+            },
+            {
+                "data-title": "Content SEO",
+                "subtopic": []
+            },
+            {
+                "data-title": "Top-funnel Content",
+                "subtopic": [
+                    "Pillar Content"
+                ]
+            },
+            {
+                "data-title": "Mid-funnel Content",
+                "subtopic": [
+                    "Generic Gated Content"
+                ]
+            },
+            {
+                "data-title": "Bottom-funnel Content",
+                "subtopic": []
+            },
+            {
+                "data-title": "Release Notes / Product Announcements",
+                "subtopic": []
+            },
+            {
+                "data-title": "Customer Case-Studies",
+                "subtopic": []
+            },
+            {
+                "data-title": "Frequently Asked Questions",
+                "subtopic": []
+            },
+            {
+                "data-title": "Technical Website Copy",
+                "subtopic": []
+            },
+            {
+                "data-title": "Content Optimization",
+                "subtopic": []
+            },
+            {
+                "data-title": "Content Analysis",
+                "subtopic": [
+                    "Content Aging & Timelines"
+                ]
+            },
+            {
+                "data-title": "Content Distribution",
+                "subtopic": [
+                    "Canonical Link",
+                    "Content Distribution Channels",
+                    "Content Distribution Amplification Strategies"
+                ]
+            }
+        ]
+    },
+    "18": {
+        "entity": "MLOps",
+        "url": "https://roadmap.sh/mlops",
+        "topics": [
+            {
+                "data-title": "Programming Fundamentals",
+                "subtopic": [
+                    "Python",
+                    "Go",
+                    "Bash"
+                ]
+            },
+            {
+                "data-title": "Version Control Systems",
+                "subtopic": [
+                    "Git"
+                ]
+            },
+            {
+                "data-title": "Cloud Computing",
+                "subtopic": [
+                    "AWS / Azure / GCP",
+                    "Cloud-native ML Services"
+                ]
+            },
+            {
+                "data-title": "Containerization",
+                "subtopic": [
+                    "Docker",
+                    "Kubernetes"
+                ]
+            },
+            {
+                "data-title": "Machine Learning Fundamentals",
+                "subtopic": []
+            },
+            {
+                "data-title": "Data Engineering Fundamentals",
+                "subtopic": [
+                    "Data Pipelines",
+                    "Data Lakes & Warehouses",
+                    "Data Ingestion Architecture",
+                    "Spark",
+                    "Kafka",
+                    "Flink"
+                ]
+            },
+            {
+                "data-title": "MLOps Principles",
+                "subtopic": []
+            },
+            {
+                "data-title": "MLOps Components",
+                "subtopic": []
+            },
+            {
+                "data-title": "Infrastructure as Code",
+                "subtopic": []
+            }
+        ]
+    },
+    "19": {
+        "entity": "Product Manager",
+        "url": "https://roadmap.sh/product-manager",
+        "topics": [
+            {
+                "data-title": "Product Identification",
+                "subtopic": [
+                    "Brainstorming Techniques",
+                    "Blue Ocean Strategy"
+                ]
+            },
+            {
+                "data-title": "Market Analysis",
+                "subtopic": [
+                    "Identifying Market Needs",
+                    "Competitive Analysis",
+                    "Emerging Market Trends"
+                ]
+            },
+            {
+                "data-title": "User Research",
+                "subtopic": [
+                    "User Personas",
+                    "User Interviews",
+                    "Surveys and Questionnaires",
+                    "Ethnographic Research"
+                ]
+            },
+            {
+                "data-title": "Positioning",
+                "subtopic": [
+                    "USP (Unique Selling Point)",
+                    "Market Segmentation",
+                    "Case Studies"
+                ]
+            },
+            {
+                "data-title": "Vision & Mission",
+                "subtopic": [
+                    "Statement",
+                    "Proposition",
+                    "Capabilities",
+                    "Solved Constraints",
+                    "Future Constraints",
+                    "Reference Materials",
+                    "Narrative"
+                ]
+            },
+            {
+                "data-title": "Defining Goals",
+                "subtopic": []
+            },
+            {
+                "data-title": "Value Proposition",
+                "subtopic": [
+                    "Defining Value Proposition"
+                ]
+            },
+            {
+                "data-title": "Value vs Features",
+                "subtopic": [
+                    "Finding Balance"
+                ]
+            },
+            {
+                "data-title": "Strategic Thinking",
+                "subtopic": [
+                    "Competitive Strategy"
+                ]
+            },
+            {
+                "data-title": "Product Requirements",
+                "subtopic": [
+                    "Writing PRDs",
+                    "User Stories",
+                    "Job Stories"
+                ]
+            },
+            {
+                "data-title": "Product Roadmap",
+                "subtopic": [
+                    "Communicating the Roadmap"
+                ]
+            },
+            {
+                "data-title": "Backlog Management",
+                "subtopic": [
+                    "User Story Mapping"
+                ]
+            },
+            {
+                "data-title": "UX / UI Design",
+                "subtopic": [
+                    "Principles of UX Design",
+                    "Wireframing and Prototyping",
+                    "Design Thinking"
+                ]
+            },
+            {
+                "data-title": "Service Design",
+                "subtopic": []
+            },
+            {
+                "data-title": "Interaction Design",
+                "subtopic": []
+            },
+            {
+                "data-title": "User Testing",
+                "subtopic": []
+            },
+            {
+                "data-title": "Agile Methodology",
+                "subtopic": [
+                    "Kanban Basics"
+                ]
+            },
+            {
+                "data-title": "Working with Engineering Teams",
+                "subtopic": []
+            },
+            {
+                "data-title": "Go-to-Market Strategy",
+                "subtopic": []
+            },
+            {
+                "data-title": "Release Strategies",
+                "subtopic": []
+            },
+            {
+                "data-title": "Key Product Metrics",
+                "subtopic": [
+                    "DAU (Daily Active Users)",
+                    "MAU (Monthly Active Users)",
+                    "Conversion Rate",
+                    "Retention Rate",
+                    "Churn Rate",
+                    "LTV (Lifetime Value)",
+                    "CAC (Customer Acquisition Cost)",
+                    "North Star Metric"
+                ]
+            },
+            {
+                "data-title": "Data-Driven Decision Making",
+                "subtopic": [
+                    "A/B Testing",
+                    "Cohort Analysis",
+                    "Predictive Analytics"
+                ]
+            },
+            {
+                "data-title": "Feedback Loops",
+                "subtopic": []
+            },
+            {
+                "data-title": "Communication Skills",
+                "subtopic": []
+            },
+            {
+                "data-title": "Managing Stakeholders",
+                "subtopic": [
+                    "Identifying Stakeholders"
+                ]
+            },
+            {
+                "data-title": "Roadmapping Tools",
+                "subtopic": [
+                    "Product Board",
+                    "Aha",
+                    "Notion"
+                ]
+            },
+            {
+                "data-title": "Project Management Tools",
+                "subtopic": [
+                    "Jira",
+                    "Linear",
+                    "Trello"
+                ]
+            },
+            {
+                "data-title": "Analytics Tools",
+                "subtopic": [
+                    "Amplitude",
+                    "Heap",
+                    "Looker"
+                ]
+            },
+            {
+                "data-title": "Communication Tools",
+                "subtopic": [
+                    "Slack",
+                    "Teams",
+                    "Discord"
+                ]
+            },
+            {
+                "data-title": "Identifying Risks",
+                "subtopic": [
+                    "Risk Identification Techniques",
+                    "Risk Register"
+                ]
+            },
+            {
+                "data-title": "Risk Assessment",
+                "subtopic": [
+                    "Qualitative Risk Assessment"
+                ]
+            },
+            {
+                "data-title": "Risk Mitigation",
+                "subtopic": [
+                    "Contingency Planning"
+                ]
+            },
+            {
+                "data-title": "Monitoring and Controlling Risks",
+                "subtopic": [
+                    "Risk Monitoring Tools"
+                ]
+            },
+            {
+                "data-title": "Scaling Products",
+                "subtopic": [
+                    "Platform Thinking"
+                ]
+            },
+            {
+                "data-title": "Portfolio Management",
+                "subtopic": []
+            },
+            {
+                "data-title": "Advanced Analysis",
+                "subtopic": [
+                    "Predictive Analytics",
+                    "ML in Product Mgmt.",
+                    "AI in Product Mgmt."
+                ]
+            },
+            {
+                "data-title": "Leadership and Influence",
+                "subtopic": [
+                    "Building and Leading Teams",
+                    "Influencing without Authority",
+                    "Emotional Intelligence"
+                ]
+            },
+            {
+                "data-title": "Introduction",
+                "subtopic": []
+            }
+        ]
+    },
+    "20": {
+        "entity": "Engineering Manager",
+        "url": "https://roadmap.sh/engineering-manager",
+        "topics": [
+            {
+                "data-title": "What is Engineering Management?",
+                "subtopic": [
+                    "EM vs Tech Lead vs IC",
+                    "People"
+                ]
+            }
+        ]
+    },
+    "21": {
+        "entity": "Developer Relations",
+        "url": "https://roadmap.sh/devrel",
+        "topics": [
+            {
+                "data-title": "What is DevRel?",
+                "subtopic": [
+                    "History and Evolution",
+                    "Importance of DevRel",
+                    "Advocacy",
+                    "Education",
+                    "Community Support",
+                    "Content Creation",
+                    "Feedback Loop"
+                ]
+            },
+            {
+                "data-title": "Public Speaking",
+                "subtopic": []
+            },
+            {
+                "data-title": "Writing Skills",
+                "subtopic": [
+                    "Social Media"
+                ]
+            },
+            {
+                "data-title": "Presentation Techniques",
+                "subtopic": []
+            },
+            {
+                "data-title": "Engaging Audience",
+                "subtopic": []
+            },
+            {
+                "data-title": "Handling Q&A",
+                "subtopic": []
+            },
+            {
+                "data-title": "Community Engagement",
+                "subtopic": []
+            },
+            {
+                "data-title": "Basic Programming Skills",
+                "subtopic": []
+            },
+            {
+                "data-title": "IDEs",
+                "subtopic": []
+            },
+            {
+                "data-title": "APIs & SDKs",
+                "subtopic": []
+            },
+            {
+                "data-title": "Version Control",
+                "subtopic": []
+            },
+            {
+                "data-title": "Building a Community",
+                "subtopic": [
+                    "Identifying Audience",
+                    "Platform Selection",
+                    "Initial Outreach",
+                    "Community Guidelines"
+                ]
+            },
+            {
+                "data-title": "Community Management",
+                "subtopic": [
+                    "Moderation"
+                ]
+            },
+            {
+                "data-title": "Event Management",
+                "subtopic": [
+                    "Planning"
+                ]
+            },
+            {
+                "data-title": "Blogging",
+                "subtopic": []
+            },
+            {
+                "data-title": "Video Production",
+                "subtopic": [
+                    "Scripting"
+                ]
+            },
+            {
+                "data-title": "Video Production",
+                "subtopic": []
+            },
+            {
+                "data-title": "Live Streaming",
+                "subtopic": []
+            },
+            {
+                "data-title": "Social Media",
+                "subtopic": []
+            },
+            {
+                "data-title": "Documentation",
+                "subtopic": [
+                    "User Guides",
+                    "API References",
+                    "Tutorials"
+                ]
+            },
+            {
+                "data-title": "Sample Projects",
+                "subtopic": [
+                    "Code Samples",
+                    "Example Apps",
+                    "Use Case Based"
+                ]
+            },
+            {
+                "data-title": "Support",
+                "subtopic": []
+            },
+            {
+                "data-title": "Key Metrics",
+                "subtopic": [
+                    "Developer Satisfaction"
+                ]
+            },
+            {
+                "data-title": "Tools",
+                "subtopic": [
+                    "Google Analytics"
+                ]
+            },
+            {
+                "data-title": "Reporting",
+                "subtopic": []
+            },
+            {
+                "data-title": "Thought Leadership",
+                "subtopic": [
+                    "Publishing"
+                ]
+            },
+            {
+                "data-title": "Building a Personal Brand",
+                "subtopic": []
+            },
+            {
+                "data-title": "Networking Strategies",
+                "subtopic": [
+                    "Meetups",
+                    "Online Communities",
+                    "Open-Source"
+                ]
+            },
+            {
+                "data-title": "Continuous Learning",
+                "subtopic": []
+            }
+        ]
+    }
+}

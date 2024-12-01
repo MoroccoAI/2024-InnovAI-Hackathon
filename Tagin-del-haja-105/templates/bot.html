@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Bot{% endblock %}
+{% block content %}
+
+    <div class="chatbot-container">
+        <div class="session-container">
+            <div class="first">
+                <p>Conversations</p>
+                <div class="options">
+                    <button class="addchat">
+                        <span id="addicon" class="material-symbols-outlined">
+                        Add
+                        </span>
+                        <span id="text">Add New Chat</span>
+                    </button>
+
+                    <div class="chats">
+                        <!--  GENERATED CHATS  -->
+                    </div>
+                    
+                </div>
+                <div id="chats-loading" class="lds-ring"><div></div><div></div><div></div><div></div></div>
+            </div>
+            <div class="second">
+                <hr/>
+                <button class="clearchat">
+                    <span id="deleteicon" class="material-symbols-outlined">
+                        Delete
+                    </span>
+                    <span id="text">Delete Conversation</span>
+                </button>
+            </div>
+        </div>
+        <div class="message-container">
+            <div class="conversation">
+                <!--  GENERATED MESSAGES  -->
+                
+            </div>
+            <div class="tools">
+                <form class="search" method="post">
+                    <input type="text" placeholder="Write Something here...">
+                    <div id="send-button-container">
+                        <span id="send-button" class="material-symbols-outlined">send</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("body").css("overflow-y", "hidden")
+        
+    </script>
+
+{% endblock %}

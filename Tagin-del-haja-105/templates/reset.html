@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Recovery{% endblock %}
+{% block content %}
+    <div class="form-container">
+        {% if error %}
+        <div class="error">
+            <span class="text">{{ error }}</span>
+            <span id="close" class="material-symbols-outlined" onclick="console.log(this.parentElement.remove())">
+                close
+            </span>
+        </div>
+        {% endif %}
+        <h1>Password Recovery</h1>
+        <hr style="opacity: 0;"/>
+        <form class="form" method="post">
+            {{ form.csrf_token }}
+            {{ form.email }}
+            {{ form.submit }}
+        </form>
+    </div>
+{% endblock %}

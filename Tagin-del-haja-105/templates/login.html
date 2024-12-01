@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+
+    <div class="form-container">
+        {% if error %}
+        <div class="error">
+            <span class="text">{{ error }}</span>
+            <span id="close" class="material-symbols-outlined" onclick="console.log(this.parentElement.remove())">
+                close
+            </span>
+        </div>
+        {% endif %}
+        {% if success %}
+        <div class="success">
+            <span class="text">{{ success }}</span>
+            <span id="close" class="material-symbols-outlined" onclick="console.log(this.parentElement.remove())">
+                close
+            </span>
+        </div>
+        {% endif %}
+        <h1>Log In</h1>
+        <form class="form" method="post">
+            {{ form.csrf_token }}
+            {{ form.email }}
+            {{ form.password }}
+            {{ form.submit }}
+        </form>
+        <p>I forgot my password <a href="{{ url_for('recovery') }}">Reset Password</a></p>
+        <p>I don't have an Account <a href="{{ url_for('signup') }}">Create Account</a></p>
+    </div>
+{% endblock %}

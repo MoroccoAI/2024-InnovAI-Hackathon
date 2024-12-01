@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <section class="section-1-homepage">
+        <div class="container">
+            <h2 >
+                <span style="color:var(--primary);">TARI9 AI</span>, Empowering Moroccan Youth with <span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-teal-600">AI-Driven
+                    Career Guidance</span>
+            </h2>  
+            <br>          
+            <p>TARI9 AI is an AI-powered chatbot designed to help Moroccan youth make confident career and education choices. With personalized insights and intuitive guidance, Tari9i simplifies decision-making, empowering you to build the future you deserve.</p>
+            <br>
+            <div class="btn-container">
+                <button class="primary" onclick="window.location='{{ url_for('signup') }}'">Get Started</button>
+                
+            </div>
+
+        </div>
+        <div class="robot-image"></div>
+        <div class="robot-image-shadow"></div>
+    </section>
+    <main id="careers" class="container mx-auto px-4 py-16">
+        <section>
+            <h2 class="text-4xl font-bold text-center mb-12 gradient-text">Explore Cutting-Edge IT Career Paths</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class=" p-8 rounded-2xl shadow-xl career-card border-l-4 border-blue-600">
+                    <div class="mb-4 flex items-center">
+                        <div class="w-12 h-12 bg-blue-900 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-400" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">Front-End Development</h3>
+                    </div>
+                    <p class="mb-4">Create stunning, interactive web experiences that captivate and engage
+                        users across devices.</p>
+                    <ul class="space-y-2 text-sm">
+                        <li>✓ Advanced HTML5 & CSS3</li>
+                        <li>✓ Modern JavaScript Frameworks</li>
+                        <li>✓ Responsive & Adaptive Design</li>
+                    </ul>
+                </div>
+                <div class="b p-8 rounded-2xl shadow-xl career-card border-l-4 border-green-600">
+                    <div class="mb-4 flex items-center">
+                        <div class="w-12 h-12 bg-green-900 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">Back-End Engineering</h3>
+                    </div>
+                    <p class=" mb-4">Architect robust server-side solutions that power complex digital
+                        ecosystems and data-driven applications.</p>
+                    <ul class="space-y-2 text-sm">
+                        <li>✓ Python & Node.js Mastery</li>
+                        <li>✓ Advanced Database Management</li>
+                        <li>✓ Scalable API Development</li>
+                    </ul>
+                </div>
+                <div class="p-8 rounded-2xl shadow-xl career-card border-l-4 border-purple-600">
+                    <div class="mb-4 flex items-center">
+                        <div class="w-12 h-12 bg-purple-900 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-400" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-purple-300">Mobile Application Development</h3>
+                    </div>
+                    <p class="mb-4">Build innovative mobile applications that seamlessly connect users
+                        across iOS and Android platforms.</p>
+                    <ul class="space-y-2 text-sm">
+                        <li>✓ Swift & Kotlin Expertise</li>
+                        <li>✓ Cross-Platform Development</li>
+                        <li>✓ Advanced UI/UX Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-8" style="color: var(--white);">
+        <div class="container mx-auto text-center">
+            <p class="">© 2024 Tari9 AI - Empowering Moroccan Youth Through AI-Driven Career Navigation</p>
+        </div>
+    </footer>
+
+{% endblock %}

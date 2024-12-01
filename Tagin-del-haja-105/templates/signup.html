@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Sign Up{% endblock %}
+{% block content %}
+
+    <div class="form-container">
+        {% if error %}
+        <div class="error">
+            <span class="text">{{ error }}</span>
+            <span id="close" class="material-symbols-outlined" onclick="console.log(this.parentElement.remove())">
+                close
+            </span>
+        </div>
+        {% endif %}
+        <h1>Get Started!</h1>
+        <span>Create an Account now and start chatting with TARI9 AI.</span>
+        <hr style="opacity: 0;"/>
+        <form class="form" method="post">
+            {{ form.csrf_token }}
+            {{ form.username }}
+            {{ form.email }}
+            {{ form.password }}
+            {{ form.conpassword }}
+            {{ form.submit }}
+        </form>
+        <p>You Already have an Account? <a href="{{ url_for('login') }}">Log In</a></p>
+    </div>
+
+{% endblock %}

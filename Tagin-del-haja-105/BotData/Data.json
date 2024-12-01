@@ -1,0 +1,109 @@
+{
+    "intents": [
+        {
+            "tag": "Greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Salam",
+                "Bonjour"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi! What guidance do you need today?",
+                "Salam! How can I help you, future changemaker?"
+            ]
+        },
+        {
+            "tag": "Purpose",
+            "patterns": [
+                "What can you do?",
+                "How can you help me?",
+                "What support do you provide?",
+                "What is your purpose?"
+            ],
+            "responses": [
+                "I am here to guide Moroccan youth by offering resources, advice, and support in education, career, and personal development. How can I assist you today?",
+                "I provide guidance on studies, career choices, and personal growth. Let me know how I can help!"
+            ]
+        },
+        {
+            "tag": "EducationGuidance",
+            "patterns": [
+                "I need help with my studies",
+                "Can you help me choose a field of study?",
+                "What should I study?",
+                "Help me with my education"
+            ],
+            "responses": [
+                "Of course! Tell me about your interests and strengths, and I'll guide you to the best options for your future.",
+                "Let's explore some study paths together. What subjects or areas excite you the most?"
+            ]
+        },
+        {
+            "tag": "CareerAdvice",
+            "patterns": [
+                "What career should I choose?",
+                "Can you advise me on my career?",
+                "I need help with my career choice"
+            ],
+            "responses": [
+                "Certainly! Share your skills and passions, and I'll suggest some career paths tailored to you.",
+                "Let's explore your options. Do you prefer technical, creative, or entrepreneurial careers?"
+            ]
+        },
+        {
+            "tag": "Motivation",
+            "patterns": [
+                "I feel lost",
+                "I need motivation",
+                "Can you inspire me?",
+                "I lack direction"
+            ],
+            "responses": [
+                "It's normal to feel lost sometimes. Remember, every step forward counts! What goal can we work on today?",
+                "You have the power to achieve great things! Let’s break it down—what’s one thing you’d like to start with?"
+            ]
+        },
+        {
+            "tag": "SkillDevelopment",
+            "patterns": [
+                "How can I learn new skills?",
+                "I want to develop my skills",
+                "Can you help me find resources to learn?"
+            ],
+            "responses": [
+                "Absolutely! What kind of skills are you looking to learn—technical, creative, or soft skills?",
+                "Sure! There are many free and paid resources online. Tell me what you’re interested in, and I’ll suggest some options."
+            ]
+        },
+        {
+            "tag": "Opportunities",
+            "patterns": [
+                "Are there internships available?",
+                "How can I find a job?",
+                "Where can I get opportunities?"
+            ],
+            "responses": [
+                "There are many opportunities out there! Let me guide you to platforms and strategies for finding internships or jobs.",
+                "Networking and skill-building are key. Are you looking for remote opportunities or local ones?"
+            ]
+        },
+        {
+            "tag": "GoodBye",
+            "patterns": [
+                "Thank you",
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Thanks for your help"
+            ],
+            "responses": [
+                "You're welcome! Best of luck with everything. Goodbye!",
+                "Happy to help! Take care and see you next time.",
+                "Thank you for reaching out. Have a great day!"
+            ]
+        }
+    ]
+}
