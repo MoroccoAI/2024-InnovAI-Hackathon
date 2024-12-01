@@ -1,0 +1,92 @@
+#nv{
+    margin-bottom: 500px;
+  }
+  #logoo{
+    width: 100px;
+    height: 80px; }
+    #nvbr a{
+      margin-right: 25px;
+      font-weight: bold;
+      left: 20px;
+      font-family: Georgia, serif;
+      
+    }
+    #nvbr {
+      position: relative;
+      left: 55px;
+    }
+    #nvbr a {
+      padding: 48px;
+    }
+    #nv{
+      margin-bottom: 520px;
+      height: 80px;
+      background-color: rgb(252, 250, 250);
+      
+    }
+    #logoo{
+      width: 100px;
+      height: 80px; }
+      #maVideo {
+        appearance: none; /* Cache l'apparence par défaut */
+        border: none;
+        outline: none;
+        background-color: transparent; /* Fond transparent si nécessaire */
+        pointer-events: none; /* Empêche l'interaction utilisateur */
+        width: 78%;
+        /* position: relative; */
+        margin-left: 150px;
+        border-radius: 6px ;   
+    }
+    #welcome{
+        position: relative;
+        height: 450px;
+    }
+    /* .ecriture{
+        width: 100%;
+    } */
+    /* .all{
+        position: relative;
+        height: 80%;
+    } */
+    /* .giff{
+        position: relative;
+        margin-left: 500px;
+        height: 250px;
+    } */
+     .modif{
+        width: 80%;
+     }
+     #ec1{
+        font: italic 2.7rem "Fira Sans", serif;
+        font-weight: bold;
+        
+     }
+     #ec2{
+        font-weight: bold;
+     }
+     #ec{
+        position: relative;
+        left: 130px;
+        top: 20px;
+     }
+     #ec3{
+        font: italic 2rem "Fira Sans", serif;
+        font-weight: bold;
+     }
+     #ec4{
+        font: italic 2rem "Fira Sans", serif;
+        font-weight: bold;
+     }
+     #al{
+      position: relative;
+      bottom: 31px;
+     }
+     #img2{
+      width: 90%;
+     }
+     #b{
+      position: relative;
+      left: 180px;
+      
+     }

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التحقق من الرمز</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Fira Sans', sans-serif;
+            background-color: #f7fafc;
+        }
+        #nvbr {
+            position: relative;
+            left: 55px;
+            }
+            #nvbr a {
+            padding: 48px;
+            }
+        .form-container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 5% auto;
+        }
+        .form-container h1 {
+            font-size: 2.5rem;
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .form-container label {
+            color: #4a5568;
+            font-weight: bold;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 0.75rem;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        .form-container input:focus {
+            border-color: #38b2ac;
+            outline: none;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 0.75rem;
+            background-color: #38b2ac;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+        .form-container button:hover {
+            background-color: #319795;
+        }
+        .message {
+            text-align: center;
+            color: #2b6cb0;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        #home:hover{
+            color: #38b2ac;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="bg-white p-4 shadow-md">
+        <div class="container mx-auto flex items-center justify-between">
+            <!-- Logo à gauche -->
+            <div class="flex items-center">
+                <img src="{{ url_for('static', filename='images/Capture2-removebg-preview.png') }}" alt="Logo" class="h-20 w-20 rounded-full">
+            </div>
+            <!-- Lien Home au centre -->
+            <div id="nvbr" class="absolute left-1/2 transform -translate-x-1/2">
+                <a href="{{ url_for('index') }}" class="nav-link">الرئيسية</a>
+                <a href="#about" class="nav-link">معلومات عنا</a>
+                <a href="#faq" class="nav-link">الأسئلة الشائعة</a>
+                <a href="{{ url_for('contact') }}" class="nav-link">اتصل بنا</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <div class="form-container">
+        <h1>:التحقق من الرمز</h1>
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="message">
+                    {% for category, message in messages %}
+                        <p>{{ message }}</p>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+        
+        <form method="POST">
+            <label for="reset_code">:رمز إعادة تعيين</label>
+            <input type="text" name="reset_code" required placeholder="أدخل رمز إعادة التعيين">
+            <button type="submit">تحقق  </button>
+        </form>
+    </div>
+     <footer class="w-full bg-gray-800 py-16 text-gray-200">
+        <div class="max-w-screen-xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-12 md:space-y-0">
+            
+            <!-- Logo Section -->
+            <div class="text-center md:text-left">
+                <img src="{{ url_for('static', filename='images/Capture2-removebg-preview.png') }}" alt="Docus Logo" class="w-24 h-24 mb-6 mx-auto md:mx-0 rounded-full shadow-lg transform transition duration-300 hover:scale-110">
+                <p class="text-sm text-gray-400 mt-3">مساعدك الشخصي الذكي للصحة</p>
+            </div>
+      
+            <!-- Links Section -->
+            <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12 text-center md:text-left">
+                <div class="flex flex-col items-center md:items-start">
+                    <p class="text-lg font-semibold text-teal-600 mb-4">الروابط السريعة</p>
+                    <a href="#about" class="text-sm text-gray-300 hover:text-teal-600 hover:underline transform transition duration-300 ease-in-out">معلومات عنا</a>
+                    <a href="#benefits" class="text-sm text-gray-300 hover:text-teal-600 hover:underline transform transition duration-300 ease-in-out">الميزات</a>
+                    <a href="{{ url_for('contact') }}" class="text-sm text-gray-300 hover:text-teal-600 hover:underline transform transition duration-300 ease-in-out">اتصل بنا</a>
+                </div>
+            </div>
+      
+            <!-- Social Media Section -->
+            <div class="flex justify-center md:justify-end space-x-8 mt-8 md:mt-0">
+                <a href="#" class="text-gray-300 hover:text-teal-600 transform transition duration-300 ease-in-out hover:scale-110">
+                    <!-- Facebook Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2C6.48 2 2 6.48 2 12c0 4.86 3.78 8.88 8.44 9.74v-6.96h-2.57v-3.41h2.57v-2.5c0-2.53 1.5-3.94 3.83-3.94 1.1 0 2.25.2 2.25.2v2.44h-1.26c-1.16 0-1.52.73-1.52 1.46v2.03h3.07l-.49 3.41h-2.58v6.95C18.22 20.88 22 16.86 22 12c0-5.52-4.48-10-10-10z"></path>
+                    </svg>
+                </a>
+                <!-- Instagram Icon -->
+                <a href="#" class="text-gray-300 hover:text-teal-600 transform transition duration-300 ease-in-out hover:scale-110">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 3H8c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h8c1.104 0 2-.896 2-2V5c0-1.104-.896-2-2-2zM8 5h8v12H8V5zm4 5c1.656 0 3 1.344 3 3s-1.344 3-3 3-3-1.344-3-3 1.344-3 3-3z"></path>
+                    </svg>
+                </a>
+                <!-- Add more social icons here (Twitter, LinkedIn, etc.) -->
+            </div>
+        </div>
+      
+        <!-- Bottom Copyright Section -->
+        <div class="text-center py-4 mt-12 border-t border-gray-700 bg-gray-900">
+            <p class="text-sm text-gray-500">&copy; جميع الحقوق محفوظة 2024.</p>
+        </div>
+      </footer>
+</body>
+</html>

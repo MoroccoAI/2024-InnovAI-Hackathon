@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>مساعدك الصحي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400;600&family=Poppins:wght@400;600&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            font-size: large;
+        }
+
+        #nv{
+    margin-bottom: 500px;
+  }
+  #logoo{
+    width: 100px;
+    height: 80px; }
+    #nvbr a{
+      margin-right: 25px;
+      
+      left: 20px;
+      font:1.1rem "Fira Sans", sans-serif;
+      
+    }
+    section {
+        padding-bottom: 30px;
+        position: relative;
+    }
+    #nvbr {
+      position: relative;
+      left: 55px;
+    }
+    #nvbr a {
+      padding: 48px;
+    }
+    #nv{
+      margin-bottom: 520px;
+      height: 80px;
+      background-color: rgb(252, 250, 250);
+      
+    }
+    #logoo{
+      width: 100px;
+      height: 80px; }
+      #maVideo {
+        appearance: none; /* Cache l'apparence par défaut */
+        border: none;
+        outline: none;
+        background-color: transparent; /* Fond transparent si nécessaire */
+        pointer-events: none; /* Empêche l'interaction utilisateur */
+        width: 78%;
+        /* position: relative; */
+        margin-left: 150px;
+        border-radius: 6px ;   
+    }
+    #welcome{
+        position: relative;
+        height: 450px;
+    }
+    /* .ecriture{
+        width: 100%;
+    } */
+    /* .all{
+        position: relative;
+        height: 80%;
+    } */
+    /* .giff{
+        position: relative;
+        margin-left: 500px;
+        height: 250px;
+    } */
+     .modif{
+        width: 80%;
+     }
+     #ec1{
+        font: 2.7rem "Fira Sans", sans-serif;
+        /* font-weight: bold; */
+        
+        
+     }
+     /* #ec2{
+        font-weight: bold;
+     } */
+     #ec{
+        position: relative;
+        left: 130px;
+        top: 20px;
+     }
+     #cl {
+        color: rgb(45, 114, 61);
+        font: 1.3rem "Fira Sans", sans-serif;
+     }
+     #ec3{
+        font: 2rem "Fira Sans", sans-serif;
+        /* font-weight: bold; */
+     }
+     #ec4{
+        font: 2rem "Fira Sans", sans-serif;
+        position: relative;
+        bottom: 25px;
+        color: #0f766e;
+     }
+     #al{
+      position: relative;
+      bottom: 31px;
+     }
+     #img2{
+      width: 90%;
+     }
+     #b{
+      position: relative;
+      left: 180px;
+      
+     }
+     html{
+        scroll-behavior: smooth;
+     }
+     
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .image-float {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .btn-hover:hover {
+            background-color: #0f766e; /* Darker teal */
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .bg-gradient {
+            background: linear-gradient(180deg, #f9fafb, #e5e7eb);
+        }
+        /* Default Navbar Links Style */
+.nav-link {
+    font-size: 1.125rem; /* text-xl */
+    font-weight: 600; /* Semi-bold */
+    color: #4B5563; /* Gray color */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for scaling and color */
+}
+
+/* On Hover: Scale and Change Color */
+.nav-link:hover {
+    transform: scale(1.1); /* Scale up */
+    color: #14B8A6; /* Change to teal color */
+}
+
+/* Buttons Style */
+/* Buttons Style */
+.auth-btn {
+    background-color: #14B8A6; /* Teal color */
+    color: white;
+    font-size: 1rem; /* text-lg */
+    padding: 0.5rem 1.25rem; /* Adjusted padding for smaller height */
+    border-radius: 0.375rem; /* rounded-md */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for buttons */
+}
+
+/* On Hover: Scale and Background Color Change */
+.auth-btn:hover {
+    transform: scale(1.05); /* Slightly scale */
+    background-color: #10B98C; /* Darker teal */
+}
+
+
+    </style>
+</head>
+<body class="bg-white text-gray-700">
+
+    <!-- Navbar -->
+    <nav id="nv" class="fixed w-full bg-white text-gray-700 py-6 z-10 shadow-xl">
+        <div id="al" class="container mx-auto flex justify-between items-center px-8">
+            <!-- Logo Section -->
+            <div class="flex items-center space-x-2">
+                <img id="logoo" src="{{ url_for('static', filename='images/Capture2-removebg-preview.png') }}" alt="Health Assistant Logo" class="w-16 h-16 transform transition duration-300 hover:scale-110">
+            </div>
+    
+            <!-- Navbar Links -->
+            <div id="nvbr" class="space-x-8 hidden md:flex">
+                <a href="{{ url_for('index') }}" class="nav-link">الرئيسية</a>
+                <a href="#about" class="nav-link">معلومات عنا</a>
+                <a href="#faq" class="nav-link">الأسئلة الشائعة</a>
+                <a href="{{ url_for('contact') }}" class="nav-link">اتصل بنا</a>
+            </div>
+    
+            <!-- Auth Buttons -->
+            <div class="flex space-x-6">
+                <a href="{{ url_for('signup') }}" class="auth-btn">التسجيل</a>
+                <a href="{{ url_for('login') }}" class="auth-btn">تسجيل الدخول</a>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    <!-- Spacing to prevent content overlap -->
+    <div class="h-20 md:h-24"></div>
+
+    <!-- Welcome Section -->
+    <section id="welcome" class="w-full py-16 bg-gradient">
+        <div class="max-w-screen-xl mx-auto px-6 text-center md:text-left">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="ecriture">
+                    <h2  id="ec1" class="text-3xl font-semibold text-teal-600 mb-4  pl-8">مرحبًا بك في SIHATI AI</h2>
+                    <p id="ec2" class="text-lg text-gray-700 mb-4 max-w-xl pl-8">رفيقك لحياة أكثر صحة. نحن هنا لمساعدتك في تحسين جودة حياتك بشكل يومي.
+                         احصل على نصائح مخصصة تناسب احتياجاتك الصحية، وتتبع حالتك الصحية بكل سهولة.
+                          مع تقنياتنا الذكية، يمكنك مراقبة تقدمك، اتخاذ قرارات صحية أفضل، والحفاظ 
+                          على توازن صحي مع متابعة دقيقة. ابدأ في العناية بنفسك اليوم
+                           واستمتع بحياة أكثر نشاطاً وصحة!</p>
+                    <a id="ec" href="{{ url_for('signup') }}" class="btn-hover bg-teal-600 text-white px-6 py-3 rounded-md text-lg shadow-md">
+                        جربه الآن
+                    </a>
+                </div>
+                <div class="modif">
+                    <video id="maVideo" autoplay muted loop>
+                      <source src="{{ url_for('static', filename='videos/vdaccueil.mp4') }}" type="video/mp4">
+                  </video></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    
+<section id="about" class="w-full py-16 bg-gray-50">
+    <div class="max-w-screen-xl mx-auto px-6 text-center md:text-left">
+        <div class="flex flex-col md:flex-row items-center md:space-x-8">
+            <!-- Image Section -->
+            <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                <img id="img2" src="{{ url_for('static', filename='images/Generative AI in Healthcare_ A Revolutionary Leap Forward.jpg') }}" alt="About Image" class="w-full rounded-md shadow-lg">
+            </div>
+
+            <!-- Text Section -->
+            <div class="w-full md:w-1/2 pl-8 space-y-6 ">
+                <h2 id="ec3" class="text-3xl font-semibold text-teal-600 mb-4 text-center">حول مساعد صحتك</h2>
+                <p class="text-lg text-gray-700 leading-relaxed text-center">
+                    مساعد صحتك هو أكثر من مجرد رفيق صحي، إنه شريكك في الحفاظ على نمط حياة صحي. مدعوم بتقنية الذكاء الاصطناعي المتطورة، تضمن منصتنا أن تحصل على رؤى مخصصة لمساعدتك في اتخاذ قرارات مدروسة بشأن صحتك.
+                    مع التركيز على الخصوصية والدقة، تم تصميم مساعد صحتك لمساعدتك في تحقيق أهدافك الصحية بكل سهولة.
+                </p>
+                <a id="b" href="{{ url_for('contact') }}" class="btn-hover bg-teal-600 text-white px-6 py-3 rounded-md mt-6 inline-block">
+                    اتصل بنا
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+      
+
+    <!-- Features Section -->
+    <section id="benefits" class="w-full py-28 bg-gradient">
+        <div class="max-w-screen-xl mx-auto px-6 text-center">
+            <h2 id="ec4" class="text-3xl font-semibold text-teal-600 mb-4">فوائد مساعد الصحة الشخصي الذكي</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="bg-white p-6 shadow-md rounded-md">
+                    <h3 class="text-xl font-semibold text-teal-600 mb-2">متاح على مدار الساعة طوال أيام الأسبوع</h3>
+                    <p class="text-gray-700">الوصول إلى مساعدك الصحي في أي وقت ومن أي مكان، للحصول على الدعم والنصائح الفورية</p>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="bg-white p-6 shadow-md rounded-md">
+                    <h3 class="text-xl font-semibold text-teal-600 mb-2">رؤى مخصصة</h3>
+                    <p class="text-gray-700">احصل على توصيات صحية مخصصة استنادًا إلى احتياجاتك وبياناتك الفريدة.</p>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="bg-white p-6 shadow-md rounded-md">
+                    <h3 class="text-xl font-semibold text-teal-600 mb-2">الكفاءة من حيث التكلفة</h3>
+                    <p class="text-gray-700">وفر في نفقات الرعاية الصحية من خلال إدارة صحية استباقية في متناول يديك.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="w-full py-16 bg-gray-50">
+        <div class="max-w-screen-xl mx-auto px-6 text-center">
+            <h2 id="ec4" class="text-3xl font-semibold text-gray-800 mb-8">الأسئلة الشائعة</h2>
+            <div class="space-y-4">
+                <!-- Question 1 -->
+                <div class="bg-white p-6 shadow-md rounded-lg hover:shadow-lg transition-all ease-in-out duration-300">
+                    <button id="cl" class="w-full text-left text-xl font-semibold text-teal-700 mb-2 hover:text-teal-800 focus:outline-none colorp" onclick="toggleAnswer('answer1')">ما هو مساعد صحتك؟</button>
+                    <p id="answer1" class="text-gray-700 hidden mt-4 transition-all duration-300 ease-in-out transform opacity-0 max-h-0 overflow-hidden ">مساعد صحتك هو مساعد صحي مدعوم بالذكاء الاصطناعي يساعدك في متابعة صحتك، وتقديم رؤى مخصصة، ويوفر إرشادات للحفاظ على نمط حياة صحي.</p>
+                </div>
+                <!-- Question 2 -->
+                <div class="bg-white p-6 shadow-md rounded-lg hover:shadow-lg transition-all ease-in-out duration-300">
+                    <button id="cl" class="w-full text-left text-xl font-semibold text-teal-700 mb-2 hover:text-teal-800 focus:outline-none colorp" onclick="toggleAnswer('answer2')">كيف هو أمن بيانات صحتي؟</button>
+                    <p id="answer2" class="text-gray-700 hidden mt-4 transition-all duration-300 ease-in-out transform opacity-0 max-h-0 overflow-hidden ">بيانات صحتك مشفرة ومخزنة بشكل آمن. نحن نلتزم بمعايير HIPAA و GDPR لضمان الحفاظ على خصوصيتك.</p>
+                </div>
+                <!-- Question 3 -->
+                <div class="bg-white p-6 shadow-md rounded-lg hover:shadow-lg transition-all ease-in-out duration-300">
+                    <button id="cl" class="w-full text-left text-xl font-semibold text-teal-700 mb-2 hover:text-teal-800 focus:outline-none colorp" onclick="toggleAnswer('answer3')">هل يمكنني الوصول إلى مساعد الصحة الخاص بي من أي جهاز؟</button>
+                    <p id="answer3"  class="text-gray-700 hidden mt-4 transition-all duration-300 ease-in-out transform opacity-0 max-h-0 overflow-hidden  ">نعم، يمكنك الوصول إلى مساعد الصحة الخاص بك من أي جهاز متصل بالإنترنت، سواء كان هاتفك الذكي أو جهازك اللوحي أو الكمبيوتر.</p>
+                </div>
+                <!-- Question 4 -->
+                <div class="bg-white p-6 shadow-md rounded-lg hover:shadow-lg transition-all ease-in-out duration-300">
+                    <button id="cl" class="w-full text-left text-xl font-semibold text-teal-700 mb-2 hover:text-teal-800 focus:outline-none colorp" onclick="toggleAnswer('answer4')">هل يقدم مساعد صحتك توصيات صحية مخصصة؟</button>
+                    <p id="answer4" class="text-gray-700 hidden mt-4 transition-all duration-300 ease-in-out transform opacity-0 max-h-0 overflow-hidden ">
+                        ChatGPT a dit :
+                        ChatGPT
+                        نعم، يقدم المساعد نصائح وتوصيات صحية مخصصة بناءً على مدخلاتك، تاريخك الصحي، وأهدافك..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <footer class="w-full bg-gray-800 py-16 text-gray-200">
+        <div class="max-w-screen-xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-12 md:space-y-0">
+            
+            <!-- Logo Section -->
+            <div class="text-center md:text-left">
+                <img src="{{ url_for('static', filename='images/Capture2-removebg-preview.png') }}" alt="Docus Logo" class="w-24 h-24 mb-6 mx-auto md:mx-0 rounded-full shadow-lg transform transition duration-300 hover:scale-110">
+                <p class="text-sm text-gray-400 mt-3">مساعدك الشخصي الذكي للصحة</p>
+            </div>
+    
+            <!-- Links Section -->
+            <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12 text-center md:text-left">
+                <div class="flex flex-col items-center md:items-start">
+                    <p class="text-lg font-semibold text-teal-600 mb-4">الروابط السريعة</p>
+                    <a href="#about" class="text-sm text-gray-300 hover:text-teal-600 hover:underline transform transition duration-300 ease-in-out">معلومات عنا</a>
+                    <a href="#benefits" class="text-sm text-gray-300 hover:text-teal-600 hover:underline transform transition duration-300 ease-in-out">الميزات</a>
+                    <a href="{{ url_for('contact') }}" class="text-sm text-gray-300 hover:text-teal-600 hover:underline transform transition duration-300 ease-in-out">اتصل بنا</a>
+                </div>
+            </div>
+    
+            <!-- Social Media Section -->
+            <div class="flex justify-center md:justify-end space-x-8 mt-8 md:mt-0">
+                <a href="#" class="text-gray-300 hover:text-teal-600 transform transition duration-300 ease-in-out hover:scale-110">
+                    <!-- Facebook Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2C6.48 2 2 6.48 2 12c0 4.86 3.78 8.88 8.44 9.74v-6.96h-2.57v-3.41h2.57v-2.5c0-2.53 1.5-3.94 3.83-3.94 1.1 0 2.25.2 2.25.2v2.44h-1.26c-1.16 0-1.52.73-1.52 1.46v2.03h3.07l-.49 3.41h-2.58v6.95C18.22 20.88 22 16.86 22 12c0-5.52-4.48-10-10-10z"></path>
+                    </svg>
+                </a>
+                <!-- Instagram Icon -->
+                <a href="#" class="text-gray-300 hover:text-teal-600 transform transition duration-300 ease-in-out hover:scale-110">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 3H8c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h8c1.104 0 2-.896 2-2V5c0-1.104-.896-2-2-2zM8 5h8v12H8V5zm4 5c1.656 0 3 1.344 3 3s-1.344 3-3 3-3-1.344-3-3 1.344-3 3-3z"></path>
+                    </svg>
+                </a>
+                <!-- Add more social icons here (Twitter, LinkedIn, etc.) -->
+            </div>
+        </div>
+    
+        <!-- Bottom Copyright Section -->
+        <div class="text-center py-4 mt-12 border-t border-gray-700 bg-gray-900">
+            <p class="text-sm text-gray-500">&copy; جميع الحقوق محفوظة 2024.</p>
+        </div>
+    </footer>
+    
+
+
+
+    <script>
+        function toggleAnswer(answerId) {
+            var answer = document.getElementById(answerId);
+            // Toggle visibility and apply transition effect
+            answer.classList.toggle('hidden');
+            answer.classList.toggle('opacity-100');
+            answer.classList.toggle('max-h-96');
+        }
+    </script>
+
+</body>
+</html>

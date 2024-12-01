@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تسجيل الدخول</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+    font-family: 'Georgia', serif;
+    font-size: large;
+}
+
+#nv{
+margin-bottom: 500px;
+}
+#logoo{
+width: 100px;
+height: 80px; }
+#nvbr a{
+margin-right: 25px;
+
+left: 20px;
+font:1.1rem "Fira Sans", sans-serif;
+
+}
+section {
+padding-bottom: 30px;
+position: relative;
+}
+#nvbr {
+position: relative;
+left: 55px;
+}
+#nvbr a {
+padding: 48px;
+}
+#nv{
+margin-bottom: 520px;
+height: 80px; 
+background-color: rgb(252, 250, 250);
+
+}
+#logoo{
+width: 100px;
+height: 80px; }
+#maVideo {
+appearance: none; /* Cache l'apparence par défaut */
+border: none;
+outline: none;
+background-color: transparent; /* Fond transparent si nécessaire */
+pointer-events: none; /* Empêche l'interaction utilisateur */
+width: 78%;
+/* position: relative; */
+margin-left: 150px;
+border-radius: 6px ;   
+}
+#welcome{
+position: relative;
+height: 450px;
+}
+/* .ecriture{
+width: 100%;
+} */
+/* .all{
+position: relative;
+height: 80%;
+} */
+/* .giff{
+position: relative;
+margin-left: 500px;
+height: 250px;
+} */
+.modif{
+width: 80%;
+}
+#ec1{
+font: 2.7rem "Fira Sans", sans-serif;
+/* font-weight: bold; */
+
+
+}
+/* #ec2{
+font-weight: bold;
+} */
+#ec{
+position: relative;
+left: 130px;
+top: 20px;
+}
+#cl {
+color: rgb(45, 114, 61);
+font: 1.3rem "Fira Sans", sans-serif;
+}
+#ec3{
+font: 2rem "Fira Sans", sans-serif;
+/* font-weight: bold; */
+}
+#ec4{
+font: 2rem "Fira Sans", sans-serif;
+position: relative;
+bottom: 25px;
+color: #0f766e;
+}
+#al{
+position: relative;
+bottom: 31px;
+}
+#img2{
+width: 90%;
+}
+#b{
+position: relative;
+left: 180px;
+
+}
+html{
+scroll-behavior: smooth;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.image-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.btn-hover:hover {
+    background-color: #0f766e; /* Darker teal */
+    color: white;
+    transform: scale(1.05);
+}
+
+.bg-gradient {
+    background: linear-gradient(180deg, #f9fafb, #e5e7eb);
+}
+/* Default Navbar Links Style */
+.nav-link {
+font-size: 1.125rem; /* text-xl */
+font-weight: 600; /* Semi-bold */
+color: #4B5563; /* Gray color */
+transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for scaling and color */
+}
+
+/* On Hover: Scale and Change Color */
+.nav-link:hover {
+transform: scale(1.1); /* Scale up */
+color: #14B8A6; /* Change to teal color */
+}
+
+.modif {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+#btm{
+position: relative;
+bottom: 40px;
+
+
+}
+
+#maVideo {
+width: 400px;
+height: 350px;
+object-fit: cover;
+border-radius: 0.5rem; /* Optionnel : pour correspondre au style du formulaire */
+bottom: 170px;
+
+
+}
+
+/* .video-container {
+display: flex;
+align-items: center;
+justify-content: center;
+height: auto; 
+}  */
+</style>
+</head>
+<body class="bg-gray-100 text-gray-700">
+
+  <!-- Navbar (Header) -->
+  <nav id="nv" class="fixed w-full bg-white text-gray-700 py-6 z-10 shadow-xl">
+    <div id="al" class="container mx-auto flex justify-between items-center px-8">
+        <!-- Logo Section -->
+        <div class="flex items-center space-x-2">
+            <img id="logoo" src="{{ url_for('static', filename='images/Capture2-removebg-preview.png') }}" alt="Health Assistant Logo" class="w-16 h-16 transform transition duration-300 hover:scale-110">
+        </div>
+
+        <!-- Navbar Links -->
+        <div id="nvbr" class="space-x-8 hidden md:flex">
+            <a href="{{ url_for('index') }}" class="nav-link">الرئيسية</a>
+            <a href="#about" class="nav-link">معلومات عنا</a>
+            <a href="#faq" class="nav-link">الأسئلة الشائعة</a>
+            <a href="{{ url_for('contact') }}" class="nav-link">اتصل بنا</a>
+        </div>
+
+    </div>
+</nav>
+
+<div class="h-10 md:h-15"></div>
+<section class="py-20">
+  <!-- Title centered -->
+  <h2 style="color: #14B8A6; font: 2.7rem Fira Sans, sans-serif;" class="text-4xl font-bold text-teal-600 text-center mb-10">تسجيل الدخول</h2>
+
+  <div class="container mx-auto flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0">
+
+    <!-- Form Section -->
+    <div class="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
+      <!-- Flash messages -->
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="mb-6">
+            {% for category, message in messages %}
+              <div class="alert alert-{{ category }} text-center p-3 rounded-lg shadow-md">
+                {{ message }}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
+
+      <!-- Login Form -->
+      <form id="loginForm" method="POST">
+        <!-- Email -->
+        <div class="mb-4">
+          <label for="email" class="block text-lg font-medium text-gray-700">:عنوان البريد الإلكتروني</label>
+          <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-teal-500" required>
+        </div>
+
+        <!-- Password -->
+        <div class="mb-6">
+          <label for="password" class="block text-lg font-medium text-gray-700">:كلمة المرور</label>
+          <input type="password" id="password" name="password" class="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-teal-500" required>
+        </div>
+
+        <button type="submit" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 rounded-md shadow-md">تسجيل الدخول</button>
+      </form>
+
+      <!-- Error message -->
+      {% if error %}
+        <p style="color: red;" class="text-center mt-4">{{ error }}</p>
+      {% endif %}
+
+      <p class="text-center mt-4">ليس لديك حساب؟ <a style="color: #0f766e;" href="{{ url_for('signup') }}">سجل هنا</a></p>
+      <div class="text-center mt-2">
+        <a style="color: #0f766e;" href="{{ url_for('forgot_password') }}">نسيت كلمة المرور؟</a>
+      </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="w-full max-w-md p-6 flex items-center justify-center md:ml-4">
+      <div class="relative rounded-lg overflow-hidden shadow-lg w-full h-full">
+        <img src="{{ url_for('static', filename='images/img3.jpg') }}" alt="Login Image" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>  
+<footer class="w-full bg-gray-800 py-16 text-gray-200">
+  <div class="max-w-screen-xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center space-y-12 md:space-y-0">
+      
+      <!-- Logo Section -->
+      <div class="text-center md:text-left">
+          <img src="{{ url_for('static', filename='images/Capture2-removebg-preview.png') }}" alt="Docus Logo" class="w-24 h-24 mb-6 mx-auto md:mx-0 rounded-full shadow-lg transform transition duration-300 hover:scale-110">
+          <p class="text-sm text-gray-400 mt-3">مساعدك الشخصي الذكي للصحة</p>
+      </div>
+
+      <!-- Links Section -->
+      <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12 text-center md:text-left">
+          <div class="flex flex-col items-center md:items-start">
+              <p class="text-lg font-semibold text-teal-600 mb-4">الروابط السريعة</p>
+              <a href="#about" class="text-sm text-gray-300 hover:text-teal-600 hover:underline transform transition duration-300 ease-in-out">معلومات عنا</a>
+              <a href="#benefits" class="text-sm text-gray-300 hover:text-teal-600 hover:underline transform transition duration-300 ease-in-out">الميزات</a>
+              <a href="{{ url_for('contact') }}" class="text-sm text-gray-300 hover:text-teal-600 hover:underline transform transition duration-300 ease-in-out">اتصل بنا</a>
+          </div>
+      </div>
+
+      <!-- Social Media Section -->
+      <div class="flex justify-center md:justify-end space-x-8 mt-8 md:mt-0">
+          <a href="#" class="text-gray-300 hover:text-teal-600 transform transition duration-300 ease-in-out hover:scale-110">
+              <!-- Facebook Icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2C6.48 2 2 6.48 2 12c0 4.86 3.78 8.88 8.44 9.74v-6.96h-2.57v-3.41h2.57v-2.5c0-2.53 1.5-3.94 3.83-3.94 1.1 0 2.25.2 2.25.2v2.44h-1.26c-1.16 0-1.52.73-1.52 1.46v2.03h3.07l-.49 3.41h-2.58v6.95C18.22 20.88 22 16.86 22 12c0-5.52-4.48-10-10-10z"></path>
+              </svg>
+          </a>
+          <!-- Instagram Icon -->
+          <a href="#" class="text-gray-300 hover:text-teal-600 transform transition duration-300 ease-in-out hover:scale-110">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 3H8c-1.104 0-2 .896-2 2v12c0 1.104.896 2 2 2h8c1.104 0 2-.896 2-2V5c0-1.104-.896-2-2-2zM8 5h8v12H8V5zm4 5c1.656 0 3 1.344 3 3s-1.344 3-3 3-3-1.344-3-3 1.344-3 3-3z"></path>
+              </svg>
+          </a>
+          <!-- Add more social icons here (Twitter, LinkedIn, etc.) -->
+      </div>
+  </div>
+
+  <!-- Bottom Copyright Section -->
+  <div class="text-center py-4 mt-12 border-t border-gray-700 bg-gray-900">
+      <p class="text-sm text-gray-500">&copy; جميع الحقوق محفوظة 2024.</p>
+  </div>
+</footer>
+
+</body>
+</html>

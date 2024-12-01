@@ -1,0 +1,72 @@
+## web site 
+# Terminal
+* pip install flask flask-mysqldb : pour installer flask avec mysqldb
+
+*pip install flask-mail : pour envoyer les email
+
+# creer un database sur mongodb appeler : flask_user
+  creer une collection sur mongodb appeler : tbl_users
+
+## medical chatbot 
+# STEPS:
+# STEP 01- Create a conda environment after opening the repository
+ bash :
+    conda create -n medibot python=3.10 -y
+    conda activate medibot 
+
+# STEP 02- install the requirements
+ bash : 
+pip install -r requirements.txt
+
+# Create a .env file in the root directory and add your Pinecone & hugginFace credentials as follows:
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+HUGEN_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# run the following command to store embeddings to pinecone
+python store_index.py
+
+# Finally run the following command in the terminal of folder medical-chatbot
+python app.py
+
+# Techstack Used:
+Python
+LangChain
+Flask
+GPT
+Pinecone
+
+## medical image detection
+
+# STEPS 01- install streamlit
+pip install streamlit
+
+# STEPS 02- install google-generativeai
+pip install google-generativeai 
+
+# STEPS 03- install deep_translator
+pip install deep_translator 
+
+# # STEP 04- install opencage  
+pip install opencage
+
+# STAPS 05- create api key in google ai studio and add your api key 
+the link : https://aistudio.google.com/app/apikey
+api_key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# STEP 06- create api key in opencagedata and add in key 
+the link https://opencagedata.com/
+
+
+# Finally run the following command in the terminal of the folder medical-image.detection
+streamlit run app.py  
+
+## final step- run in terminal of the folder hackathon_ai 
+python app.py
+
+
+
+
+
+
+
+    

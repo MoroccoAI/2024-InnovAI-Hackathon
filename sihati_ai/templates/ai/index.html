@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشاريع طبية</title>
+    <!-- Liens vers Bootstrap et Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css">
+    <style>
+        #logoo {
+            width: 100px;
+            height: 80px;
+        }
+        #nvbr {
+            position: relative;
+            left: 55px;
+        }
+        #nvbr a {
+            padding: 12px; /* Réduction du padding */
+        }
+        body {
+            background-color: #f8f9fa;
+            font-family: "Arial", sans-serif;
+            direction: rtl;
+            text-align: right;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            color: #4a4a4a;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2.5rem;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            margin-top: auto;
+        }
+        .btn-container a {
+            text-decoration: none;
+            color: white;
+        }
+        .navbar {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 10px 0; /* Réduction du padding du navbar */
+            z-index: 999;
+        }
+        .navbar .center-link {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: bold;
+        }
+        .description {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #555;
+            margin-top: 20px;
+        }
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px; /* Ajout de marge pour ne pas que le contenu soit caché sous le header */
+            padding-bottom: 40px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bar de navigation fixe -->
+    <nav class="navbar fixed-top py-3">
+        <div class="container position-relative">
+            <!-- Logo à gauche -->
+            <div class="d-flex align-items-center">
+                <img src="{{ url_for('static', filename='images/Capture2-removebg-preview.png') }}" alt="الشعار" class="img-fluid" style="height: 50px;">
+            </div>
+            <!-- Liens de navigation -->
+            <div id="nvbr" class="space-x-8 hidden md:flex">
+                <a href="{{ url_for('index') }}" class="nav-link">الرئيسية</a>
+                <a href="#about" class="nav-link">معلومات عنا</a>
+                <a href="#faq" class="nav-link">الأسئلة الشائعة</a>
+                <a href="{{ url_for('contact') }}" class="nav-link">اتصل بنا</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main>
+        <h1>مرحباً بكم في مساعدي الصحي بالذكاء الاصطناعي</h1>
+        <div class="btn-container mt-4">
+            <button class="btn btn-primary btn-lg">
+                <a href="http://localhost:8080/">المساعد الطبي</a>
+            </button>
+            <button class="btn btn-success btn-lg">
+                <a href="http://localhost:8501/">تحليل الصور الطبية</a>
+            </button>
+        </div>
+
+        <!-- Description de l'utilisation -->
+        <div class="description">
+            <p>يمكنك استخدام المساعد الطبي للتحدث مع الذكاء الاصطناعي والحصول على استشارات طبية تفاعلية. كما يمكنك استخدام أداة تحليل الصور الطبية لتحليل الصور الطبية الخاصة بك باستخدام تقنيات الذكاء الاصطناعي المتقدمة.</p>
+        </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; جميع الحقوق محفوظة 2024</p>
+    </footer>
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
