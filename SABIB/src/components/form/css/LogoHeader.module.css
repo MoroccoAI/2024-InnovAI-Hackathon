@@ -1,0 +1,17 @@
+.logoBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  height: 10vh;
+  padding-top: 12px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  padding: 8px;
+}
+

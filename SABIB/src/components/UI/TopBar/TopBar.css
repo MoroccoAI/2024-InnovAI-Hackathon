@@ -1,0 +1,32 @@
+/* topBar.css */
+.top-bar {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: white;
+  }
+  
+  .top-bar-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .top-bar-content {
+    display: flex;
+    padding: 0.5rem 0;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust spacing between icons and text */
+  }
+  
+  .social-media-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media-link {
+    margin-right: 10px; /* Adjust spacing between social media icons */
+  }
+  

@@ -1,0 +1,173 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+  width: auto;
+}
+
+.container_row {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: space-between;
+  margin: 10px;
+  padding: 0px;
+  gap: 3.5vw;
+}
+.headings {
+  align-items: center;
+  max-width: max-content;
+  width: 100%;
+}
+
+.headings p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.section {
+  display: flex;
+  align-items: space-between;
+  justify-content: flex-start;
+  width: 25rem;
+  max-width: 95vw;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 25px;  
+}
+
+
+.subtext {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.8rem;
+  margin-left: 10px;
+}
+
+.staticInput {
+  height: 1rem;
+  max-width: 6.5rem;
+  width: 30%;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.4);
+  background-color: aliceblue;
+  padding: 0.75rem;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: none;
+  border-radius: 6px 0px 0px 6px;
+  text-align: start;
+}
+
+.urlfield {
+  width: 70% ;
+  max-width: 95vw;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.useCard {
+  width: calc(41% - 0vw);
+  height: 10rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  
+  cursor: pointer;
+  transition: all ease-in-out 180ms;
+}
+
+.useCard:hover {
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+.active {
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 16px;
+  color: black;
+}
+
+.desc {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+.bigIcon {
+  width: 100px;
+  height: 100px;
+  color: var(--primaryColor);
+  margin-bottom: 3vh;
+}
+
+/* Form.module.css */
+
+
+.controlButton {
+  background-color: #0071be;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controlButton:hover {
+  background-color: #005d91;
+}
+
+.staticInput {
+  
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+@media screen and (max-width:350px){
+  .staticInput {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .useCard {
+    width: calc(33.33% - 2.5vw); /* Adjust card width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .useCard {
+    width: calc(50% - 2.5vw); /* Adjust card width for even smaller screens */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .useCard {
+    width: 100%; /* Cards take full width on very small screens */
+    max-width: none; /* Remove max-width for full width */
+  }
+}
+

@@ -1,0 +1,76 @@
+.app {
+    --primaryColor: #0071be;
+  }
+  
+ .app {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    max-height: calc(100vh - 20px);;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .button,
+.button-back {
+  background-color: var(--primaryColor);
+  height: 2.5rem;
+  width: 20vw; /* Adjusted width for small devices */
+  max-width: 10rem; /* Adjusted max-width for small devices */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px; /* Reduced margin for small devices */
+  margin-bottom: 10px;
+}
+.button-back {
+  background-color: rgb(148, 97, 209);
+  margin-right: 10px;
+}
+  .card-form {
+    height: auto;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .inputField {
+    width: 24rem;
+    max-width: 94vw;
+    height: 2.4rem;
+    border-radius: 6px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding-left: 1vw;
+    background-color: rgb(250, 248, 248);
+    margin: 0;
+  }
+  
+  .inputField::placeholder {
+    color: rgb(160, 160, 160);
+    /* padding-left: 1rem; */
+  }
+  
+  .inputField:focus {
+    background-color: white;
+    outline: 1px solid rgba(0,0,0,0.3);
+  }
+
+  .cardForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.navigationButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  max-width: 25rem;
+}
+

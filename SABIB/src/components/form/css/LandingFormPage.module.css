@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    flex-direction: column;
+    width: auto;
+}
+
+h1 {
+    margin: 5px 0px;
+    font-size: 1.8em;
+}
+
+p {
+    margin: 5px 0px;
+    font-size: small;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}

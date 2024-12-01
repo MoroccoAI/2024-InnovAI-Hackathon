@@ -1,0 +1,68 @@
+.outerContainer {
+    position: relative;
+    display: flex;
+    width: 90vw;
+    max-width: 25rem;
+    height: 10vh;
+    place-items: center;
+    justify-content: center;
+
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    height: auto;
+    width: inherit;
+    z-index: 1;
+    
+}
+
+.circularButton {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background-color: #faf8f8;
+    transition: all ease-in-out 250ms;
+    cursor: pointer;
+}
+.circularButton:disabled {
+    color: black;
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+.visited {
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.progressBar {
+    position: absolute;
+    width: 95vw;
+    max-width: 25rem;
+    height: 2px;
+}
+
+.progressBar {
+    -webkit-appearance: none;
+     appearance: unset;
+  }
+  
+.progressBar::-moz-progress-bar{
+    background-color: var(--primaryColor)
+}
+
+.progressBar::-webkit-progress-bar {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+.progressBar::-webkit-progress-value {
+      background-color: var(--primaryColor);
+  }
+
