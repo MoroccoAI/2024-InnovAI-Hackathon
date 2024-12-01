@@ -1,0 +1,8 @@
+/venv
+**/__pycache__/
+polls/__pycache__/
+.env
+/notebooks/pinecone.ipynb
+/random
+db.sqlite3
+db.sqlite3-journal

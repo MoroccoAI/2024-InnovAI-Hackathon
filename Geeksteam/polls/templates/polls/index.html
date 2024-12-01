@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'polls/head.html' %}
+</head>
+
+
+<body>
+    {% include 'polls/nav.html' %}
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Traffic Chatbot</h1>
+
+                <p>
+                    This chatbot is designed to help you understand traffic laws, avoid violations, and promote safe
+                    driving practices.
+                </p>
+                <a href="{% url 'chat' %}" class="btn btn-primary">Chat NOW</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+
+                    {% load static %}
+
+                    <img style="opacity: 0.8;" src="{% static 'images/car4.svg' %}" alt="">
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--********************END HEADER*******************-->
+
+    <section class="about">
+        <div class="container about__container">
+            <div class="about__left">
+                <h1>About US</h1>
+                <p>
+                    GeeksSTEAM Project idea : Moroccan traffic violation Chat assistant 
+                </p>
+                <a href="{% url 'about' %}" class="btn">Learn More</a>
+            </div>
+            <div class="about__right">
+                <article class="goals">
+                    <span class="goals__icon"><i class="bi bi-patch-question-fill"></i>
+                    </span>
+                    <h5>Fines</h5>
+                    <p>Curious about potential commited traffic violation, no worries, why memories laws whereas AI can memories for you? </p>
+
+                </article>
+                <article class="goals">
+                    <span class="goals__icon"><i class="bi bi-bookmark-fill"></i>
+                    </span>
+                    <h5>laws</h5>
+                    <p>Protect yourself from potential violations, eithere you are a normal citizen or a policeman</p>
+
+                </article>
+                <article class="goals">
+                    <span class="goals__icon"><i class="bi bi-safe-fill"></i>
+                    </span>
+                    <h5>safety</h5>
+                    <p>Stay safe!</p>
+
+                </article>
+
+            </div>
+        </div>
+    </section>
+    <!--================END ABOUTUS=================-->
+
+    {% include 'polls/footer.html' %}
+
+
+    <!--================END FOOTER=================-->
+
+    <script src="{% static 'js/main.js' %}"></script>
+
+
+</body>
+
+</html>

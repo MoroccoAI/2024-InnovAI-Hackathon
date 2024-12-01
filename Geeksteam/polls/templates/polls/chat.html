@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'polls/head.html' %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'polls/chat.css' %}">
+
+</head>
+
+<body>
+    {% include 'polls/nav.html' %}
+    <!--NAV -->
+    <style>
+        #chat {
+            background: var(--color-bg1);
+        }
+    </style>
+    <section class="container chat-container">
+        <!-- <div id="chat" style='width: 100%; height: 70vh;'> -->
+
+
+
+        <div class="chatbox-message-content">
+            <img class="image-chatbot" id="chatbot" style="width: 300px; height: 300px;"
+                src="{% static 'images/chatbot.svg' %}" alt="">
+
+
+        </div>
+        <div class="chatbox-message-botton">
+            <form class="chatbox-message-form" id="post-form">
+                {% csrf_token %}
+                <textarea type='text' rows="1" placeholder="type message..." class="chatbox-message-input"
+                    name="message" id="message"></textarea>
+
+                <buttom type="submit" class="chatbox-message-submit" id="submit-button"><i class="bi bi-send" style="color: black;"></i>
+                </buttom>
+            </form>
+        </div>
+
+        <!-- </div> -->
+    </section>
+    <div class="footer__copyright">
+        <small>Copyright &copy; TCHAT</small>
+    </div>
+
+
+</body>
+
+</html>
+<script>
+    const textarea = document.querySelector('.chatbox-message-input')
+    const chatboxForm = document.querySelector('.chatbox-message-form')
+    const chatboxSubmit = document.querySelector('.chatbox-message-submit')
+    const imageChatbot = document.querySelector(".image-chatbot")
+    const today = new Date()
+    function addZero(num) {
+        return num < 10 ? '0' + num : num
+    }
+
+
+
+    jQuery(document).ready(function () {
+
+        $("#submit-button").click(function (e) {
+
+
+            chatboxForm.style.alignItems = 'center'
+            imageChatbot.style.display = 'none'
+
+
+            e.preventDefault();
+            var question = $("#message").val()
+
+            console.log(question)
+
+            $(".chatbox-message-content").append(`<div class='chatbox-message-item sent' >
+                    <span class='chatbox-message-item-text'>
+                        ${question}
+                    </span>
+                    <span class="chatbox-message-item-time">${addZero(today.getHours())}:${addZero(today.getMinutes())}</span>
+                </div>`);
+                textarea.rows = 1
+                textarea.focus()
+                textarea.value = ''
+
+            $.ajax({
+                
+
+                type: "POST",
+                url: "{% url 'chatbot' %}",
+                data: {
+                    'question': question,
+                    'csrfmiddlewaretoken': '{{ csrf_token }}',
+                },
+
+                success: function (result) {
+
+                    console.log('seccuss')
+
+
+                    $(".chatbox-message-content").append(`<div class="chatbox-message-item received">
+        <span class="chatbox-message-item-text">
+            ${result.res} 
+              
+          
+        </span>
+        <span class="chatbox-message-item-time">${addZero(today.getHours())}:${addZero(today.getMinutes())}</span>
+    </div>`)
+                    textarea.rows = 1
+                    textarea.focus()
+                    textarea.value = ''
+                },
+                error: function (result) {
+                    alert('error');
+                }
+            });
+
+
+
+        });
+
+    });
+</script>
+<script src="{% static 'js/main.js' %}"></script>

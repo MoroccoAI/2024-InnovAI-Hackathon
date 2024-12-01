@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'polls/head.html' %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'polls/about.css' %}">
+
+</head>
+
+<body>
+    {% include 'polls/nav.html' %}
+
+    <!--NAV -->
+
+    <section class="about__achievements">
+        <div class="container about__achievements-container">
+            <div class="about__achievements-left">
+                <img src="{% static 'images/about.svg' %}" alt="">
+            </div>
+
+            <div class="about__achievements-right">
+                <h1>Goals</h1>
+                <p>
+                    This chatbot is designed to help you understand traffic laws, avoid violations, and promote safe
+                    driving practices.
+                </p>
+
+                <div class="achievements__card">
+
+
+                    <article class="achievement__card">
+                        <span class="achievement__icon">
+                            <i class="bi bi-bookmark-fill"></i>
+
+                        </span>
+                        <h3>100+</h3>
+                        <p>Fines</p>
+                    </article>
+
+                    <!-- <article class="achievement__card">
+                        <span class="achievement__icon">
+                            <i class="bi bi-people"></i>
+                        </span>
+                        <h3>100,000+</h3>
+                        <p>Customers</p>
+                    </article> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================END ACHIEVEMENTS=================-->
+    <script src="{% static 'js/main.js' %}"></script>
+
+
+</body>
+
+</html>
