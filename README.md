@@ -1,25 +1,55 @@
-# About The Hackathon
-The MoroccoAI InnovAI Hackathon is a unique opportunity for AI enthusiasts, professionals, and innovators to collaborate and create transformative AI-based solutions addressing real-life challenges in Morocco and across Africa. As part of the annual MoroccoAI Annual Conference, this hackathon is set under the theme “Driving the Future of Innovation Through AI”, inspiring participants to harness AI’s capabilities to make a meaningful societal impact. Participants will join teams to develop Proof of Concepts (PoCs) using applications or APIs that address challenges in various domains. Education, Healthcare, Environment, Finance or Customer Services .
 
-In line with MoroccoAI’s mission, this hackathon centers around “Driving the Future of Innovation Through AI”. AI has the power to redefine industries, address community needs, and propel sustainable growth. Through this event, participants will dive into AI’s potential by developing impactful solutions that address challenges unique to Morocco and Africa in fields such as agriculture, education, health, and finance, fostering innovation in response to real-world needs.
 
-# The Challenge
-Connect with the MoroccoAI community, join teams and brainstorm ideas then come up with a project that leverages AI in 5 areas of focus:
-* Innovation
-* Healthcare
-* Environment
-* Finance
-* CustomerServices
+# Easy Study Web App
 
-# Mentorship
-Join the Hackathon server on discord and meet the mentors to learn more about their proposed projects.
+This project is a web application designed to enhance student learning by generating quizzes, flashcards, courses , questions answers based on the provided topics.
 
-# Why should you participate in this Hackathon?
-* Hands-on experience in AI project development that targets relevant issues in Morocco and Africa.
-* Mentorship and networking opportunities with experts and peers in the AI community.
-* Showcase their solutions to a jury of AI specialists at the awards ceremony, creating visibility and opportunities for further development.
-* Win great prizes offered by MoroccoAI's sponsors
-* Obtain your MoroccoAI certificate of recognition
+---
 
-# For more information
-https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/pages/hackathon.html
+## Abstract
+
+### Background and Problem Statement
+In today's fast-paced education environment, students often struggle to find efficient ways to revise and consolidate their knowledge. Manually creating study materials such as quizzes or flashcards can be time-consuming and ineffective. Additionally, locating relevant supplemental resources like guided courses is a fragmented process.
+
+### Impact and Proposed Solution
+The **AI Study web app** addresses these issues by automating the creation of personalized study aids. Using advanced AI techniques and efficient database management, the app generates topic-specific quizzes, flashcards, q&a and curates educational courses recommendations, saving students valuable time and enhancing their learning experience.
+
+### Project Outcomes and Deliverables
+- **Quizzes and Flashcards**: Automatically generated based on user-submitted topics or keywords.
+- **Educational Course Recommendations**: AI-curated relevant courses for deeper understanding.
+- **Interactive User Interface**: A responsive and intuitive interface for students to access study aids effortlessly.
+- **Integration with Next.js, Dizzle ORM, and Ingest**: Ensures scalability, efficiency, and real-time data handling.
+
+
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Dizzle ORM**: Object-relational mapping (ORM) for database management.
+- **Ingest**: For data ingestion and streaming.
+- **Gemini API**: For retrieving personalized educational content and resources.
+- **OpenAI**: For generating quizzes, flashcards, and natural language processing tasks.
+- Other tools: Node.js, npm.
+
+---
+
+## Getting Started
+
+Follow the steps below to set up and run the project locally.
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/) (v16 or later)
+- [npm](https://www.npmjs.com/) 
+- A database supported by Dizzle ORM (e.g., PostgreSQL, MySQL, etc.)
+
+---
+
+## Setup and Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/youssefhergal/2024-InnovAI-Hackathon.git
+   cd easy-study-web-app-main
