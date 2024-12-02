@@ -1,0 +1,9 @@
+## Ai Requirements
+fastapi
+uvicorn
+openai
+python-dotenv
+
+## Web App requirements
+npm install express http-proxy-middleware
+npm install cors

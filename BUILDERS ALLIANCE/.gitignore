@@ -1,0 +1,44 @@
+# Python files
+*.py[cod]
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pydist
+
+# FastAPI-specific files
+*.log
+
+## openai key
+.env
+
+# Node.js files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+build/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.tar
+.dockerignore
+docker-compose.override.yml
+
+# Dependency files
+*.lock
+package-lock.json
+
+# Git ignore
+!.gitignore

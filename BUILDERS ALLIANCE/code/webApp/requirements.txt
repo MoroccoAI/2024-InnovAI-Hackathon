@@ -1,0 +1,2 @@
+npm install express http-proxy-middleware
+npm install cors

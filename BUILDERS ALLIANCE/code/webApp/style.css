@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: url('Logo/background2.jpg') center/cover no-repeat;
+	color: white;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.chat-container {
+	width: 430px;
+	height: 630px;
+	background-color: rgba(205, 199, 199, 0.9);
+	border-radius: 10px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+}
+
+.chat-header {
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	background-color: rgba(35, 38, 58, 0.9);
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chat-header img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.chat-header h1 {
+	margin: 0;
+	font-size: 18px;
+}
+
+
+
+.chat-body {
+	flex: 1;
+	overflow-y: auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	position: relative;
+	background: url('Logo/Terhal_bot.png') center/cover no-repeat;
+}
+
+
+
+.chat-message {
+	max-width: 70%;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.bot-message {
+	background-color: #2b2f4a;
+	color: white;
+	align-self: flex-start;
+}
+
+.user-message {
+	background-color: #00a884;
+	color: white;
+	align-self: flex-end;
+}
+
+.chat-footer {
+	padding: 10px;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	background-color: rgba(35, 38, 58, 0.9);
+	border-radius: 0 0 10px 10px;
+	display: flex;
+	gap: 10px;
+}
+
+.chat-footer input {
+	flex: 1;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+}
+
+.chat-footer button {
+	background-color: #00a884;
+	border: none;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.chat-footer button:hover {
+	background-color: #009973;
+}
