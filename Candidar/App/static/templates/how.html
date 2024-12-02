@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/page_home.css">
+    <script src="static/js/page_home.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How</title>
+</head>
+
+<style>
+    body{
+    background-color: #44B4A00D;
+    background-image: url("static/icons/icon_background_body.svg");
+}
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+
+    a:active{
+        color: #2123bb;
+    }
+   
+</style>
+<style>
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #3a414a;
+        cursor: pointer;
+    }
+   
+</style>
+<body>
+    
+
+    <nav id="nav">
+        <div id="logo">
+            <a href="http://127.0.0.1:8000/"><img src="static/icons/logo.svg" alt="" width="100%" height="100%"></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="http://127.0.0.1:8000/">Home</a> </li>
+                <li ><a href="http://127.0.0.1:8000/">About</a></li>
+                <li style="color: #252432;"><a href="http://127.0.0.1:8000/">How it Works</a></li>
+            </ul>
+        </div>
+        <div>
+            <button onclick="triggerLink()" id="btn_start"><b>Get Started</b></button>
+        </div>
+    </nav>
+    
+
+
+    <main style="display: flex;flex-direction: column; height: 85vh;align-items: center;gap: 20px;">
+        <section style="margin-top: 60px;font-size: 20px;">
+            <h2 style="
+            font-family: 'Raleway', sans-serif;
+            font-size: 40px;
+            font-weight: 700px;">4 Steps to Secure Your Future</h2>
+        </section>
+
+        <section style="display: flex;flex-direction: row;gap: 10px;">
+
+            <div style="text-align: center; display: flex;flex-direction: column;align-items: center;width: 290px;justify-content: center;">
+                <h2 style="font-size: 30px;text-shadow: 6px 6px 6px black;">1</h2>
+                <h3 style="
+                font-family: 'Raleway', sans-serif;
+                font-size: 20px;
+                font-weight: 700px;" >Fill Out Your Job Description</h3>
+                <p style="
+                width: 729px;
+                font-family: 'Inter', sans-serif;
+                color: #8987A1;
+                width: 500px;
+                ">Input your desired job description to <br>match the role you're aiming for.This <br>tailors your mock interview to your role. </p>
+            </div>
+
+            <div style="text-align: center; display: flex;flex-direction: column;align-items: center;width: 290px;justify-content: center;">
+                <h2 style="font-size: 30px;text-shadow: 6px 6px 6px black;">2</h2>
+                <h3 style="
+                font-family: 'Raleway', sans-serif;
+                font-size: 20px;
+                font-weight: 700px;">Psychotechnical Test</h3>
+                <p style="
+                width: 729px;
+                font-family: 'Inter', sans-serif;
+                color: #8987A1;
+                width: 500px;
+                ">Complete a 3-minute psychotechnical <br> test to assess your reasoning and <br> problem-solving under pressure.</p>
+            </div>
+
+            <div style="text-align: center; display: flex;flex-direction: column;align-items: center;width: 290px;justify-content: center;">
+                <h2 style="font-size: 30px;text-shadow: 6px 6px 6px black;">3</h2>
+                <h3 style="
+                font-family: 'Raleway', sans-serif;
+                font-size: 20px;
+                font-weight: 700px;">Choose Your Interviewer </h3>
+                <p style="
+                width: 729px;
+                font-family: 'Inter', sans-serif;
+                color: #8987A1;
+                width: 500px;
+                ">Choose from three experienced <br> Moroccan interviewers who <br> specialize in your target field.</p>
+            </div>
+
+            <div style="text-align: center; display: flex;flex-direction: column;align-items: center;width: 290px;justify-content: center;">
+                <h2 style="font-size: 30px;text-shadow: 6px 6px 6px black;">4</h2>
+                <h3 style="
+                font-family: 'Raleway', sans-serif;
+                font-size: 20px;
+                font-weight: 700px;">Mock Interview & Feedback</h3>
+                <p style="
+                width: 729px;
+                font-family: 'Inter', sans-serif;
+                color: #8987A1;
+                width: 500px;
+                ">Participate in a mock interview and <br> answer real-world questions then <br> receive personalized feedback.</p>
+            </div>
+        </section>
+
+        <div style="position: absolute;top: 45%;left: 240px;">
+            <img src="static/icons/fleche.svg" alt="">
+        </div>
+
+        <div style="position: absolute;top: 45%;left: 540px;">
+         <img src="static/icons/fleche.svg" alt=""> </div>
+
+        <div style="position: absolute;top: 45%;left: 840px;">
+            <img src="static/icons/fleche.svg" alt="">
+         </div>
+
+    </main>
+
+
+    <script>
+        function triggerLink() {
+    window.location.href = "http://127.0.0.1:8000/start";
+    }
+    </script>
+    
+</body>
+</html>

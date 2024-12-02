@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/stylenext.css">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="static/css/page_home.css">
+        <script src="static/js/page_home.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <style>
+        a{
+            text-decoration: none;
+            color: #8987A1;
+        }
+        body{
+        background-color: #44B4A00D;
+        background-image: url("static/icons/icon_background_body.svg");
+    }
+    </style>
+<body>
+    
+    <nav id="nav" style="height: 40;">
+        <div id="logo">
+            <a href="http://127.0.0.1:8000/"><img src="static/icons/logo.svg" alt="" width="100%" height="100%"></a>
+        </div>
+        <div
+            style="border-radius: 4px; display: flex;flex-direction: row;justify-content: center;align-items: center;background-color: #9CD7CD4D;height: 25px;width: 60px;border: 2px #f2f3f5 solid;">
+            <img src="" alt="">
+            <p id="duration" >00:00</p>
+        </div>
+    </nav>
+    <main style="display: flex;flex-direction: row;justify-content: center;align-items: center;height: 80vh;">
+        <section>
+            <div
+                style="width: 500px; height: 250px; padding: 12px; border-radius: 12px; background-color:#9CD7CD4D; overflow: hidden; ">
+                <video id="camera" autoplay
+                    style="width: 100%; height: 100%; object-fit: cover;border-radius: 12px;"></video>
+            </div>
+        </section>
+
+        <div id="wave-container" class="hidden">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+
+        <section onclick="alarm()" id="startRecognitionBtn">
+            <div style="height: 180px;width: 310px;">
+                <img src="/static/icons/logo.svg" alt="" srcset="" height="100%" width="100%">
+            </div>
+        </section>
+
+        <section
+            style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px;">
+            <div id="discussions" class="texts"
+                style="scrollbar-width: none; -ms-overflow-style: none; display: flex; flex-direction: column; overflow-y: auto; overflow-x: hidden; height: 270px; width: 320px; border-radius: 12px;">
+            </div>
+
+            <div style="width: 300px; display: flex;flex-direction: column; gap: 15px;">
+
+                <button id="start-camera" type="button"
+                    style="height: 40px; display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 10px; border-radius: 20px; background-color: #f2f3f5; border: 2px #f2f3f5 solid;">
+                    <span id="ondevoice" style="display: none;">
+                        <div id="voice-animation" style="width: 20px; height: 15px;margin-right: 10px;">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </span>
+                    <span id="pressmidlle">
+                        <p>Press the middle button</p>
+                    </span>
+                </button>
+
+                <button id="finish" type="button"
+                    style="padding: 10px;border-radius: 20px;background-color: #008573;border: 2px #f2f3f5 solid;color: white; ">End
+                    interview</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="static/js/scripts2.js"></script>
+
+
+</body>
+
+</html>

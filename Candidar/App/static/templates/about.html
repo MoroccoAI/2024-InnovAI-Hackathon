@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="static/css/page_home.css">
+        <script src="static/js/page_home.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+
+    <style>
+        a{
+            text-decoration: none;
+            color: #8987A1;
+        }
+        body{
+        background-color: #44B4A00D;
+        background-image: url("static/icons/icon_background_body.svg");
+    }
+    </style>
+<body>
+    <nav id="nav">
+        <div id="logo">
+            <a href="http://127.0.0.1:8000/"><img src="static/icons/logo.svg" alt="" width="100%" height="100%"></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="http://127.0.0.1:8000/" >Home</a> </li>
+                <li ><a href="http://127.0.0.1:8000/about" style="color: #252432;">About</a></li>
+                <li><a href="http://127.0.0.1:8000/how">How it Works</a></li>
+            </ul>
+        </div>
+        <div>
+            <button onclick="triggerLink()"  id="btn_start"><b>Get Started</b></button>
+        </div>
+    </nav>
+    
+
+
+    <main style="display: flex;flex-direction: row;justify-content: center;align-items: center;gap: 300px;height: 85vh;">
+
+        <section style="width: 410px; display: flex;flex-direction: column;">
+
+            <div>
+                <h2 style="
+                font-family: 'Raleway', sans-serif;
+                font-size: 40px;
+                font-weight: 700px;">
+                    About Us - CandiDar
+                </h2>
+                <p style="
+                width: 729px;
+                font-family: 'Inter', sans-serif;
+                color: #8987A1;
+                width: 500px;
+                ">
+                    CandiDar is a Moroccan platform offering unlimited  interview practice. Inspired by the concept of home, a place of safety and support in Moroccan culture, CandiDar combines Candi (Candidate) and Dar (home in Arabic). We provide a nurturing space where candidates can practice, learn from mistakes, and build confidence at their own pace—anytime, anywhere.
+                </p>
+            </div>
+    
+            <div>
+                <h2 style="
+                font-family: 'Raleway', sans-serif;
+                font-size: 40px;
+                font-weight: 700px;">
+                    Our vision
+                </h2>
+                <p style="
+                width: 729px;
+                font-family: 'Inter', sans-serif;
+                color: #8987A1;
+                width: 500px;
+                ">
+                    To empower Moroccan graduates by offering a platform for mock interviews and constructive feedback, helping them secure their dream job amidst the challenges of the Moroccan job market.
+                </p>
+            </div>
+
+        </section>
+
+        <section style="display: flex;flex-direction: row;gap: 20px;justify-content: center;align-items: center;">
+            <div style="padding: 12px; display: flex;justify-content: center;align-items: center;flex-direction: column; background-color:#9CD7CD4D;border-radius: 12px;height: 200px;width: 150px;">
+                <p style="color: #8987A1; text-align: center;font-family: 'Inter', sans-serif;"> <span style="color: #008573;font-family: 'Raleway', sans-serif;font-size: 25px;"><b>90k+ Grads/Year</b> </span><br>High talent production </p>
+            </div>
+            <div style="display: flex;flex-direction: column;gap: 20px;">
+                <div style="display: flex;flex-direction: column;justify-content: center;align-items: center; background-color:#9CD7CD4D;border-radius: 12px;text-align: center;height: 150px;width: 195px;">
+                    <p style="color: #8987A1; font-family: 'Inter', sans-serif;"><b style="color: #008573;font-family: 'Raleway', sans-serif;font-size: 25px;">25.9% Unemployment</b> Graduate integration crisis</p>
+                </div>
+                
+                <div style="display: flex;flex-direction: column;justify-content: center;align-items: center; background-color:#9CD7CD4D;border-radius: 12px;text-align: center;height: 150px;width: 195px;">
+                    <p style="
+                    width: 729px;
+                    font-family: 'Inter', sans-serif;
+                    color: #8987A1;
+                    width: 500px;
+                    "><b style="color: #008573;font-family: 'Raleway', sans-serif;font-size: 25px;">70% Graduates</b><br>Lack Interview Skills</p>  
+                </div>
+            </div>
+
+        </section>
+
+        
+
+
+    </main>
+
+    <script>
+        function triggerLink() {
+    window.location.href = "http://127.0.0.1:8000/start";
+    }
+    </script>
+    
+    
+</body>
+</html>

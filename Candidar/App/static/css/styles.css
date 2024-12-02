@@ -1,0 +1,131 @@
+      /* Conteneur des ondes */
+      #wave-container {
+          position: absolute;
+          display: flex;
+          /* Utilisation de flexbox pour aligner les ondes horizontalement */
+          justify-content: center;
+          align-items: center;
+          left: 58%;
+          top: 43%;
+          transform: translateX(-50%) rotate(90deg);
+          /* Rotation de 90 degrés */
+          /* Centrage horizontal */
+          height: 50px;
+          /* Hauteur réduite pour un alignement horizontal */
+          margin: 20px auto;
+      }
+
+      /* Style pour chaque onde */
+      .wave {
+          width: 15px;
+          /* Ajustez la taille pour plus de visibilité */
+          height: 15px;
+          margin: 0 10px;
+          /* Espacement horizontal entre les ondes */
+          background-color: #008573;
+          border-radius: 50%;
+          animation: wave 1.5s infinite;
+      }
+
+      /* Définition de l'animation */
+      @keyframes wave {
+
+          0%,
+          100% {
+              transform: scale(1);
+              opacity: 1;
+          }
+
+          50% {
+              transform: scale(2);
+              opacity: 0.3;
+          }
+      }
+
+      /* Synchronisation des ondes */
+      .wave:nth-child(1) {
+          animation-delay: 0s;
+      }
+
+      .wave:nth-child(2) {
+          animation-delay: 0.2s;
+      }
+
+      .wave:nth-child(3) {
+          animation-delay: 0.4s;
+      }
+
+      li {
+          list-style: none;
+      }
+
+      a {
+          text-decoration: none;
+          color: #3a414a;
+          cursor: pointer;
+      }
+
+
+      .discussion {
+          width: 300px;
+          padding: 10px;
+          margin-bottom: 10px;
+          border-radius: 5px;
+      }
+
+      .words {
+          word-wrap: break-word;
+          margin: 0;
+      }
+
+      .reply {
+          border-radius: 4px;
+          padding: 12px;
+          width: 100%;
+          background-color: #44B4A00D;
+      }
+
+      .error {
+          color: #008573;
+          font-weight: bold;
+      }
+
+
+      #voice-animation {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          width: 100px;
+          height: 100px;
+      }
+
+      .circle {
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background-color: #e81313;
+          /* Couleur de l'onde */
+          border-radius: 50%;
+          animation: pulse 1.5s infinite ease-in-out;
+      }
+
+      .circle:nth-child(2) {
+          animation-delay: 0.3s;
+      }
+
+      .circle:nth-child(3) {
+          animation-delay: 0.6s;
+      }
+
+      @keyframes pulse {
+          0% {
+              transform: scale(1);
+              opacity: 1;
+          }
+
+          100% {
+              transform: scale(2.5);
+              opacity: 0;
+          }
+      }

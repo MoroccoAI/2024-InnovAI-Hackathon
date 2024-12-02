@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="static/css/styles.css">
+        <link rel="stylesheet" href="static/css/stylenext.css">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="static/css/page_home.css">
+        <script src="static/js/page_home.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <style>
+        a{
+            text-decoration: none;
+            color: #8987A1;
+        }
+        body{
+        background-color: #44B4A00D;
+        background-image: url("static/icons/icon_background_body.svg");
+    }
+    </style>
+<style>
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+   
+</style>
+<style>
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #3a414a;
+        cursor: pointer;
+    }
+   
+</style>
+<style>
+    a{
+        text-decoration: none;
+        color: #8987A1;
+    }
+    body{
+    background-color: #44B4A00D;
+    background-image: url("static/icons/icon_background_body.svg");
+}
+</style>
+<body>
+
+    <script>
+        function triggerLink() {
+    window.location.href = "http://127.0.0.1:8000/start";
+    }
+    </script>
+    <nav id="nav">
+        <div id="logo">
+            <a href="http://127.0.0.1:8000/"><img src="static/icons/logo.svg" alt="" width="100%" height="100%"></a>
+        </div>
+    </nav>
+  
+
+    <main style="justify-content: center;align-items: center; display: flex;flex-direction: column;">
+    
+    <div style="width: 150vh;color: #008573;">
+        <h3>Congratulation!</h3>
+    </div>
+
+    <div style="width: 150vh;">
+        <h4>Here is your interview feedback</h4>
+    </div>
+
+    <section style="display: flex;flex-direction: row;width: 150vh;gap: 12px; justify-content:space-between;">
+        
+
+        <div style="gap: 12px; border-right: 1px black solid;display: flex;flex-direction:row;padding-right: 20px;justify-content: center;align-items: center;">
+            <div style=" display: flex;flex-direction:column;">
+                <div style="display: flex;flex-direction: row;gap: 10px;align-items: center;">
+                    <p>job role -</p>
+                    <p id="jobrole" style="color: #008573;"></p>
+                    
+                </div>
+                <div style="display: flex;flex-direction:row;gap: 10px;justify-content: center;align-items: center;">
+                    <p>interviewer -  </p>
+                    <p id="namerole" style="color: #008573;"></p>
+                </div>
+            </div>
+            <script>
+                let namerol = document.getElementById("namerole");
+                namerol.innerHTML=localStorage.getItem("interviewer");
+            </script>
+            <div style=" display: flex;flex-direction:column;gap: 2px;justify-content: center;align-items: center;">
+                    <div class="progress-circle" style="width: 100px;height: 100px;" >
+                        <div class="timer"  style="color: #99e9a0;"><span id="timer">10</span>%</div>
+                        <svg>
+                          <circle cx="50" cy="50" r="45"></circle>
+                          <circle cx="50" cy="50" r="45" id="progress"></circle>
+                        </svg>
+                      </div>
+                
+                      <div>
+                        <p>Over all score</p>
+                      </div>
+            </div>
+        </div>
+
+        <style>
+           
+        
+        
+        
+        circle {
+          fill: none;
+          stroke-width: 10;
+        }
+        
+        circle:first-of-type {
+          stroke: #99e9a0; /* Couleur du fond */
+        }
+        
+        #progress {
+          stroke: #54c45e; /* Couleur de progression */
+          stroke-dasharray: 283; /* Circumference du cercle (2 * Math.PI * 45) */
+          stroke-dashoffset: 283; /* Par défaut, tout est masqué */
+          transition: stroke-dashoffset 0.1s linear;
+        }
+        
+        .timer {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-left: 12px;
+          transform: translate(-50%, -50%);
+          font-size: 24px;
+          font-weight: bold;
+          color: #333;
+        }
+        
+        </style>
+
+          
+        <div style="border-right: 1px black solid; display: flex;flex-direction:column;padding-right: 20px;">
+            <div style="display: flex;flex-direction: row;gap: 102px;justify-content: center;align-items: center;">
+                <p>MCQ test</p>
+                <img src="/static/icons/check_blue.svg" alt="" width="25px" height="24px">
+                
+            </div>
+            <div style="display: flex;flex-direction:row;gap: 102px;justify-content: center;align-items: center;">
+                <p>interview </p>
+                <img src="/static/icons/check_blue.svg" alt="" width="25px" height="24px">
+            </div>
+        </div>
+
+
+        <div style=" display: flex;flex-direction:column;padding-right: 20px;">
+            <div style="display: flex;flex-direction: row;gap: 102px;justify-content: center;align-items: center;">
+                <p>MCQ test  - </p>
+                <p  style="color: #54c45e;"><span id="testnote"></span><span>%</span></p>
+                
+            </div>
+            <div style="display: flex;flex-direction:row;gap: 102px;justify-content: center;align-items: center;">
+                <p>interview  -  </p>
+                <p style="color:#e81313;"><span id="interviewnote"></span><span>%</span></p>
+            </div>
+        </div>
+
+       
+
+<style>
+    .question-container {
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    .question-details p {
+        margin: 0;
+    }
+
+    button.details-btn {
+        background-color: #008573;;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button.details-btn:hover {
+        background-color: #4e4ac4;
+    }
+</style>
+
+        
+    </section>
+
+
+    <div style="width: 150vh; margin-top: 20px;">
+        <p>Find bellow interview question with correct answer, your answer and feedback for improvement </p>
+    </div>
+
+    <div style="width: 150vh; display: flex;flex-direction: column;gap: 15px;">
+            <div>
+                <h3>Scores</h3>
+            </div>
+    
+            <div style="gap: 20px; align-items: center; border-radius: 18px; flex-direction:column;display: flex;border: 2px #6db1ff solid;">                                                                                               
+                
+                <div style="width: 750px; height: 50px;align-items: center;  padding-right: 12px;padding-left: 12px; justify-content: space-between; display: flex;flex-direction: row;">
+                    <div style="gap: 60px; align-items: center; display: flex;flex-direction: row;">
+                        <p>MCQ test report</p>
+                    <p style="color: #54c45e;" ><span id="testnote2"></span><span>%</span></p>
+                    </div>
+                    
+                    <div style="align-items: center; display: flex;flex-direction: row;gap: 10px;">
+                        <p style="color: #008573;">view  details </p>
+                        <select name="" id="" style="height: 20px; width: 20px;border-radius: 20px;border: 2px #008573 solid ;" ></select>
+                    </div>
+                </div>
+                
+                <div id="quiz_main-container" style="display: flex;flex-direction: column;gap: 20px;width: 750px;"></div> 
+            </div>
+
+            <div style="gap: 20px; align-items: center; border-radius: 18px; flex-direction:column;display: flex;border: 2px #6db1ff solid;">
+
+                <div style="width: 750px; height: 50px;align-items: center;  padding-right: 12px;padding-left: 12px; justify-content: space-between; display: flex;flex-direction: row;">
+                    <div style="gap: 60px; align-items: center; display: flex;flex-direction: row;">
+                        <p>Interview report</p>
+                    <p style="color: #54c45e;" ><span id="interviewnote2"></span><span>%</span></p>
+                    </div>
+                    
+                    <div style="align-items: center; display: flex;flex-direction: row;gap: 10px;">
+                        <p style="color: #008573;;">view  details </p>
+                        <select name="" id="" style="height: 20px; width: 20px;border-radius: 20px;border: 2px #008573 solid ;" ></select>
+                    </div>
+                </div>
+
+                
+                <div id="quiz-container" style="display: flex;flex-direction: column;gap: 20px;width: 750px;"></div> 
+
+            </div>
+    </div>
+
+    </main>
+
+    <div style="width: 180vh;color: #008573;; display: flex;flex-direction: row;justify-content: flex-end;margin-top: 20px;margin-bottom: 20px;">
+        <button onclick="gohome()" type="button" style="color: white; width: 150px;height: 35px; background-color: #008573;;border-radius: 20px;border: 2px #dfe3e8 solid;">Go Home</button>
+    </div>
+
+    <script>
+        function gohome() {
+    window.location.href = "http://127.0.0.1:8000/";
+    }
+    </script>
+    
+
+
+  <script src="/static/js/congrate.js"></script>
+</body>
+</html>

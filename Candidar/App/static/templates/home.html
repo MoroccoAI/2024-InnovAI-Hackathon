@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/page_home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<style>
+    a{
+        text-decoration: none;
+        color: #8987A1;
+    }
+    body{
+    background-color: #44B4A00D;
+    background-image: url("static/icons/icon_background_body.svg");
+}
+</style>
+<body>
+    <nav id="nav">
+        <div id="logo">
+            <a href="http://127.0.0.1:8000/"><img src="static/icons/logo.svg" alt="" width="100%" height="100%"></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="http://127.0.0.1:8000/" style="color: #252432;">Home</a> </li>
+                <li ><a href="http://127.0.0.1:8000/about">About</a></li>
+                <li><a href="http://127.0.0.1:8000/how">How it Works</a></li>
+            </ul>
+        </div>
+        <div>
+            <button onclick="triggerLink()"  id="btn_start"><b>Get Started</b></button>
+        </div>
+    </nav>
+
+    <main id="main">
+
+        <section id="s_1">
+                <p id="h_block"><b>The Home for Ambitious Candidates in Morocco </b><span><p id="p_block">Whether you’re just starting or looking to level up, CandiDar offers unique tools to practice ,improve, and excel in every interview. Take control of your future today!</p></span></p>
+                
+                
+            <div>
+                <button onclick="triggerLink()"  id="btn_start2"><b>Get Started</b></button>
+            </div>
+        </section>
+
+        <section id="s2">
+            <div id="app_view">
+                <!-- <img src="icons/icon_background_body.svg" alt="" srcset="" style="position: absolute;top: 0%;right: 9%;"> -->
+                <p style="width: 150px;position: absolute;top: 116%;right:40%;font-size: 12px;font-weight: 400px;font-family: 'Inter', sans-serif;">Don’ t worry I’ll help you prepare and build your confidence!</p>
+                <img id="ico_1" src="static/icons/main_app.svg" alt="" srcset="">
+                <img id="ico_2" src="static/icons/main_app2.svg" alt="" srcset="" height="40%" width="50%">
+            </div>
+        </section>
+
+       
+       
+
+    </main>
+
+
+    <script>
+        function triggerLink() {
+    window.location.href = "http://127.0.0.1:8000/start";
+    }
+    </script>
+
+
+</body>
+</html>
+
+
