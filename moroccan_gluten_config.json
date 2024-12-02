@@ -1,0 +1,7 @@
+{
+    "recipe_database_path": "data/moroccan_recipes.csv",
+    "product_catalog_path": "data/moroccan_products.csv",
+    "nutritional_database_path": "data/nutritional_ref.csv",
+    "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "translation_model": "facebook/mbart-large-cc25"
+}

@@ -1,0 +1,38 @@
+{
+  "original_response": "نتائج البحث:\n- Couscous: يحتوي على الغلوتين\n  مصادر الغلوتين:\n    * wheat\n    * semolina\n  بدائل مقترحة:\n    * quinoa\n    * rice\n    * corn couscous\n- Pastilla: يحتوي على الغلوتين\n  مصادر الغلوتين:\n    * wheat\n- Moroccan Bread: يحتوي على الغلوتين\n  مصادر الغلوتين:\n    * wheat\n  بدائل مقترحة:\n    * corn bread\n    * rice bread\n",
+  "reshaped_response": ":ﺚﺤﺒﻟﺍ ﺞﺋﺎﺘﻧ\nﻦﻴﺗﻮﻠﻐﻟﺍ ﻰﻠﻋ ﻱﻮﺘﺤﻳ :Couscous -\n:ﻦﻴﺗﻮﻠﻐﻟﺍ ﺭﺩﺎﺼﻣ  \nwheat *    \n    * semolina\n:ﺔﺣﺮﺘﻘﻣ ﻞﺋﺍﺪﺑ  \nquinoa *    \n    * rice\n    * corn couscous\nﻦﻴﺗﻮﻠﻐﻟﺍ ﻰﻠﻋ ﻱﻮﺘﺤﻳ :- Pastilla\n:ﻦﻴﺗﻮﻠﻐﻟﺍ ﺭﺩﺎﺼﻣ  \nwheat *    \nﻦﻴﺗﻮﻠﻐﻟﺍ ﻰﻠﻋ ﻱﻮﺘﺤﻳ :- Moroccan Bread\n:ﻦﻴﺗﻮﻠﻐﻟﺍ ﺭﺩﺎﺼﻣ  \nwheat *    \n:ﺔﺣﺮﺘﻘﻣ ﻞﺋﺍﺪﺑ  \ncorn bread *    \n    * rice bread\n",
+  "results": [
+    {
+      "item_name": "Couscous",
+      "contains_gluten": true,
+      "gluten_sources": [
+        "wheat",
+        "semolina"
+      ],
+      "alternatives": [
+        "quinoa",
+        "rice",
+        "corn couscous"
+      ]
+    },
+    {
+      "item_name": "Pastilla",
+      "contains_gluten": true,
+      "gluten_sources": [
+        "wheat"
+      ],
+      "alternatives": []
+    },
+    {
+      "item_name": "Moroccan Bread",
+      "contains_gluten": true,
+      "gluten_sources": [
+        "wheat"
+      ],
+      "alternatives": [
+        "corn bread",
+        "rice bread"
+      ]
+    }
+  ]
+}

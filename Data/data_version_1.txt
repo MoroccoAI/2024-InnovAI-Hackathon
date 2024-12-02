@@ -1,0 +1,4877 @@
+Ingredient: Wheat flour.
+Wheat flour is a finely ground powder made from wheat grains. It is commonly used in baking bread, cakes, and pastries.
+Gluten Content: High.
+Risk: This ingredient is unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+
+Ingredient: Rice flour.
+Rice flour is made from finely milled rice and is often used as a gluten-free alternative in cooking and baking.
+Gluten Content: None.
+Risk: This ingredient is safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Barley.
+Barley is a cereal grain that is commonly used in soups, stews, and brewing. It contains high levels of gluten.
+Gluten Content: High.
+Risk: This ingredient is unsafe for people with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+
+Ingredient: Corn flour.
+Corn flour is made from finely ground corn kernels. It is widely used in gluten-free baking and cooking.
+Gluten Content: None.
+Risk: This ingredient is safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Oats.
+Oats are naturally gluten-free, but they are often processed in facilities that handle wheat, which can lead to cross-contamination.
+Gluten Content: Low (due to contamination).
+Risk: May cause mild symptoms in individuals with gluten intolerance.
+Label: Not Safe.
+
+
+Ingredient: Carbohydrates.
+Carbohydrates are one of the three macronutrients that provide energy to the body. They are found in foods like grains, fruits, and vegetables. Carbohydrates themselves do not contain gluten, but the way they are processed or the foods they are found in may.
+Gluten Content: None (unless processed with gluten-containing products).
+Risk: Generally safe for individuals with gluten intolerance, but cross-contamination may occur depending on processing methods.
+Label: Safe.
+
+Ingredient: Sugars.
+Sugars are simple carbohydrates that provide a quick source of energy. They occur naturally in fruits, vegetables, and dairy products but are also added to many processed foods. Sugars themselves do not contain gluten.
+Gluten Content: None.
+Risk: Safe for people with gluten intolerance or celiac disease. However, some processed sugars may come from wheat-based sources, so it's important to check labels.
+Label: Safe.
+
+
+Ingredient: Fiber.
+Fiber is a type of carbohydrate that is not digested by the body. It is important for digestive health and is found in whole grains, fruits, and vegetables. Fiber from gluten-free sources is safe for individuals with gluten intolerance.
+Gluten Content: None (from gluten-free sources).
+Risk: Safe for people with gluten intolerance. However, fiber from gluten-containing grains like wheat should be avoided.
+Label: Safe.
+
+
+Ingredient: Proteins.
+Proteins are essential macronutrients made up of amino acids. They are found in meat, fish, dairy, legumes, and certain grains. Gluten itself is a protein found in wheat, barley, and rye, but other proteins do not contain gluten.
+Gluten Content: None (unless derived from gluten-containing grains).
+Risk: Safe for people with gluten intolerance, unless derived from wheat, barley, or rye.
+Label: Safe.
+
+
+Ingredient: Salt.
+Salt is a mineral composed primarily of sodium chloride and is commonly used to enhance the flavor of foods. Salt does not contain gluten.
+Gluten Content: None.
+Risk: Safe for people with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Sodium.
+Sodium is a mineral found in salt and is essential for maintaining fluid balance and nerve function in the body. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for people with gluten intolerance.
+Label: Safe.
+
+
+
+Ingredient: Alcohol.
+Alcohol is a chemical compound produced during fermentation. While most alcoholic beverages do not contain gluten, some may be brewed with wheat, barley, or rye. Beverages like beer and whiskey may contain gluten, while distilled spirits like vodka are typically gluten-free.
+Gluten Content: Varies (some alcoholic drinks contain gluten, others do not).
+Risk: People with gluten intolerance should avoid alcoholic beverages made from wheat, barley, or rye. Distilled spirits (like vodka and rum) are usually safe.
+Label: Safe (for distilled alcohols, unless otherwise specified).
+
+
+
+Ingredient: Energy.
+Energy refers to the fuel the body receives from food, which includes carbohydrates, fats, and proteins. Energy itself is not a food ingredient but a result of metabolism.
+Gluten Content: None.
+Risk: Safe for people with gluten intolerance.
+Label: Safe.
+
+
+
+
+Ingredient: Palmitic acid.
+Palmitic acid is a saturated fatty acid found in palm oil, animal fats, and some plant-based oils. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for people with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+
+Ingredient: Arachidic acid.
+Arachidic acid is a saturated fatty acid found in peanut oil and other plant-based oils. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for people with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Ferments lactiques.
+Ferments lactiques are live bacteria cultures used in the fermentation of dairy products like yogurt and cheese. They do not contain gluten, as they are derived from bacteria.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Présure.
+Présure, or rennet, is an enzyme used in cheese-making to curdle milk. It is typically derived from animals or microbial sources and does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sel.
+Sel, or salt, is a mineral primarily composed of sodium chloride and is widely used as a seasoning. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lait frais.
+Lait frais, or fresh milk, is a natural dairy product that does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sucre.
+Sucre, or sugar, is a sweetener commonly derived from sugarcane or sugar beets. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre de lait écrémé.
+Poudre de lait écrémé, or skim milk powder, is a dehydrated form of non-fat milk. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Texturant (Amidon).
+Amidon, or starch, is often used as a texturizing agent in food. Starch from gluten-free sources such as corn, potato, or rice is safe, but starch derived from wheat is not.
+Gluten Content: Varies (depends on the source).
+Risk: Safe if sourced from gluten-free ingredients. Always verify the source for individuals with gluten intolerance or celiac disease.
+Label: Safe (if gluten-free).
+
+Ingredient: Crème.
+Crème, or cream, is a dairy product made from the high-fat layer skimmed from milk. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme.
+Arôme, or flavoring, can be natural or artificial and is used to enhance the taste of foods. While many flavorings are gluten-free, some may use carriers or additives derived from wheat.
+Gluten Content: Varies (depends on the source of the flavoring).
+Risk: Safe if certified gluten-free. Always check labels for individuals with gluten intolerance or celiac disease.
+Label: Safe (if gluten-free).
+
+Ingredient: Ferments lactiques sélectionnés.
+Ferments lactiques sélectionnés are carefully selected bacterial cultures used in the fermentation of dairy products like yogurt and cheese. These do not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Matière grasse 3%.
+Matière grasse 3%, or 3% fat, refers to the fat content in a product, typically dairy-based like milk. Fat itself does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Matière grasse végétale.
+Matière grasse végétale, or vegetable fat, is derived from plant oils such as palm, sunflower, or coconut. It does not naturally contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, but ensure no cross-contamination during processing.
+Label: Safe.
+
+Ingredient: Protéines de lait.
+Protéines de lait, or milk proteins, are derived from dairy products such as casein or whey. They do not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fromage.
+Fromage, or cheese, is made by curdling milk with enzymes like rennet. Natural cheese does not contain gluten, but processed cheese may include gluten-containing additives.
+Gluten Content: None (for natural cheese).
+Risk: Safe if natural; processed cheese should be checked for gluten-containing additives.
+Label: Safe (natural), with caution for processed varieties.
+
+Ingredient: Sels (E450, E341, E452).
+These are food additives used as stabilizers, emulsifiers, or acidity regulators:
+
+E450: Diphosphates.
+E341: Calcium phosphates.
+E452: Polyphosphates.
+All are gluten-free by nature.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+Ingredient: Acide citrique.
+Acide citrique, or citric acid, is a natural compound used as a preservative or flavor enhancer. It is commonly derived from citrus fruits or fermentation. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vitamine A.
+Vitamin A is a fat-soluble vitamin essential for vision, immune function, and skin health. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vitamine D3.
+Vitamin D3 is a fat-soluble vitamin crucial for calcium absorption and bone health. It does not contain gluten but check supplements for gluten-containing fillers.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, if sourced from gluten-free supplements.
+Label: Safe.
+
+Ingredient: Eau purifiée (Aquafina HydRO-7).
+Purified water, such as Aquafina HydRO-7, undergoes a multi-step filtration process to remove impurities. Water does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Framboises.
+Framboises, or raspberries, are naturally gluten-free fruits rich in vitamins and antioxidants.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pâte de cacao.
+Pâte de cacao, or cocoa paste, is a pure form of chocolate made by grinding cocoa beans. It does not contain gluten unless cross-contaminated during processing.
+Gluten Content: None (unless contaminated).
+Risk: Safe for individuals with gluten intolerance or celiac disease if certified gluten-free.
+Label: Safe.
+
+Ingredient: Beurre de cacao.
+Beurre de cacao, or cocoa butter, is the fat extracted from cocoa beans, used in chocolate and cosmetics. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre de cacao.
+Poudre de cacao, or cocoa powder, is made by grinding cocoa beans and removing the fat. It is naturally gluten-free unless processed in facilities handling gluten.
+Gluten Content: None (unless contaminated).
+Risk: Safe for individuals with gluten intolerance or celiac disease if certified gluten-free.
+Label: Safe.
+
+Ingredient: Émulsifiant (Lécithine de soja E322).
+Lécithine de soja, or soy lecithin, is an emulsifier commonly used in processed foods. It is gluten-free as it is derived from soybeans.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme vanille.
+Arôme vanille, or vanilla flavoring, can be natural or synthetic. It is generally gluten-free unless processed with gluten-containing additives.
+Gluten Content: None (unless additives are present).
+Risk: Safe for individuals with gluten intolerance or celiac disease if verified gluten-free.
+Label: Safe.
+
+Ingredient: Myrtilles.
+Myrtilles, or blueberries, are naturally gluten-free fruits rich in antioxidants and vitamins.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Jus de citron concentré.
+Jus de citron concentré, or concentrated lemon juice, is naturally gluten-free and used as a flavoring or preservative.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Gélifiant (Pectines).
+Pectines, or pectins, are natural gelling agents derived from fruits like apples and citrus. They do not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Extraits de thés (0,12%).
+Extraits de thés, or tea extracts, are derived from tea leaves and are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Acidifiant (Acide citrique).
+Acide citrique, or citric acid, is a natural compound used to add acidity or preserve foods. It does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme naturel de menthe.
+Arôme naturel de menthe, or natural mint flavoring, is derived from mint plants and is gluten-free unless mixed with gluten-containing carriers.
+Gluten Content: None (unless additives are present).
+Risk: Safe for individuals with gluten intolerance or celiac disease if verified gluten-free.
+Label: Safe.
+
+Ingredient: Extrait de menthe du Maroc.
+Extrait de menthe du Maroc, or Moroccan mint extract, is derived from mint leaves and is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Antioxydant (Acide ascorbique).
+Acide ascorbique, or ascorbic acid, is a natural antioxidant (Vitamin C) used to preserve foods and beverages. It is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Raisins rouges.
+Raisins rouges, or red grapes, are naturally gluten-free fruits.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sulfites (E220).
+Sulfites, or E220, are preservatives used in foods and beverages like wine and dried fruits. They are gluten-free but may cause allergic reactions in sensitive individuals.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, but check for allergic sensitivity.
+Label: Safe.
+
+Ingredient: Viande de dinde.
+Viande de dinde, or turkey meat, is naturally gluten-free. However, processed turkey products (e.g., deli meats) may contain gluten additives.
+Gluten Content: None (for natural turkey).
+Risk: Safe for individuals with gluten intolerance or celiac disease if unprocessed. Verify labels for processed turkey.
+Label: Safe (natural), with caution for processed products.
+
+Ingredient: Fécule.
+Fécule, or starch, is often used as a thickener or stabilizer in foods. Gluten content depends on the source: corn, potato, or rice starch is gluten-free, but wheat starch is not.
+Gluten Content: Varies (depends on the source).
+Risk: Safe if sourced from gluten-free ingredients. Always verify for individuals with gluten intolerance or celiac disease.
+Label: Safe (if gluten-free).
+
+
+Ingredient: Protéines de soja.
+Protéines de soja, or soy proteins, are derived from soybeans and are commonly used as a protein source in vegetarian and vegan products. They are gluten-free unless processed with gluten-containing additives.
+Gluten Content: None (unless cross-contaminated).
+Risk: Safe for individuals with gluten intolerance or celiac disease if certified gluten-free.
+Label: Safe.
+
+Ingredient: Sel nitrité (0,6% de nitrite de sodium E250).
+Sel nitrité, or nitrite salt, is used as a preservative and color stabilizer in processed meats. Sodium nitrite (E250) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sucres.
+Sucres, or sugars, are sweeteners derived from sugarcane or sugar beets. They are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Épaississant (E407).
+E407, or carrageenan, is a thickener derived from red seaweed. It is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Stabilisants (E450-E451).
+
+E450 (Diphosphates) and E451 (Triphosphates) are food stabilizers used to improve texture.
+Both are gluten-free by nature.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+Ingredient: Épices (Exhausteur de goût E621).
+Épices, or spices, with E621 (Monosodium Glutamate - MSG), are used to enhance flavor. Both MSG and natural spices are gluten-free unless mixed with gluten-containing carriers.
+Gluten Content: None (unless additives are present).
+Risk: Safe for individuals with gluten intolerance or celiac disease if gluten-free.
+Label: Safe.
+
+Ingredient: Antioxydant (E300-E301).
+
+E300 (Ascorbic acid) and E301 (Sodium ascorbate) are antioxidants used to preserve food.
+Both are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+Ingredient: Fumé.
+Fumé, or smoked flavoring, can vary in gluten content depending on whether additives or carriers are used in the smoking process.
+Gluten Content: Varies (depends on additives).
+Risk: Safe if naturally smoked or certified gluten-free. Always verify for individuals with gluten intolerance or celiac disease.
+Label: Safe (if gluten-free).
+
+Ingredient: Tomates Cocktail.
+Tomates Cocktail, or cocktail tomatoes, are naturally gluten-free fruits.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Eau minérale naturellement gazeuse.
+Eau minérale naturellement gazeuse, or naturally sparkling mineral water, does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lait entier enrichi en crème.
+Lait entier enrichi en crème, or whole milk enriched with cream, is a dairy product that does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Préparation de céréales.
+Préparation de céréales, or cereal preparations, may vary in gluten content depending on the type of grain used. Wheat, barley, and rye contain gluten, while rice, corn, and oats are gluten-free if uncontaminated.
+Gluten Content: Varies.
+Risk: Safe if made from gluten-free grains and certified gluten-free.
+Label: Safe (if gluten-free).
+
+Ingredient: Fibres.
+Fibres, or dietary fibers, are typically derived from plant sources like fruits, vegetables, and grains. Gluten content depends on the source.
+Gluten Content: Varies.
+Risk: Safe if sourced from gluten-free ingredients. Always verify for individuals with gluten intolerance or celiac disease.
+Label: Safe (if gluten-free).
+
+Ingredient: Arômes.
+Arômes, or flavorings, may be natural or artificial. They are gluten-free unless mixed with gluten-containing carriers.
+Gluten Content: Varies (depends on additives).
+Risk: Safe if certified gluten-free. Always verify labels for individuals with gluten intolerance or celiac disease.
+Label: Safe (if gluten-free).
+
+
+Ingredient: Colorant naturel.
+Colorant naturel, or natural coloring, is derived from plants, minerals, or other natural sources. It is typically gluten-free unless processed with gluten-containing additives.
+Gluten Content: None (unless contaminated).
+Risk: Safe for individuals with gluten intolerance or celiac disease if certified gluten-free.
+Label: Safe.
+
+Ingredient: Matière grasse (3,4%).
+Matière grasse, or fat content, refers to fats present in food, such as animal or vegetable fats. It does not inherently contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poids net (110g).
+Poids net, or net weight, refers to the total weight of the product. This is not an ingredient but a packaging detail.
+Gluten Content: Not applicable.
+Risk: Not applicable.
+Label: Not applicable.
+
+Ingredient: Anchois (70% marinés).
+Anchois, or anchovies, are small saltwater fish commonly preserved in brine, oil, or vinegar. Naturally, they do not contain gluten unless mixed with gluten-containing sauces or seasonings.
+Gluten Content: None (in pure form).
+Risk: Safe for individuals with gluten intolerance or celiac disease. Verify seasoning for processed anchovies.
+Label: Safe.
+
+Ingredient: Engraulis encrasicolus.
+Engraulis encrasicolus, or European anchovy, is a specific species of anchovy. Like other anchovies, it is gluten-free unless processed with gluten-containing additives.
+Gluten Content: None (in natural form).
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vinaigre d'alcool.
+Vinaigre d'alcool, or distilled vinegar, is gluten-free if derived from gluten-free sources such as corn or sugar. Vinegar made from wheat or barley may not be safe unless distilled.
+Gluten Content: Varies (depends on source).
+Risk: Safe if distilled and certified gluten-free. Verify for individuals with gluten intolerance or celiac disease.
+Label: Safe (if gluten-free).
+
+Ingredient: Acidifiant (E330).
+E330, or citric acid, is a natural acidifier often used in food and beverages. It is gluten-free and commonly derived from citrus fruits or microbial fermentation.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Huile de tournesol (23,4%).
+Huile de tournesol, or sunflower oil, is a vegetable oil extracted from sunflower seeds. It is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Harissa (6,6%).
+Harissa is a spicy chili paste made with ingredients like chili peppers, garlic, and spices. While the base ingredients are gluten-free, cross-contamination or gluten-containing additives can occur.
+Gluten Content: Varies (depends on preparation).
+Risk: Safe if prepared without gluten-containing additives and certified gluten-free.
+Label: Safe (if gluten-free).
+
+Ingredient: Piments piquants rouges.
+Piments piquants rouges, or red chili peppers, are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Citrons confits.
+Citrons confits, or preserved lemons, are lemons fermented with salt and water. They are naturally gluten-free unless mixed with gluten-containing additives.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease if no gluten additives are used.
+Label: Safe.
+
+Ingredient: Coriandre.
+Coriandre, or coriander, is a naturally gluten-free herb used in cooking.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Ail.
+Ail, or garlic, is a naturally gluten-free bulb commonly used as a seasoning.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Eau.
+Eau, or water, is naturally gluten-free and essential in many food preparations.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives (Origine Maroc).
+Olives are small fruits harvested from olive trees. They are naturally gluten-free, though marinated or processed olives may sometimes include gluten-containing additives.
+Gluten Content: None (in natural form).
+Risk: Safe for individuals with gluten intolerance or celiac disease if not cross-contaminated.
+Label: Safe.
+
+Ingredient: Câpres (Origine Maroc).
+Câpres, or capers, are flower buds commonly preserved in brine or vinegar. They are naturally gluten-free unless cross-contaminated during processing.
+Gluten Content: None (in natural form).
+Risk: Safe for individuals with gluten intolerance or celiac disease. Verify if packaged with other ingredients.
+Label: Safe.
+
+Ingredient: Sardines (70%).
+Sardines are small, oily fish that are naturally gluten-free. Processed sardines with added sauces or seasonings may need verification for gluten content.
+Gluten Content: None (in pure form).
+Risk: Safe for individuals with gluten intolerance or celiac disease if not processed with gluten-containing ingredients.
+Label: Safe.
+
+Ingredient: Good Food Godf Neste.
+This appears to be a brand or specific product name. Gluten content depends on the specific ingredients. Verify with the product label or manufacturer.
+Gluten Content: Varies.
+Risk: Verify for individuals with gluten intolerance or celiac disease.
+Label: Safe (if gluten-free).
+
+Ingredient: Texturants (Amidon).
+Texturants like starch (amidon) can be derived from various sources. Starch from wheat, barley, or rye contains gluten, while corn, potato, and tapioca starches are gluten-free.
+Gluten Content: Varies.
+Risk: Safe if derived from gluten-free sources and certified gluten-free.
+Label: Safe (if gluten-free).
+
+Ingredient: Préparation de pulpe de fruits.
+Fruit pulp preparations are made from mashed or blended fruits and are naturally gluten-free unless additives or processing introduce gluten.
+Gluten Content: None (in natural form).
+Risk: Safe for individuals with gluten intolerance or celiac disease if no gluten-containing additives are used.
+Label: Safe.
+
+Ingredient: Correcteur d'acidité (Acide citrique).
+Acide citrique, or citric acid, is a natural acid regulator derived from citrus fruits or microbial fermentation. It is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Framboises (50%).
+Framboises, or raspberries, are naturally gluten-free fruits.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Abricots (50%).
+Abricots, or apricots, are naturally gluten-free fruits.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Présence exceptionnelle de noyaux.
+This refers to the occasional presence of fruit pits. It is not an ingredient but a packaging warning and does not affect gluten content.
+Gluten Content: Not applicable.
+Risk: Not applicable.
+Label: Not applicable.
+
+Ingredient: Composition minérale (en mg).
+This refers to the mineral content in a product, often listed for beverages or waters. Minerals themselves do not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Résidu sec à 110°C (186, 249 mg/L).
+This refers to the dry residue left after evaporation, a measure for water purity. It does not indicate gluten content.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sodium.
+Sodium is a mineral commonly found in salt and does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Calcium.
+Calcium is a mineral essential for bones and is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Magnésium.
+Magnésium, or magnesium, is a mineral used in food fortification and does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sulfates.
+Sulfates are mineral salts that do not contain gluten. They are often present in water or food preservatives.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Chlorures.
+Chlorides, commonly found in salt and other minerals, are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Potassium.
+Potassium is an essential mineral found in many foods. It is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Bicarbonates.
+Bicarbonates, like sodium bicarbonate (baking soda), are gluten-free compounds used in cooking and food preparation.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Nitrates.
+Nitrates are naturally occurring compounds found in vegetables and some processed foods. They are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Clémentines.
+Clémentines are citrus fruits and are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fruits enrobés de cire végétale (E904, E914).
+Fruits coated with vegetable wax are typically gluten-free. However, ensure that the wax and any processing do not include gluten-containing additives.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease if certified gluten-free.
+Label: Safe (if gluten-free).
+
+Ingredient: Imazalil.
+Imazalil is a fungicide used on fruits to prevent spoilage. It is gluten-free but should be washed off before consumption.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease when fruits are thoroughly washed.
+Label: Safe.
+
+Ingredient: Thiabendazole.
+Thiabendazole is another fungicide used to preserve fruits. It is gluten-free but requires thorough washing of treated fruits.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease when fruits are properly cleaned.
+Label: Safe.
+
+Ingredient: Tomates cerise (Origine Maroc).
+Cherry tomatoes are naturally gluten-free and safe to consume.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fromage frais écrémé.
+Skimmed fresh cheese is naturally gluten-free unless additional gluten-containing ingredients are added during production.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease if not cross-contaminated.
+Label: Safe.
+
+Ingredient: Crème pasteurisée.
+Pasteurized cream is naturally gluten-free unless additives are introduced.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Galanga (Rhizome).
+Galanga, a spice related to ginger, is gluten-free and often used in Southeast Asian cuisine.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Cannelle de Ceylan (Écorce).
+Ceylon cinnamon, made from the bark of the cinnamon tree, is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Gingembre (Rhizome).
+Ginger is a rhizome used as a spice and is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fenugrec (Graine).
+Fenugreek seeds are naturally gluten-free and commonly used as a spice or supplement.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Gattilier (Fruit).
+Chasteberry, or gattilier, is a fruit used in herbal remedies and is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Shatavari (Racine).
+Shatavari, a root commonly used in Ayurvedic medicine, is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fenouil (Fruit).
+Fennel fruit (seeds) is naturally gluten-free and used as a spice or tea.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Curcuma (Rhizome).
+Curcuma, also known as turmeric, is a rhizome used as a spice and is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Noix de muscade (Arille).
+Nutmeg, or noix de muscade, is a spice derived from the aril of the nutmeg seed and is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Carvi (Fruit).
+Caraway, or carvi, is a fruit (seed) used in cooking and baking. It is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Aneth (Fruit).
+Dill, or aneth, is a fruit (seed) used as a herb and spice. It is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Mandarine verte (Huile essentielle du péricarpe).
+Green mandarin essential oil, derived from the peel of the mandarin, is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardines (Huile d'olive vierge extra, Sel).
+Sardines preserved in extra virgin olive oil and salt are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardines (Huile de tournesol 28%, Sel, Piment 1%).
+Sardines preserved in sunflower oil, salt, and chili pepper are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardines (Eau, Tomates pelées concassées 9%, Concentré de tomates 9%, Huile d'olive vierge extra 5%, Oignon, Vinaigre d'alcool, Sel, Amidon transformé de maïs).
+Sardines in water with crushed tomatoes, olive oil, onion, vinegar, salt, and corn starch are gluten-free.
+Gluten Content: None (ensure corn starch is gluten-free).
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardines précuites (Huile d'olive vierge extra 29%, Sel).
+Pre-cooked sardines preserved in extra virgin olive oil and salt are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Thon (Huile de soja, Sel).
+Tuna preserved in soybean oil and salt is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes entières (57,3%, Olives vertes, Sel, Acidifiant : Acide lactique).
+Whole green olives with salt and lactic acid are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives noires (13,5%, Olives noires, Sel, Maroc).
+Black olives with salt are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Huile de colza.
+Canola oil (huile de colza) is a plant-based oil that is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poivrons (10,8%).
+Bell peppers (poivrons) are gluten-free vegetables.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Piments (6%).
+Chili peppers (piments) are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Mélange d'épices (Curcuma, Piment fort).
+A spice blend containing turmeric (curcuma) and hot chili pepper (piment fort) is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Herbes de Provence (0,1%, Romarin, Sarriette, Origan, Thym, Basilic).
+Herbes de Provence, a blend of herbs like rosemary, savory, oregano, thyme, and basil, is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fenouil.
+Fennel is a gluten-free vegetable and herb, used both as a vegetable and a spice.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Persil.
+Parsley is a gluten-free herb used as a garnish and flavoring.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes dénoyautées (50,6%, Olives vertes, Sel, Acidifiant : Acide lactique, Grèce).
+Pitted green olives with salt and lactic acid from Greece are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives noires à la grecque dénoyautées (33,8%, Olives noires, Sel, Maroc).
+Pitted black olives from Morocco with salt are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Ail (0,22%).
+Garlic is a gluten-free vegetable used for flavoring.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poivre.
+Pepper is a spice and is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sulfites.
+Sulfites are preservatives used in various foods and are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, but can cause allergic reactions in some individuals.
+Label: Safe (but caution for allergic reactions).
+
+Ingredient: Olives conditionnées sous atmosphère protectrice.
+Olives packaged in a protective atmosphere are gluten-free, but check for any added gluten-containing preservatives.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease if verified.
+Label: Safe (if gluten-free).
+
+Ingredient: Sardines précuites (Huile de tournesol 24%, Rondelle de citron 5%, Sel).
+Pre-cooked sardines preserved in sunflower oil, lemon slices, and salt are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardines précuites (Huile de tournesol 29%, Sel).
+Pre-cooked sardines preserved in sunflower oil and salt are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: MGV (matières grasses végétales).
+Vegetable fats (MGV) are typically gluten-free, but check the specific product to ensure no cross-contamination.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease if certified gluten-free.
+Label: Safe (if gluten-free).
+
+Ingredient: Fromages.
+Cheeses are generally gluten-free unless processed with gluten-containing ingredients or additives.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease if not cross-contaminated.
+Label: Safe (if gluten-free).
+
+Ingredient: Sels de fonte (E331, E339, E450, E452).
+Melting salts (E331, E339, E450, E452) are additives used in food production and are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sel (E202).
+Salt (E202) is typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Olives vertes (Eau, Sel, Acidifiants : Acide citrique, Acide lactique).
+Green olives preserved in water, salt, citric acid, and lactic acid are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardines (Poissons, Sardina pilchardus, Huile d'olive vierge extra 19%, Sel, Origine : UE et non UE, Maroc ou Tunisie).
+Sardines made from Sardina pilchardus, preserved in extra virgin olive oil and salt, are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Tomates cerises allongées.
+Elongated cherry tomatoes are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Rhubarbe rouge 35,7%.
+Red rhubarb is a gluten-free vegetable used in cooking and baking.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine de blé 14,4% (Gluten).
+Wheat flour contains gluten, making it unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: High (Contains Gluten).
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+Ingredient: Sucre 11,6%.
+Sugar is gluten-free and safe for individuals with gluten intolerance.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Cube de fraise 8,1%.
+Strawberry cubes are gluten-free, assuming no gluten-containing additives are present.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Purée de pomme.
+Apple puree is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Beurre 5,8% (Lait).
+Butter, made from milk, is typically gluten-free unless cross-contaminated during processing.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease if not cross-contaminated.
+Label: Safe (if gluten-free).
+
+Ingredient: Purée de fraise 5,4%.
+Strawberry puree is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sucre de canne.
+Cane sugar is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Purée de rhubarbe 2,8%.
+Rhubarb puree is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Œuf issu de poule élevée en plein air 2,4% (Liquide, Pasteurisé).
+Free-range eggs (liquid, pasteurized) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Amidon de maïs.
+Corn starch is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Extrait de pomme.
+Apple extract is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fleur de sel de Guérande.
+Guérande fleur de sel is a type of sea salt and is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Jus concentré de citron.
+Concentrated lemon juice is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Purée de myrtille.
+Blueberry puree is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Câpres 75%.
+Capers are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Vinaigre 7,8%.
+Vinegar is gluten-free, but be mindful of potential additives.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Traces éventuelles de moutarde.
+Potential traces of mustard may contain gluten due to cross-contamination, depending on processing methods.
+Gluten Content: Potential traces (due to cross-contamination).
+Risk: Risky for individuals with severe gluten intolerance or celiac disease.
+Label: Risky (if cross-contaminated).
+
+Ingredient: Nouilles (92,4%) (Farine de blé tendre, Huile végétale de palme, Sel).
+Noodles containing wheat flour have high gluten content.
+Gluten Content: High (Contains Gluten).
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+Ingredient: Stabilisateurs (Carbonate de potassium E501, Polyphosphate de sodium E4521, Carbonate de sodium E500).
+Stabilizers are typically gluten-free, but check specific additives for cross-contamination.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease if not cross-contaminated.
+Label: Safe (if gluten-free).
+
+Ingredient: Épaississant (Guargum E412).
+Guar gum is naturally gluten-free and is used as a thickening agent.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Colorant (Riboflavine/Vitamine B2 E101).
+Riboflavin (Vitamin B2) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Antioxydant (TBHQ E319).
+TBHQ is a synthetic antioxidant that does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre (7,2%) (Sel, Exhausteur de goût E621, Sucre, Extrait de levure, Arôme de légumes artificiel).
+The powder mixture contains gluten in the yeast extract, which may be derived from gluten-containing sources.
+Gluten Content: Potential gluten (due to yeast extract).
+Risk: Risky for individuals with severe gluten intolerance or celiac disease.
+Label: Risky (due to yeast extract).
+
+Ingredient: Poudre de poivre.
+Pepper powder is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre d'ail.
+Garlic powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poireau déshydraté.
+Dehydrated leek is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre d'oignon.
+Onion powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme de citron.
+Lemon flavoring is gluten-free, though check for possible additives.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease if no gluten-containing additives are present.
+Label: Safe (if gluten-free).
+
+Ingredient: Poudre de céleri.
+Celery powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre de curcuma.
+Turmeric powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre de piment (0,4%).
+Chili powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Édulcorants (Maltitol, Sorbitol, E967, Aspartame, Acésulfame-K).
+These sweeteners, while sugar alternatives, are generally gluten-free, but always check for cross-contamination.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease if no cross-contamination.
+Label: Safe (if gluten-free).
+
+Ingredient: Gomme base.
+Gum base is typically gluten-free, but depends on specific additives.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe (if gluten-free).
+
+Ingredient: Épaississant (Gomme arabique).
+Acacia gum is a natural thickener that is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Humectant (Glycérol).
+Glycerol is a gluten-free humectant.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Agent de charge (E341).
+Calcium phosphates are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Émulsifiant (Lécithines de tournesol).
+Sunflower lecithin is gluten-free and commonly used as an emulsifier.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Antioxydant (Ascorbate de sodium).
+Sodium ascorbate (Vitamin C) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Agents d'enrobage (Cire de carnauba, Cire microcristalline).
+Carnauba wax and microcrystalline wax are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Colorant (E120).
+Carmine (E120) is derived from insects and does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Traces de soja.
+Soy can be a source of cross-contamination with gluten, especially if not processed separately.
+Gluten Content: Potential traces (due to cross-contamination).
+Risk: Risky for individuals with severe gluten intolerance or celiac disease.
+Label: Risky (if cross-contaminated).
+
+Ingredient: Tomate ronde.
+Round tomatoes are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vitalya (Eau Majeure triplement purifiée, Faible en sodium, Magnésium, Sels minéraux).
+Purified water and minerals are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Argania spinosa kernel oil (100% Ingrédients issus de l'agriculture biologique, Certifié Cosmos Organic).
+Argan oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine de blé.
+Wheat flour contains gluten.
+Gluten Content: High (Contains Gluten).
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+Ingredient: Huile végétale.
+Vegetable oils (depending on type) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes et violettes (Variantes de légumes, Sel, Acidifiant : E330).
+Olives, whether green or violet, are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine de blé.
+Wheat flour contains gluten.
+Gluten Content: High (Contains Gluten).
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+Ingredient: Sucre.
+Sugar is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Beurre 11% (Fins éclats de caramel, Lait écrémé en poudre).
+Butter is gluten-free; however, the presence of caramel and milk powder may need additional checks for cross-contamination.
+Gluten Content: None (typically, unless cross-contaminated).
+Risk: Safe for individuals with gluten intolerance or celiac disease if no cross-contamination.
+Label: Safe (if gluten-free).
+
+Ingredient: Huiles végétales hydrogénées (Palme).
+Hydrogenated vegetable oils, including palm oil, are typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Amidon.
+Starch is typically gluten-free unless derived from wheat.
+Gluten Content: None (typically, unless wheat starch).
+Risk: Safe for individuals with gluten intolerance or celiac disease (unless wheat-based).
+Label: Safe (if non-wheat).
+
+Ingredient: Œufs entiers liquides pasteurisés.
+Eggs are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lait écrémé en poudre.
+Skimmed milk powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sirop de sucre inverti.
+Invert sugar syrup is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudres à lever (Pyrophosphate acide de sodium, Bicarbonates de sodium, Bicarbonates d'ammonium).
+Leavening agents like sodium acid pyrophosphate and sodium bicarbonate are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sel.
+Salt is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Émulsifiant (Lécithines de soja).
+Soy lecithin is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme (Vanilline).
+Vanillin is typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Contient : Blé (céréales contenant du gluten), Œufs, Soja, Lait.
+Contains wheat (gluten), eggs, soy, and milk.
+Gluten Content: High (Contains Gluten due to wheat).
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+Ingredient: Purée de pomme (99,4% Origine France, Antioxydant : Acide ascorbique).
+Apple puree is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Purée de pomme poire (69,4% pommes, 30% poires Origine France, Espagne, Italie, Antioxydant : Acide ascorbique).
+Apple and pear puree is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Spécialité de fruits pomme framboise aromatisée (84,1% Purée de pommes Origine France, 15% Purée de framboises à base de concentré Origine Pologne, Serbie, Ukraine, Espagne).
+Apple and raspberry flavored fruit specialty is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Purée de pomme pêche (69,6% Purée de pommes Origine France, 30% Purée de pêches Origine Espagne, Italie, Grèce, Turquie, Maroc, Antioxydant : Acide ascorbique, Acidifiant : Acide citrique).
+Apple and peach puree is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes entières (61% Origine Maroc, Espagne, Egypte, Eau, Sel, Acidifiants : Acide lactique, Acide citrique, Antioxydant : Acide ascorbique).
+Whole green olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pommes de terre, Huile végétale, Farine de blé, Arômes, Sucre, Sel, Acide citrique, Acide lactique, Colorant : Extrait de Paprika (Naturel), Exhausteur de goût : E621, E631, E627.
+Contains wheat flour (gluten).
+Gluten Content: High (Contains Gluten due to wheat flour).
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+Ingredient: Framboises Adelita.
+Raspberries are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Here’s the analysis of the new set of ingredients for gluten content:
+
+Ingredient: Citrons (80%), Eau, Sel, Acidifiant : Acide citrique, Conservateur : E223.
+Lemons and citric acid are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Jus d'orange 74%, Eau de coco 21%, Jus de mandarine 5%.
+Orange juice, coconut water, and mandarin juice are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Maquereaux (55%) : (Eau, Concentré de tomate 11%, Huile de tournesol, Sel, Zone de pêche : Océan Atlantique Centre Est).
+Mackerel, tomato concentrate, sunflower oil, and salt are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives noires à la grecque (99% Origine Maroc, Sel, Huile de colza, Acidifiant : Acide lactique).
+Black olives with sunflower oil and lactic acid are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Tomate Cerise Allongées.
+Cherry tomatoes are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine complète de blé, Eau, Levure, Sucre, Huile végétale (Tournesol), Gluten de blé, Sel, Émulsifiants (E481, E472e, E471), Conservateurs (E282, E200, E202), Farine d'orge maltée, Correcteur d'acidité (E270), Agents de traitement de la farine (E300, E341).
+Contains wheat flour and wheat gluten, both of which contain gluten.
+Gluten Content: High (Contains Gluten).
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+Ingredient: Piment 90.
+Chili peppers are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Thé noir infusé.
+Black tea is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Acide ascorbique.
+Ascorbic acid (Vitamin C) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pectine.
+Pectin is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Jus de fruits (orange, ananas, pêche, mangue, pomme).
+Fruit juices (orange, pineapple, peach, mango, apple) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Carboxyméthylcellulose.
+Carboxymethylcellulose is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vitamine C.
+Vitamin C is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Benzoate de sodium.
+Sodium benzoate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Béta carotène.
+Beta carotene is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardines.
+Sardines are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Aromates (carottes, cornichons).
+Spices like carrots and pickles are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Piment.
+Chili is naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine de froment.
+Wheat flour contains gluten.
+Gluten Content: High (Contains Gluten).
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+Ingredient: Œufs pasteurisés.
+Pasteurized eggs are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Dextrose.
+Dextrose is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sorbitol.
+Sorbitol is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Glycérine.
+Glycerin is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sucre inverti.
+Invert sugar is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre de lait.
+Milk powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre de lactosérum.
+Whey powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Agents levants (pyrophosphate de sodium, bicarbonate de sodium).
+Leavening agents like sodium pyrophosphate and sodium bicarbonate are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sorbate de potassium.
+Potassium sorbate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lécithine de soja.
+Soy lecithin is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Gluten.
+Contains gluten.
+Gluten Content: High (Contains Gluten).
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not Safe.
+
+Ingredient: Lait.
+Milk is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Chips (pommes de terre naturelles, goût fromage).
+Natural potato chips with cheese flavor are typically gluten-free unless processed with gluten-containing ingredients.
+Gluten Content: Check specific brand/ingredients for additives, but typically none.
+Risk: Generally safe for individuals with gluten intolerance or celiac disease unless flavored with gluten.
+Label: Safe (Check for additives).
+
+Ingredient: Tomates Cerise (Origine : Maroc).
+Cherry tomatoes are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes (Maroc, Espagne, Grèce).
+Green olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Acidifiants : E270.
+Lactic acid is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Antioxydants : E300.
+Ascorbic acid (Vitamin C) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Extraits de thé (1,1 g/L, dont 0,8 g/L de thé vert).
+Tea extracts are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme naturel.
+Natural flavoring is typically gluten-free, but it can vary by product.
+Gluten Content: Usually none, but check for specific additives.
+Risk: Generally safe for individuals with gluten intolerance or celiac disease.
+Label: Safe (Check ingredients for specific additives).
+
+Ingredient: Arôme naturel de menthe (dont 0,2 g/L extrait de menthe du Maroc).
+Natural mint flavor extract is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Graisses végétales hydrogénées.
+Hydrogenated vegetable fats are typically gluten-free unless contaminated during processing.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe (Check for cross-contamination).
+
+Ingredient: Acide sorbique.
+Sorbic acid is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Acide tartrique.
+Tartaric acid is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Bicarbonate d'ammonium et de sodium.
+Ammonium and sodium bicarbonates are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Cacao en poudre.
+Powdered cocoa is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lactosérum.
+Whey (lactoserum) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Beurre (11%).
+Butter is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lait écrémé en poudre.
+Skim milk powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Huile végétale hydrogénée (palme).
+Hydrogenated vegetable oil (palm) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Amidon.
+Starch can be gluten-free depending on the source. If it's from corn or potato, it’s safe.
+Gluten Content: None (if from corn or potato).
+Risk: Safe for individuals with gluten intolerance or celiac disease (check source).
+Label: Safe (Check source).
+
+Ingredient: Œufs.
+Eggs are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sirop de sucre inverti.
+Invert sugar syrup is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pyrophosphate acide de sodium.
+Sodium acid pyrophosphate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Bicarbonate de sodium.
+Sodium bicarbonate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme (vanilline).
+Vanillin flavor is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lait entier.
+Whole milk is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Préparation de fruits.
+Fruit preparations are typically gluten-free, but check for additives.
+Gluten Content: Usually none, but check for specific additives.
+Risk: Generally safe for individuals with gluten intolerance or celiac disease.
+Label: Safe (Check for additives).
+
+Ingredient: Sirop de fructose.
+Fructose syrup is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Emulsifiants alimentaires (mono et diglycérides d'acides gras, lécithine de soja, esters polyglycériques d'acides gras).
+Food emulsifiers are typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sirop de glucose.
+Glucose syrup is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Dextrose en poudre.
+Powdered dextrose is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sirop de sorbitol.
+Sorbitol syrup is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pâte de noisettes.
+Hazelnut paste is typically gluten-free, unless cross-contaminated.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Stabilisants (amidons modifiés, carboxyméthyl cellulose).
+Modified starches and carboxymethyl cellulose are generally gluten-free, but the source of starch should be checked (corn, potato, or wheat).
+Gluten Content: None (if from corn or potato).
+Risk: Safe for individuals with gluten intolerance or celiac disease (check starch source).
+Label: Safe (Check source).
+
+Ingredient: Sels d'acide propionique.
+Propionic acid salts are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Matériaux hydratants (propylène glycol).
+Propylene glycol is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Régulateur d'acidité (acide citrique).
+Citric acid is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Colorant naturel (caramel).
+Natural caramel color is typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine de maïs.
+Corn flour is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme spicy salsa.
+Spicy salsa flavor is usually gluten-free, but check for specific additives or flavoring agents.
+Gluten Content: Usually none.
+Risk: Generally safe for individuals with gluten intolerance or celiac disease.
+Label: Safe (Check additives).
+
+Ingredient: Maltodextrine.
+Maltodextrin is typically gluten-free unless derived from wheat.
+Gluten Content: None (if derived from corn, potato, or rice).
+Risk: Safe for individuals with gluten intolerance or celiac disease (check source).
+Label: Safe (Check source).
+
+Ingredient: Exhausteur d'goût (glutamate monosodique).
+Monosodium glutamate (MSG) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme ketchup.
+Ketchup flavoring is usually gluten-free, but check for additives or seasonings.
+Gluten Content: Usually none.
+Risk: Generally safe for individuals with gluten intolerance or celiac disease.
+Label: Safe (Check additives).
+
+Ingredient: Arôme chili.
+Chili flavoring is generally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme paprika.
+Paprika flavoring is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Régulateur d'acidité (Acétates de sodium).
+Sodium acetate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Ail en poudre.
+Garlic powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Cumin.
+Cumin is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Colorant (E160c).
+E160c (paprika extract) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Figues (60%).
+Figs are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sucre de canne (45,2%).
+Cane sugar is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pectine (0,5%).
+Pectin is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Jus de citron concentré (1,05%).
+Lemon juice concentrate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Huile d'olive vierge extra.
+Extra virgin olive oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Café soluble.
+Instant coffee is gluten-free unless cross-contaminated.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe (check for cross-contamination).
+
+Ingredient: Fraises.
+Strawberries are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Acidifiant (acide citrique).
+Citric acid is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pectine de fruits.
+Fruit pectin is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine de blé dur.
+Semolina (durum wheat flour) contains gluten.
+Gluten Content: Yes.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Contains gluten.
+
+Ingredient: Poudre d'œufs.
+Egg powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Levure sèche.
+Dry yeast is generally gluten-free, but some brands may contain wheat derivatives as an ingredient.
+Gluten Content: Typically none.
+Risk: Safe (check for wheat derivatives).
+Label: Safe (check for wheat).
+
+Ingredient: Levure chimique.
+Baking powder is typically gluten-free, but some may contain starch derived from wheat.
+Gluten Content: Usually none (check source of starch).
+Risk: Safe (check for wheat-derived starch).
+Label: Safe (check source of starch).
+
+Ingredient: Olives.
+Olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Mandarine Nadorcott.
+Mandarins are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Cire E904.
+Shellac (E904) is a natural resin and gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Mesenes dénoyautées (56%).
+Olives (likely referring to a type of preserved olive) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farce d'anchois (7%).
+Anchovy stuffing is typically gluten-free, but it may contain fillers.
+Gluten Content: None (check for fillers).
+Risk: Generally safe, but check for gluten-containing fillers.
+Label: Safe (Check fillers).
+
+Ingredient: Alginate de sodium.
+Sodium alginate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Antioxydant (acide ascorbique).
+Ascorbic acid (Vitamin C) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Romarin (Turquie, Maroc, Egypte).
+Rosemary is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Basilic (Egypte).
+Basil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Origan (Turquie).
+Oregano is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Marjolaine (Egypte).
+Marjoram is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Thym (Turquie, Allemagne, Tchéquie).
+Thyme is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fenouil (Egypte, Allemagne, Autriche).
+Fennel is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sauge (Turquie, Allemagne, Autriche).
+Sage is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lavande (Autriche, France).
+Lavender is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Feuille de laurier.
+Bay leaves are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fines herbes.
+Fine herbs (typically a blend of herbs like parsley, chives, tarragon, and chervil) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Citron.
+Lemon is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: E330.
+Citric acid (E330) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardina pilchardus.
+Sardines are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Huile de tournesol (29%).
+Sunflower oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives noires à la grecque.
+Black olives (Greek style) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Herbes de Provence
+Herbs de Provence (such as thyme, rosemary, and oregano) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olive noire Beldi
+Beldi black olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives (Maroc, Espagne)
+Olives from Morocco and Spain are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Acidifiant (acide lactique)
+Lactic acid is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives (origine : Maroc, 45,7%)
+Olives from Morocco are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives (Herbes de Provence, sel marin)
+Olives with Herbes de Provence and sea salt are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives du Maroc (89%)
+Moroccan olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Câpres
+Capers are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Semoule de blé réhydratée
+Rehydrated wheat semolina contains gluten.
+Gluten Content: Contains gluten.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Unsafe.
+
+Ingredient: Semoule de blé dur (15,4%)
+Durum wheat semolina contains gluten.
+Gluten Content: Contains gluten.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Unsafe.
+
+Ingredient: Cannelle
+Cinnamon is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Curcuma
+Turmeric is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pilon de poulet (22,8%)
+Chicken drumsticks are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pilon de poulet (origine : France)
+Chicken drumsticks (origin France) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Concentré de tomate
+Tomato concentrate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Préparation à base de jus concentré d'oignon
+Onion concentrate preparation is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Jus concentré d'oignon
+Onion juice concentrate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Oignon (3,7%)
+Onions are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Carotte (3,3%)
+Carrots are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Courgette (3,3%)
+Zucchini (courgette) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Aubergine préfrite (3,3%)
+Pre-fried eggplant is generally gluten-free unless processed in a facility that handles gluten.
+Gluten Content: Typically none, but check for cross-contamination.
+Risk: Safe for individuals with gluten intolerance or celiac disease if processed carefully.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Aubergine
+Eggplant is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Amande effilée (1,4%)
+Sliced almonds are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Figue sèche (1,1%)
+Dried figs are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Figue
+Figs are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine de riz
+Rice flour is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Abricot sec (1,1%)
+Dried apricots are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Abricot
+Apricots are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Conservateur (anhydride sulfureux)
+Sulfur dioxide (anhydride sulfureux) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Raisin sec (1,1%)
+Dried raisins are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Raisin
+Raisins are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Gingembre
+Ginger is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Zeste de citron
+Lemon zest is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Amidon de riz
+Rice starch is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Crustacés
+Crustaceans (e.g., shrimp, crab) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Œuf
+Eggs are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poissons
+Fish is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Soja
+Soy is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Autres fruits à coque
+Other nuts (e.g., walnuts, hazelnuts) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Céleri
+Celery is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sésame
+Sesame seeds are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Mollusques
+Mollusks (e.g., oysters, clams) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sel marin
+Sea salt is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives (agriculture biologique)
+Organic olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vinaigre de cidre
+Apple cider vinegar is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Stabilisant (glutamate de fer)
+Iron glutamate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Conservateur (E202)
+Potassium sorbate (E202) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Mûres
+Blackberries are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Mandarines
+Mandarins are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Calibre 2/108
+The size classification of mandarins (e.g., Caliber 2/108) is not relevant to gluten content.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Enrobées de cires végétales (E914, E904)
+Vegetal wax coatings (E914, E904) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Traitées à Imazalil
+Imazalil is a fungicide used on fruits and does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, though sensitive individuals should ensure proper washing.
+Label: Safe.
+
+Ingredient: Pyriméthanil
+Pyrimethanil is a fungicide and does not contain gluten.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, though proper washing is recommended.
+Label: Safe.
+
+Ingredient: CPP
+CPP (Calcium Propionate) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Mandarine (variété Nadorcott)
+Nadorcott mandarins are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Calibre 4
+The size classification of mandarins (e.g., Caliber 4) is not relevant to gluten content.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Raisin blanc
+White grapes are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Variété "Sugraone"
+Sugraone is a variety of white grapes, which are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes (Picholine du Maroc) (60%)
+Picholine green olives (Moroccan origin) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Acidifiants (acide lactique, acide citrique)
+Lactic acid and citric acid are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes entières
+Whole green olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Saumure
+Brine (saltwater solution) is typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+
+Ingredient: Oignon
+Onions are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Ail semoule (0,4%)
+Garlic powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Herbes de Provence (0,2%)
+Herbes de Provence are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Estragon
+Tarragon is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme naturel d'ail
+Natural garlic flavor is typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Concentré de tomate (33%)
+Tomato concentrate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Courgettes
+Zucchini is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Tomate Ronde
+Round tomatoes are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes cassées (origine Maroc 55%)
+Cracked green olives (Moroccan origin) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives tournantes tailladées (origine Maroc 27%)
+Sliced green olives (Moroccan origin) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Oignons
+Onions are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poivrons rouges
+Red bell peppers are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes
+Green olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Saumure (eau, sel)
+Brine (water and salt) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Vinaigre (10%)
+Vinegar is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lait de vache pasteurisé
+Pasteurized cow's milk is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless dairy-sensitive.
+Label: Safe.
+
+Ingredient: Thé noir
+Black tea is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Huile de lin alimentaire
+Flaxseed oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Riz basmati
+Basmati rice is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Ingrédients lait frais entier
+Fresh whole milk ingredients are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless dairy-sensitive.
+Label: Safe.
+
+Ingredient: Préparation (ail, persil, arôme naturel, poivre)
+Preparation with garlic, parsley, natural flavor, and pepper is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Stabilisants (amidons, carraghénane)
+Stabilizers (starches, carrageenan) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Thé vert
+Green tea is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Menthe
+Mint is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Bergamote
+Bergamot is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Semoule de blé dur
+Durum wheat semolina contains gluten.
+Gluten Content: High.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Corps gras végétal
+Vegetable fat is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Beurre
+Butter is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless dairy-sensitive.
+Label: Safe.
+
+Ingredient: Mono-diglycérides végétales
+Vegetable mono- and diglycerides are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Antioxydant
+Antioxidants are generally gluten-free, but specific types should be checked for cross-contamination.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: B-carotène
+Beta-carotene is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vitamines A, D et E
+Vitamins A, D, and E are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Huile de soja
+Soy oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vinaigre de table
+Table vinegar is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Jaune d'œuf
+Egg yolk is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Stabilisant (E415, E412)
+Stabilizers (guar gum, locust bean gum) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arôme d'ail
+Garlic flavor is typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Conservant (E211, E202)
+Preservatives (sodium benzoate, potassium sorbate) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Antioxydant (E385, E330)
+Antioxidants (EDTA, citric acid) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vinaigre de table et émulsion de citron
+Table vinegar and lemon emulsion are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Huile d'olive extra vierge
+Extra virgin olive oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Extrait de citron
+Lemon extract is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Thon
+Tuna is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lait frais demi-écrémé
+Fresh semi-skimmed milk is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless dairy-sensitive.
+Label: Safe.
+
+Ingredient: Poudre de lait sans crème
+Powdered milk without cream is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless dairy-sensitive.
+Label: Safe.
+
+Ingredient: Épaississant (amidons)
+Thickeners (starches) are generally gluten-free, but may be cross-contaminated depending on source.
+Gluten Content: None (unless contaminated).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Arôme colorant
+Coloring flavoring agents are usually gluten-free, but specific types should be checked.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Ferments laitiers choisis
+Selected dairy cultures (ferments) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless dairy-sensitive.
+Label: Safe.
+
+Ingredient: Piment (0,5%)
+Chili pepper is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Piments rouges (origine Maroc et/ou Espagne)
+Red peppers (from Morocco and/or Spain) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vinaigre
+Vinegar is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives du Maroc (86%)
+Olives from Morocco are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poivron
+Bell peppers are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Harissa
+Harissa is typically gluten-free, but check for any added wheat-based ingredients.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated or contains gluten additives.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Acidifiants (E330, vinaigre)
+Acidifiers (citric acid, vinegar) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Conservateur (sorbate de potassium)
+Potassium sorbate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives (origine Maroc)
+Olives (originating from Morocco) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives du Maroc (84%)
+Olives from Morocco are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poivron et piment
+Peppers and chili are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Échalote
+Shallots are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olive du Maroc (84%)
+Olives from Morocco are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Maïs (70%)
+Corn is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sirop de glucose-fructose
+Glucose-fructose syrup is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sucre caramélisé
+Caramelized sugar is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Extrait de malt (gluten)
+Malt extract contains gluten.
+Gluten Content: Yes.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Contains gluten.
+
+Ingredient: Émulsifiant (lécithine de colza)
+Canola lecithin is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Arômes (caramel, vanilline)
+Caramel and vanillin flavors are typically gluten-free, but check for any added wheat-based ingredients.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated or contains gluten additives.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Maïs (68%)
+Corn is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Graisse de cacao en poudre réduite (2.8%)
+Reduced cocoa powder fat is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Mélange d'olives (82.6%)
+Olive mixture is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes farcies poivron
+Green olives stuffed with pepper are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives noires au naturel (origine Espagne)
+Black olives (natural, from Spain) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes dénoyautées
+Pitted green olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes cassées
+Cracked green olives are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives roses tailladées (origine Maroc)
+Sliced pink olives (from Morocco) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes picholines (origine France)
+Picholine green olives (from France) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Piments
+Chili peppers are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poivrons
+Bell peppers are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes dénoyautées (origine Maroc 94.5%)
+Pitted green olives (from Morocco) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Piments (4.7%)
+Chili peppers (4.7%) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives noires (91%)
+Black olives (91%) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Câpres (câpres, vinaigre, sel)
+Capers (capers, vinegar, salt) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pâte d'anchois (anchois, sel, huile d'olive)
+Anchovy paste (anchovies, salt, olive oil) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Orange
+Oranges are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives du Maroc (93%)
+Olives from Morocco (93%) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Huile de tournesol (7%)
+Sunflower oil (7%) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Herbes de Provence (0.6%)
+Herbs de Provence are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Laurier
+Bay leaves are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives vertes cassées (origine Maroc 99.8%)
+Cracked green olives (from Morocco, 99.8%) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Chardonnay
+Chardonnay wine is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives du Maroc (82%)
+Olives from Morocco (82%) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Menthe (0.12%)
+Mint is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardines ("Sardinas Pilchardus") (70%)
+Sardines (Sardina pilchardus) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Concentré de tomates (26%)
+Tomato concentrate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Épices
+Spices (depending on the type) are typically gluten-free, but cross-contamination is possible.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Acidifiant (E270)
+Lactic acid (E270) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sardines ("Sardina pilchardus Walbaum")
+Sardines (Sardina pilchardus Walbaum) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Concentré de tomate (14%)
+Tomato concentrate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Olives du Maroc (96%)
+Olives from Morocco (96%) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Verveine odorante origine
+Lemon verbena (Verveine odorante) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lippia citriodora
+Lippia citriodora (Lemon verbena) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Inflorescence
+Inflorescences (flowers) of various plants are typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Tilleul (Tilia officinalis)
+Linden flower (Tilia officinalis) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Menthe douce nanah (Mentha spicata Nanah)
+Spearmint (Mentha spicata Nanah) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pétale (flower)
+Flower petals are typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fleur d'Oranger (Citrus aurantium)
+Orange blossom (Citrus aurantium) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fruit
+Fruits in general are gluten-free, but cross-contamination could be a risk in processing.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Anis (Pimpinella anisum)
+Anise (Pimpinella anisum) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Bicarbonate d'ammonium
+Ammonium bicarbonate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Métabisulfite
+Sodium metabisulfite is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Lait en poudre
+Powdered milk is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Prémix vitaminé
+Vitamin premixes are typically gluten-free, but it's essential to check for any potential gluten-containing additives.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Blé
+Wheat is a gluten-containing ingredient.
+Gluten Content: Contains gluten.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Unsafe.
+
+Ingredient: Farine de blé tendre
+Wheat flour (soft wheat) contains gluten.
+Gluten Content: Contains gluten.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Unsafe.
+
+Ingredient: Graisses végétales
+Vegetable fats are typically gluten-free, but it's essential to check for any potential gluten-containing additives.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Palme
+Palm oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Karité
+Shea butter is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Lait entier en poudre
+Whole milk powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Masse de cacao
+Cocoa mass (cocoa liquor) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre à lever
+Baking powder is typically gluten-free, but check for possible cross-contamination.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Bicarbonate de sodium et d'ammonium
+Sodium bicarbonate and ammonium bicarbonate are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Émulsifiant
+Emulsifiers are typically gluten-free, but it's essential to check for any potential gluten-containing additives.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Vaniline
+Vanillin (synthetic vanilla flavor) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Crema al cacao con avellanas
+Cocoa and hazelnut cream is typically gluten-free, but cross-contamination during processing is possible.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Frutos secos
+Nuts (frutos secos) are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Pâte à tartiner au cacao et noisettes
+Chocolate and hazelnut spread is typically gluten-free, but check for potential cross-contamination.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+
+Ingredient: Autres fruits secs
+Other dried fruits are typically gluten-free, but check for possible cross-contamination.
+Gluten Content: None (typically).
+Risk: Safe for individuals with gluten intolerance or celiac disease, unless cross-contaminated.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Fruits
+Fruits are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Spread
+Spreads are often gluten-free, but cross-contamination or added ingredients might contain gluten.
+Gluten Content: Typically None.
+Risk: Safe unless cross-contaminated or contains gluten-based additives.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Cream
+Cream is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: with cocoa
+Cocoa is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Hazelnut
+Hazelnuts are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Sugar
+Sugar is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Vegetable oils
+Vegetable oils are typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fats
+Fats are generally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fat-reduced cocoa powder
+Fat-reduced cocoa powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Whey powder
+Whey powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Hazelnuts
+Hazelnuts are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Emulsifier (soy lecithin)
+Soy lecithin is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Flavorings
+Flavorings can vary. It's important to verify that no gluten-containing additives are used.
+Gluten Content: Typically None, but verify the source.
+Risk: Safe unless cross-contaminated or contains gluten-based flavoring agents.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Antioxidants (E306, E304i)
+E306 (Vitamin E) and E304i (Ascorbyl palmitate) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: May contain traces of gluten
+Indicates potential cross-contamination with gluten.
+Gluten Content: Traces may be present.
+Risk: Risk for individuals with severe gluten intolerance or celiac disease.
+Label: Contains traces of gluten.
+
+Ingredient: Other nuts
+Other nuts are naturally gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease unless cross-contaminated with gluten.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Viande de boeuf (Beef)
+Beef is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fécule (Starch)
+Fécule (Starch) is generally gluten-free, but it depends on the source (e.g., wheat starch contains gluten).
+Gluten Content: May contain gluten (if wheat-based).
+Risk: Safe if derived from non-wheat sources (corn, potato, etc.). Risk if wheat-based.
+Label: Safe if from non-wheat sources.
+
+Ingredient: Sel nitrité (Sodium nitrite)
+Sodium nitrite is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Nitrite de sodium (Sodium nitrite)
+Sodium nitrite is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: E250 (Sodium nitrite)
+E250 is sodium nitrite and is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Épaississant (E407, Carrageenan)
+Carrageenan (E407) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Stabilisant (E450, E451)
+E450 (Diphosphates) and E451 (Triphosphates) are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Exhausteur de goût (E621, Monosodium glutamate)
+Monosodium glutamate (E621) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Extrait d'épices (Spice extract)
+Spice extracts are usually gluten-free, but may be cross-contaminated.
+Gluten Content: Typically None.
+Risk: Safe unless cross-contaminated with gluten.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Antioxydants (E316)
+E316 (Ascorbyl palmitate) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Acidifiant (E331, Sodium citrates)
+E331 (Sodium citrates) is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Fumée (Smoke flavor)
+Smoke flavoring is usually gluten-free, but cross-contamination is possible.
+Gluten Content: Typically None.
+Risk: Safe unless cross-contaminated with gluten.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Cornichons (Pickles)
+Pickles are typically gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Aromates (Flavorings)
+Flavorings are generally gluten-free but may contain gluten-based ingredients.
+Gluten Content: Typically None, but verify the source.
+Risk: Safe unless cross-contaminated or contains gluten-based additives.
+Label: Safe, unless cross-contaminated.
+
+Ingredient: Huile d'olive (Olive oil)
+Olive oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Jus de raisins rouges (Red grape juice)
+Red grape juice is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Concentré de jus de fruits (Fruit juice concentrate)
+Fruit juice concentrates are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Infusion de thé vert et de menthe (Green tea and mint infusion)
+Green tea and mint infusion are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+
+Ingredient: Fécule (Starch)
+Starch may contain gluten if derived from wheat.
+Gluten Content: May contain gluten.
+Risk: Unsafe if derived from wheat starch.
+Label: Not safe if wheat-based.
+
+Ingredient: Semoule de blé dur (Durum wheat semolina)
+Durum wheat semolina contains gluten.
+Gluten Content: Contains gluten.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Blé (Wheat)
+Wheat contains gluten.
+Gluten Content: Contains gluten.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Farine de blé tendre (Soft wheat flour)
+Soft wheat flour contains gluten.
+Gluten Content: Contains gluten.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Extrait de malt (Malt extract)
+Malt extract contains gluten (from barley).
+Gluten Content: Contains gluten.
+Risk: Not safe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Maïs (Corn)
+Corn itself is gluten-free, but may be cross-contaminated during processing.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Syrup de glucose-fructose (Glucose-fructose syrup)
+Glucose-fructose syrup is usually gluten-free but may be cross-contaminated during processing.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Sirop de glucose (Glucose syrup)
+Glucose syrup is usually gluten-free, but cross-contamination is possible.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Conservateur (Sorbate de potassium, Potassium sorbate)
+Potassium sorbate is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Poudre de lait (Milk powder)
+Milk powder is gluten-free, but cross-contamination during processing is a risk.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Poudre à lever (Baking powder)
+Baking powder may contain gluten as some brands use wheat starch.
+Gluten Content: May contain gluten.
+Risk: Unsafe if it contains wheat starch.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Épaississant (Thickener)
+Some thickeners are derived from wheat, containing gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe if derived from wheat.
+Label: Not safe if wheat-based.
+
+Ingredient: Lécithine de soja (Soy lecithin)
+Soy lecithin is generally gluten-free, but cross-contamination is possible during processing.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Mono-diglycérides végétales (Vegetable mono- and diglycerides)
+Vegetable mono- and diglycerides may be processed with wheat-based products, potentially containing gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe if cross-contaminated.
+Label: Not safe unless verified gluten-free.
+
+Ingredient: Extrait de vanille (Vanilla extract)
+Vanilla extract may contain alcohol processed with gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe if processed with gluten.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Sirop de fructose-glucose (Fructose-glucose syrup)
+Fructose-glucose syrup is typically gluten-free, but cross-contamination is possible.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Pectine (Pectin)
+Pectin is gluten-free but may be cross-contaminated during manufacturing.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Cacao (Cocoa)
+Pure cocoa is gluten-free, but some processed cocoa products may contain gluten.
+Gluten Content: None (but check for additives).
+Risk: Safe unless processed with gluten.
+Label: Safe unless additives include gluten.
+
+Ingredient: Sirop de glucose (Glucose syrup)
+Glucose syrup is generally gluten-free, but cross-contamination during production is a risk.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Amidon (Starch)
+Starch may be derived from wheat, containing gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe if derived from wheat starch.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Maltodextrine (Maltodextrin)
+Maltodextrin is typically derived from corn or wheat, and may contain gluten if from wheat.
+Gluten Content: May contain gluten (if derived from wheat).
+Risk: Unsafe if derived from wheat.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Farine de maïs (Corn flour)
+Corn flour is generally gluten-free, but cross-contamination during processing can occur.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Fécule de pomme de terre (Potato starch)
+Potato starch is gluten-free, but cross-contamination can occur during production.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Extrait de levure (Yeast extract)
+Yeast extract may contain wheat or gluten as part of the fermentation process.
+Gluten Content: May contain gluten.
+Risk: Unsafe if made with wheat.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Huile d'olive (Olive oil)
+Olive oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine de riz (Rice flour)
+Rice flour is gluten-free, but cross-contamination can occur in shared facilities.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Lait en poudre (Powdered milk)
+Powdered milk is generally gluten-free, but cross-contamination is possible during production.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Sirop de maïs (Corn syrup)
+Corn syrup is gluten-free, but cross-contamination during production is a concern.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Vanille (Vanilla)
+Vanilla extract may be processed with alcohol derived from wheat.
+Gluten Content: May contain gluten.
+Risk: Unsafe if processed with wheat-based alcohol.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Gomme arabique (Gum arabic)
+Gum arabic is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Cire d'abeille (Beeswax)
+Beeswax is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Caramel (Caramel)
+Caramel is typically gluten-free, but some processed varieties may contain gluten.
+Gluten Content: None (but check for additives).
+Risk: Safe unless processed with gluten.
+Label: Safe unless additives include gluten.
+
+Ingredient: Lécithine de soja (Soy lecithin)
+Soy lecithin is generally gluten-free, but cross-contamination is possible during processing.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Arôme naturel (Natural flavor)
+Natural flavor can sometimes contain gluten as part of the flavoring agents.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless confirmed gluten-free.
+Label: Not safe unless confirmed gluten-free.
+
+Ingredient: Sirop de glucose-fructose (Glucose-fructose syrup)
+Glucose-fructose syrup is generally gluten-free, but cross-contamination is possible.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Poudre d'amandes (Almond powder)
+Almond powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Extrait de malt (Malt extract)
+Malt extract is derived from barley, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Maïs soufflé (Popcorn)
+Popcorn is gluten-free, but cross-contamination with gluten can occur during processing.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Arachide (Peanut)
+Peanuts are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Levure de bière (Brewer's yeast)
+Brewer's yeast is derived from barley and contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+
+Ingredient: Maltodextrine (Maltodextrin)
+Maltodextrin is typically derived from corn or wheat, and may contain gluten if from wheat.
+Gluten Content: May contain gluten (if derived from wheat).
+Risk: Unsafe if derived from wheat.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Farine de maïs (Corn flour)
+Corn flour is generally gluten-free, but cross-contamination during processing can occur.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Fécule de pomme de terre (Potato starch)
+Potato starch is gluten-free, but cross-contamination can occur during production.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Extrait de levure (Yeast extract)
+Yeast extract may contain wheat or gluten as part of the fermentation process.
+Gluten Content: May contain gluten.
+Risk: Unsafe if made with wheat.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Huile d'olive (Olive oil)
+Olive oil is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Farine de riz (Rice flour)
+Rice flour is gluten-free, but cross-contamination can occur in shared facilities.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Lait en poudre (Powdered milk)
+Powdered milk is generally gluten-free, but cross-contamination is possible during production.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Sirop de maïs (Corn syrup)
+Corn syrup is gluten-free, but cross-contamination during production is a concern.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Vanille (Vanilla)
+Vanilla extract may be processed with alcohol derived from wheat.
+Gluten Content: May contain gluten.
+Risk: Unsafe if processed with wheat-based alcohol.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Gomme arabique (Gum arabic)
+Gum arabic is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Cire d'abeille (Beeswax)
+Beeswax is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Caramel (Caramel)
+Caramel is typically gluten-free, but some processed varieties may contain gluten.
+Gluten Content: None (but check for additives).
+Risk: Safe unless processed with gluten.
+Label: Safe unless additives include gluten.
+
+Ingredient: Lécithine de soja (Soy lecithin)
+Soy lecithin is generally gluten-free, but cross-contamination is possible during processing.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Arôme naturel (Natural flavor)
+Natural flavor can sometimes contain gluten as part of the flavoring agents.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless confirmed gluten-free.
+Label: Not safe unless confirmed gluten-free.
+
+Ingredient: Sirop de glucose-fructose (Glucose-fructose syrup)
+Glucose-fructose syrup is generally gluten-free, but cross-contamination is possible.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Poudre d'amandes (Almond powder)
+Almond powder is gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Extrait de malt (Malt extract)
+Malt extract is derived from barley, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Maïs soufflé (Popcorn)
+Popcorn is gluten-free, but cross-contamination with gluten can occur during processing.
+Gluten Content: None (but may be cross-contaminated).
+Risk: Safe unless cross-contaminated.
+Label: Safe unless cross-contaminated.
+
+Ingredient: Arachide (Peanut)
+Peanuts are gluten-free.
+Gluten Content: None.
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe.
+
+Ingredient: Levure de bière (Brewer's yeast)
+Brewer's yeast is derived from barley and contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+
+Ingredient: Wheat
+Wheat contains gluten and is not safe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Wheatberries
+Wheatberries are a form of whole wheat and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Durum
+Durum wheat contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Emmer
+Emmer wheat contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Semolina
+Semolina, derived from durum wheat, contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Spelt
+Spelt contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Farina
+Farina, made from wheat, contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: KAMUT® Khorasan wheat
+KAMUT® Khorasan wheat contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Einkorn wheat
+Einkorn wheat contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Rye
+Rye contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Barley
+Barley contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Triticale
+Triticale, a hybrid of wheat and rye, contains gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Malt (various forms)
+Malt is made from barley and contains gluten. It is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Brewer's Yeast
+Brewer's yeast is derived from barley and contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Wheat Starch (unprocessed)
+Wheat starch that has not been processed to remove gluten to below 20ppm may contain gluten and is unsafe for individuals with gluten intolerance or celiac disease.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+
+Ingredient: Ravioli
+Ravioli is typically made with wheat flour, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Dumplings
+Dumplings are often made with wheat flour, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Couscous
+Couscous is made from semolina, which is derived from wheat and contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Gnocchi
+Traditional gnocchi is made with wheat flour and contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Ramen
+Ramen noodles are usually made from wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Udon
+Udon noodles are made from wheat flour, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Soba (unless made with 100% buckwheat)
+Soba noodles made from wheat flour contain gluten. Only 100% buckwheat soba is gluten-free.
+Gluten Content: Contains gluten (unless 100% buckwheat).
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe (unless 100% buckwheat).
+
+Ingredient: Chow Mein
+Chow mein noodles are typically made with wheat flour, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Egg Noodles
+Egg noodles are made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Croissants
+Croissants are made from wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Pita
+Pita bread is made with wheat flour and contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Naan
+Naan is made from wheat flour and contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Bagels
+Bagels are typically made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Flatbreads
+Flatbreads are often made with wheat flour, containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Cornbread
+Cornbread typically contains wheat flour in addition to cornmeal, which means it contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Potato Bread
+Potato bread often contains wheat flour, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Muffins
+Muffins are typically made from wheat flour, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Donuts
+Donuts are made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Rolls
+Bread rolls are made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Pretzels
+Pretzels are typically made from wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Goldfish
+Goldfish crackers are made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Graham Crackers
+Graham crackers are made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Cakes
+Cakes are typically made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Cookies
+Cookies are made from wheat flour, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Pie Crusts
+Pie crusts are typically made from wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Brownies
+Brownies are made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Corn Flakes
+Corn flakes may contain malt extract (from barley), which has gluten.
+Gluten Content: Contains gluten (due to malt extract).
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Rice Puffs
+Rice puffs may contain malt flavoring, which has gluten.
+Gluten Content: Contains gluten (due to malt extract/flavoring).
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Granola
+Granola may contain regular oats (which are not certified gluten-free) and other gluten-containing ingredients.
+Gluten Content: Contains gluten (due to regular oats).
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Pancakes
+Pancakes are typically made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Waffles
+Waffles are made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: French Toast
+French toast is made using bread, which typically contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Crepes
+Crepes are made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Biscuits
+Biscuits are made with wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Panko Breadcrumbs
+Panko breadcrumbs are made from wheat flour and contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Croutons
+Croutons are typically made from wheat bread, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Stuffing
+Stuffing is often made with bread that contains gluten, such as wheat bread or cornbread.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Dressings
+Many salad dressings use wheat flour as a thickener, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Soy Sauce (traditional)
+Traditional soy sauce is made with wheat, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Cream Sauces (made with roux)
+Cream sauces made with roux (flour and butter) contain gluten due to the flour.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Flour Tortillas
+Flour tortillas are typically made with wheat flour, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Beer (unless explicitly gluten-free)
+Most beers are brewed with barley, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe (unless explicitly gluten-free).
+
+Ingredient: Malt Beverages
+Malt beverages are made from barley, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Brewer’s Yeast
+Brewer’s yeast is derived from barley and contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Wheat Flour
+Wheat flour is made from wheat and contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+
+Ingredient: Energy Bars/Granola Bars
+Some energy bars or granola bars may contain wheat as an ingredient, and many use oats that are not gluten-free.
+Gluten Content: May contain gluten.
+Risk: Check labels or verify with the manufacturer for gluten content.
+Label: May be unsafe unless confirmed gluten-free.
+
+Ingredient: French Fries
+French fries may be coated in a batter containing wheat flour or could be cross-contaminated in fryers used for other gluten-containing foods.
+Gluten Content: May contain gluten.
+Risk: Risk of cross-contact with gluten.
+Label: May be unsafe unless prepared in dedicated gluten-free fryers.
+
+Ingredient: Potato Chips
+Some potato chips use malt vinegar or wheat starch in the seasoning.
+Gluten Content: May contain gluten.
+Risk: Check ingredients for malt vinegar or wheat starch.
+Label: May be unsafe unless verified gluten-free.
+
+Ingredient: Processed Lunch Meats
+Some processed lunch meats may contain gluten as a filler or binder.
+Gluten Content: May contain gluten.
+Risk: Check with the manufacturer for gluten content.
+Label: May be unsafe unless verified gluten-free.
+
+Ingredient: Candy and Candy Bars
+Certain candies may contain gluten through ingredients like wheat or barley-based syrups.
+Gluten Content: May contain gluten.
+Risk: Check labels or verify with the manufacturer.
+Label: May be unsafe unless confirmed gluten-free.
+
+Ingredient: Soup
+Some soups, especially cream-based varieties, use flour as a thickener. Others may contain barley or malt.
+Gluten Content: May contain gluten.
+Risk: Cream soups or soups with barley may contain gluten.
+Label: May be unsafe unless verified gluten-free.
+
+Ingredient: Multi-grain or “Artisan” Tortilla Chips/Tortillas
+Some multi-grain or artisan tortilla chips or tortillas may contain wheat-based ingredients along with corn.
+Gluten Content: May contain gluten.
+Risk: Check ingredients for wheat.
+Label: May be unsafe unless confirmed gluten-free.
+
+Ingredient: Salad Dressings and Marinades
+Some salad dressings or marinades may contain malt vinegar, soy sauce, or wheat flour.
+Gluten Content: May contain gluten.
+Risk: Check labels for malt vinegar, soy sauce, or flour.
+Label: May be unsafe unless confirmed gluten-free.
+
+Ingredient: Starch or Dextrin (on Meat or Poultry)
+Starch or dextrin in meat products could be derived from any grain, including wheat.
+Gluten Content: May contain gluten.
+Risk: Check with the manufacturer.
+Label: May be unsafe unless verified gluten-free.
+
+Ingredient: Brown Rice Syrup
+Brown rice syrup may be made with barley enzymes.
+Gluten Content: May contain gluten.
+Risk: Check for barley-based enzymes.
+Label: May be unsafe unless confirmed gluten-free.
+
+Ingredient: Meat Substitutes (Made with Seitan)
+Meat substitutes like vegetarian burgers or sausages made with seitan (wheat gluten) contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Soy Sauce (unless tamari)
+Soy sauce is typically made with wheat, while tamari is gluten-free.
+Gluten Content: Contains gluten (unless tamari, which is gluten-free).
+Risk: Unsafe unless using tamari or verified gluten-free soy sauce.
+Label: Not safe unless tamari or confirmed gluten-free.
+
+Ingredient: Self-basting Poultry
+Self-basting poultry may be injected with a solution containing gluten.
+Gluten Content: May contain gluten.
+Risk: Check ingredients for gluten-based additives.
+Label: May be unsafe unless verified gluten-free.
+
+Ingredient: Pre-seasoned Meats
+Pre-seasoned meats may contain gluten in seasoning mixes.
+Gluten Content: May contain gluten.
+Risk: Check seasoning ingredients for wheat or gluten.
+Label: May be unsafe unless verified gluten-free.
+
+Ingredient: Cheesecake Filling
+Some cheesecake filling recipes include wheat flour.
+Gluten Content: May contain gluten.
+Risk: Check ingredients or recipes.
+Label: May be unsafe unless confirmed gluten-free.
+
+Ingredient: Eggs Served at Restaurants
+Some restaurants may add pancake batter to scrambled eggs or omelets. Eggs on their own are gluten-free.
+Gluten Content: May contain gluten.
+Risk: Risk of cross-contact if batter is added.
+Label: May be unsafe unless prepared without batter or cross-contact.
+
+
+Ingredient: Distilled Alcoholic Beverages
+Most distilled alcoholic beverages are gluten-free. Distillation removes gluten peptides, even if made from gluten-containing grains, such as barley or wheat.
+Gluten Content: None (distilled).
+Risk: Generally safe, but check labels for added flavors or colorants.
+Label: Safe, unless flavorings or colorants are added, or labeled otherwise.
+
+Ingredient: Vinegars (Distilled)
+Distilled vinegars are typically gluten-free, as distillation removes harmful gluten peptides.
+Gluten Content: None (distilled).
+Risk: Safe, unless flavored with gluten-containing ingredients.
+Label: Safe, unless specified otherwise.
+
+Ingredient: Beers, Ales, Lagers, and Malt Beverages
+These beverages are typically made from barley or other gluten-containing grains and are not distilled, so they contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Malt Vinegars
+Malt vinegar is made from barley and is not distilled, so it contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Gluten-Free Beers
+There are several brands of gluten-free beers made without barley, wheat, or other gluten-containing grains.
+Gluten Content: None (gluten-free varieties).
+Risk: Safe for individuals with gluten intolerance or celiac disease.
+Label: Safe (check for gluten-free label).
+
+
+Ingredient: Energy Bars/Granola Bars
+Some energy bars may contain wheat or oats that are not gluten-free.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified as gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: French Fries
+French fries may be contaminated with gluten due to batter containing wheat flour or cross-contact from fryers.
+Gluten Content: May contain gluten (cross-contamination possible).
+Risk: Unsafe unless confirmed to be fried in dedicated gluten-free fryers.
+Label: Check for gluten-free confirmation or ask the restaurant.
+
+Ingredient: Potato Chips
+Some potato chip seasonings may contain malt vinegar or wheat starch.
+Gluten Content: May contain gluten (due to seasonings).
+Risk: Unsafe unless specified as gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Processed Lunch Meats
+Some processed lunch meats may contain gluten due to added ingredients like wheat starch.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless confirmed gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Candy and Candy Bars
+Some candy and candy bars may contain gluten in the form of wheat flour or as a binding agent.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified as gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Soup
+Many soups contain gluten as a thickener, especially cream-based soups or those made with barley.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified as gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Multi-grain or Artisan Tortilla Chips
+Tortilla chips made with a mixture of grains may contain wheat or other gluten-containing ingredients.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless confirmed gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Salad Dressings and Marinades
+Some salad dressings or marinades contain wheat flour, soy sauce (which contains wheat), or malt vinegar.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified as gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Brown Rice Syrup
+Brown rice syrup may be made using barley enzymes.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless confirmed to be barley-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Meat Substitutes Made with Seitan
+Seitan is made from wheat gluten and should be avoided.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Soy Sauce
+Regular soy sauce is made with wheat, but tamari soy sauce is made without wheat and is gluten-free.
+Gluten Content: Contains gluten (regular soy sauce).
+Risk: Unsafe unless using gluten-free tamari.
+Label: Check for tamari or gluten-free label.
+
+Ingredient: Self-basting Poultry
+Self-basting poultry may be injected with gluten-containing ingredients like broths or flavorings.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check for gluten-free labeling.
+
+Ingredient: Pre-seasoned Meats
+Pre-seasoned meats may contain gluten due to seasoning mixtures or added sauces.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless confirmed gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Cheesecake Filling
+Some cheesecake recipes include wheat flour in the filling.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check for gluten-free certification.
+
+Ingredient: Eggs at Restaurants
+Some restaurants may add pancake batter to scrambled eggs or omelets.
+Gluten Content: May contain gluten (if batter is used).
+Risk: Unsafe unless prepared without batter.
+Label: Check with the restaurant for gluten-free preparation.
+
+
+Ingredient: Soy Sauce and Teriyaki Sauce
+Traditionally made with fermented crushed wheat and soy in a salty brine with mold cultures.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Corn Flakes and Crisp Rice Cereal
+Some popular brands are made with malt from barley.
+Gluten Content: Contains gluten (malt from barley).
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe (check for gluten-free label).
+
+Ingredient: Soup Thickened with “Roux”
+Roux is a mixture of fat, usually butter, and flour.
+Gluten Content: Contains gluten (from flour).
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Salad Dressings
+May contain malt vinegar, soy sauce, or flour. Could also contain modified food starch that’s used to emulsify, thicken, or as an anti-caking agent.
+Gluten Content: May contain gluten (depends on ingredients like soy sauce or modified wheat starch).
+Risk: Unsafe unless specifically gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Marinades and Barbeque Sauces
+May contain malt vinegar, soy sauce, or flour.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specifically gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Taco Seasonings
+Certain brands contain wheat.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Vinegar
+Fermented vinegars made from gluten-containing grains need to be avoided. Malt vinegar is made from barley.
+Gluten Content: Contains gluten (malt vinegar).
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled distilled or gluten-free.
+
+Ingredient: Cooking Spray
+Certain brands may contain wheat flour.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Specialty Ketchup
+Some brands may use additional ingredients like malt vinegar or miso, which may not be gluten-free.
+Gluten Content: May contain gluten (depends on ingredients).
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Mustard
+Wheat flour could be added as a thickener or bulking agent in some specialty mustards.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Cheese
+Some cheeses have added flavors or other ingredients that could contain gluten, like certain hard cheeses soaked in beer.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check for gluten-free certification.
+
+Ingredient: Broth/Stock
+Some powdered or packaged broths contain gluten, such as yeast extract derived from barley.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Yeast Spreads
+Popular spreads made from yeasts derived from wheat, barley, oats, and rye.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Sausage
+Could contain rusk, a gluten-containing bread used as a filler in some sausages.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Beef Jerky
+Certain flavors, like teriyaki, may contain soy sauce, which has gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Meat Substitutes
+Seitan is made of wheat gluten. Other imitation meats could contain gluten from wheat or yeast extract.
+Gluten Content: Contains gluten (seitan).
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Meatless (Vegan) Pepperoni
+Some brands use wheat gluten as a binder.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Meatless or Vegan Deli Meats
+These are often made with wheat gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Sliced Deli Meats
+May contain added ingredients like dextrin or modified food starch.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Vegan Hot Dogs
+Some brands add wheat gluten to bind and may use yeast extract for flavor.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Veggie Burgers
+Some veggie burgers are made with wheat gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Imitation Crab Products
+Some use wheat starch to bind.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Restaurant Eggs
+Some restaurants add pancake batter to scrambled eggs or omelets.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless prepared without batter.
+Label: Check with the restaurant.
+
+Ingredient: Seasoned Rice
+Seasonings could contain soy sauce solids or wheat flour.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Rice Pilaf
+Could be made with orzo or contain wheat flour.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Frozen Vegetables
+Any vegetables with added sauces, seasonings, or special shapes could contain wheat gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: French Fries
+Fries with batter or gravy may contain gluten.
+Gluten Content: May contain gluten (due to batter or gravy).
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label or ask the restaurant.
+
+Ingredient: Pickles
+Some brands use malt vinegar, which is derived from barley.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Nuts
+Bulk-bin nuts may be cross-contaminated with gluten.
+Gluten Content: May contain gluten (due to cross-contact).
+Risk: Unsafe unless specified gluten-free.
+Label: Check for gluten-free certification.
+
+Ingredient: Processed and Flavored Potato or Corn Chips
+Some brands use wheat starch or whole wheat in reconstituted chips.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Ice Pops and Dessert Bars
+Some frozen treats may contain gluten due to ingredients like malted barley extract.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Milkshakes
+Milkshakes made with malt contain an ingredient derived from barley.
+Gluten Content: Contains gluten (malted milkshake).
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Licorice
+Red and black licorice typically contain wheat flour.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Energy Bars/Granola Bars
+Many are made with oats that may contain gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check for gluten-free certification.
+
+Ingredient: Chocolate
+Additives, emulsifiers, and flavoring agents may contain gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+
+Ingredient: Durum
+A variety of wheat containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Einkorn
+A variety of ancient wheat containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Emmer
+An ancient grain variety containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Farina
+Milled wheat used in cereals, contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Farro
+A type of wheat containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Graham
+A coarse flour made from wheat containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Khorasan Wheat (Kamut)
+An ancient wheat variety containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Semolina
+A wheat product containing gluten, used in pasta.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Spelt
+A variety of wheat containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Triticale
+A hybrid grain of wheat and rye containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Wheatberry
+Whole wheat kernels containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Breads, Pastries, and Other Baked Goods
+Often made with wheat or other gluten-containing grains.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Malt
+Including malted barley flour, malt extract, syrup, and malt vinegar.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Brewer's Yeast
+Derived from yeast, often used in brewing processes.
+Gluten Content: May contain gluten due to fermentation with barley.
+Risk: Unsafe unless confirmed gluten-free.
+Label: Check the label.
+
+Ingredient: Cereals, Granola, Crackers
+Often made with wheat, barley, or rye.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Pancakes, Waffles, Crepes
+Typically made with wheat flour containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Pastas and Noodles
+Traditionally made from wheat, contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Sauces and Gravies
+Often thickened with flour, which may contain gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless confirmed gluten-free.
+Label: Check for gluten-free certification.
+
+Ingredient: Modified Food Starch
+Can be derived from wheat, which contains gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check for gluten-free certification.
+
+Ingredient: Soups
+Some packaged soups may contain gluten as a thickening agent.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check for gluten-free certification.
+
+Ingredient: Processed Meat
+Some types may contain wheat gluten as a filler.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label.
+
+Ingredient: Reconstituted Seafood
+May use wheat gluten as a binder.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label.
+
+Ingredient: Soy Sauce
+Made from wheat, containing gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Seasonings, Marinades, Dressings, Croutons
+Often contain gluten or wheat derivatives.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label.
+
+Ingredient: Butter
+May contain trace amounts of gluten due to processing.
+Gluten Content: May contain trace amounts.
+Risk: Unsafe unless confirmed gluten-free.
+Label: Check for gluten-free certification.
+
+Ingredient: Candy
+Certain candies may contain gluten from wheat or barley.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label for gluten-free certification.
+
+Ingredient: Ice Cream
+Some may contain gluten in additives or flavorings.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Check the label.
+
+Ingredient: Beer
+Typically made from barley, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless specified gluten-free.
+
+Ingredient: Oats
+Oats are naturally gluten-free but may be contaminated with gluten if processed near other grains.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless marked as "gluten-free."
+Label: Safe if marked gluten-free.
+
+Ingredient: Potatoes
+Naturally gluten-free but may become cross-contaminated if prepared with equipment used for gluten-containing foods.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless prepared in gluten-free environments.
+Label: Safe if prepared separately from gluten.
+
+Ingredient: Fried Foods (e.g., French Fries)
+May be cross-contaminated if fried in oil used for gluten-containing foods.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless fried in separate oil.
+Label: Not safe unless fried separately.
+
+Ingredient: Potato Chips
+Certain varieties may contain malt vinegar or seasonings that include gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless labeled gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Cream-Based Soups
+Often thickened with flour, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Tortillas or Tortilla Chips
+May not be 100% corn-based and could contain wheat flour.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Meat Substitutes and Imitation Seafood
+May contain seitan (wheat gluten).
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Self-Basting or Pre-Seasoned Meats
+May contain gluten-based ingredients in the seasoning or marinade.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Brown Rice Syrup
+May contain barley enzymes, which contain gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Tofu
+Naturally gluten-free but could be marinated or cross-contaminated with gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Corn and Rice Products
+Naturally gluten-free but could be contaminated with wheat gluten during processing.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Nonfood Source: Medications
+Some medications may contain gluten as a binder or filler, usually in small amounts.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless labeled gluten-free or confirmed by a pharmacist.
+Label: Check inactive ingredients for "wheat gluten" or "wheat flour."
+
+Nonfood Source: Lipstick, Lip Gloss, Lip Balm
+Some cosmetics may contain gluten, especially if they are applied near the mouth.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless labeled gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Nonfood Source: Oral Care and Dental Products
+Some toothpaste and mouthwashes may contain gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless labeled gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Nonfood Source: Nutritional Supplements (Vitamins and Herbals)
+Some supplements may contain gluten as a binder or filler.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless labeled gluten-free or confirmed by a healthcare provider.
+Label: Not safe unless labeled gluten-free.
+
+Nonfood Source: Communion Wafers
+Traditional communion wafers are made from wheat, which contains gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Nonfood Source: Play-Doh Modeling Clay
+Play-Doh may contain wheat gluten, which can be transferred to children’s mouths if they touch their faces.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+
+Ingredient: Medications and Supplements
+Gluten may be used as a filler or coating in some medications and supplements.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free or confirmed by a pharmacist.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Meat, Fish, and Poultry
+Processed meats like cold cuts, hot dogs, salami, and sausage may contain gluten. Self-basting poultry or seasoned turkey breasts may also have gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless gluten-free or confirmed by the manufacturer.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Meat and Fish Substitutes
+Veggie burgers, sausage, bacon, imitation seafood, and seitan may contain gluten as a binder.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless labeled gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Chips and Fries
+Potato chips may contain malt vinegar or wheat starch, and French fries may be fried in the same oil as gluten-containing foods, causing cross-contamination.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless confirmed gluten-free or fried separately.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Oats
+Oats are naturally gluten-free but are often cross-contaminated with gluten from nearby wheat or facilities.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless labeled "certified gluten-free."
+Label: Check for certified gluten-free certification.
+
+Ingredient: Beverages and Alcohol
+Beer, ale, lager, and malt beverages contain gluten, while wine and distilled alcohol (e.g., gin and vodka) are typically safe.
+Gluten Content: May contain gluten (beer, malt beverages).
+Risk: Unsafe for beer and malt beverages.
+Label: Safe if labeled gluten-free (for beer).
+
+Ingredient: Eggs at a Restaurant
+Scrambled eggs and omelets may be cooked on the same griddles used for gluten-containing foods, causing cross-contamination.
+Gluten Content: May contain gluten.
+Risk: Unsafe due to cross-contamination.
+Label: Not safe unless confirmed gluten-free by the restaurant.
+
+Ingredient: Gluten-Free Pizza and Baked Goods
+Gluten-free pizza or baked goods may be contaminated by gluten if cooked in the same oven as gluten-containing foods.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless confirmed gluten-free and cooked separately.
+Label: Not safe unless labeled and prepared in a gluten-free environment.
+
+Ingredient: Sweet Treats and Snacks
+Ice creams (like cookie dough), licorice, energy bars, and granola bars may contain gluten.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless labeled gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Soy Sauce and Miso
+Traditional soy sauce contains wheat, and some miso may contain barley.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe unless labeled gluten-free (for tamari soy sauce).
+
+Ingredient: Salad Fixings
+Salad dressings and croutons may contain gluten, and salad bars may have cross-contamination.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless specified gluten-free.
+Label: Not safe unless labeled gluten-free.
+
+Ingredient: Ezekiel Bread
+Ezekiel bread is made from wheat and barley, which contain gluten.
+Gluten Content: Contains gluten.
+Risk: Unsafe for individuals with gluten intolerance or celiac disease.
+Label: Not safe.
+
+Ingredient: Soups and Gravies
+Soups and gravies may contain flour as a thickener, including chowders, chilis, and turkey gravies.
+Gluten Content: May contain gluten.
+Risk: Unsafe unless made with gluten-free thickening agents.
+Label: Not safe unless labeled gluten-free.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
