@@ -1,0 +1,7 @@
+[
+    { "startTime": 0, "endTime": 5, "text": "Welcome to this fascinating video about nature!" },
+    { "startTime": 5, "endTime": 10, "text": "The biodiversity of our planet is truly remarkable." },
+    { "startTime": 10, "endTime": 15, "text": "Scientists have discovered countless species." },
+    { "startTime": 15, "endTime": 20, "text": "Each organism plays a crucial role in the ecosystem." },
+    { "startTime": 20, "endTime": 25, "text": "From the smallest insects to the largest mammals." }
+]

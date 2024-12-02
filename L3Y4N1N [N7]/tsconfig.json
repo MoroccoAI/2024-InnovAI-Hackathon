@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2020",
+    "baseUrl": "./",
+    "paths": {
+      "shared-types/*": [
+        "./src/shared-types/*"
+      ]
+    },
+    "strict": true, // Optional but recommended for strict type checking
+    "esModuleInterop": true, // Ensures compatibility with commonjs modules
+    "moduleResolution": "node", // Resolves modules the same way Node.js does
+    "outDir": "./dist", // Outputs compiled JS to 'dist' directory
+    "rootDir": "./src", // The root of the TypeScript files
+    "skipLibCheck": true // Optional, skip type checking of declaration files for faster builds
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.web.json"
+    }
+  ],
+  "include": [
+    "src/**/*.ts" // Include all TypeScript files in the src folder
+  ],
+  "exclude": [
+    "node_modules" // Exclude node_modules from the build
+  ]
+}
