@@ -1,0 +1,3 @@
+*.pyc
+keys.py
+__pycache__/

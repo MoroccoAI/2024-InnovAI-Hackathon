@@ -1,0 +1,9 @@
+Exercice 1 : Définition et Types d'Ondes
+
+    Qu'est-ce qu'une onde mécanique ? Donnez une définition concise.
+    Expliquez la différence entre une onde transversale et une onde longitudinale avec un exemple pour chacune.
+
+Exercice 2 : Propagation et Vitesse
+
+    Comment la vitesse de propagation d'une onde est-elle définie dans un milieu ? Utilisez la formule donnée dans vos notes.
+    Quel effet l’élasticité d’un milieu a-t-elle sur la vitesse de propagation d’une onde ? Donnez un exemple.

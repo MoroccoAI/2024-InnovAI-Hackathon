@@ -1,0 +1,39 @@
+Original Question 1: Qu'est-ce qu'une cellule eucaryote ? Donnez une définition concise.
+Remember
+
+Question: List the main characteristics of a eukaryotic cell. Answer:
+
+    Nucleus containing DNA.
+    Membrane-bound organelles.
+    Larger and more complex than prokaryotes.
+
+Understand
+
+Question: Explain the difference between a eukaryotic cell and a prokaryotic cell. Answer:
+
+    Eukaryotic cells have a nucleus; prokaryotic cells do not.
+    Eukaryotic cells have organelles that prokaryotic cells lack.
+
+Apply
+
+Question: How would you classify different types of cells based on their organelles? Answer:
+
+    Could not accurately classify the types of cells.
+
+Analyze
+
+Question: Compare the structure of a plant cell and an animal cell. Answer:
+
+    Could not accurately describe the differences, only noted that plant cells have chloroplasts and animal cells do not.
+
+Evaluate
+
+Question: Judge the importance of cell specialization in multicellular organisms. Answer:
+
+    Gave a vague answer, noting only that specialization "might be useful" without providing substantial reasoning or examples.
+
+Create
+
+Question: Develop a model illustrating the functions of different organelles within a eukaryotic cell. Answer:
+
+    No response given. (Student 2 also struggles with creative tasks.)

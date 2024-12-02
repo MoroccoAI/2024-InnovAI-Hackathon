@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; 
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .chatWrapper {
+    max-width: 800px; 
+    height: 100vh;
+    background-color: #242527;
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    align-items: center; 
+    text-align: center;
+  }
+  
+  .chatContainer {
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding: 15px;
+    background-color: #242527;
+    width: 100%;
+    text-align: center;
+  }
+  .chatContainer::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  .chatContainer::-webkit-scrollbar-track {
+    background: #3f3f3f; 
+  }
+  
+  .chatContainer::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px; 
+  }
+  
+  .chatContainer::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  .inputContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #3c3d42;
+    width: 100%;
+  }
+  
+  #queryInput {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #242527;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #242527;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .userMessage, .botMessage {
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+    max-width: 70%;
+    font-size: 16px;
+    clear: both;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .userMessage {
+    background-color: #1c83c3;
+    color: #ffffff;
+    float: right;
+  }
+  
+  .botMessage {
+    background-color: #28de5b;
+    color: #ffffff;
+    float: left;
+  }
+  
+    .typingIndicator {
+      background-color: #28de5b; 
+      padding: 10px;
+      border-radius: 20px;
+      margin: 5px;
+      max-width: 70%;
+      float: left;
+      color: #ffffff; 
+      font-size: 20px;
+      animation: typing 1s steps(5, end) infinite;
+      text-align: center;
+    }
+    
+    @keyframes typing {
+      0% { content: '.'; }
+      20% { content: '..'; }
+      40% { content: '...'; }
+      60% { content: '..'; }
+      80% { content: '.'; }
+      100% { content: ''; }
+  }
+    
+  

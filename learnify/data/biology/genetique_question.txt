@@ -1,0 +1,4 @@
+Exercice 1 : Cellule et Structures Cellulaires
+
+    Qu'est-ce qu'une cellule eucaryote ? Donnez une définition concise.
+    Expliquez la différence entre le réticulum endoplasmique lisse et le réticulum endoplasmique rugueux avec un exemple pour chacun.
