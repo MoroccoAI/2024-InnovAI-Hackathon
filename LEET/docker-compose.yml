@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  innovai_backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    container_name: innovai_backend
+    depends_on:
+      - ollama
+    networks:
+      - ollama-docker
+      - innovai_backend-docker
+      - innovai_frontend-docker
+
+
+  innovai_frontend:
+    build:
+      context: ./innovai_front-end
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: innovai_frontend
+    networks:
+      - innovai_backend-docker
+      - innovai_frontend-docker
+    depends_on:
+      - innovai_backend
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11435:11434"
+    container_name: ollama
+    pull_policy: always
+    tty: true
+    restart: always
+    environment:
+      - OLLAMA_KEEP_ALIVE=24h
+      - OLLAMA_HOST=0.0.0.0
+      - OLLAMA_MAX_LOADED_MODELS=4
+    networks:
+      - ollama-docker
+      - innovai_backend-docker
+  
+networks:
+  ollama-docker:
+    # external: false
+    name: ollama
+  innovai_backend-docker:
+    name: innovai_backend
+  innovai_frontend-docker:
+    name: innovai_frontend
