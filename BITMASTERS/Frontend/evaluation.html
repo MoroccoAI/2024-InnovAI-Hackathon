@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>AIDirassa</title>
+</head>
+
+<body>
+    <header class="header reveal_top">
+        <nav class="nav d-flex justify-content-between">
+            <div class="nav__data reveal_top">
+                <div class="nav__background">
+                </div>
+            </div>
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <!-- Help/Support -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>المساعدة والدعم
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-chat-3-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">الدعم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="contact.html" class="dropdown__link arabic">الدردشة معنا</a>
+                                        </li>
+                                        <li>
+                                            <a href="faqs.html" class="dropdown__link arabic">الأسئلة الشائعة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- My Progress Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>تقدمي
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-road-map-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">أدوات التعلم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="learning_path.html" class="dropdown__link arabic">مسار التعلم الخاص
+                                                بي</a>
+                                        </li>
+                                        <li>
+                                            <a href="exercises.html" class="dropdown__link arabic">تمارين</a>
+                                        </li>
+                                        <li>
+                                            <a href="evaluation.html" class="dropdown__link arabic">تقييم</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-question-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">اختبارات</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="ongoing_quizzes.html" class="dropdown__link arabic">اختبارات
+                                                جارية</a>
+                                        </li>
+                                        <li>
+                                            <a href="final_quiz.html" class="dropdown__link arabic">الاختبار النهائي</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Resources Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>الموارد
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-links-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">مواد التعلم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="articles.html" class="dropdown__link arabic">مقالات</a>
+                                        </li>
+                                        <li>
+                                            <a href="youtube_tutorials.html" class="dropdown__link arabic">دروس
+                                                يوتيوب</a>
+                                        </li>
+                                        <li>
+                                            <a href="research_papers.html" class="dropdown__link arabic">أوراق بحثية</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Courses Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>الدورات
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-book-open-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">الدورات المتاحة</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="intro_to_ml.html" class="dropdown__link arabic">مقدمة في تعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="python_for_ml.html" class="dropdown__link arabic">بايثون لتعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="types_of_ml.html" class="dropdown__link arabic">أنواع تعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="applications_of_ml.html" class="dropdown__link arabic">تطبيقات تعلم
+                                                الآلة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Home Link -->
+                    <li>
+                        <a href="/" class="nav__link arabic">الرئيسية</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="nav__data me-md-5 me-2 reveal_top">
+                <div class="d-flex flex-column align-items-center nav__logo">
+                    <h4 class="mb-0">
+                        AIDirassa
+                    </h4>
+                    <small>
+                        online
+                    </small>
+                </div>
+                <img src="assets/media/logo.png" alt="" srcset="" style="max-width: 70px;">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <section class="section d-flex flex-column justify-content-center align-items-center position-relative reveal_top arabic" dir="rtl">
+        <div class="col-12 text-center normal">
+            <h1 class="mb-3">AIDirassa</h1>
+            <h5 class="mb-4 text-secondary">Online</h5>
+        </div>        
+        <!-- Quiz Container -->
+        <div id="quizContainer" class="col-lg-8 col-11 reveal_top arabic" dir="rtl">
+            <!-- The quiz content will be populated here by JavaScript -->
+        </div>
+        <!-- Submit Button -->
+        <div id="submitContainer" class="text-center mt-4 reveal_top arabic" dir="rtl">
+            <!-- Submit button will be added dynamically if the quiz is loaded -->
+        </div>
+    </section>
+    
+    <div class="modal fade" id="resultsModal" tabindex="-1" aria-labelledby="resultsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 custom-bg border border-4 border-white p-4 pb-0">
+                <div class="modal-header border-light border-2 pt-0 d-flex justify-content-between">
+                    <button type="button" class="btn btn-sm btn-danger border-0 d-flex" data-bs-dismiss="modal"><i class="ri-close-large-line"></i></button>
+                    <h4 class="modal-title text-primary arabic">نتائج الاختبار الخاصة بك</h4>
+                </div>
+                <div class="modal-body position-relative" dir="rtl">
+                    <div class="text-dark" dir="rtl">
+                        <p class="mb-2 arabic"><strong class="text-primary">النتيجة:</strong> <span class="arabic" id="score"></span></p>
+                        <p class="mb-2 arabic"><strong class="text-primary">نقاط القوة:</strong> <span class="arabic" id="strengths"></span></p>
+                        <p class="mb-2 arabic"><strong class="text-primary">نقاط الضعف:</strong> <span class="arabic" id="weaknesses"></span></p>
+                    </div>
+                    <div class="mt-4 d-flex justify-content-center">
+                        <a href="../learning_path.html" class="btn btn-dark mb-2 d-flex align-items-center arabic">شاهد مسار التعلم الخاص بي<i class="ri-route-fill me-2"></i></a>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <img id="query-preloader" class="img-fluid mb-2" src="assets/media/preloader.gif" style="display: none;height: 40px;">
+                        <h5 class="mb-3 arabic" id="query-state"></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script>
+        const userAnswers = []
+        // Function to populate a single question
+        function populateQuestion(quizData, skillIndex, questionIndex) {
+            const quizContainer = document.getElementById('quizContainer');
+            const skill = quizData.related_skills[skillIndex];
+            const question = skill.mcq_questions[questionIndex];
+
+            // Clear the container and add the question content
+            quizContainer.innerHTML = `
+                <h3 class="mb-4 text-center arabic">${quizData.main_skill} - ${skill.related_skill_name}</h3>
+                <div dir="rtl" class="mb-3 p-4 border rounded-4 border-white border-4 arabic">
+                    <h5 class="text-dark arabic reveal_top">${questionIndex + 1}: ${question.question_text}</h5>
+                    <div class="mb-3">
+                        ${question.options.map((option, index) => `
+                            <div class="form-check reveal_top" style="display: flex; align-items: center;">
+                                <input class="form-check-input" type="radio" name="quizOption${questionIndex}" id="option${index}" value="${option}" ${index === 0 ? 'checked' : ''} style="margin-left: 10px;">
+                                <label class="form-check-label text-secondary arabic" for="option${index}" style="margin-left: 10px;">
+                                    ${option}
+                                </label>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button class="btn btn-dark px-3 py-2 arabic" id="prevBtn" ${questionIndex === 0 && skillIndex === 0 ? 'disabled' : ''}>السابق</button>
+                    <button class="btn btn-dark px-3 py-2 arabic" id="nextBtn">${questionIndex === skill.mcq_questions.length - 1 && skillIndex === quizData.related_skills.length - 1 ? 'إرسال' : 'التالي'}</button> 
+               </div>
+            `;
+
+            // Add event listeners for navigation buttons
+            document.getElementById('prevBtn').addEventListener('click', () => {
+                if (questionIndex === 0) {
+                    populateQuestion(quizData, skillIndex - 1, quizData.related_skills[skillIndex - 1].mcq_questions.length - 1);
+                } else {
+                    populateQuestion(quizData, skillIndex, questionIndex - 1);
+                }
+            });
+            window.evaluationResult;
+
+            document.getElementById('nextBtn').addEventListener('click', () => {
+                const selectedOption = document.querySelector(`input[name="quizOption${questionIndex}"]:checked`);
+                userAnswers.push(selectedOption.value[0]);
+                if (questionIndex === skill.mcq_questions.length - 1) {
+                    if (skillIndex === quizData.related_skills.length - 1) {
+                        
+                        submitQuiz(quizData);
+                        evaluationData = JSON.parse(localStorage.getItem('evaluationData'));
+                        data = {"skills_assessement" : evaluationData, "user_answers": userAnswers}
+                        console.log("data :", data)
+                        fetch(`${window.location.origin}/skills-evaluation`, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                skills_assessement: evaluationData,
+                                user_answers: userAnswers
+                            })
+                        })
+                        .then(response => response.json())
+                        .then(result => {
+                            window.evaluationResult = result;
+                            console.log('Success:', result);
+                            document.getElementById("score").textContent = result.score;
+                            document.getElementById("strengths").textContent = result.strengths.length > 0 ? result.strengths : '-';
+                            document.getElementById("weaknesses").textContent = result.weaknesses.length > 0 ? result.weaknesses : '-';
+                            // Handle the result as needed
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                        });
+
+
+                    } else {             
+                        populateQuestion(quizData, skillIndex + 1, 0);
+                    }
+                } else {                  
+                    populateQuestion(quizData, skillIndex, questionIndex + 1);
+                }
+            });
+        }
+
+        // Function to handle quiz submission
+        function submitQuiz(quizData) {
+            const answers = {};
+            let allAnswered = true;
+
+            quizData.related_skills.forEach(skill => {
+                skill.mcq_questions.forEach((question, questionIndex) => {
+                    const selectedOption = document.querySelector(`input[name="quizOption${questionIndex}"]:checked`);
+                    if (!selectedOption) {
+                        allAnswered = false;
+                    }
+                    answers[question.question_text] = selectedOption ? selectedOption.value : null;
+                });
+            });
+            
+            if (!allAnswered) {
+                const resultsModal = new bootstrap.Modal(document.getElementById('resultsModal'));
+                resultsModal.show();
+                return;
+            }
+
+            let score = 0;
+            quizData.related_skills.forEach(skill => {
+                skill.mcq_questions.forEach(question => {
+                    if (answers[question.question_text] === question.correct_answer) {
+                        score++;
+                    }
+                });
+            });
+
+            // Update the modal content dynamically
+            const modalBody = document.querySelector('#resultsModal .modal-body');
+            modalBody.innerHTML = `
+                <p class="mb-2 arabic"><strong>النتيجة:</strong> "${score}/${quizData.related_skills.reduce((acc, skill) => acc + skill.mcq_questions.length, 0)}"</p>
+                <p class="mb-2 arabic"><strong>نقاط القوة:</strong> الاحتمالات، الجبر الخطي</p>
+                <p class="mb-2 arabic"><strong>نقاط الضعف:</strong> البرمجة، إلخ.</p>
+            `;
+
+            // Show the modal with results
+            const resultsModal = new bootstrap.Modal(document.getElementById('resultsModal'));
+            resultsModal.show();
+        }
+        
+        function handleCoursePlanGeneration(event) {
+            const queryPreloader = document.getElementById("query-preloader");
+            const queryState = document.getElementById("query-state");
+
+            event.preventDefault();
+            if (!window.evaluationResult) {
+                console.error('No evaluation result available');
+                return;
+            }
+
+            queryState.innerText = "جارٍ إنشاء خطة الدورة الخاصة بك";
+            queryPreloader.style.display = 'inline';
+
+            fetch(`${window.location.origin}/generate-course-plan`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(evaluationResult)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Course Plan:', data);
+                    queryPreloader.style.display = 'none';
+                    localStorage.setItem('coursePlanData', JSON.stringify(data));
+                    window.location.href = 'learningpath';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    queryPreloader.style.display = 'none';
+                });
+            }
+
+        // Add event listener to the button
+        document.querySelector('.btn-dark.mb-2').addEventListener('click', handleCoursePlanGeneration);
+
+        // Fetch the external JSON file and populate the first question
+        // fetch('data/quiz_data.json')
+        //     .then(response => {
+        //         if (!response.ok) {
+        //             throw new Error(`HTTP error! Status: ${response.status}`);
+        //         }
+        //         return response.json();
+        //     })
+        //     .then(data => {
+        //         console.log("Quiz Data:", data);
+        //         populateQuestion(data, 0, 0); // Start with the first question of the first skill
+        //     })
+        //     .catch(error => {
+        //         console.error("Error loading quiz data:", error);
+        //         document.getElementById('quizContainer').innerHTML = `
+        //             <div class="alert alert-danger arabic" role="alert" dir="rtl">
+        //                 فشل في تحميل بيانات الاختبار. يرجى المحاولة مرة أخرى لاحقًا.
+        //             </div>
+        //         `;
+        //     });
+    </script>
+
+    <script>
+    function setLanguage(lang) {
+        document.documentElement.lang = lang;
+        if (lang === 'ar') {
+            document.body.setAttribute('dir', 'rtl');
+        } else {
+            document.body.removeAttribute('dir');
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        // Retrieve the data object from localStorage
+        const evaluationData = JSON.parse(localStorage.getItem('evaluationData'));
+        if (evaluationData) {
+            console.log("Evaluation Data:", evaluationData);
+            populateQuestion(evaluationData, 0, 0); // Assuming populateQuestion is the function to populate data
+        } else {
+            console.log("No evaluation data found.");
+        }
+
+    });
+
+    // ...existing code...
+</script>
+  
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>

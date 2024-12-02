@@ -1,0 +1,16 @@
+{
+    "title": "Machine Learning",
+    "level": "Beginner",
+    "progress": 65,
+    "modules": [
+        {
+            "name": "Introduction to machine learning"
+        },
+        {
+            "name": "Python for machine learning"
+        },
+        {
+            "name": "Types of Machine Learning"
+        }
+    ]
+}

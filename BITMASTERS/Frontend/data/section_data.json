@@ -1,0 +1,22 @@
+{
+    "title": "Types of Machine Learning",
+    "description": [
+        {
+            "heading": "1. Supervised Learning",
+            "content": "Supervised learning involves training a model on a labeled dataset, where the input data is paired with the correct output. The goal is for the model to learn the mapping between inputs and outputs to make accurate predictions on new, unseen data."
+        },
+        {
+            "heading": "2. Unsupervised Learning",
+            "content": "In unsupervised learning, the model works with unlabeled data. The objective is to identify hidden patterns or structures in the data without predefined outputs."
+        },
+        {
+            "heading": "3. Reinforcement Learning",
+            "content": "Reinforcement learning involves training an agent to make decisions by interacting with an environment. The agent learns through trial and error, receiving rewards or penalties based on its actions."
+        }
+    ],
+    "resources": [
+        { "name": "Intro to ML", "link": "#", "icon": "ri-book-line" },
+        { "name": "How to Build ML Models", "link": "#", "icon": "ri-youtube-line" },
+        { "name": "Learning Representations by Back-Propagating Errors", "link": "#", "icon": "ri-file-text-line" }
+    ]
+}

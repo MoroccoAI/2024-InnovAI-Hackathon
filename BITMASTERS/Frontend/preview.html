@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>AIDirassa</title>
+</head>
+
+<body>
+    <header class="header reveal_top">
+        <nav class="nav d-flex justify-content-between">
+            <div class="nav__data reveal_top">
+                <div class="nav__background">
+                </div>
+            </div>
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <!-- Help/Support -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>المساعدة والدعم
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-chat-3-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">الدعم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="contact.html" class="dropdown__link arabic">الدردشة معنا</a>
+                                        </li>
+                                        <li>
+                                            <a href="faqs.html" class="dropdown__link arabic">الأسئلة الشائعة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- My Progress Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>تقدمي
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-road-map-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">أدوات التعلم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="learning_path.html" class="dropdown__link arabic">مسار التعلم الخاص
+                                                بي</a>
+                                        </li>
+                                        <li>
+                                            <a href="exercises.html" class="dropdown__link arabic">تمارين</a>
+                                        </li>
+                                        <li>
+                                            <a href="evaluation.html" class="dropdown__link arabic">تقييم</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-question-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">اختبارات</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="ongoing_quizzes.html" class="dropdown__link arabic">اختبارات
+                                                جارية</a>
+                                        </li>
+                                        <li>
+                                            <a href="final_quiz.html" class="dropdown__link arabic">الاختبار النهائي</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Resources Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>الموارد
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-links-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">مواد التعلم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="articles.html" class="dropdown__link arabic">مقالات</a>
+                                        </li>
+                                        <li>
+                                            <a href="youtube_tutorials.html" class="dropdown__link arabic">دروس
+                                                يوتيوب</a>
+                                        </li>
+                                        <li>
+                                            <a href="research_papers.html" class="dropdown__link arabic">أوراق بحثية</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Courses Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>الدورات
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-book-open-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">الدورات المتاحة</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="intro_to_ml.html" class="dropdown__link arabic">مقدمة في تعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="python_for_ml.html" class="dropdown__link arabic">بايثون لتعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="types_of_ml.html" class="dropdown__link arabic">أنواع تعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="applications_of_ml.html" class="dropdown__link arabic">تطبيقات تعلم
+                                                الآلة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Home Link -->
+                    <li>
+                        <a href="/" class="nav__link arabic">الرئيسية</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="nav__data me-md-5 me-2 reveal_top">
+                <div class="d-flex flex-column align-items-center nav__logo">
+                    <h4 class="mb-0">
+                        AIDirassa
+                    </h4>
+                    <small>
+                        online
+                    </small>
+                </div>
+                <img src="assets/media/logo.png" alt="" srcset="" style="max-width: 80px;">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+        <section class="section container my-5" dir="rtl">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img id="query-preloader1" class="img-fluid mb-2" src="assets/media/preloader.gif" style="height: 40px;">
+                <h5 class="mb-3 arabic" id="query-state"></h5>
+            </div>
+            <div class="col-12 text-center">
+                <h1 id="sectionTitle" class="text-primary arabic"></h1>
+                <h5 id="sectionSubtitle" class="text-secondary mb-4 arabic"></h5>
+            </div>
+    
+            <div class="col-12">
+                <div id="contentContainer" class="p-4 border-4 border border-gpt rounded-4 bg-light">
+                    <!-- Content will be dynamically loaded -->
+                </div>
+            </div>
+    
+            <div class="col-12 mt-4 text-center">
+                <h5 class="arabic">الموارد:</h5>
+                <div class="col-md-12 text-center">
+                    <img id="query-preloader2" class="img-fluid mb-2" src="assets/media/preloader.gif" style="height: 40px;">
+                    <h5 class="mb-3 arabic" id="query-state"></h5>
+                </div>
+                <div id="resourcesContainer" class="d-flex flex-wrap justify-content-center gap-3 mt-3">
+                    <!-- Resources will be dynamically added -->
+                </div>
+            </div>
+    
+            <div class="col-12 text-center mt-4">
+                <button class="btn btn-dark px-4 py-2 arabic" id="exerciseButton">التمارين</button>
+            </div>
+        </div>
+    
+        <!-- Chatbot Toggle Button -->
+        <button id="chatbotToggle" class="btn btn-dark rounded-circle position-fixed bottom-0 end-0 m-4 shadow arabic"
+            data-bs-toggle="tooltip" data-bs-placement="left" title="مرحبًا، كيف يمكنني مساعدتك اليوم؟">
+            <i class="ri-robot-2-line"></i>
+        </button>
+    
+        <!-- Chatbot -->
+        <div class="chatbot position-fixed custom-bg-chat bottom-0 end-0 m-3 border border-white border-4 rounded-3 bg-light p-2 d-none"
+            id="chatbot">
+            <div class="modal-body m-0 p-0">
+                <div class="chatbot-header d-flex justify-content-between align-items-center mb-2 mx-2">
+                    <strong class="arabic">تحدث معنا</strong>
+                    <button class="border-0 btn-danger btn px-2 rounded-2" id="closeChatbot">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div id="chatMessages" class="chatbot-messages mb-3" style="max-height: 350px; overflow-y: auto;">
+                    <div class="d-flex justify-content-center flex-column align-items-center">
+                        <img src="assets/media/logo.png" alt="" srcset="" style="max-width: 200px;">
+                        <h4 class="mb-4 text-secondary arabic">كيف يمكنني مساعدتك اليوم؟</h4>
+                    </div>
+                </div>
+                <div class="input-group border-3 border border-gpt rounded-3 bg-light">
+                    <input type="text" class="form-control py-2 px-3 bg-light border-0 arabic" placeholder="اكتب رسالة..."
+                        id="chatInput" autocomplete="off" />
+                    <button class="border-0 btn-dark btn px-2 rounded-3 m-1" id="sendChat">
+                        <i class="ri-arrow-up-line"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="custom-bg-top::before" style="background-image: url('assets/media/morocco1.jpg');">
+    </div>
+    <div class="custom-bg::after" style="background-image: url('assets/media/moroccoreversed.jpg');">
+    </div>
+    <script>
+        // Initialize Bootstrap Tooltip
+        const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    
+        // Fetch data from external JSON file and populate the section
+        fetch('data/section_data.json')
+            .then((response) => response.json())
+            .then((data) => {
+                populateSection(data);
+            })
+            .catch((error) => console.error("Error loading section data:", error));
+    
+        // Populate section content dynamically
+        function populateSection(data) {
+            // Title and subtitle
+            document.getElementById("sectionTitle").textContent = data.title;
+            document.getElementById("sectionSubtitle").textContent = data.subtitle;
+    
+            // Descriptions
+            const contentContainer = document.getElementById("contentContainer");
+            contentContainer.innerHTML = data.description
+                .map(
+                    (item) => `
+                    <div class="mb-4">
+                        <h5 class="text-primary arabic">${item.heading}</h5>
+                        <p class="text-secondary arabic">${item.content}</p>
+                    </div>
+                `
+                )
+                .join("");
+    
+            // Resources
+            const resourcesContainer = document.getElementById("resourcesContainer");
+            resourcesContainer.innerHTML = data.resources
+                .map(
+                    (resource) => `
+                    <a href="${resource.link}" target="_blank" class="btn btn-light border rounded-3 shadow-sm d-flex align-items-center gap-2">
+                        <i class="${resource.icon}"></i> ${resource.name}
+                    </a>
+                `
+                )
+                .join("");
+        }
+    
+        // Chatbot Logic
+        const chatbotToggle = document.getElementById("chatbotToggle");
+        const chatbot = document.getElementById("chatbot");
+        const closeChatbot = document.getElementById("closeChatbot");
+        const chatInput = document.getElementById("chatInput");
+        const chatMessages = document.getElementById("chatMessages");
+        const sendChat = document.getElementById("sendChat");
+    
+        // Toggle chatbot visibility
+        chatbotToggle.addEventListener("click", () => {
+            chatbot.classList.toggle("d-none");
+            if (!chatbot.classList.contains("d-none")) {
+                tooltipList.forEach(tooltip => tooltip.hide()); // Hide tooltip when chatbot is shown
+            }
+        });
+    
+        // Close chatbot
+        closeChatbot.addEventListener("click", () => {
+            chatbot.classList.add("d-none");
+        });
+    
+        // Send chat message
+        sendChat.addEventListener("click", sendMessage);
+    
+        // Send message on Enter key press
+        chatInput.addEventListener("keypress", (event) => {
+            if (event.key === "Enter") {
+                sendMessage();
+            }
+        });
+    
+        async function sendMessage() {
+            const message = chatInput.value.trim(); // Get user input
+            if (message) {
+                // Remove placeholder when messages start to be sent
+                chatInput.placeholder = "";
+
+                // Remove initial content
+                const initialContent = document.querySelector("#chatMessages > div");
+                if (initialContent) {
+                    initialContent.remove();
+                }
+
+                // Display user message in the chat
+                chatMessages.innerHTML += `<div class="text-end text-primary mb-2 arabic rounded-4 bg-white p-2 border border-3 px-3"><i class="ri-user-line ms-2"></i>${message}</div>`;
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+    
+                // Clear the input field
+                chatInput.value = "";
+    
+                // Call the backend API
+                try {
+                    const response = await fetch("/ask", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify({ question: message, topics: currentTopics }),
+                    });
+    
+                    if (response.ok) {
+                        const data = await response.json();
+                        // Display the bot response
+                        displayBotResponse(data.response); // Changed from data.answer to data.response
+                    } else {
+                        const errorData = await response.json();
+                        displayBotResponse("عذرًا، واجهت خطأ: " + errorData.detail);
+                    }
+                } catch (error) {
+                    // Handle network or other errors
+                    displayBotResponse("عذرًا، حدث خطأ ما. حاول مرة أخرى لاحقًا.");
+                }
+            }
+        }
+    
+        function displayBotResponse(response) {
+            if (!response) {
+                response = "عذرًا، لم أتمكن من توليد استجابة.";
+            }
+    
+            let botMessageDiv = document.createElement('div');
+            botMessageDiv.className = 'text-start text-secondary mb-2 arabic';
+            chatMessages.appendChild(botMessageDiv);
+    
+            let index = 0;
+            const interval = setInterval(() => {
+                if (index < response.length) {
+                    botMessageDiv.textContent += response[index];
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                    index++;
+                } else {
+                    clearInterval(interval);
+                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                }
+            }, 50);
+        }
+    
+        // Add global variable to store topics
+        let currentTopics = [];
+    
+        document.addEventListener("DOMContentLoaded", () => {
+            const selectedModule = JSON.parse(localStorage.getItem('selectedModule'));
+            const courseName = localStorage.getItem('courseName');
+            console.log('Selected module:', selectedModule);
+            console.log('Course name:', courseName);
+    
+            if (selectedModule && courseName) {
+                // Show preloader
+                document.getElementById("query-preloader1").style.display = 'inline';
+    
+                fetch(`${window.location.origin}/generate-topic-content`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        module_name: selectedModule.module_name,
+                        course_name: courseName,
+                        topics: selectedModule.topics
+                    })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log('Topic content:', data);
+                        populateContent(data);
+                    })
+                    .catch(error => {
+                        console.error('Error fetching topic content:', error);
+                    })
+                    .finally(() => {
+                        // Hide preloader
+                        document.getElementById("query-preloader1").style.display = 'none';
+                    });
+            } else {
+                console.error('No module or course name found in localStorage.');
+            }
+        });
+    
+        function populateContent(data) {
+            document.getElementById("sectionTitle").textContent = data.module_name;
+            document.getElementById("sectionSubtitle").textContent = data.introduction;
+    
+            const contentContainer = document.getElementById("contentContainer");
+            contentContainer.innerHTML = data.topics
+                .map(
+                    (topic) => `
+                    <div class="mb-4">
+                        <h5 class="text-primary arabic">${topic.topic_name}</h5>
+                        <p class="text-secondary arabic">${topic.explanation}</p>
+                    </div>
+                `
+                )
+                .join("");
+    
+            // Fetch and display resources for each topic
+            data.topics.forEach(topic => {
+                fetchResources(topic.topic_name);
+            });
+    
+            // Store topics for chatbot use
+            currentTopics = data.topics.map(topic => ({
+                topic_name: topic.topic_name,
+                explanation: topic.explanation
+            }));
+        }
+    
+        function fetchResources(topicName) {
+            const payload = { topic_name: topicName };
+            console.log('Sending payload:', payload); // Log the payload
+    
+            // Show preloader
+            document.getElementById("query-preloader2").style.display = 'inline';
+    
+            fetch('/get-topic-resources', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(resources => {
+                    console.log('Received resources:', resources); // Log the received resources
+                    const resourcesContainer = document.getElementById("resourcesContainer");
+                    if (Array.isArray(resources)) {
+                        resources.forEach(resource => {
+                            resourcesContainer.innerHTML += `
+                                <a href="${resource.link}" target="_blank" class="btn btn-light border rounded-3 shadow-sm d-flex align-items-center gap-2">
+                                    <i class="ri-link"></i> ${resource.title || resource.link}
+                                </a>
+                            `;
+                        });
+                    } else {
+                        console.error('Resources is not an array:', resources);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching resources:', error);
+                })
+                .finally(() => {
+                    // Hide preloader
+                    document.getElementById("query-preloader2").style.display = 'none';
+                });
+        }
+    
+        document.getElementById("exerciseButton").addEventListener("click", () => {
+            // Get the current topics from the content
+            if (currentTopics && currentTopics.length > 0) {
+                // Store the full topic objects with both name and explanation
+                const topicsToStore = currentTopics.map(topic => ({
+                    topic_name: topic.topic_name,
+                    explanation: topic.explanation
+                }));
+    
+                localStorage.setItem('exerciseTopics', JSON.stringify(topicsToStore));
+                window.location.href = 'exercises';
+            } else {
+                alert('يرجى الانتظار حتى يتم تحميل المواضيع قبل الوصول إلى التمارين');
+            }
+        });
+    </script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

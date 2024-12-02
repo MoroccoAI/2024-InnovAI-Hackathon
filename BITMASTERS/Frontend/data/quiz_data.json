@@ -1,0 +1,77 @@
+{
+    "quiz_title": "Machine Learning Quiz",
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is supervised learning?",
+            "description": "Please select the correct answer from the options below.",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "A type of machine learning using labeled data to make predictions."
+                },
+                {
+                    "id": "B",
+                    "text": "A learning method that requires no human intervention."
+                },
+                {
+                    "id": "C",
+                    "text": "A learning algorithm specifically for image recognition."
+                },
+                {
+                    "id": "D",
+                    "text": "A hardware component that increases processing speed."
+                }
+            ],
+            "correct_option": "A"
+        },
+        {
+            "id": 2,
+            "question": "What is unsupervised learning?",
+            "description": "Please select the correct answer from the options below.",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "A method to predict outcomes using labeled data."
+                },
+                {
+                    "id": "B",
+                    "text": "A method to find hidden patterns in unlabelled data."
+                },
+                {
+                    "id": "C",
+                    "text": "A technique exclusively for image recognition."
+                },
+                {
+                    "id": "D",
+                    "text": "A hardware technique for faster computation."
+                }
+            ],
+            "correct_option": "B"
+        },
+        {
+            "id": 3,
+            "question": "Which of these is a supervised learning algorithm?",
+            "description": "Please select the correct answer from the options below.",
+            "options": [
+                {
+                    "id": "A",
+                    "text": "Linear Regression."
+                },
+                {
+                    "id": "B",
+                    "text": "K-Means Clustering."
+                },
+                {
+                    "id": "C",
+                    "text": "Principal Component Analysis."
+                },
+                {
+                    "id": "D",
+                    "text": "Reinforcement Learning."
+                }
+            ],
+            "correct_option": "A"
+        }
+    ]
+}

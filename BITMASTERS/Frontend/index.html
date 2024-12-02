@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>AIDirassa</title>
+</head>
+
+<body>
+    <header class="header reveal_top">
+        <nav class="nav d-flex justify-content-between">
+            <div class="nav__data reveal_top">
+                <div class="nav__background">
+                </div>
+            </div>
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <!-- Help/Support -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>المساعدة والدعم
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-chat-3-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">الدعم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="contact.html" class="dropdown__link arabic">الدردشة معنا</a>
+                                        </li>
+                                        <li>
+                                            <a href="faqs.html" class="dropdown__link arabic">الأسئلة الشائعة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- My Progress Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>تقدمي
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-road-map-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">أدوات التعلم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="learning_path.html" class="dropdown__link arabic">مسار التعلم الخاص
+                                                بي</a>
+                                        </li>
+                                        <li>
+                                            <a href="exercises.html" class="dropdown__link arabic">تمارين</a>
+                                        </li>
+                                        <li>
+                                            <a href="evaluation.html" class="dropdown__link arabic">تقييم</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-question-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">اختبارات</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="ongoing_quizzes.html" class="dropdown__link arabic">اختبارات
+                                                جارية</a>
+                                        </li>
+                                        <li>
+                                            <a href="final_quiz.html" class="dropdown__link arabic">الاختبار النهائي</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Resources Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>الموارد
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-links-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">مواد التعلم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="articles.html" class="dropdown__link arabic">مقالات</a>
+                                        </li>
+                                        <li>
+                                            <a href="youtube_tutorials.html" class="dropdown__link arabic">دروس
+                                                يوتيوب</a>
+                                        </li>
+                                        <li>
+                                            <a href="research_papers.html" class="dropdown__link arabic">أوراق بحثية</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Courses Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>الدورات
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-book-open-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">الدورات المتاحة</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="intro_to_ml.html" class="dropdown__link arabic">مقدمة في تعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="python_for_ml.html" class="dropdown__link arabic">بايثون لتعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="types_of_ml.html" class="dropdown__link arabic">أنواع تعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="applications_of_ml.html" class="dropdown__link arabic">تطبيقات تعلم
+                                                الآلة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Home Link -->
+                    <li>
+                        <a href="/" class="nav__link arabic">الرئيسية</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="nav__data me-md-5 me-2 reveal_top">
+                <div class="d-flex flex-column align-items-center nav__logo">
+                    <h4 class="mb-0">
+                        AIDirassa
+                    </h4>
+                    <small>
+                        online
+                    </small>
+                </div>
+                <img src="assets/media/logo.png" alt="" srcset="" style="max-width: 80px;">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <section class="section d-flex flex-columner-dark border-2 rounded-2 btn-outline-dark">
+        <div class="d-flex col-8 justify-content-center align-items-center">
+            <div class="col-8 row mx-0 px-0 reveal_top">
+                <div class="col-12 text-center">
+                    <img src="assets/media/logo.png" alt="" srcset="" style="max-width: 250px;">
+                    <!-- <h1 class="mb-3">AIDirassa</h1>
+                    <h5 class="mb-4 text-secondary">Online</h5> -->
+                    <p class="mb-2 text-muted arabic">سؤال واحد بعيدًا عن النجاح الأكاديمي</p>
+                </div>
+                <div class="col-md-12 text-center reveal_top">
+                    <img id="query-preloader" class="img-fluid mb-2" src="assets/media/preloader.gif"
+                        style="display: none;height: 40px;">
+                    <h5 class="mb-3 arabic" id="query-state"></h5>
+                </div>
+                <div class="col-12 reveal_top">
+                    <div class="input-group mb-3 border-3 border-gpt border rounded-4 bg-light">
+                        <button class="btn btn-lg btn-dark rounded-4 m-1 border-0" id="sendButton">
+                            <i class="ri-arrow-up-line"></i>
+                        </button>
+                        <button class="btn btn-lg btn-light rounded-4 m-1 border-0" id="micButton">
+                            <i class="ri-mic-line" id="micIcon"></i>
+                        </button>
+                        <input type="text" dir="rtl" class="form-control py-3 arabic px-3 bg-light border-0 rounded-end-4"
+                            id="searchInput" placeholder="اريد ان اتعلم اللغه العربيه" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+
+        const micButton = document.getElementById("micButton");
+        const micIcon = document.getElementById("micIcon");
+        const searchInput = document.getElementById("searchInput");
+        const queryState = document.getElementById("query-state");
+        const queryPreloader = document.getElementById("query-preloader");
+
+        // Check if the browser supports Speech Recognition
+        if ('webkitSpeechRecognition' in window) {
+            const recognition = new webkitSpeechRecognition();
+            recognition.lang = "ar-AR";
+            recognition.interimResults = false;
+
+            // Toggle mic state
+            micButton.addEventListener("click", () => {
+                if (micIcon.classList.contains("ri-mic-line")) {
+                    // Start recording
+                    micIcon.classList.remove("ri-mic-line");
+                    micIcon.classList.add("ri-voiceprint-line");
+                    recognition.start();
+                } else {
+                    // Stop recording
+                    recognition.stop();
+                    micIcon.classList.remove("ri-voiceprint-line");
+                    micIcon.classList.add("ri-mic-line");
+                }
+            });
+
+            // Handle recognition results
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                searchInput.value = transcript;
+            };
+
+            // Reset icon when recognition ends
+            recognition.onend = () => {
+                micIcon.classList.remove("ri-voiceprint-line");
+                micIcon.classList.add("ri-mic-line");
+            };
+
+            // Handle recognition errors
+            recognition.onerror = (event) => {
+                alert('Error occurred in speech recognition: ' + event.error);
+                micIcon.classList.remove("ri-voiceprint-line");
+                micIcon.classList.add("ri-mic-line");
+            };
+        } else {
+            alert('Speech recognition is not supported in this browser. Please use Google Chrome.');
+        }
+    </script>
+
+    <script>
+        const sendButton = document.getElementById("sendButton");
+
+        sendButton.addEventListener("click", () => {
+            const message = searchInput.value;
+            if (message.trim() !== "") {
+                queryState.innerText = "التحقق من التعليمات الخاصة بك";
+                queryPreloader.style.display = 'inline';
+                fetch(`${window.location.origin}/chek-relevence?query=${encodeURIComponent(message)}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log("first endpoint return : ", data);
+                        queryPreloader.style.display = 'none';
+                        if (data.message === 'Relevant') {
+                            queryState.innerText = "جاري إنشاء تقييم مخصص لك";
+                            queryPreloader.style.display = 'inline';
+                            fetch(`${window.location.origin}/skills-assessment?query=${encodeURIComponent(message)}`, {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                }
+                            })
+                                .then(response => response.json())
+                                .then(data => {
+                                    console.log("second endpoint return : ", data);
+                                    queryPreloader.style.display = 'none';
+                                    localStorage.setItem('evaluationData', JSON.stringify(data));
+                                    window.location.href = 'evaluation';
+                                })
+                                .catch(error => {
+                                    console.error('Error:', error);
+                                    queryPreloader.style.display = 'none';
+                                });
+                        } else {
+                            console.log("Not Relevant");
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        queryPreloader.style.display = 'none';
+                    });
+            }
+        });
+
+    </script>
+
+    <!-- ...existing code... -->
+    <button class="btn btn-dark px-3 py-2 arabic" id="prevBtn" ${questionIndex === 0 && skillIndex === 0 ? 'disabled' : ''}>السابق</button>
+    <button class="btn btn-dark px-3 py-2 arabic" id="nextBtn">${questionIndex === skill.mcq_questions.length - 1 && skillIndex === quizData.related_skills.length - 1 ? 'إرسال' : 'التالي'}</button>
+    <!-- ...existing code... -->
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

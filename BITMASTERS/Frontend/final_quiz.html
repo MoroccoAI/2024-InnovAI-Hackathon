@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>AIDirassa</title>
+</head>
+
+<body>
+    <header class="header reveal_top">
+        <nav class="nav d-flex justify-content-between">
+            <div class="nav__data reveal_top">
+                <div class="nav__background">
+                </div>
+            </div>
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <!-- Help/Support -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>المساعدة والدعم
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-chat-3-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">الدعم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="contact.html" class="dropdown__link arabic">الدردشة معنا</a>
+                                        </li>
+                                        <li>
+                                            <a href="faqs.html" class="dropdown__link arabic">الأسئلة الشائعة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- My Progress Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>تقدمي
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-road-map-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">أدوات التعلم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="learning_path.html" class="dropdown__link arabic">مسار التعلم الخاص
+                                                بي</a>
+                                        </li>
+                                        <li>
+                                            <a href="exercises.html" class="dropdown__link arabic">تمارين</a>
+                                        </li>
+                                        <li>
+                                            <a href="evaluation.html" class="dropdown__link arabic">تقييم</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-question-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">اختبارات</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="ongoing_quizzes.html" class="dropdown__link arabic">اختبارات
+                                                جارية</a>
+                                        </li>
+                                        <li>
+                                            <a href="final_quiz.html" class="dropdown__link arabic">الاختبار النهائي</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Resources Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>الموارد
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-links-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">مواد التعلم</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="articles.html" class="dropdown__link arabic">مقالات</a>
+                                        </li>
+                                        <li>
+                                            <a href="youtube_tutorials.html" class="dropdown__link arabic">دروس
+                                                يوتيوب</a>
+                                        </li>
+                                        <li>
+                                            <a href="research_papers.html" class="dropdown__link arabic">أوراق بحثية</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Courses Dropdown -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button arabic">
+                            <i class="ri-arrow-down-s-line dropdown__arrow"></i>الدورات
+                        </div>
+                        <div class="dropdown__container" dir="rtl">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-book-open-line"></i>
+                                    </div>
+                                    <span class="dropdown__title arabic">الدورات المتاحة</span>
+                                    <ul class="dropdown__list ps-0">
+                                        <li>
+                                            <a href="intro_to_ml.html" class="dropdown__link arabic">مقدمة في تعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="python_for_ml.html" class="dropdown__link arabic">بايثون لتعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="types_of_ml.html" class="dropdown__link arabic">أنواع تعلم
+                                                الآلة</a>
+                                        </li>
+                                        <li>
+                                            <a href="applications_of_ml.html" class="dropdown__link arabic">تطبيقات تعلم
+                                                الآلة</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Home Link -->
+                    <li>
+                        <a href="/" class="nav__link arabic">الرئيسية</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="nav__data me-md-5 me-2 reveal_top">
+                <div class="d-flex flex-column align-items-center nav__logo">
+                    <h4 class="mb-0">
+                        AIDirassa
+                    </h4>
+                    <small>
+                        online
+                    </small>
+                </div>
+                <img src="assets/media/logo.png" alt="" srcset="" style="max-width: 80px;">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <section class="section d-flex flex-column justify-content-center align-items-center position-relative reveal_top">
+        <h1 class="mb-4 text-center text-primary arabic">الاختبار النهائي</h1>
+        
+        <div class="col-lg-8 col-11">
+            <div id="quizContent" class="p-4 border border-4 border-white rounded-4 bg-glass-dark">
+                <!-- Quiz questions will be loaded here -->
+            </div>
+            
+            <div id="quizNavigation" class="text-center mt-4">
+                <button class="btn btn-dark px-4 me-2 arabic" id="prevBtn" disabled>السابق</button>
+                <button class="btn btn-dark px-4 arabic" id="nextBtn">التالي</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Modal -->
+    <div class="modal fade" id="resultsModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="resultsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 custom-bg border border-4 border-white p-4">
+                <div class="modal-header border-light border-2">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h4 class="modal-title text-primary arabic" id="resultsModalLabel">نتائج الاختبار</h4>
+                </div>
+                <div class="modal-body text-end" dir="rtl">
+                    <h5 class="arabic">النتيجة الإجمالية: <span id="overallScore"></span>%</h5>
+                    <div id="moduleScores" class="arabic"></div>
+                    <div class="mt-4 text-center">
+                        <a href="/learningpath" class="btn btn-dark arabic">العودة إلى مسار التعلم</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let quizData = [];
+        let currentQuestionIndex = 0;
+        let userAnswers = [];
+
+        async function loadQuiz() {
+            const quizContent = document.getElementById('quizContent');
+            quizContent.innerHTML = '<div class="text-center"><div class="spinner-border" role="status"></div><p class="mt-2">جاري تحميل الاختبار...</p></div>';
+            
+            try {
+                console.log('Loading quiz...');
+                const coursePlanData = JSON.parse(localStorage.getItem('quizCoursePlan'));
+                console.log('Retrieved course plan:', coursePlanData);
+
+                if (!coursePlanData) {
+                    throw new Error('No quiz course plan found');
+                }
+
+                const quizInputs = coursePlanData.learning_path.map(module => ({
+                    module_name: module.module_name,
+                    course_name: coursePlanData.course_name,
+                    topics: module.topics
+                }));
+                console.log('Prepared quiz inputs:', quizInputs);
+
+                const response = await fetch(`${window.location.origin}/generate_quiz`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(quizInputs)
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                quizData = await response.json();
+                console.log('Received quiz data:', quizData);
+                
+                if (!quizData || quizData.length === 0) {
+                    throw new Error('No quiz questions received');
+                }
+                
+                showQuestion(0);
+            } catch (error) {
+                console.error('Error loading quiz:', error);
+                quizContent.innerHTML = `
+                    <div class="alert alert-danger" role="alert">
+                        <h4 class="alert-heading">خطأ في تحميل الاختبار</h4>
+                        <p>${error.message}</p>
+                        <hr>
+                        <a href="learning_path.html" class="btn btn-dark">العودة إلى مسار التعلم</a>
+                    </div>
+                `;
+            }
+        }
+
+        function showQuestion(index) {
+            try {
+                console.log(`Showing question ${index + 1}`);
+                if (!quizData || !quizData.length) {
+                    throw new Error('Quiz data is not properly loaded');
+                }
+
+                const totalQuestions = getTotalQuestions();
+                
+                // Calculate module and question indices
+                let questionCount = 0;
+                let moduleIndex = 0;
+                let questionIndex = 0;
+
+                // Find the correct module and question index
+                for (let i = 0; i < quizData.length; i++) {
+                    const moduleQuestionCount = quizData[i].questions?.length || 0;
+                    if (questionCount + moduleQuestionCount > index) {
+                        moduleIndex = i;
+                        questionIndex = index - questionCount;
+                        break;
+                    }
+                    questionCount += moduleQuestionCount;
+                }
+
+                const currentModule = quizData[moduleIndex];
+                if (!currentModule?.questions?.[questionIndex]) {
+                    throw new Error('Question not found');
+                }
+
+                const question = currentModule.questions[questionIndex];
+                
+                document.getElementById('quizContent').innerHTML = `
+                    <h4 class="mb-4 arabic" dir="rtl">${currentModule.module_name}</h4>
+                    <div class="question mb-4" dir="rtl">
+                        <h5 class="mb-3 arabic">السؤال ${index + 1} من ${totalQuestions}</h5>
+                        <p class="arabic">${question.question}</p>
+                    </div>
+                    <div class="options" dir="rtl">
+                        ${question.options.map((option, i) => `
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="option${i}" value="${option}"
+                                    ${(userAnswers[index] || []).includes(option) ? 'checked' : ''}>
+                                <label class="form-check-label arabic" for="option${i}">${option}</label>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+
+                // Update navigation buttons
+                document.getElementById('prevBtn').disabled = index === 0;
+                const nextBtn = document.getElementById('nextBtn');
+                nextBtn.textContent = index === totalQuestions - 1 ? 'إرسال' : 'التالي';
+                nextBtn.classList.toggle('btn-success', index === totalQuestions - 1);
+            } catch (error) {
+                console.error('Error showing question:', error);
+                document.getElementById('quizContent').innerHTML = `
+                    <div class="alert alert-danger" role="alert">
+                        <h4 class="alert-heading arabic">خطأ في عرض السؤال</h4>
+                        <p class="arabic">${error.message}</p>
+                        <hr>
+                        <a href="/learningpath" class="btn btn-dark arabic">العودة إلى مسار التعلم</a>
+                    </div>
+                `;
+            }
+        }
+
+        function getTotalQuestions() {
+            if (!quizData || !quizData.length) return 0;
+            return quizData.reduce((total, module) => {
+                return total + (module.questions?.length || 0);
+            }, 0);
+        }
+
+        function saveCurrentAnswers() {
+            const selectedOptions = Array.from(document.querySelectorAll('input[type="checkbox"]:checked'))
+                .map(input => input.value);
+            userAnswers[currentQuestionIndex] = selectedOptions;
+            console.log(`Saved answers for question ${currentQuestionIndex + 1}:`, selectedOptions);
+        }
+
+        async function submitQuiz() {
+            console.log('Submitting quiz...');
+            try {
+                // Group answers by module
+                const formattedAnswers = [];
+                let currentModuleIndex = 0;
+                let questionCount = 0;
+
+                for (const module of quizData) {
+                    const moduleAnswers = {
+                        module_name: module.module_name,
+                        questions: module.questions.map((question, qIdx) => {
+                            const globalIndex = questionCount + qIdx;
+                            return {
+                                question: question.question,
+                                user_answers: userAnswers[globalIndex] || [],
+                                correct_answers: question.correct_answers
+                            };
+                        })
+                    };
+                    questionCount += module.questions.length;
+                    formattedAnswers.push(moduleAnswers);
+                }
+
+                console.log('Formatted answers:', formattedAnswers);
+
+                const response = await fetch('http://localhost:8000/correct-quiz', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formattedAnswers)
+                });
+
+                if (!response.ok) throw new Error('Failed to submit quiz');
+
+                const results = await response.json();
+                console.log('Quiz results:', results);
+                showResults(results);
+            } catch (error) {
+                console.error('Error submitting quiz:', error);
+                alert('حدث خطأ أثناء تقديم الاختبار. يرجى المحاولة مرة أخرى.');
+            }
+        }
+
+        function showResults(results) {
+            console.log('Showing results:', results);
+            try {
+                const overallScore = results?.overall_score ?? 0;
+                const moduleScores = results?.module_scores ?? {};
+
+                // Update overall score
+                document.getElementById('overallScore').textContent = overallScore.toFixed(1);
+
+                // Generate module scores HTML
+                const moduleScoresHtml = Object.entries(moduleScores)
+                    .map(([module, score]) => {
+                        const scoreValue = parseFloat(score) || 0;
+                        const scoreColor = scoreValue >= 70 ? 'success' : 
+                                         scoreValue >= 50 ? 'warning' : 'danger';
+                        
+                        return `
+                            <div class="mb-3">
+                                <strong class="arabic">${module}:</strong> 
+                                <span class="arabic">${scoreValue.toFixed(1)}%</span>
+                                <div class="progress" style="height: 10px;">
+                                    <div class="progress-bar bg-${scoreColor}" 
+                                        role="progressbar" 
+                                        style="width: ${scoreValue}%" 
+                                        aria-valuenow="${scoreValue}" 
+                                        aria-valuemin="0" 
+                                        aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    }).join('') || '<p class="arabic">لم يتم العثور على نتائج</p>';
+
+                document.getElementById('moduleScores').innerHTML = moduleScoresHtml;
+
+                // Show modal
+                const modal = new bootstrap.Modal(document.getElementById('resultsModal'));
+                modal.show();
+            } catch (error) {
+                console.error('Error displaying results:', error);
+                alert('حدث خطأ في عرض النتائج');
+            }
+        }
+
+        // Event Listeners with logging
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            console.log('Navigation: Previous');
+            saveCurrentAnswers();
+            currentQuestionIndex--;
+            showQuestion(currentQuestionIndex);
+        });
+
+        document.getElementById('nextBtn').addEventListener('click', async () => {
+            console.log('Navigation: Next/Submit');
+            saveCurrentAnswers();
+            if (currentQuestionIndex < getTotalQuestions() - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            } else {
+                console.log('Quiz complete, submitting...');
+                await submitQuiz();
+            }
+        });
+
+        // Initialize quiz when page loads
+        document.addEventListener('DOMContentLoaded', loadQuiz);
+    </script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
