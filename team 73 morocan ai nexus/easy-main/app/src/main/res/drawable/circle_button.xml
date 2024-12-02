@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- Définir la couleur de fond -->
+    <solid android:color="#FF6200EE" />
+
+    <!-- Définir les coins arrondis pour obtenir une forme circulaire -->
+    <corners android:radius="50dp" />
+
+    <!-- Définir la taille du bouton -->
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+
+    <!-- Définir la bordure du bouton -->
+    <stroke
+        android:width="4dp"
+        android:color="#FF6200EE" />
+</shape>

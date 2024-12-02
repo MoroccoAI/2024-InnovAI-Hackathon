@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:visibility="visible"
+    tools:visibility="visible">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Khadamat_mouatine"
+            android:icon="@drawable/khadamat_mouatine_icon"
+            android:title="Khadamat mouatine" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help_icon"
+            android:title="Help" />
+
+    </group>
+    <item android:title="Profil">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profil_icon"
+                    android:title="Profil" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+</menu>
