@@ -1,0 +1,23 @@
+I can analyze the given text and provide the required details in a structured format.
+
+**Patient's Information**
+
+* Patient's Name: Mr. AMIMAR Mossaab
+* Date of Prescription: 22 mai 2024 (May 22, 2024)
+
+**Doctor's Information**
+
+* Doctor's Name: Dr. Meskini Mohamed
+
+**Medicines and Dosage**
+
+1. **LEVOPHTA: COLLVRE**
+	* Name: Levophenoxylmethylcholinum
+	* Dosage: 1 goutte (drop) 2 times a day
+	* Instructions: Pour les yeux, pendant 1 mois (for the eyes, for 1 month)
+2. **HYLO FRESH 5**
+	* Name: None specified (presumably an eye drop or ointment, but brand name not mentioned)
+	* Dosage: 1 goutte x 4 times a day
+	* Instructions: Étiquette : 00 (presumably instructions for the product packaging)
+
+Please note that some information is not explicitly provided in the given text, such as the specific ointment or eye drop being referred to under "HYLO FRESH 5".
