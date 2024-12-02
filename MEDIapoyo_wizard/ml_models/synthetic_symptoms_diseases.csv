@@ -1,0 +1,101 @@
+symptom1,symptom2,symptom3,disease
+chest pain,headache,chest pain,Malaria
+fever,chest pain,headache,Dengue
+blurred vision,headache,nausea,Migraine
+fatigue,body ache,body ache,Malaria
+nausea,fever,blurred vision,Pneumonia
+nausea,fever,cough,Flu
+fever,headache,chest pain,Flu
+chest pain,blurred vision,nausea,Migraine
+cough,cough,chest pain,Malaria
+headache,nausea,nausea,Dengue
+chest pain,body ache,blurred vision,Migraine
+fatigue,cough,body ache,Migraine
+nausea,body ache,fever,Malaria
+headache,fever,fatigue,Dengue
+blurred vision,chest pain,nausea,Dengue
+fatigue,fatigue,body ache,Malaria
+fatigue,chest pain,body ache,Flu
+blurred vision,headache,fever,Pneumonia
+blurred vision,fatigue,headache,Migraine
+chest pain,fatigue,fever,Migraine
+headache,body ache,fever,Pneumonia
+body ache,chest pain,fever,Dengue
+blurred vision,nausea,chest pain,Malaria
+fatigue,chest pain,chest pain,Malaria
+cough,nausea,chest pain,Pneumonia
+headache,blurred vision,chest pain,Dengue
+chest pain,fever,cough,Pneumonia
+body ache,fatigue,headache,Dengue
+cough,fever,body ache,Pneumonia
+nausea,headache,cough,Flu
+cough,chest pain,nausea,Pneumonia
+cough,body ache,body ache,Dengue
+blurred vision,cough,fever,Malaria
+headache,cough,blurred vision,Dengue
+blurred vision,fever,headache,Migraine
+headache,blurred vision,nausea,Malaria
+blurred vision,blurred vision,blurred vision,Migraine
+chest pain,blurred vision,cough,Dengue
+nausea,fatigue,headache,Flu
+nausea,headache,fever,Dengue
+chest pain,nausea,chest pain,Dengue
+cough,fatigue,cough,Dengue
+fever,headache,headache,Flu
+fatigue,blurred vision,fever,Flu
+blurred vision,fatigue,blurred vision,Migraine
+body ache,chest pain,chest pain,Pneumonia
+fatigue,headache,cough,Pneumonia
+body ache,headache,body ache,Migraine
+fatigue,fatigue,chest pain,Flu
+fatigue,fatigue,nausea,Pneumonia
+cough,cough,chest pain,Pneumonia
+blurred vision,chest pain,chest pain,Pneumonia
+fatigue,fatigue,body ache,Flu
+headache,body ache,fatigue,Migraine
+body ache,fatigue,chest pain,Flu
+fatigue,blurred vision,nausea,Migraine
+fever,cough,body ache,Malaria
+chest pain,fever,cough,Malaria
+body ache,chest pain,blurred vision,Dengue
+fever,headache,blurred vision,Malaria
+headache,cough,fever,Migraine
+headache,fever,fatigue,Flu
+nausea,nausea,chest pain,Migraine
+blurred vision,cough,chest pain,Pneumonia
+cough,blurred vision,chest pain,Dengue
+headache,blurred vision,headache,Malaria
+chest pain,cough,fatigue,Malaria
+headache,blurred vision,blurred vision,Pneumonia
+nausea,nausea,fatigue,Dengue
+fatigue,nausea,blurred vision,Flu
+headache,blurred vision,nausea,Migraine
+fatigue,fatigue,fever,Pneumonia
+nausea,chest pain,fatigue,Flu
+nausea,nausea,fever,Flu
+cough,headache,blurred vision,Malaria
+body ache,headache,chest pain,Flu
+headache,chest pain,blurred vision,Malaria
+blurred vision,nausea,fatigue,Pneumonia
+fatigue,blurred vision,nausea,Malaria
+cough,nausea,nausea,Malaria
+headache,fatigue,nausea,Migraine
+fever,chest pain,fever,Migraine
+fever,nausea,chest pain,Flu
+body ache,nausea,chest pain,Malaria
+headache,body ache,chest pain,Migraine
+headache,fever,chest pain,Pneumonia
+fever,chest pain,body ache,Pneumonia
+fever,fatigue,fatigue,Malaria
+nausea,headache,fatigue,Migraine
+blurred vision,blurred vision,nausea,Malaria
+body ache,nausea,body ache,Malaria
+blurred vision,fatigue,headache,Malaria
+fatigue,headache,fever,Pneumonia
+fever,fever,blurred vision,Pneumonia
+blurred vision,body ache,nausea,Dengue
+fever,cough,fever,Migraine
+chest pain,blurred vision,fatigue,Dengue
+nausea,headache,body ache,Flu
+headache,blurred vision,fever,Pneumonia
+headache,headache,headache,Dengue

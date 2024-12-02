@@ -1,0 +1,100 @@
+disease,symptoms,cures,doctor,risk level
+flu,"fever,cough,sore throat,runny or stuffy nose,muscle aches,headache,fatigue","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%
+bronchitis,"cough,mucus production,shortness of breath,chest pain","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",low (0.5%
+pneumonia,"fever,cough,shortness of breath,chest pain,fatigue","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",moderate (1%)
+heart attack,"chest pain,shortness of breath,nausea,vomiting,lightheadedness,sweating",emergency medical services,cardiologist,high (20%)
+stroke,"sudden weakness,numbness on one side of the body,confusion,difficulty speaking,trouble seeing in one eye,severe headache",emergency medical services,neurologist ,high (15%)
+cancer,"lump,unexplained weight loss,fatigue,changes in bowel,bladder habits,persistent cough,indigestion,unexplained bleeding or discharge","surgery,chemotherapy,radiation therapy ",oncologist,varies depending on the type of cancer
+diabetes,"increased thirst,frequent urination,unexplained weight loss,fatigue,blurred vision,cuts that are slow to heal","diet,exercise,medication",endocrinologist,high (25%)
+alzheimer's disease,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for alzheimer's disease,but there are treatments that can help manage the symptoms",neurologist,high (70%)
+arthritis,"pain,stiffness,swelling,inflammation in the joints","medication,physical therapy,lifestyle changes",rheumatologist,varies depending on the type of arthritis
+adenovirus,"fever,sore throat,cough,conjunctivitis,rash,pink eye","antibiotics,over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+aflatoxicosis,"vomiting,diarrhea,jaundice,liver damage,death","there is no cure for aflatoxicosis,but treatment may include supportive care,liver transplantation",gastroenterologist,high (70%)
+alcoholism,"physical dependence on alcohol,tolerance to alcohol,withdrawal symptoms,impaired judgment,memory problems,liver damage,heart disease,cancer"," treatment for alcoholism may include counseling,medication,support groups"," psychiatrist,addiction specialist",high (25%)
+allergic rhinitis,"runny nose,sneezing,itchy eyes,itchy nose,throat,palate","over-the-counter medications,allergy shots",allergist,low (0.1%)
+alzheimer's disease,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for alzheimer's disease,but there are treatments that can help manage the symptoms",neurologist,high (70%)
+anemia,"fatigue,shortness of breath,pale skin,lightheadedness,dizziness", , hematologist ,varies depending on the type of anemia
+anxiety disorder,"excessive worry,fear,anxiety that interfere with daily life","treatment for anxiety disorders may include therapy,medication,combination of both","psychologist,psychiatrist",varies depending on the type of anxiety disorder
+appendicitis,"pain in the lower right abdomen,nausea,vomiting,fever",appendectomy,surgeon ,high (20%)
+arthritis,"pain,stiffness,swelling,inflammation in the joints","medication,physical therapy,lifestyle changes",rheumatologist,varies depending on the type of arthritis
+asperger syndrome,"difficulty with social interaction,repetitive behaviors,restricted interests","there is no cure for asperger syndrome,but there are treatments that can help manage the symptoms","psychologist,psychiatrist",varies
+asthma,"wheezing,shortness of breath,coughing,chest tightness","treatment for asthmmay include medication,lifestyle changes,allergy shots"," allergist,pulmonologist",varies
+bacterial meningitis,"fever,headache,stiff neck,nausea,vomiting,sensitivity to light",antibiotics,"neurologist,neurosurgeon",high (20%)
+bipolar disorder,"extreme mood swings,from manito depression","treatment for bipolar disorder may include medication,therapy,combination of both"," psychologist,psychiatrist",varies
+bladder cancer,"blood in the urine,pain or burning when urinating,frequent urination,urgency to urinate,incontinence","surgery,chemotherapy,radiation therapy",urologist,high (70%)
+blood clot,"pain,swelling,redness,warmth,tenderness in the affected area,shortness of breath,chest pain,difficulty breathing,coughing up blood","treatment for blood clot may include medication,surgery,combination of both","cardiologist,hematologist",high (20%)
+bronchitis,"cough,mucus production,shortness of breath,chest pain","antibiotics,over-the-counter medications,rest,fluids","family doctor,pulmonologist",low (0.5%)
+bursitis,"pain,swelling,inflammation in bursa,which is small sac of fluid that cushions joints","medication,rest,ice,compression,elevation","family doctor,orthopedist",varies depending on the bursa
+cancer,"lump,unexplained weight loss,fatigue,changes in bowel,bladder habits,persistent cough,indigestion,unexplained bleeding or discharge","surgery,chemotherapy,radiation therapy",oncologist,varies depending on the type of cancer
+cervical cancer,"abnormal pap test results,abnormal vaginal bleeding,pain during sex","surgery,chemotherapy,radiation therapy",gynecologist,high (70%)
+chickenpox,"rash,fever,headache,muscle aches,fatigue","antiviral medication,over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+chronic obstructive pulmonary disease (copd),"chronic bronchitis,emphysema","treatment for copd may include medication,lifestyle changes,oxygen therapy",pulmonologist,varies depending on the type of copd 
+cholesterol,high levels of cholesterol in the blood,"diet,exercise,medication",cardiologist,varies depending on the level of cholesterol
+common cold,"runny nose,sneezing,sore throat,cough,congestion","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+conjunctivitis,"red,itchy,watery eyes","over-the-counter medications,warm compresses","family doctor,ophthalmologist",low (0.1%)
+depression ,"sadness,hopelessness,loss of interest in activities,changes in appetite,sleep,energy levels","treatment for depression may include medication,therapy,combination of both","psychologist,psychiatrist",varies
+diabetes,"increased thirst,frequent urination,unexplained weight loss,fatigue,blurred vision,cuts that are slow to heal","diet,exercise,medication",endocrinologist,high (25%)
+diarrhea,"loose,watery stools","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+eating disorder,disturbance in eating behavior that can lead to serious health problems,"treatment for eating disorders may include therapy,medication,support groups","psychologist,psychiatrist",varies depending on the type of eating disorder
+epilepsy,seizures,"medication,surgery", neurologist ,varies depending on the type of epilepsy
+fever,elevated body temperature ,"over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+food poisoning,"nausea,vomiting,diarrhea,abdominal cramps","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+gallstones,"pain in the upper right abdomen,nausea,vomiting,fever",surgery,surgeon ,high (20%)
+gonorrhea,"sexually transmitted infection that can cause burning during urination,discharge from the penis or vagina,pain in the lower abdomen",antibiotics,"urologist,gynecologist",high (70%)
+heart disease,"chest pain,shortness of breath,fatigue,dizziness,fainting","treatment for heart disease may include medication,lifestyle changes,surgery",cardiologist,high (20%)
+hepatitis,inflammation of the liver,"treatment for hepatitis may include medication,rest,lifestyle changes",gastroenterologist,varies depending on the type of hepatitis
+herpes,"sexually transmitted infection that can cause blisters on the genitals,mouth,other parts of the body","there is no cure for herpes,but there are treatments that can help manage the symptoms","urologist,gynecologist",high (70%)
+influenza,"fever,cough,sore throat,runny or stuffy nose,muscle aches,headache,fatigue","over-the-counter medications,rest,fluids","family doctor,urgent care",low (0.1%)
+irritable bowel syndrome (ibs),"abdominal pain,bloating,constipation,diarrhea","treatment for ibs may include diet,lifestyle changes,medication"," family doctor,gastroenterologist",varies
+kidney stones ,"pain in the lower back or side,nausea,vomiting,blood in the urine",surgery,urologist,high (20%)
+lung cancer,"cough that does not go away,shortness of breath,chest pain,unexplained weight loss,fatigue,blood in the sputum","surgery,chemotherapy,radiation therapy",oncologist,high (70%)
+malaria,"fever,chills,sweating,headache,muscle aches,fatigue,vomiting,diarrhea",antimalarial drugs,"family doctor,urgent care",high (20%)
+measles,"fever,cough,runny nose,red eyes,sore throat,rash",measles vaccine,"family doctor,urgent care",high (70%)
+meningitis,"fever,headache,stiff neck,nausea,vomiting,sensitivity to light",antibiotics,"neurologist,neurosurgeon",high (20%)
+mononucleosis,"fever,sore throat,fatigue,swollen lymph nodes,rash","there is no cure for mononucleosis,but symptoms can be treated with rest,fluids,over-the-counter medications","family doctor,urgent care",low (0.1%)
+pneumonia,"fever,cough,shortness of breath,chest pain,fatigue",antibiotics,"family doctor,pulmonologist",moderate (1%
+rabies,"fever,headache,muscle aches,tingling at the bite site,difficulty swallowing,hydrophobia,aerophobia",rabies vaccine,"doctor,urgent care",high (70%)
+salmonella,"fever,diarrhea,abdominal cramps,nausea,vomiting",antibiotics,"family doctor,urgent care ",low (0.1%)
+shingles,painful rash that follows nerve path,antiviral medication,"family doctor,dermatologist ",low (0.1%)
+tuberculosis (tb),"cough that does not go away,fever,night sweats,weight loss,fatigue,chest pain",antibiotics,"family doctor,pulmonologist",high (20%)
+urinary tract infection (uti),"painful urination,burning,frequent urination,urgency to urinate,blood in the urine",antibiotics,urologist,low (0.1%)
+varicose veins,"swollen,twisted veins,usually in the legs","surgery,compression stockings,lifestyle changes",vascular surgeon,varies
+warts ,"raised,rough growths on the skin","over-the-counter medications,prescription medications,cryotherapy,laser therapy",dermatologist,low (0.1%)
+yeast infection,"itching,burning,discharge from the vaginor penis","over-the-counter medications,prescription medications","urologist,gynecologist",low (0.1%)
+acanthamoebkeratitis,"pain,redness,inflammation in the eye","antibiotics,antifungals,surgery",ophthalmologist ,low (0.1%
+acute appendicitis,"pain in the lower right abdomen,nausea,vomiting,fever",appendectomy,surgeon,high (20%)
+acute kidney injury (aki) ,decreased kidney function,"treatment for the underlying cause,such as dehydration,infection,medication side effect ",nephrologist ,varies
+alzheimer's disease,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for alzheimer's disease,but there are treatments that can help manage the symptoms ",neurologist,high (70%)
+anemia,"fatigue,shortness of breath,pale skin,lightheadedness,dizziness","treatment for anemidepends on the type of anemia,but may include medication,blood transfusions,surgery",hematologist,varies depending on the type of anemia
+aortic aneurysm,"bulge in the wall of the aorta,the largest artery in the body",surgery,vascular surgeon,high (20%)
+bacterial meningitis ,"fever,headache,stiff neck,nausea,vomiting,sensitivity to light",antibiotics,"neurologist,neurosurgeon",high (20%)
+bipolar disorder,"extreme mood swings,from manito depression","treatment for bipolar disorder may include medication,therapy,combination of both","psychologist,psychiatrist",varies
+cervical cancer ,"abnormal pap test results,abnormal vaginal bleeding,pain during sex","surgery,chemotherapy,radiation therapy",gynecologist ,high (70%)
+colorectal cancer,"change in bowel habits,such as diarrhea,constipation,narrowing of the stool,blood in the stool,abdominal pain,unexplained weight loss","surgery,chemotherapy,radiation therapy",gastroenterologist,high (70%)
+dementia,"memory loss,confusion,difficulty thinking,changes in personality or behavior","there is no cure for dementia,but there are treatments that can help manage the symptoms",neurologist ,varies
+erectile dysfunction,"difficulty getting,keeping an erection ","medication,lifestyle changes,surgery ",urologist,varies
+fibromyalgi,"widespread pain,fatigue,tenderness","medication,lifestyle changes ",rheumatologist ,varies
+glaucoma,"increased pressure in the eye that can damage the optic nerve,lead to vision loss","medication,surgery ", ophthalmologist,varies
+heart failure,condition in which the heart cannot pump blood as well as it should,"medication,lifestyle changes,surgery",cardiologist,high (20%)
+kidney disease,damage to the kidneys that can lead to kidney failure,"treatment for the underlying cause,such as high blood pressure,diabetes,an infection",nephrologist,varies
+lung disease,"condition that affects the lungs,can make it difficult to breathe","treatment for the underlying cause,such as asthma,chronic obstructive pulmonary disease (copd),pneumonia",pulmonologist,varies
+parkinson's disease,"tremors,slow movement,stiffness,difficulty with balance,coordination "," medication,lifestyle changes",neurologist ,varies
+peptic ulcer disease ,"pain in the upper abdomen,indigestion,nausea,vomiting","medication,lifestyle changes,surgery ",gastroenterologist,varies
+peripheral artery disease,"pain,numbness,tingling in the arms or legs","medication,lifestyle changes,surgery",vascular surgeon,varies
+pneumonia,"fever,cough,shortness of breath,chest pain,fatigue",antibiotics,"family doctor,pulmonologist",moderate (1%)
+prostate cancer,"difficulty urinating,blood in the urine,pain in the back or hips,erectile dysfunction"," surgery,radiation therapy,hormone therapy",urologist,high (70%)
+rheumatoid arthritis,"pain,swelling,stiffness in the joints","medication,lifestyle changes",rheumatologist,varies
+stroke,"sudden weakness,numbness on one side of the body,difficulty speaking,confusion,trouble seeing in one eye,severe headache","treatment for the underlying cause,such as clot-busting medication,surgery","neurologist,neurosurgeon",high (20%)
+stomach cancer,"pain in the upper abdomen,indigestion,nausea,vomiting,weight loss","surgery,chemotherapy,radiation therapy",gastroenterologist ,high (70%)
+thyroid cancer,"lump in the neck,hoarseness,fatigue,weight loss,unexplained heat intolerance,sensitivity to cold","surgery,radiation therapy,hormone therapy",endocrinologist,high (70%)
+ulcerative colitis,"diarrhea,bloody stool,abdominal pain,weight loss","medication,surgery",gastroenterologist ,varies
+warts,"raised,rough growths on the skin","over-the-counter medications,prescription medications,cryotherapy,laser therapy", dermatologist,low (0.1%)
+atopic dermatitis,"itchy,red,inflamed skin","medication,lifestyle changes", dermatologist,varies
+celiac disease,"diarrhea,bloating,weight loss,fatigue,abdominal pain",gluten-free diet,gastroenterologist,varies
+chronic kidney disease,"fatigue,shortness of breath,swelling,high blood pressure,changes in urination","treatment for the underlying cause,such as high blood pressure,diabetes,an infection",nephrologist,varies
+crohn's disease,"diarrhea,bloody stool,abdominal pain,weight loss","medication,surgery",gastroenterologist,varies
+epilepsy ,seizures,"medication,surgery",neurologist,varies
+fibromyalgia,"widespread pain,fatigue,tenderness","medication,lifestyle changes",rheumatologist,varies
+graves' disease,"hyperthyroidism,which is an overactive thyroid","medication,surgery",endocrinologist,varies
+hashimoto's thyroiditis ,"hypothyroidism,which is an underactive thyroid ",medication,endocrinologist,varies
+lupus,chronic autoimmune disease that can affect any part of the body,"medication,lifestyle changes",rheumatologist ,varies

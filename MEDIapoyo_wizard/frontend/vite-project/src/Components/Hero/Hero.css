@@ -1,0 +1,82 @@
+*{
+      font-family: 'Quicksand', sans-serif;
+}
+
+
+.hero {
+    margin: 0px 100px;
+    margin-top: 100px; /* Reduced gap */
+}
+
+.hero-text {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 100px;
+}
+
+.hero-explore {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Reduced gap */
+    width: fit-content;
+    margin-top: 30px; /* Reduced gap */
+    padding: 5px 8px; /* Adjusted padding */
+    padding-left: 20px; /* Adjusted padding */
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.hero-explore p {
+    color: #292929;
+    font-size: 20px;
+    font-weight: 490;
+}
+
+.hero-dot-play {
+    margin-top: 30px; /* Reduced gap */
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between;
+}
+
+.hero-dots {
+    display: flex;
+    gap: 15px; /* Adjusted gap */
+    list-style: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; 
+}
+
+.hero-dot {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hero-dot.orange {
+    background: rgb(40, 36, 34);
+}
+
+.hero-play {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjusted gap */
+}
+
+.hero-play p {
+    color: #fff;
+    font-size: 19px;
+    margin: 0; /* Remove default margin */
+}
+.hero-play img {
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+}
+.hero-explore img{
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */  
+}
