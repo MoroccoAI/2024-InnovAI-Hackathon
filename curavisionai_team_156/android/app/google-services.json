@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1005094900563",
+    "project_id": "curavisionai",
+    "storage_bucket": "curavisionai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005094900563:android:ddbbf29b09a9ac65d587a6",
+        "android_client_info": {
+          "package_name": "com.example.curavisionai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSjFGkja_vBQZzPvjhfgG-HM0muQ26HW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
