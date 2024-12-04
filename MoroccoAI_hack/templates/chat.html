@@ -1,0 +1,64 @@
+<!-- templates/chat.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregnancy Support System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="phone-frame">
+        <div class="volume-button volume-up"></div>
+        <div class="volume-button volume-down"></div>
+        <div class="power-button"></div>
+        <div class="phone-screen">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <a href="{{ url_for('agents') }}" class="back-button">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    
+                </div>
+
+                <div class="agent-selection">
+                    <div class="radio-group">
+                        <input type="radio" id="dietary" name="agent" value="الإرشاد الغذائي" checked>
+                        <label for="dietary">الإرشاد الغذائي</label>
+
+                        <input type="radio" id="qa" name="agent" value="الأسئلة العامة">
+                        <label for="qa">الأسئلة العامة</label>
+
+                        <input type="radio" id="postpartum" name="agent" value="دعم ما بعد الولادة">
+                        <label for="postpartum">دعم ما بعد الولادة</label>
+                    </div>
+                </div>
+
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Messages will be inserted here -->
+                </div>
+
+                <div class="image-preview" id="image-preview">
+                    <!-- Image preview will be shown here -->
+                </div>
+
+                <div class="chat-input">
+                    <label for="file-upload" class="attach-button">
+                        <i class="fas fa-paperclip"></i>
+                    </label>
+                    <input type="file" id="file-upload" accept="image/*" hidden>
+                    
+                    <input type="text" id="message-input" placeholder="Type your message...">
+                    
+                    <button id="send-button">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

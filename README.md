@@ -1,25 +1,55 @@
-# About The Hackathon
-The MoroccoAI InnovAI Hackathon is a unique opportunity for AI enthusiasts, professionals, and innovators to collaborate and create transformative AI-based solutions addressing real-life challenges in Morocco and across Africa. As part of the annual MoroccoAI Annual Conference, this hackathon is set under the theme “Driving the Future of Innovation Through AI”, inspiring participants to harness AI’s capabilities to make a meaningful societal impact. Participants will join teams to develop Proof of Concepts (PoCs) using applications or APIs that address challenges in various domains. Education, Healthcare, Environment, Finance or Customer Services .
 
-In line with MoroccoAI’s mission, this hackathon centers around “Driving the Future of Innovation Through AI”. AI has the power to redefine industries, address community needs, and propel sustainable growth. Through this event, participants will dive into AI’s potential by developing impactful solutions that address challenges unique to Morocco and Africa in fields such as agriculture, education, health, and finance, fostering innovation in response to real-world needs.
+# Pregnancy Support System (SANAD_AI)
+## Abstract
+Sanad is an AI-powered chatbot system designed to support pregnant women in Morocco by providing accessible pregnancy-related guidance in Moroccan Arabic (Darija). The system combines advanced language models with specialized medical knowledge to offer nutritional advice, answer general pregnancy questions, and provide postpartum support.
+Background and Problem Statement
+In Morocco, many pregnant women face challenges accessing reliable pregnancy-related information in their native language, Darija. While healthcare resources exist, language barriers and limited access to specialized medical advice create gaps in prenatal and postpartum care. This issue is particularly acute in:
 
-# The Challenge
-Connect with the MoroccoAI community, join teams and brainstorm ideas then come up with a project that leverages AI in 5 areas of focus:
-* Innovation
-* Healthcare
-* Environment
-* Finance
-* CustomerServices
+Nutritional guidance during pregnancy
+Daily pregnancy-related concerns
+Postpartum care information
 
-# Mentorship
-Join the Hackathon server on discord and meet the mentors to learn more about their proposed projects.
+## Impact and Proposed Solution
+Our solution addresses these challenges through:
 
-# Why should you participate in this Hackathon?
-* Hands-on experience in AI project development that targets relevant issues in Morocco and Africa.
-* Mentorship and networking opportunities with experts and peers in the AI community.
-* Showcase their solutions to a jury of AI specialists at the awards ceremony, creating visibility and opportunities for further development.
-* Win great prizes offered by MoroccoAI's sponsors
-* Obtain your MoroccoAI certificate of recognition
+Language Accessibility: Fully functional in Moroccan Darija
+Specialized Agents:
 
-# For more information
-https://morocco.ai/events/conferences/MoroccoAI-Conference-2024/pages/hackathon.html
+Dietary Guidance Agent for nutritional advice
+Question-Answering Agent for general pregnancy queries
+Post-Pregnancy Support Agent for postpartum care
+
+
+Visual Analysis: Ability to analyze food and medication images for safety guidance
+24/7 Availability: Continuous access to pregnancy-related information
+
+## Project Outcomes and Deliverables
+
+Web-based chat interface
+Three specialized AI agents
+Image analysis capabilities
+Bilingual processing (Darija-English)
+Real-time response system
+
+## Technical Architecture
+
+Frontend: Flask web application
+Backend:
+
+LLaMA Vision model for response generation
+Translation models for Darija-English conversion
+Specialized agents for different aspects of pregnancy care
+
+
+
+## Setup Instructions
+clone the repository </br>
+pip install flask transformers torch Pillow python-multipart </br>
+run the notebook on kaggle </br>
+then move to your machine cd the project and run  </br>
+python main.py </br>
+you should be able to see a local host link click it and voila the app is there on your machine 
+
+## demo
+https://github.com/user-attachments/assets/078dea4a-31f5-44fa-a70e-0b98a9c4378f
+

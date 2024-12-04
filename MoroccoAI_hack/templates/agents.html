@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Guide - Pregnancy Guide</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="phone-frame">
+        <div class="volume-button volume-up"></div>
+        <div class="volume-button volume-down"></div>
+        <div class="power-button"></div>
+        <div class="phone-screen">
+            <div class="agents-container">
+                <div class="agents-header">
+                    <h1>Choose Your Guide</h1>
+                </div>
+                <div class="agents-content">
+                    <!-- Functional Agent Card -->
+                    <a href="{{ url_for('chat', agent_type='dietary') }}" class="agent-card">
+                        <div class="agent-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h2>Dietary Guidance Agent</h2>
+                        <p>Get personalized nutrition advice for a healthy pregnancy</p>
+                    </a>
+
+                    <!-- Non-Functional Agent Cards -->
+                    <div class="agent-card">
+                        <div class="agent-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h2>Question-Answering Agent</h2>
+                        <p>Get answers to all your pregnancy-related questions</p>
+                    </div>
+
+                    <div class="agent-card">
+                        <div class="agent-icon">
+                            <i class="fas fa-baby"></i>
+                        </div>
+                        <h2>Post-Pregnancy Support Agent</h2>
+                        <p>Support and guidance for your postpartum journey</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
