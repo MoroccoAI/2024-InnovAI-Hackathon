@@ -1,0 +1,4 @@
+ui:
+  theme: custom
+  css_path: public/style.css
+

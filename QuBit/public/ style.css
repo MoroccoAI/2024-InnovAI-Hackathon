@@ -1,0 +1,30 @@
+/* public/style.css */
+:root {
+  --primary-color: #2ecc71 !important;
+  --secondary-color: #e74c3c !important;
+}
+
+.ch-container {
+  background-color: #f0f0f0 !important;
+}
+
+.message.assistant {
+  background-color: #d4edda !important;
+  border-color: #2ecc71 !important;
+  color: #155724 !important;
+}
+
+.message.user {
+  background-color: #f8d7da !important;
+  border-color: #e74c3c !important;
+  color: #721c24 !important;
+}
+
+.ch-input {
+  border-color: #2ecc71 !important;
+}
+
+.ch-send-button {
+  background-color: #2ecc71 !important;
+  color: white !important;
+}
