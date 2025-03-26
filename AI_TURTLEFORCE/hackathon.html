@@ -1,0 +1,1100 @@
+<html>
+  <head>
+    <base href="/" />
+    <title>MoroccanAI Health - Medical Analysis & Clinical Support</title>
+    <style>
+      :root {
+        --moroccan-red: #c73e3a;
+        --moroccan-green: #006e3a;
+        --moroccan-white: #fff;
+        --moroccan-dark-red: #8b2320;
+        --moroccan-dark-green: #004625;
+        --moroccan-light-red: #e87572;
+        --moroccan-light-green: #3c8c69;
+        --background: #f5f5f5;
+        --text: #333;
+        --gradient: linear-gradient(
+          135deg,
+          var(--moroccan-red),
+          var(--moroccan-green)
+        );
+        --moroccan-pattern: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0L20 20L0 40L20 60L40 80L60 60L80 40L60 20L40 0zM40 10L55 25L40 40L25 25L40 10z' fill='%23006e3a' fill-opacity='0.05'/%3E%3Cpath d='M40 40L25 55L40 70L55 55L40 40z' fill='%23c73e3a' fill-opacity='0.05'/%3E%3C/svg%3E");
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        background: var(--background);
+        color: var(--text);
+        min-height: 100vh;
+        background-image: var(--moroccan-pattern);
+      }
+
+      .navbar {
+        background: linear-gradient(
+          135deg,
+          var(--moroccan-red),
+          var(--moroccan-green)
+        );
+        padding: 1.2rem 2.5rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: white;
+        background: none;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+        transition: transform 0.3s ease;
+      }
+
+      .logo:hover {
+        transform: scale(1.05);
+      }
+
+      .nav-buttons {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .nav-button {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 0.6rem 1.2rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: 500;
+      }
+
+      .nav-button:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+      }
+
+      .nav-button svg {
+        transition: transform 0.3s ease;
+      }
+
+      .nav-button:hover svg {
+        transform: scale(1.1);
+      }
+
+      .language-selector {
+        position: relative;
+        display: inline-block;
+      }
+
+      .language-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        z-index: 1000;
+        min-width: 120px;
+      }
+
+      .language-menu.show {
+        display: block;
+      }
+
+      .language-option {
+        display: block;
+        width: 100%;
+        padding: 0.5rem 1rem;
+        text-align: left;
+        border: none;
+        background: none;
+        color: var(--text);
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .language-option:hover {
+        background: rgba(0, 0, 0, 0.05);
+        color: var(--moroccan-red);
+      }
+
+      .rtl {
+        direction: rtl;
+        text-align: right;
+      }
+
+      .rtl .nav-buttons {
+        flex-direction: row-reverse;
+      }
+
+      .rtl .logo {
+        flex-direction: row-reverse;
+      }
+
+      .rtl .nav-button {
+        flex-direction: row-reverse;
+      }
+
+      .rtl .footer-content {
+        flex-direction: row-reverse;
+      }
+
+      .rtl .footer-button {
+        flex-direction: row-reverse;
+      }
+
+      .rtl .primary-button,
+      .rtl .secondary-button {
+        flex-direction: row-reverse;
+      }
+
+      @media (max-width: 768px) {
+        .nav-button span {
+          display: none;
+        }
+
+        .nav-button {
+          padding: 0.6rem;
+        }
+
+        .nav-buttons {
+          gap: 0.5rem;
+        }
+      }
+
+      .main-container {
+        max-width: 1200px;
+        margin: 3rem auto;
+        padding: 0 2rem;
+      }
+
+      .hero-section {
+        text-align: center;
+        padding: 4rem 0;
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.92),
+            rgba(255, 255, 255, 0.92)
+          ),
+          url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%23006e3a' fill-opacity='0.05' d='M50 25L25 50L50 75L75 50z'/%3E%3Cpath fill='%23c73e3a' fill-opacity='0.05' d='M0 0h50L25 25zm50 0h50v50L75 25zM50 50L25 75h50zm25 25l25 25V50z'/%3E%3Cpath stroke='%23006e3a' stroke-opacity='0.1' stroke-width='2' d='M50 0v100M0 50h100'/%3E%3Ccircle cx='50' cy='50' r='10' fill='%23c73e3a' fill-opacity='0.1'/%3E%3C/g%3E%3C/svg%3E"),
+          url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Ccircle cx='30' cy='30' r='4' stroke='%23006e3a' stroke-opacity='0.07' stroke-width='2'/%3E%3Cpath d='M30 15v30M15 30h30' stroke='%23c73e3a' stroke-opacity='0.05' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E");
+        border-radius: 20px;
+        margin-bottom: 4rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 110, 58, 0.1);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+          135deg,
+          rgba(199, 62, 58, 0.05),
+          rgba(0, 110, 58, 0.05)
+        );
+        pointer-events: none;
+      }
+
+      .hero-text {
+        font-size: 1.2rem;
+        color: var(--text);
+        max-width: 600px;
+        margin: 1.5rem auto;
+        line-height: 1.6;
+        position: relative;
+        z-index: 1;
+      }
+
+      .hero-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+
+      .primary-button {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+      }
+
+      .secondary-button {
+        background: transparent;
+        border: 2px solid var(--moroccan-red);
+        color: var(--moroccan-red);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+      }
+
+      .secondary-button:hover {
+        background: var(--moroccan-red);
+        color: white;
+      }
+
+      .features-section {
+        padding: 4rem 0;
+      }
+
+      .features-section h2 {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: var(--moroccan-red);
+      }
+
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-bottom: 4rem;
+      }
+
+      .feature-card {
+        background: white;
+        padding: 2rem;
+        border-radius: 12px;
+        text-align: center;
+        transition: transform 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      }
+
+      .feature-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .feature-icon {
+        margin-bottom: 1.5rem;
+      }
+
+      .feature-card h3 {
+        color: var(--moroccan-red);
+        margin-bottom: 1rem;
+      }
+
+      .feature-card p {
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .services-section {
+        padding: 4rem 0;
+      }
+
+      .services-section h2 {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: var(--moroccan-red);
+      }
+
+      .main-container h1 {
+        font-size: 2.5rem;
+        color: var(--moroccan-red);
+        background: none;
+        -webkit-background-clip: initial;
+        -webkit-text-fill-color: initial;
+        margin-bottom: 2rem;
+        text-align: center;
+        position: relative;
+        padding-bottom: 1rem;
+      }
+
+      .main-container h1::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 3px;
+        background: linear-gradient(
+          90deg,
+          var(--moroccan-red),
+          var(--moroccan-green),
+          var(--moroccan-red),
+          var(--moroccan-green)
+        );
+      }
+
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2.5rem;
+        margin-top: 3rem;
+      }
+
+      .service-card {
+        border: 2px solid var(--moroccan-light-green);
+        background: var(--moroccan-white);
+        position: relative;
+        overflow: hidden;
+        padding: 2rem;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+        border-radius: 20px;
+      }
+
+      .service-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(
+          90deg,
+          var(--moroccan-red),
+          var(--moroccan-green)
+        );
+      }
+
+      .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 30px rgba(59, 130, 246, 0.1);
+      }
+
+      .service-card h3 {
+        color: var(--moroccan-red);
+        margin-bottom: 1rem;
+        font-size: 1.3rem;
+      }
+
+      .service-card p {
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .button {
+        background: linear-gradient(
+          135deg,
+          var(--moroccan-red),
+          var(--moroccan-green)
+        );
+        color: white;
+        padding: 0.9rem 2rem;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+      }
+
+      .button:hover {
+        background: linear-gradient(
+          135deg,
+          var(--moroccan-green),
+          var(--moroccan-red)
+        );
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(59, 130, 246, 0.3);
+      }
+
+      .analysis-results {
+        display: none;
+        margin-top: 2rem;
+        padding: 2rem;
+        border-radius: 16px;
+        background: rgba(199, 62, 58, 0.05);
+      }
+
+      .result-card {
+        background: var(--moroccan-white);
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+      }
+
+      .loading {
+        display: none;
+        margin: 2rem 0;
+      }
+
+      .tag {
+        padding: 0.4rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+
+      .tag.low {
+        background: var(--moroccan-light-green);
+        color: white;
+      }
+      .tag.medium {
+        background: var(--moroccan-light-red);
+        color: white;
+      }
+      .tag.high {
+        background: var(--moroccan-red);
+        color: white;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(1.1);
+          opacity: 0.7;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      .pulse {
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+
+      .service-card {
+        animation: float 6s ease-in-out infinite;
+      }
+
+      .service-card:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+
+      .service-card:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+
+      .footer {
+        background: linear-gradient(
+          135deg,
+          var(--moroccan-red),
+          var(--moroccan-green)
+        );
+        color: white;
+        padding: 2rem 0;
+        margin-top: 4rem;
+      }
+
+      .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .footer-left {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .footer-right {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .footer-button {
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 0.6rem 1.2rem;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .footer-button:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+      }
+
+      .process-section {
+        padding: 4rem 0;
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.95),
+            rgba(255, 255, 255, 0.95)
+          ),
+          var(--moroccan-pattern);
+        border-radius: 20px;
+        margin: 2rem 0;
+      }
+
+      .process-section h2 {
+        text-align: center;
+        color: var(--moroccan-red);
+        margin-bottom: 3rem;
+      }
+
+      .process-steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 0 2rem;
+      }
+
+      .process-step {
+        text-align: center;
+        padding: 2rem;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease;
+      }
+
+      .process-step:hover {
+        transform: translateY(-5px);
+      }
+
+      .process-icon {
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: center;
+      }
+
+      .process-step h3 {
+        color: var(--moroccan-red);
+        margin-bottom: 1rem;
+      }
+
+      .process-step p {
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .center-step {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 0 2rem;
+      }
+
+      .center-step .process-step {
+        max-width: 400px;
+      }
+
+      .cta-container {
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      .cta-button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background: var(--gradient);
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .cta-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      @media (max-width: 768px) {
+        .footer-content {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .footer-right {
+          flex-direction: column;
+        }
+      }
+
+      input[type="number"] {
+        width: 100%;
+        padding: 0.8rem;
+        border: 2px solid rgba(59, 130, 246, 0.2);
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+      }
+
+      input[type="number"]:focus {
+        outline: none;
+        border-color: var(--moroccan-red);
+        box-shadow: 0 0 0 3px rgba(199, 62, 58, 0.1);
+      }
+
+      .account-type-buttons label.account-type-button {
+        display: block;
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .account-type-buttons
+        input[type="radio"]:checked
+        + label.account-type-button {
+        background: var(--moroccan-red);
+        color: white;
+      }
+    </style>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="white"
+          stroke-width="2"
+        >
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+        </svg>
+        MoroccanAI Health
+      </div>
+      <div class="nav-buttons">
+        <button class="nav-button" onclick="scrollToServices()">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+          <span>Home</span>
+        </button>
+        <a href="tajriba/process.html">
+          <button class="nav-button">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+              <polyline points="10 17 15 12 10 7"></polyline>
+              <line x1="15" y1="12" x2="3" y2="12"></line>
+            </svg>
+            <span>Connection</span>
+          </button>
+        </a>
+        <div class="language-selector">
+          <button class="nav-button" onclick="toggleLanguageMenu()">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+              ></path>
+            </svg>
+            <span>Language</span>
+          </button>
+          <div class="language-menu" id="languageMenu">
+            <button onclick="changeLanguage('en')" class="language-option">
+              English
+            </button>
+            <button onclick="changeLanguage('fr')" class="language-option">
+              Français
+            </button>
+            <button onclick="changeLanguage('ar')" class="language-option">
+              العربية
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-container">
+      <div class="hero-section">
+        <h1>Welcome to MoroccanAI Health</h1>
+        <p class="hero-text">
+          Advanced AI-powered healthcare analysis combining modern technology
+          with Moroccan medical expertise
+        </p>
+        <div class="hero-buttons">
+          <button class="button primary-button" onclick="scrollToServices()">
+            Get Started
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M7 13l5 5 5-5"></path>
+              <path d="M7 6l5 5 5-5"></path>
+            </svg>
+          </button>
+          <button class="button secondary-button" onclick="openContactModal()">
+            Contact Support
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="features-section">
+        <h2>Why Choose MoroccanAI Health?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="var(--moroccan-red)"
+                stroke-width="2"
+              >
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3>Accurate Analysis</h3>
+            <p>
+              State-of-the-art AI algorithms for precise medical diagnostics
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="var(--moroccan-green)"
+                stroke-width="2"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3>Secure & Private</h3>
+            <p>Your medical data is protected with advanced encryption</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="var(--moroccan-red)"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+            </div>
+            <h3>Fast Results</h3>
+            <p>Get analysis results within minutes</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-section" id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Document Analysis</h3>
+            <p>Upload medical reports and get AI-powered insights</p>
+          </div>
+          <div class="service-card">
+            <h3>Image & Radiology</h3>
+            <p>Analyze medical imaging with advanced AI</p>
+          </div>
+          <div class="service-card">
+            <h3>Video Consultation</h3>
+            <p>Record symptoms for AI analysis</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="process-section">
+        <h2>How to Use MoroccanAI Health</h2>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="process-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D72638"
+                stroke-width="2"
+              >
+                <path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20z"></path>
+                <path d="M15 11a3 3 0 0 1-6 0"></path>
+                <path d="M9 15h6"></path>
+              </svg>
+            </div>
+            <h3>Step 1: Register</h3>
+            <p>
+              Create an account by providing your email and basic details, then
+              choose between the Patient or Clinician options to access the
+              platform tailored to your needs.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#069A8E"
+                stroke-width="2"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <path d="M7 10l5-5 5 5"></path>
+                <line x1="12" y1="15" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3>Step 2: Upload Documents</h3>
+            <p>
+              Upload your medical documents, such as X-rays or analysis reports,
+              for processing.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#F9A825"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+            </div>
+            <h3>Step 3: Get Results</h3>
+            <p>
+              Receive AI-generated analysis and recommendations tailored to your
+              health needs.
+            </p>
+          </div>
+        </div>
+        <div class="center-step">
+          <div class="process-step">
+            <div class="process-icon">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#D72638"
+                stroke-width="2"
+              >
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                <path d="M3 19h18"></path>
+              </svg>
+            </div>
+            <h3>Step 4: Follow Recommendations</h3>
+            <p>
+              Follow the provided suggestions or consult a healthcare
+              professional for further guidance.
+            </p>
+          </div>
+        </div>
+        <div class="cta-container">
+          <a href="tajriba/process.html" class="cta-button"
+            >You need to be logged in to start chatting</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openContactModal() {
+        // Implement contact modal functionality
+        alert("Contact functionality coming soon!");
+      }
+
+      function scrollToServices() {
+        document
+          .getElementById("services")
+          .scrollIntoView({ behavior: "smooth" });
+      }
+
+      function toggleLanguageMenu() {
+        const menu = document.getElementById("languageMenu");
+        menu.classList.toggle("show");
+
+        // Close menu when clicking outside
+        document.addEventListener("click", function closeMenu(e) {
+          if (!e.target.closest(".language-selector")) {
+            menu.classList.remove("show");
+            document.removeEventListener("click", closeMenu);
+          }
+        });
+      }
+
+      // Add this to handle closing menu when selecting a language option
+      document.querySelectorAll(".language-option").forEach((option) => {
+        option.addEventListener("click", () => {
+          document.getElementById("languageMenu").classList.remove("show");
+        });
+      });
+
+      const translations = {
+        en: {
+          navbar: {
+            home: "Home",
+            connection: "Connection",
+            language: "Language",
+          },
+          // ... rest of English translations
+        },
+        fr: {
+          navbar: {
+            home: "Accueil",
+            connection: "Connexion",
+            language: "Langue",
+          },
+          // ... rest of French translations
+        },
+        ar: {
+          navbar: {
+            home: "الرئيسية",
+            connection: "اتصال",
+            language: "اللغة",
+          },
+          // ... rest of Arabic translations
+        },
+      };
+
+      // Modify changeLanguage function to handle switching back to English
+      function changeLanguage(lang) {
+        localStorage.setItem("preferredLanguage", lang);
+        document.getElementById("languageMenu").classList.remove("show");
+
+        // Remove RTL for non-Arabic languages
+        if (lang === "ar") {
+          document.body.classList.add("rtl");
+          document.querySelectorAll(".form-row").forEach((row) => {
+            row.style.flexDirection = "row-reverse";
+          });
+        } else {
+          document.body.classList.remove("rtl");
+          document.querySelectorAll(".form-row").forEach((row) => {
+            row.style.flexDirection = "row";
+          });
+        }
+
+        const trans = translations[lang];
+        if (trans) {
+          // Update navbar
+          document.querySelector(".nav-button span").textContent =
+            trans.navbar.home;
+          document.querySelectorAll(".nav-button span")[1].textContent =
+            trans.navbar.connection;
+          document.querySelectorAll(".nav-button span")[2].textContent =
+            trans.navbar.language;
+
+          // Update hero section
+          // ... (rest of translation logic)
+        }
+      }
+    </script>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+          </svg>
+          <p>&copy; 2024 MoroccanAI Health. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+          <a
+            href="mailto:MoroccanAIHealth@gmail.com"
+            style="color: white; text-decoration: none"
+          >
+            MoroccanAIHealth@gmail.com
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,610 @@
+<html>
+  <head>
+    <base href="." target="_blank" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Forms</title>
+    <style>
+      :root {
+        --moroccan-red: #c73e3a;
+        --moroccan-green: #006e3a;
+        --moroccan-white: #fff;
+        --moroccan-dark-red: #8b2320;
+        --moroccan-dark-green: #004625;
+        --moroccan-light-red: #e87572;
+        --moroccan-light-green: #3c8c69;
+        --background: #fff;
+        --text: #333;
+        --gradient: linear-gradient(
+          135deg,
+          var(--moroccan-red),
+          var(--moroccan-green)
+        );
+        --moroccan-beige: #f5f0e6; /* Light beige color */
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        background: var(--background);
+        background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M40 0L20 20L0 40L20 60L40 80L60 60L80 40L60 20L40 0zM40 10L55 25L40 40L25 25L40 10z' fill='%23006e3a' fill-opacity='0.05'/%3E%3Cpath d='M40 40L25 55L40 70L55 55L40 40z' fill='%23c73e3a' fill-opacity='0.05'/%3E%3C/g%3E%3C/svg%3E");
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      #form-container {
+        position: relative;
+        background-color: var(
+          --moroccan-white
+        ); /* Changed from var(--moroccan-beige) to white */
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        max-width: 800px; /* Increased to accommodate two columns */
+      }
+
+      #form-container:hover {
+        transform: scale(1.02);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        background-color: var(
+          --moroccan-white
+        ); /* Changed from #f8f4ec to white */
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .form-row {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      button {
+        background: var(--gradient);
+        border: 2px solid transparent;
+        color: #ffffff;
+        padding: 12px 25px;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.2s ease;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+      }
+
+      button:hover {
+        background: var(--moroccan-white);
+        color: var(--moroccan-dark-green);
+        border: 2px solid var(--moroccan-green);
+        transform: translateY(-3px);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      form {
+        text-align: left;
+      }
+
+      h2 {
+        color: var(--moroccan-dark-green);
+        text-align: center;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        position: relative;
+        font-family: "Georgia", serif;
+      }
+
+      h2::before,
+      h2::after {
+        content: "❖";
+        color: var(--moroccan-red);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.2em;
+      }
+
+      h2::before {
+        left: 20px;
+      }
+
+      h2::after {
+        right: 20px;
+      }
+
+      form label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #444;
+      }
+
+      form input,
+      form select {
+        border: 2px solid var(--moroccan-light-green);
+        background-color: var(--moroccan-white); /* Ensure white background */
+        padding: 10px;
+        border-radius: 6px;
+        width: 100%;
+        transition: all 0.3s ease;
+      }
+
+      form input:focus,
+      form select:focus {
+        border-color: var(--moroccan-green);
+        box-shadow: 0 0 0 4px rgba(0, 110, 58, 0.1);
+        background-color: var(
+          --moroccan-white
+        ); /* Ensure white background when focused */
+      }
+
+      button[type="submit"] {
+        background: var(--gradient);
+        border: none;
+        padding: 12px 25px;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 15px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        transition: background 0.3s ease, transform 0.2s ease;
+      }
+
+      button[type="submit"]:hover {
+        background: var(--moroccan-white);
+        color: var(--moroccan-dark-green);
+        border: 2px solid var(--moroccan-green);
+      }
+
+      form input[type="file"] {
+        border: none;
+        background: none;
+        cursor: pointer;
+      }
+
+      form input::placeholder {
+        font-size: 0.9rem;
+        color: #aaa;
+      }
+
+      .error {
+        border-color: var(--moroccan-red) !important;
+      }
+
+      .error-message {
+        color: var(--moroccan-red);
+        font-size: 0.875rem;
+        margin-top: 0.25rem;
+      }
+
+      @media (max-width: 500px) {
+        #form-container {
+          padding: 20px;
+          margin: 20px auto;
+        }
+
+        button {
+          font-size: 1rem;
+          padding: 10px 20px;
+        }
+
+        button[type="submit"] {
+          font-size: 1rem;
+          padding: 10px 20px;
+        }
+      }
+
+      input[type="checkbox"] {
+        accent-color: var(--moroccan-green);
+      }
+
+      /* Add decorative corners */
+      .form {
+        position: relative;
+        background-color: var(
+          --moroccan-white
+        ); /* Changed from var(--moroccan-beige) to white */
+        padding: 20px;
+        border-radius: 12px;
+      }
+
+      .form::before,
+      .form::after {
+        content: "◈";
+        position: absolute;
+        color: var(--moroccan-red);
+        font-size: 1.5em;
+      }
+
+      .form::before {
+        top: 0;
+        left: 0;
+      }
+
+      .form::after {
+        bottom: 0;
+        right: 0;
+      }
+
+      .checkbox-label {
+        display: flex !important;
+        align-items: center !important;
+        position: relative;
+        cursor: pointer;
+        padding-left: 35px;
+        margin: 15px 0;
+        user-select: none;
+      }
+
+      .checkbox-label input[type="checkbox"] {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+
+      .checkbox-custom {
+        position: absolute;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: var(--moroccan-white);
+        border: 2px solid var(--moroccan-light-green);
+        border-radius: 4px;
+        transition: all 0.3s ease;
+      }
+
+      .checkbox-label:hover input ~ .checkbox-custom {
+        background-color: var(--moroccan-white);
+        border-color: var(--moroccan-green);
+      }
+
+      .checkbox-label input:checked ~ .checkbox-custom {
+        background-color: var(--moroccan-green);
+        border-color: var(--moroccan-green);
+      }
+
+      .checkbox-custom:after {
+        content: "";
+        position: absolute;
+        display: none;
+        left: 8px;
+        top: 4px;
+        width: 5px;
+        height: 10px;
+        border: solid var(--moroccan-white);
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+      }
+
+      .checkbox-label input:checked ~ .checkbox-custom:after {
+        display: block;
+      }
+
+      .checkbox-label:hover .checkbox-custom {
+        box-shadow: 0 0 0 3px rgba(0, 110, 58, 0.1);
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const signUpBtn = document.getElementById("sign-up-btn");
+        const logInBtn = document.getElementById("log-in-btn");
+        const signUpForm = document.getElementById("signup");
+        const logInForm = document.getElementById("login");
+        const userType = document.getElementById("usertype");
+        const patientInfo = document.querySelector(".patient-info");
+        const clinicianInfo = document.querySelector(".clinician-info");
+        const consentData = document.querySelector('[name="consent_data"]');
+        const patientConsentData = document.querySelector(
+          '[name="patient_consent"]'
+        );
+
+        // Check that all elements are correctly loaded
+        if (!patientInfo || !clinicianInfo || !userType || !consentData) {
+          console.error(
+            "Some form elements are missing. Ensure all HTML elements are correctly placed."
+          );
+          return; // Stop execution if elements are missing
+        }
+
+        // Toggle Forms
+        signUpBtn.addEventListener("click", () => {
+          signUpForm.classList.remove("hidden");
+          logInForm.classList.add("hidden");
+          signUpForm.setAttribute("aria-hidden", "false");
+          logInForm.setAttribute("aria-hidden", "true");
+          signUpBtn.setAttribute("aria-expanded", "true");
+          logInBtn.setAttribute("aria-expanded", "false");
+        });
+
+        logInBtn.addEventListener("click", () => {
+          logInForm.classList.remove("hidden");
+          signUpForm.classList.add("hidden");
+          logInForm.setAttribute("aria-hidden", "false");
+          signUpForm.setAttribute("aria-hidden", "true");
+          logInBtn.setAttribute("aria-expanded", "true");
+          signUpBtn.setAttribute("aria-expanded", "false");
+        });
+
+        // Show additional fields based on user type
+        userType.addEventListener("change", (e) => {
+          if (e.target.value === "Patient") {
+            // Show patient info, hide clinician info
+            patientInfo.classList.remove("hidden");
+            clinicianInfo.classList.add("hidden");
+
+            // Add required attributes to Patient fields
+            document.getElementById("age").setAttribute("required", "true");
+            document.getElementById("gender").setAttribute("required", "true");
+
+            // Remove required attributes from Clinician fields
+            document
+              .getElementById("specialization")
+              .removeAttribute("required");
+            document
+              .getElementById("years_of_experience")
+              .removeAttribute("required");
+            document
+              .getElementById("establishment")
+              .removeAttribute("required");
+            document
+              .getElementById("certification")
+              .removeAttribute("required");
+
+            // Disable the consent_data checkbox
+            patientConsentData.disabled = false;
+            patientConsentData.setAttribute("required", "true");
+            consentData.disabled = true;
+            consentData.removeAttribute("required");
+          } else if (e.target.value === "Clinician") {
+            // Show clinician info, hide patient info
+            clinicianInfo.classList.remove("hidden");
+            patientInfo.classList.add("hidden");
+
+            // Add required attributes to Clinician fields
+            document
+              .getElementById("specialization")
+              .setAttribute("required", "true");
+            document
+              .getElementById("years_of_experience")
+              .setAttribute("required", "true");
+            document
+              .getElementById("establishment")
+              .setAttribute("required", "true");
+            document
+              .getElementById("certification")
+              .setAttribute("required", "true");
+
+            // Enable the consent_data checkbox
+            consentData.disabled = false;
+            consentData.setAttribute("required", "true");
+            patientConsentData.disabled = true;
+            patientConsentData.removeAttribute("required");
+            // Remove required attributes from Patient fields
+            document.getElementById("age").removeAttribute("required");
+            document.getElementById("gender").removeAttribute("required");
+          }
+        });
+
+        // Initial setup to ensure the checkbox state matches the current form
+        if (userType.value === "Clinician") {
+          consentData.disabled = false;
+          consentData.setAttribute("required", "true");
+        } else {
+          consentData.disabled = true;
+          consentData.removeAttribute("required");
+        }
+        // Initial setup to ensure the checkbox state matches the current form
+        if (userType.value === "Patient") {
+          patientConsentData.disabled = false;
+          patientConsentData.setAttribute("required", "true");
+        } else {
+          patientConsentData.disabled = true;
+          patientConsentData.removeAttribute("required");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="form-container">
+      <div class="buttons">
+        <button id="sign-up-btn" aria-controls="signup" aria-expanded="false">
+          Sign Up
+        </button>
+        <button id="log-in-btn" aria-controls="login" aria-expanded="false">
+          Log In
+        </button>
+      </div>
+
+      <div id="signup" class="form hidden" aria-hidden="true">
+        <h2>Sign Up</h2>
+        <form action="process.php" method="post" enctype="multipart/form-data">
+          <label for="usertype"
+            >Sign up as:
+            <select name="usertype" id="usertype" required>
+              <option value="" disabled selected>Choose user type</option>
+              <option value="Patient">Patient</option>
+              <option value="Clinician">Clinician</option>
+            </select>
+          </label>
+
+          <div class="form-row">
+            <label for="username"
+              >First Name:
+              <input type="text" id="username" name="username" required />
+            </label>
+            <label for="userLname"
+              >Last Name:
+              <input type="text" id="userLname" name="userLname" required />
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label for="userEmail"
+              >Email:
+              <input type="email" id="userEmail" name="userEmail" required />
+            </label>
+            <label for="usertel"
+              >Phone:
+              <input
+                type="tel"
+                id="usertel"
+                name="usertel"
+                pattern="[0-9]{10}"
+                required
+              />
+            </label>
+          </div>
+
+          <label for="userpassword"
+            >Password:
+            <input
+              type="password"
+              id="userpassword"
+              name="userpassword"
+              required
+            />
+          </label>
+
+          <div class="patient-info hidden">
+            <div class="form-row">
+              <label for="age"
+                >Age:
+                <input
+                  type="number"
+                  id="age"
+                  name="age"
+                  min="0"
+                  max="120"
+                  required
+                />
+              </label>
+              <label for="gender"
+                >Gender:
+                <select id="gender" name="gender" required>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                </select>
+              </label>
+            </div>
+            <label for="patient_consent" class="checkbox-label">
+              <input
+                type="checkbox"
+                id="patient_consent"
+                name="patient_consent"
+              />
+              <span class="checkbox-custom"></span>
+              I consent to the collection and processing of my personal health
+              data
+            </label>
+          </div>
+
+          <div class="clinician-info hidden">
+            <div class="form-row">
+              <label for="specialization"
+                >Specialization:
+                <input
+                  type="text"
+                  id="specialization"
+                  name="specialization"
+                  required
+                />
+              </label>
+              <label for="years_of_experience"
+                >Years of Experience:
+                <input
+                  type="number"
+                  id="years_of_experience"
+                  name="years_of_experience"
+                  min="0"
+                  required
+                />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label for="establishment"
+                >Establishment:
+                <input
+                  type="text"
+                  id="establishment"
+                  name="establishment"
+                  required
+                />
+              </label>
+              <label for="certification"
+                >Upload Certification:
+                <input
+                  type="file"
+                  id="certification"
+                  name="certification"
+                  accept=".pdf,.jpg,.png"
+                  required
+                />
+              </label>
+            </div>
+
+            <label for="consent_data" class="checkbox-label">
+              <input type="checkbox" id="consent_data" name="consent_data" />
+              <span class="checkbox-custom"></span>
+              I consent to the collection and processing of professional data
+            </label>
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+
+      <div id="login" class="form hidden" aria-hidden="true">
+        <h2>Log In</h2>
+        <form action="login.php" method="post">
+          <div class="form-row">
+            <label for="logEmail"
+              >Email:
+              <input type="email" id="logEmail" name="logEmail" required />
+            </label>
+            <label for="logPassword"
+              >Password:
+              <input
+                type="password"
+                id="logPassword"
+                name="logPassword"
+                required
+              />
+            </label>
+          </div>
+          <button type="submit">Log In</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

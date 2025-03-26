@@ -1,0 +1,304 @@
+<html><head><base href="/" /><meta charset="UTF-8">
+  <title>MoroccanAI ChatBot</title>
+  <style>
+      /* Keeping existing styles */
+      :root {
+          --moroccan-red: #c73e3a;
+          --moroccan-green: #006e3a;
+          --moroccan-white: #fff;
+          --moroccan-dark-red: #8b2320;
+          --moroccan-dark-green: #004625;
+          --moroccan-light-red: #e87572;
+          --moroccan-light-green: #3c8c69;
+          --background: #fff;
+          --text: #333;
+          --gradient: linear-gradient(135deg, var(--moroccan-red), var(--moroccan-green));
+      }
+  
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+  
+      body {
+          background: var(--background);
+          background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M40 0L20 20L0 40L20 60L40 80L60 60L80 40L60 20L40 0zM40 10L55 25L40 40L25 25L40 10z' fill='%23006e3a' fill-opacity='0.05'/%3E%3Cpath d='M40 40L25 55L40 70L55 55L40 40z' fill='%23c73e3a' fill-opacity='0.05'/%3E%3C/g%3E%3C/svg%3E");
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+      }
+  
+      .chat-container {
+          width: 1200px;
+          height: 800px;
+          margin: 0 auto;
+          background: var(--moroccan-white);
+          border-radius: 20px;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+          border: 2px solid var(--moroccan-green);
+      }
+  
+      .chat-header {
+          background: var(--gradient);
+          color: var(--moroccan-white);
+          padding: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+      }
+  
+      .chat-header::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 200px;
+          height: 2px;
+          background: var(--moroccan-white);
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      }
+  
+      .chat-header h2 {
+          font-size: 24px;
+          text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+          display: flex;
+          align-items: center;
+          gap: 10px;
+      }
+  
+      .chat-header h2::before,
+      .chat-header h2::after {
+          content: '★';
+          color: var(--moroccan-white);
+          font-size: 18px;
+      }
+  
+      .chat-messages {
+          flex-grow: 1;
+          padding: 20px;
+          overflow-y: auto;
+          background-color: rgba(199, 62, 58, 0.03); /* Light red background */
+      }
+  
+      .message {
+          margin-bottom: 15px;
+          display: flex;
+          align-items: flex-start;
+      }
+  
+      .user-message {
+          justify-content: flex-end;
+      }
+  
+      .message-content {
+          max-width: 70%;
+          padding: 12px 18px;
+          border-radius: 15px;
+          background: var(--background);
+          color: var(--text);
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          border: 1px solid var(--moroccan-light-green);
+      }
+  
+      .user-message .message-content {
+          background: var(--moroccan-green);
+          color: var(--moroccan-white);
+          border: 1px solid var(--moroccan-dark-green);
+      }
+  
+      .input-area {
+          padding: 20px;
+          display: flex;
+          background: var(--moroccan-white);
+          border-top: 1px solid var(--moroccan-light-green);
+          align-items: center;
+          gap: 10px;
+      }
+  
+      #message-input {
+          flex-grow: 1;
+          padding: 12px 20px;
+          border: 2px solid var(--moroccan-light-green);
+          border-radius: 25px;
+          outline: none;
+          font-size: 16px;
+          transition: all 0.3s ease;
+      }
+  
+      #message-input:focus {
+          border-color: var(--moroccan-green);
+          box-shadow: 0 0 0 3px rgba(0,110,58,0.1);
+      }
+  
+      #file-upload {
+          display: none;
+      }
+  
+      .file-upload-label {
+          padding: 12px;
+          background: var(--moroccan-green);
+          color: var(--moroccan-white);
+          border: none;
+          border-radius: 50%;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 45px;
+          height: 45px;
+      }
+  
+      .file-upload-label:hover {
+          background: var(--moroccan-dark-green);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+  
+      #send-button {
+          padding: 12px 25px;
+          background: var(--moroccan-red);
+          color: var(--moroccan-white);
+          border: none;
+          border-radius: 25px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+  
+      #send-button:hover {
+          background: var(--moroccan-dark-red);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+  
+      #send-button:active {
+          transform: translateY(0);
+      }
+  
+      .typing-indicator {
+          display: flex;
+          padding: 10px;
+          display: none;
+      }
+  
+      .dot {
+          width: 8px;
+          height: 8px;
+          margin: 0 2px;
+          background: var(--moroccan-green);
+          border-radius: 50%;
+          animation: bounce 1.3s linear infinite;
+      }
+  
+      .dot:nth-child(2) { animation-delay: 0.2s; }
+      .dot:nth-child(3) { animation-delay: 0.3s; }
+  
+      @keyframes bounce {
+          0%, 60%, 100% { transform: translateY(0); }
+          30% { transform: translateY(-4px); }
+      }
+  
+      @media (max-width: 1200px) {
+          .chat-container {
+              width: 100%;
+              height: 100vh;
+              border-radius: 0;
+          }
+          body {
+              padding: 0;
+          }
+      }
+  </style>
+  </head>
+  <body>
+      <div class="chat-container">
+          <div class="chat-header">
+              <h2>MoroccanAI ChatBot</h2>
+          </div>
+          <div class="chat-messages" id="chat-messages">
+              <div class="message">
+                  <div class="message-content">
+                      Marhba bik! How can I help you with your health today?
+                  </div>
+              </div>
+          </div>
+          <div class="typing-indicator" id="typing-indicator">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+          </div>
+          <div class="input-area">
+              <input type="text" id="message-input" placeholder="Type your message...">
+              <label for="file-upload" class="file-upload-label">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48"/>
+                  </svg>
+              </label>
+              <input type="file" id="file-upload" multiple>
+              <button id="send-button">Send</button>
+          </div>
+      </div>
+  
+  <script>
+  const chatMessages = document.getElementById('chat-messages');
+  const messageInput = document.getElementById('message-input');
+  const sendButton = document.getElementById('send-button');
+  const typingIndicator = document.getElementById('typing-indicator');
+  const fileUpload = document.getElementById('file-upload');
+  
+  async function addMessage(content, isUser = false) {
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `message ${isUser ? 'user-message' : ''}`;
+      
+      const messageContent = document.createElement('div');
+      messageContent.className = 'message-content';
+      messageContent.textContent = content;
+      
+      messageDiv.appendChild(messageContent);
+      chatMessages.appendChild(messageDiv);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+  
+  async function handleUserMessage() {
+      const message = messageInput.value.trim();
+      if (message === '') return;
+  
+      await addMessage(message, true);
+      messageInput.value = '';
+  }
+  
+  fileUpload.addEventListener('change', async (e) => {
+      const files = Array.from(e.target.files);
+      if (files.length > 0) {
+          const fileNames = files.map(file => file.name).join(', ');
+          await addMessage(`Uploaded files: ${fileNames}`, true);
+      }
+      // Reset file input
+      fileUpload.value = '';
+  });
+  
+  sendButton.addEventListener('click', handleUserMessage);
+  
+  messageInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+          handleUserMessage();
+      }
+  });
+  
+  messageInput.focus();
+  </script>
+  </body></html>
