@@ -1,0 +1,19 @@
+Hotel_ID,Hotel_Name,City,Nearest_Stadium,Distance_to_Stadium_KM,Stars,Price_Range,Price_USD,Website,Address,Amenities,Coordinates,Phone
+CAS001,Four Seasons Casablanca,Casablanca,Mohammed V Stadium,3.5,5,$$$$$,550,www.fourseasons.com/casablanca,"Anfa Place Living Resort, Boulevard de la Corniche",Pool|Spa|Restaurant|WiFi|Gym|Room Service,33.5960|-7.6356,+212 529-073-800
+CAS002,Kenzi Tower Hotel,Casablanca,Mohammed V Stadium,2.8,5,$$$$,350,www.kenzi-hotels.com,"Twin Center, Tour B, Angle Bd Zerktouni",Pool|WiFi|Restaurant|Business Center|Spa,33.5923|-7.6322,+212 520-503-500
+CAS003,Ibis Casa City Center,Casablanca,Mohammed V Stadium,1.5,3,$$,120,www.ibis.com,"City Center, Place des Nations Unies",WiFi|Restaurant|24h Reception,33.5957|-7.6187,+212 522-541-010
+AGD001,Sofitel Agadir Royal Bay Resort,Agadir,Adrar Stadium,4.2,5,$$$$$,480,www.sofitel.com,"Baie des Palmiers",Beach Access|Pool|Spa|Multiple Restaurants|Tennis Court,30.4062|-9.6002,+212 528-849-000
+AGD002,Atlas Amadil Beach Hotel,Agadir,Adrar Stadium,3.8,4,$$$,280,www.amadilbeach.com,"Boulevard du 20 Aout",Beach Access|Pool|Restaurant|WiFi,30.4133|-9.5947,+212 528-847-474
+AGD003,Tildi Hotel & SPA,Agadir,Adrar Stadium,2.5,4,$$,180,www.tildihotel.com,"Rue Hubert Giraud",Pool|Spa|Restaurant|WiFi,30.4178|-9.5983,+212 528-842-925
+TNG001,Hilton Tanger City Center,Tangier,Ibn Batouta Stadium,3.1,5,$$$$,420,www.hilton.com/tangier,"Place du Maghreb Arabe",Pool|Spa|Multiple Restaurants|Business Center,35.7679|-5.8039,+212 539-309-700
+TNG002,Kenzi Solazur Palace,Tangier,Ibn Batouta Stadium,2.9,4,$$$,300,www.kenzi-hotels.com,"Avenue Mohammed VI",Sea View|Pool|Restaurant|WiFi,35.7853|-5.8133,+212 539-842-000
+TNG003,Hotel Continental,Tangier,Ibn Batouta Stadium,4.2,3,$$,150,www.grandhotelcontinental.com,"36 Rue Dar Baroud",Historic Building|Restaurant|WiFi,35.7873|-5.8127,+212 539-931-024
+FEZ001,Marriott Jnan Palace,Fez,Fez Stadium,2.8,5,$$$$,380,www.marriott.com/fez,"Avenue Ahmed Chaouki",Pool|Spa|Multiple Restaurants|Tennis Court,34.0331|-4.9998,+212 535-947-474
+FEZ002,Palais Medina & Spa,Fez,Fez Stadium,3.5,5,$$$,320,www.palaismedina.com,"Avenue Allal El Fassi",Pool|Spa|Restaurant|Traditional Decor,34.0322|-4.9972,+212 535-947-474
+FEZ003,Ibis Fes,Fez,Fez Stadium,1.8,3,$$,100,www.ibis.com,"Avenue des Almohades",WiFi|Restaurant|24h Reception,34.0339|-5.0067,+212 535-947-474
+MRK001,La Mamounia,Marrakech,Grand Stadium,4.5,5,$$$$$,520,www.mamounia.com,"Avenue Bab Jdid",Historic Palace|Luxury Spa|Gardens|Multiple Restaurants,31.6234|-7.9894,+212 524-388-600
+MRK002,Movenpick Hotel Mansour Eddahbi,Marrakech,Grand Stadium,2.2,5,$$$$,450,www.movenpick.com,"Avenue Mohammed VI",Pool|Spa|Multiple Restaurants|Business Center,31.6147|-8.0168,+212 524-339-100
+MRK003,Atlas Asni Hotel,Marrakech,Grand Stadium,3.1,4,$$$,250,www.atlasasni.com,"Avenue Mohammed VI",Pool|Restaurant|WiFi|Spa,31.6184|-8.0121,+212 524-339-999
+RBT001,Sofitel Rabat Jardin des Roses,Rabat,Prince Moulay Abdellah Stadium,3.8,5,$$$$$,400,www.sofitel.com/rabat,"BP 450 Souissi",Royal Gardens|Pool|Luxury Spa|Multiple Restaurants,33.9617|-6.8682,+212 537-675-656
+RBT002,Hotel Le Diwan Rabat,Rabat,Prince Moulay Abdellah Stadium,4.2,4,$$$,220,www.accorhotels.com,"Place de l'Unite Africaine",Historic District|Restaurant|Business Center,33.9702|-6.8419,+212 537-262-727
+RBT003,Ibis Rabat Agdal,Rabat,Prince Moulay Abdellah Stadium,1.5,3,$$,90,www.ibis.com,"Avenue de Fes",WiFi|Restaurant|24h Reception,33.9689|-6.8580,+212 537-671-821

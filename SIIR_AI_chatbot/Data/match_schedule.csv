@@ -1,0 +1,41 @@
+Match_ID,Date,Time,Stage,Team1,Team2,Venue,City,Group
+1,2025-01-13,17:00,Group Stage,Morocco,Tanzania,Mohammed V Stadium,Casablanca,A
+2,2025-01-13,20:00,Group Stage,DR Congo,Zambia,Mohammed V Stadium,Casablanca,A
+3,2025-01-14,17:00,Group Stage,Egypt,Mozambique,Adrar Stadium,Agadir,B
+4,2025-01-14,20:00,Group Stage,Ghana,Angola,Adrar Stadium,Agadir,B
+5,2025-01-15,17:00,Group Stage,Senegal,Guinea,Ibn Batouta Stadium,Tangier,C
+6,2025-01-15,20:00,Group Stage,Cameroon,Gambia,Ibn Batouta Stadium,Tangier,C
+7,2025-01-16,17:00,Group Stage,Algeria,Mali,Fez Stadium,Fez,D
+8,2025-01-16,20:00,Group Stage,Burkina Faso,Mauritania,Fez Stadium,Fez,D
+9,2025-01-17,17:00,Group Stage,Tunisia,South Africa,Grand Stadium,Marrakech,E
+10,2025-01-17,20:00,Group Stage,Nigeria,Guinea-Bissau,Grand Stadium,Marrakech,E
+11,2025-01-18,17:00,Group Stage,Ivory Coast,Cape Verde,Prince Moulay Abdellah Stadium,Rabat,F
+12,2025-01-18,20:00,Group Stage,Uganda,Madagascar,Prince Moulay Abdellah Stadium,Rabat,F
+13,2025-01-17,17:00,Group Stage,Morocco,DR Congo,Mohammed V Stadium,Casablanca,A
+14,2025-01-17,20:00,Group Stage,Tanzania,Zambia,Ibn Batouta Stadium,Tangier,A
+15,2025-01-18,17:00,Group Stage,Egypt,Ghana,Adrar Stadium,Agadir,B
+16,2025-01-18,20:00,Group Stage,Mozambique,Angola,Fez Stadium,Fez,B
+17,2025-01-21,17:00,Group Stage,Morocco,Zambia,Mohammed V Stadium,Casablanca,A
+18,2025-01-21,17:00,Group Stage,DR Congo,Tanzania,Ibn Batouta Stadium,Tangier,A
+19,2025-01-22,17:00,Group Stage,Egypt,Angola,Adrar Stadium,Agadir,B
+20,2025-01-22,17:00,Group Stage,Ghana,Mozambique,Fez Stadium,Fez,B
+21,2025-01-23,20:00,Group Stage,Senegal,Cameroon,Grand Stadium,Marrakech,C
+22,2025-01-23,20:00,Group Stage,Guinea,Gambia,Prince Moulay Abdellah Stadium,Rabat,C
+23,2025-01-24,17:00,Group Stage,Algeria,Burkina Faso,Mohammed V Stadium,Casablanca,D
+24,2025-01-24,17:00,Group Stage,Mali,Mauritania,Ibn Batouta Stadium,Tangier,D
+25,2025-01-28,17:00,Round of 16,1A,3C/D/E,Mohammed V Stadium,Casablanca,
+26,2025-01-28,20:00,Round of 16,2A,2C,Adrar Stadium,Agadir,
+27,2025-01-29,17:00,Round of 16,1B,3A/D/E/F,Ibn Batouta Stadium,Tangier,
+28,2025-01-29,20:00,Round of 16,2B,2F,Fez Stadium,Fez,
+29,2025-01-30,17:00,Round of 16,1C,3A/B/F,Grand Stadium,Marrakech,
+30,2025-01-30,20:00,Round of 16,1D,3B/E/F,Prince Moulay Abdellah Stadium,Rabat,
+31,2025-01-31,17:00,Round of 16,1E,2D,Mohammed V Stadium,Casablanca,
+32,2025-01-31,20:00,Round of 16,1F,2E,Adrar Stadium,Agadir,
+33,2025-02-03,17:00,Quarter Final,W25,W26,Mohammed V Stadium,Casablanca,
+34,2025-02-03,20:00,Quarter Final,W27,W28,Ibn Batouta Stadium,Tangier,
+35,2025-02-04,17:00,Quarter Final,W29,W30,Grand Stadium,Marrakech,
+36,2025-02-04,20:00,Quarter Final,W31,W32,Prince Moulay Abdellah Stadium,Rabat,
+37,2025-02-07,17:00,Semi Final,W33,W34,Mohammed V Stadium,Casablanca,
+38,2025-02-07,20:00,Semi Final,W35,W36,Grand Stadium,Marrakech,
+39,2025-02-10,17:00,Third Place,L37,L38,Ibn Batouta Stadium,Tangier,
+40,2025-02-11,20:00,Final,W37,W38,Mohammed V Stadium,Casablanca,

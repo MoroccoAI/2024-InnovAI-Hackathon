@@ -1,0 +1,11 @@
+{
+    "preferred_currency": "MAD",
+    "date_format": "YYYY-MM-DD",
+    "language_style": "professional",
+    "response_length": "concise",
+    "custom_settings": {
+        "name": "ossama",
+        "age": "25",
+        "favourite food": "tajine"
+    }
+}
