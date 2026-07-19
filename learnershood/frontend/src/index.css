@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.pb-safe {
+  padding-bottom: calc(1.5rem + var(--safe-area-inset-bottom));
+}
+
+body {
+  @apply text-gray-900 bg-gradient-to-br from-indigo-50 to-purple-50;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}
