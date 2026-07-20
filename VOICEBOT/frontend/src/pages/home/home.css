@@ -1,0 +1,20 @@
+.no-underline {
+    text-decoration: none;
+}
+
+.main-card .card-title {
+    font-size: 1.4rem; /* Adjust as needed */
+}
+
+.main-card .card-description {
+    font-size: 1.1rem; /* Adjust as needed */
+}
+
+.animated-text {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+.home-main {
+    overflow: hidden
+}

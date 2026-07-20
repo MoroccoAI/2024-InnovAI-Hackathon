@@ -1,0 +1,132 @@
+.agent-main {
+    overflow: hidden;
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative
+}
+
+.agent-main .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #c35151
+}
+
+.agent-cards {
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    /* margin: 4px 2px; */
+    /* padding: 15px 32px; */
+    overflow-y: auto; 
+}
+
+.agent-cards .agent-cards {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.agent-cards .agent-card {
+    height: auto;
+    width: auto;
+    padding: 15px;
+    background-color: #f0f4f9;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.agent-cards .agent-card .agent-icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    position: absolute;
+    background-color: white;
+    color: #c35151;
+    border-radius: 25px;
+    top: 10px;
+    right: 10px;
+    transform: translateY(0);
+}
+
+.agent-cards .agent-card .agent-title {
+    color: #c35151;
+    font-size: 20px;
+}
+
+.agent-cards .agent-card .agent-description {
+    color: #585858;
+    font-size: 17px;
+}
+
+.agent-cards .agent-card:hover {
+    background-color: #f0f4f9;
+}
+
+.agent-cards .agent-card .agent-audios {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.agent-cards .agent-card .agent-audios p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.agent-cards .agent-card .agent-audios div {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agent-cards .agent-card .agent-audios div:hover {
+    background-color: #dfe4ea;
+}
+
+.agent-cards .agent-card .agent-audios div:last-child {
+    border-bottom: none;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px; /* Fixed width */
+    height: 600px; /* Fixed height */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}

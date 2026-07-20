@@ -1,0 +1,8 @@
+Here is the transcription of a call between an agent and a client. Please analyze and summarize the conversation with the following structure:
+
+Demande du client: Briefly summarize the main request or issue raised by the client.
+Action de l'agent: Detail the actions taken by the agent to address the client’s request or issue.
+Sentiment du client: Analyze the client’s sentiment (e.g., positive, neutral, negative) throughout the call and note any changes (e.g., improved, worsened, remained consistent).
+Tags: Generate a set of 3-5 tags summarizing key discussion points or themes (e.g., delivery issue, billing inquiry, account update).
+Prochaines étapes: Outline any next steps or actions required post-call.
+Make sure the summary and tags are based solely on the information provided in the transcription, avoiding hallucinations or fabricated details."

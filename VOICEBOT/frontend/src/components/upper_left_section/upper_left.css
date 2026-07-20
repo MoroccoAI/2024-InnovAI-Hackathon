@@ -1,0 +1,219 @@
+/* Upper-left styling */
+.upper-left {
+    background-color: transparent;
+    /* Light grey background */
+    /* padding: 10px; */
+    /* border: 1px solid #ccc; */
+    /* Border around the element */
+    /* flex: 1; */
+    /* Take up 50% of the height */
+}
+
+.controls-container {
+    display: flex;
+    align-items: center;
+    /* Aligns items vertically in the center */
+    justify-content: space-between;
+    /* Distributes space between the elements */
+    font-size: 12px;
+    color: #333;
+    font-weight: 500;
+}
+
+.audio-button {
+    background-color: transparent;
+    /* Dark gray */
+    border: none;
+    color: black;
+    /* padding: 10px; */
+    /* border-radius: 50%; */
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+
+.audio-button:hover {
+    color: #404040;
+    /* Darker gray on hover */
+}
+
+.audio-button:focus {
+    outline: none;
+}
+
+.audio-controls {
+    display: flex;
+    justify-content: space-between;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    gap: 20px;
+    /* Space between buttons */
+    margin-top: 10px;
+    /* Add some spacing above controls */
+}
+
+.time-display,
+.audio-controls {
+    margin-right: 20px;
+    /* Adjust the spacing between divs */
+    display: flex;
+    align-items: center;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.volume-slider {
+    -webkit-appearance: none;
+    /* Remove default styling */
+    appearance: none;
+    width: 100px;
+    /* Adjust width as needed */
+    height: 4px;
+    /* Thin track for minimal look */
+    background-color: #ddd;
+    /* Neutral background color for the track */
+    border-radius: 2px;
+    /* Rounded edges */
+    outline: none;
+    cursor: pointer;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Remove default styling */
+    appearance: none;
+    width: 12px;
+    /* Small handle */
+    height: 12px;
+    background-color: #c35151;
+    /* Modern blue handle */
+    border-radius: 50%;
+    /* Make handle circular */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.volume-slider::-webkit-slider-thumb:hover {
+    background-color: #933c3c;
+    /* Slightly darker blue on hover */
+}
+
+.volume-slider::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background-color: #c35151;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.volume-slider::-moz-range-thumb:hover {
+    background-color: #c35151;
+}
+
+.audio-position-control {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.audio-position-slider {
+    width: 100%;
+    /* Use the same styles as the volume slider */
+    -webkit-appearance: none;
+    appearance: none;
+    height: 4px;
+    background-color: #ddd;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.audio-position-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: #c35151;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.audio-position-slider::-webkit-slider-thumb:hover {
+    background-color: #c35151;
+}
+
+.audio-position-slider::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background-color: #c35151;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.audio-position-slider::-moz-range-thumb:hover {
+    background-color: #c35151;
+}
+
+
+.upper-left .sentiment-audio-visualizer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.upper-left .sentiment-audio-channel-row {
+    display: flex;
+    align-items: stretch;
+    /* position: relative; */
+}
+
+.upper-left .sentiment-audio-speaker-label {
+    width: 70px;
+    font-weight: bold;
+}
+
+.upper-left .sentiment-audio-timeline {
+    position: relative;
+    height: 20px;
+    flex: 1;
+    opacity: 0.3;
+}
+
+.upper-left .sentiment-audio-dialog-block {
+    position: absolute;
+    height: 50%;
+    border-radius: 50px;
+}
+
+.upper-left .sentiment-audio-speaker-label {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.upper-left .sentiment-audio-speaker-label.client {
+    background-color: #0084ff;
+}
+
+.upper-left .sentiment-audio-speaker-label.agent {
+    background-color: #e4e6eb;
+}
+
+.wavesurfer-container {
+    margin-left: 40px;
+}

@@ -1,0 +1,23 @@
+.box-container {
+    width: 200px;
+    background: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.box-container:hover {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.box-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.box-content {
+    font-size: 14px;
+    font-weight: 350;
+}

@@ -1,0 +1,88 @@
+.details-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.stats-container {
+    margin-bottom: 20px;
+}
+
+.stats-container h3 {
+    margin-bottom: 10px;
+}
+
+.detail-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.detail-item:hover {
+    background-color: #f1f1f1;
+}
+
+.tags-container {
+    margin-bottom: 20px;
+}
+
+.tag-button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.tag-button:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 10;
+    margin-left: 10px;
+}
+
+.tag-button:hover {
+    background-color: #0056b3;
+}
+
+.agent-selector {
+    margin-bottom: 20px;
+}
+
+.agent-selector label {
+    margin-right: 10px;
+}
+
+.agent-selector select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.expand-button {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.expand-button:hover {
+    background-color: #0056b3;
+}

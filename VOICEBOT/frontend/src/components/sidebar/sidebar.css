@@ -1,0 +1,10 @@
+.sidebar-container {
+    width: 250px;
+    height: 100vh;
+    border-right: 1px solid gray;
+}
+
+.menu {
+    border-bottom: 1px solid gray;
+    width: 100px;
+}

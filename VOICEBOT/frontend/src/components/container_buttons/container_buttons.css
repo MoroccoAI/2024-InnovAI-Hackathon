@@ -1,0 +1,15 @@
+.buttons-container button {
+    background: none;
+    border: none;
+    /* font-size: 16px; */
+    cursor: pointer;
+    padding: 8px 0;
+    border-bottom: 2px solid white;
+    transition: border-color 0.3s ease;
+    height: 27px
+}
+
+.buttons-container button.active {
+    border-bottom: 2px solid #c35151;
+    color: #c35151;
+}

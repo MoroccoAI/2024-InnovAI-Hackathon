@@ -1,0 +1,94 @@
+.boxes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.app-container .sidebar-container {
+    flex: 0 0 250px; /* Sidebar width */
+}
+
+.app-container .content {
+    flex: 1; /* Remaining space for content */
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 80vh; /* Adjust as needed */
+    overflow-y: auto;
+}
+
+.detail-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.expanded-content .detail-item {
+    margin-bottom: 10px;
+}
+
+.agent-stats {
+    margin-top: 20px;
+}
+
+.stats-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.chart-container {
+    width: 50%;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.small-chart {
+    width: 30%;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tags-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #36A2EB;
+    color: white;
+    cursor: pointer;
+}
+
+.tags-container button:hover {
+    background-color: #2a8acb;
+}
+
+.dialogs-container {
+    margin-top: 20px;
+}
+
+.dialog-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

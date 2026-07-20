@@ -1,0 +1,9 @@
+Prompt :
+"Voici la transcription d'un appel entre un agent et un client. Veuillez générer un résumé structuré sous la forme suivante :
+
+Demande du client : Résumez clairement et brièvement la demande principale du client.
+Action de l'agent : Décrivez les actions spécifiques entreprises par l'agent pour répondre à la demande.
+Conclusion : Fournissez une conclusion qui résume le résultat de l'appel.
+Prochaines étapes (Next Steps) : Énoncez les actions à entreprendre après l'appel, si applicable.
+Assurez-vous que le résumé repose uniquement sur les informations fournies dans la transcription et évitez d'inventer des détails ou des conclusions."
+

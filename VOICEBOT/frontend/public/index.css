@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    animation: fadeIn 1.5s
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.buttons-container {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: auto; /* Added this line */
+}
+
+.app-container .sidebar-container {
+    flex: 0 0 250px;
+}
+
+.app-container .content {
+    flex: 1;
+}

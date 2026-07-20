@@ -1,0 +1,49 @@
+.audiodetail-main {
+    overflow: hidden !important;
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative
+}
+
+.audiodetail-main .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #c35151
+}
+
+.detail-container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* padding: 5px; */
+    gap: 38px;
+}
+
+/* .audio-detail-container {
+    overflow-y: auto;
+} */
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.right {
+    background-color: transparent;
+    flex: 1;
+    /* overflow-y: auto; */
+    position: relative;
+}
+
+.audio-detail-container {
+    margin-left: 20px;
+}

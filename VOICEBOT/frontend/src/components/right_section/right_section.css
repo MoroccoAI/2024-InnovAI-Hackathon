@@ -1,0 +1,279 @@
+.sticky-container {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.right-section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* Spacing between rows */
+    width: 100%;
+    /* height: 100vh;
+    padding: 16px; */
+    box-sizing: border-box;
+}
+
+.right-section-row {
+    display: flex;
+    gap: 16px;
+    /* Spacing between blocks */
+}
+
+.right-section-block {
+    flex: 1;
+    padding: 5px;
+    /* border: 1px solid #ddd;
+    background-color: #f9f9f9; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 3px solid #c35151;
+    /* Ensure this is set correctly */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
+}
+
+.right-section-block.full-width {
+    flex: 1 1 100%;
+}
+
+.right-section-container-h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #c35151;
+}
+
+.right-section-container-p {
+    margin: 8px 0;
+    font-size: 12px;
+}
+
+.right-section-container-hr {
+    margin: 0;
+    border: none;
+    border-bottom: 3px solid #c35151;
+}
+
+.transcription-chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding: 10px;
+    /* background-color: #f0f2f5; */
+    border-radius: 10px;
+    /* max-width: 400px; */
+    margin: auto;
+    font-family: Arial, sans-serif;
+    max-height: 80vh;
+    /* Adjust height as needed */
+    overflow-y: auto;
+}
+
+.transcription-chat-bubble {
+    width: 40%;
+    padding: 10px;
+    position: relative;
+    word-wrap: break-word;
+    cursor: pointer;
+    /* Indicate that the bubble is clickable */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+    border-left: 4px solid;
+    /* Add a left border for the line */
+    border-radius: 10px;
+    /* Make bubbles round */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add shadow to bubbles */
+}
+
+.transcription-chat-bubble.has-proposed-answer {
+    border-color: gold !important;
+    position: relative;
+}
+
+.transcription-chat-bubble.highlighted {
+    /* background-color: yellow; */
+    border-color: gold;
+}
+
+.transcription-chat-bubble:hover {
+    filter: brightness(1);
+    /* Slightly darken the background color on hover */
+}
+
+.transcription-chat-bubble.client {
+    border-color: #c35151;
+    /* #c35151 line for client */
+    margin-left: auto;
+    margin-bottom: 10px;
+    /* Add margin between bubbles */
+    align-self: flex-end;
+    /* Align client bubbles to the right */
+    text-align: left;
+    /* Align text to the right */
+}
+
+.transcription-chat-bubble.agent {
+    border-color: #e4e6eb;
+    /* Grey line for agent */
+    margin-right: auto;
+    margin-bottom: 10px;
+    /* Add margin between bubbles */
+    align-self: flex-start;
+    /* Align agent bubbles to the left */
+    text-align: left;
+    /* Align text to the left */
+}
+
+.transcription-chat-meta {
+    /* font-size: 12px; */
+    margin-top: 0px;
+    color: black;
+}
+
+.transcription-chat-text {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.transcription-chat-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 5px;
+}
+
+.transcription-chat-header div {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.transcription-chat-header div:first-child {
+    justify-content: flex-start;
+}
+
+.transcription-chat-header div:last-child {
+    justify-content: flex-end;
+    /* Align client header to the right */
+    width: auto;
+    /* Adjust width to align with client bubbles */
+}
+
+.transcription-chat-header div::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    /* Increase width for ellipse */
+    height: 10px;
+    /* Increase height for ellipse */
+    border-radius: 15px;
+    /* Make it elliptical */
+    margin-right: 5px;
+}
+
+.transcription-chat-header div:first-child::before {
+    background-color: #e4e6eb;
+    /* Grey circle for agent */
+}
+
+.transcription-chat-header div:last-child::before {
+    background-color: #0084ff;
+    /* #c35151 circle for client */
+}
+
+.transcription-chat-header div:first-child {
+    text-align: left;
+    flex: 1;
+}
+
+.transcription-chat-header div:last-child {
+    text-align: left;
+    flex: 1;
+}
+
+.highlighted-word {
+    font-weight: bold;
+}
+
+.default-word {
+    color: gray;
+}
+
+.current-word {
+    color: black;
+}
+
+.proposed-answer {
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546) !important;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    /* Align items to the top */
+    width: 40%;
+    /* Same width as the transcription-chat-bubble */
+}
+
+.proposed-answer.client {
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+.proposed-answer.agent {
+    margin-right: auto;
+    align-self: flex-start;
+}
+
+.star-icon {
+    /* position: absolute; */
+    top: 5px;
+    left: 5px;
+    color: gold;
+    font-size: 16px;
+    margin-right: 10px; /* Add margin between star icon and text */
+    width: 30px;
+    height: auto;
+}
+
+.expand-button {
+    position: absolute;
+    bottom: 5px; /* Position the button at the bottom */
+    right: 5px; /* Position the button at the right */
+    background-color: #c35151;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546) !important;
+    margin-top: 10px; /* Add top margin to create space between button and text */
+}
+
+.expand-button:hover {
+    background-color: #a12e2e;
+}
+
+.proposed-answer-text {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.timestamp {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    font-size: 10px;
+    color: gray;
+}
